@@ -1,0 +1,9 @@
+{
+  "name": "history-research-guide",
+  "repository": "https://github.com/wentorai/research-plugins",
+  "path": "skills/domains/humanities/history-research-guide",
+  "commit": "bf44b3cd617fa94c8a1b254c5d1987142ca3d631",
+  "source_skill_sha256": "aeebb5dc3509bfd6c100eb8c88e44e3dc5033bc9fff743a7fc0c663d976e1805",
+  "installed_skill_sha256": "aeebb5dc3509bfd6c100eb8c88e44e3dc5033bc9fff743a7fc0c663d976e1805",
+  "license": "MIT"
+}

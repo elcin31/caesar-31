@@ -1,0 +1,9 @@
+{
+  "name": "paper-deep-research",
+  "repository": "https://github.com/duck011002/codex-custom-skills",
+  "path": "skills/paper-deep-research",
+  "commit": "6fa6a497e601bd54039ff109ac89272b3a82b585",
+  "source_skill_sha256": "b98b9d3e2ac9843832149f45879d1eeb19188fe7cf8eb2a12abcd6f5199934ed",
+  "installed_skill_sha256": "b98b9d3e2ac9843832149f45879d1eeb19188fe7cf8eb2a12abcd6f5199934ed",
+  "license": "UNSPECIFIED; README explicitly permits copy-install; no general redistribution license"
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "key": "polybius6",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/6*.html",
+    "status": 200,
+    "bytes": 150351,
+    "sha256": "b0aa9492552eac64ecaaf71866f6c2ee56412c603f9cbe0a5aca1108bdb20db7",
+    "textfile": "polybius6.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "b9ed6a097950a3ea86cde3045f17765cc93dfc91f54b944c6ce5c41eca961155"
+  },
+  {
+    "key": "appian_bc1",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html",
+    "status": 200,
+    "bytes": 236298,
+    "sha256": "fa29aa5d621d5a208b0f08d4a8e3904caf5e7a68e303c3b2520270d7c7d1f2d4",
+    "textfile": "appian_bc1.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "3cbcd3cc6efd204714b7890bf615a00a7cf1376fd4bf77c7df156854a924d640"
+  },
+  {
+    "key": "sallust_catiline",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Sallust/Bellum_Catilinae*.html",
+    "status": 200,
+    "bytes": 241333,
+    "sha256": "0879e5e6f8b1937454522f80137eb7800195873a3946a5f5464b759a17407a2c",
+    "textfile": "sallust_catiline.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "af06fe80c0559143370cf654c98bbfc594bca7623e56a8e954b0c67dcf1981d8"
+  },
+  {
+    "key": "caesar_bc1",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1A*.html",
+    "status": 200,
+    "bytes": 61313,
+    "sha256": "242ad3a70be27ca7a504a892ae0d0d098cf7d8f5f171da59318e743cad59b382",
+    "textfile": "caesar_bc1.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "d5262eafe78c2dfe47d1aee07e73730822093367be89b4878754167351f149ce"
+  },
+  {
+    "key": "suetonius_julius",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html",
+    "status": 200,
+    "bytes": 212271,
+    "sha256": "9c4ac0cf58eacd0462085cf49e725054eeb723cc0c6e174c65455a4e624f115e",
+    "textfile": "suetonius_julius.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "117f0a8f67bb0e5f2f39b219a72787116a4caba54690b47d58184cb5954465cb"
+  },
+  {
+    "key": "suetonius_augustus",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Augustus*.html",
+    "status": 200,
+    "bytes": 326426,
+    "sha256": "9344cf5845ccb962b08d90d57d52cc863d843cf5a1545585d55396e3db86970e",
+    "textfile": "suetonius_augustus.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "08ee0db858682f929f0fc65092524982e137f2621fb46488be835f38f4157c4d"
+  },
+  {
+    "key": "res_gestae",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/home.html",
+    "status": 200,
+    "bytes": 13613,
+    "sha256": "244ff97115f5d44737784a5210e26e10e301c50b1053ab910f6c10260d7fdd3a",
+    "textfile": "res_gestae.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": false
+  },
+  {
+    "key": "plutarch_caesar",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+    "status": 200,
+    "bytes": 245847,
+    "sha256": "11ee326b7bc23d56e6d2d37d7563c1f4bcb2cd95feaccd572dc143e46ed2e27a",
+    "textfile": "plutarch_caesar.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "3f6488dadf6d473fbe7b01ce09d3da67d17d17ba92e8acf7424e89942aa0b814"
+  },
+  {
+    "key": "plutarch_brutus",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Brutus*.html",
+    "status": 200,
+    "bytes": 164207,
+    "sha256": "1aec58f3c8f5275ddc133e4427dddca61fa040671e12d9afa4fdc355808a4e49",
+    "textfile": "plutarch_brutus.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "bfb3c510e7ddf8c15e6aa3c511f9ac0703d3b71cac63eec016fd75489fa54f5e"
+  },
+  {
+    "key": "plutarch_antony",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Antony*.html",
+    "status": 200,
+    "bytes": 241003,
+    "sha256": "bee263af26137aa160367a139e1d03d19abc1f8ab0ee81261b9b642ace691e60",
+    "textfile": "plutarch_antony.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "defb73b1e76017996df19c3b485dabdd1c1d16fcf3a1087e294e2ef3f5622394"
+  },
+  {
+    "key": "dio44",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/44*.html",
+    "status": 200,
+    "bytes": 104914,
+    "sha256": "cb1f095fa630e1d949899781885881e673ca0fb682119276e70302766b5f75b0",
+    "textfile": "dio44.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "2589d82e5d0dd3802010ea8a46b39390e0a34d84d26f328ba6b0ceb32f1cfa11"
+  },
+  {
+    "key": "velleius2",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Velleius_Paterculus/2B*.html",
+    "status": 200,
+    "bytes": 132723,
+    "sha256": "f198e31e3306611e44a04bed3dee94e5dfc74128f4b2c806a8f86f214a17c6ae",
+    "textfile": "velleius2.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "c15955b7af16b46233c12722ec4cdf9cd3e62202af398949db6ca99317c589fb"
+  },
+  {
+    "key": "nicolaus",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Nicolaus_of_Damascus/Life_of_Augustus*.html",
+    "error": "HTTP Error 404: Not Found",
+    "local_text_retained": false
+  },
+  {
+    "key": "rg1",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/1*.html",
+    "status": 200,
+    "bytes": 70980,
+    "sha256": "49c4023c893e8c9cd65445111f8fc038af197d59877539fcb273dbefd7e9b389",
+    "textfile": "rg1.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "5ce1a9832f3bd793ccf8caa41bb80b80f6b7d6e0da8503dff7812035d0592481"
+  },
+  {
+    "key": "rg6",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/6*.html",
+    "status": 200,
+    "bytes": 52513,
+    "sha256": "93e505b75436e0b4af71e35b587ea30fb7fdfefc1174e4b8e9a21f040a4d5675",
+    "textfile": "rg6.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "fc63080a1e9dd3f49a5cc9c1c194bc2396c0948375722d8c2f748e659998b2e4"
+  },
+  {
+    "key": "caesar_bg1",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/1A*.html",
+    "status": 200,
+    "bytes": 62299,
+    "sha256": "4fff159806edba9c0767724b68c67730e6dba06933372a217ffc18f81e4964cf",
+    "textfile": "caesar_bg1.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "32d53e5fb2a5019c900ca2dbd6d36195f4dd09a1b25c9377d910f58dd0636b93"
+  },
+  {
+    "key": "nicolaus1",
+    "url": "https://www.attalus.org/translate/nicolaus1.html",
+    "status": 200,
+    "bytes": 70490,
+    "sha256": "e2c4faf5a9a3a02ed13d89a30cb2bad959a77c239a5e60440f198b604febf033",
+    "textfile": "nicolaus1.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "741132473c2448337e44f82875d5e87df9160f32c5050ff9d075e6178f34b31a"
+  },
+  {
+    "key": "nicolaus2",
+    "url": "https://www.attalus.org/translate/nicolaus2.html",
+    "status": 200,
+    "bytes": 63041,
+    "sha256": "6725827df6329c972e6272e6acaff8e635b1b87fca6e7d6786d015b668c6b828",
+    "textfile": "nicolaus2.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "5bfc84c56ccd170b719203bfdaabb20dd7d456e541405aa6e70e4ebc20b0666a"
+  },
+  {
+    "key": "cicero_leg3",
+    "url": "https://droitromain.univ-grenoble-alpes.fr/Auteurs_anciens/delegibus3_lat.htm",
+    "status": 200,
+    "bytes": 76248,
+    "sha256": "965c9483688437f683eaf0751d30126bf6fe689ae7148a4c7ee9e8d6d51f4fe8",
+    "textfile": "cicero_leg3.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "688d00e4443602c7a1e1e6d14c52c038d1aea080f8a6440b7fcbf4fdac239dba"
+  },
+  {
+    "key": "cicero_att89",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0022%3Atext%3DA%3Abook%3D8%3Aletter%3D9",
+    "status": 200,
+    "bytes": 423072,
+    "sha256": "0225f9b8a27eb73c2ff895f3f4ce5eb681b46b67fc81aaf8bc683dccab1df6e6",
+    "textfile": "cicero_att89.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "a9b4637125adb042a01a791f19e9b912b334eaad2039f396d7ca77bc0e5acbb3"
+  },
+  {
+    "key": "sallust_jug3",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Sallust/Bellum_Jugurthinum/3*.html",
+    "status": 200,
+    "bytes": 144911,
+    "sha256": "5b2a5a16ee864d155c2eb27a500c7e3e1f6863f3f4d6fb0f8b03e4e4162814d1",
+    "textfile": "sallust_jug3.txt",
+    "accessed": "2026-11-04",
+    "local_text_retained": true,
+    "derived_text_sha256": "c0b24bc7888f19a528e80ad41e8951bf9c4972b314d32449379a7b428924291d"
+  }
+]

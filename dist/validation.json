@@ -1,0 +1,40 @@
+{
+  "docx": {
+    "crc": "pass",
+    "footnote_references": 49,
+    "footnote_resolution": "pass",
+    "toc_field": "pass",
+    "cyrillic": "pass",
+    "image_resources": 3
+  },
+  "epub": {
+    "crc": "pass",
+    "version": "3.0",
+    "language": "ru-RU",
+    "xhtml_files": 7,
+    "internal_links": "pass",
+    "footnote_references": 49,
+    "footnote_backlinks": 49,
+    "image_resources": 4
+  },
+  "pdf": {
+    "pages": 42,
+    "cyrillic_extraction": "pass",
+    "text_characters": 64998,
+    "embedded_fonts": "pass",
+    "font_count": 3,
+    "page_bounds": "pass"
+  },
+  "epubcheck": {
+    "status": "pass",
+    "log": "dist/epubcheck.log"
+  },
+  "source_heading_count": 4,
+  "expected_note_occurrences": 49,
+  "manuscript_image_sources": [
+    "assets/genealogy.png",
+    "assets/images/met_248037.jpg",
+    "assets/images/met_248119.jpg"
+  ],
+  "visual_proofreading": "Separate PDF page inspection and reader testing required; structural checks do not certify Apple Books rendering."
+}

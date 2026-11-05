@@ -1,0 +1,1256 @@
+{
+  "release": "0.1",
+  "files": [
+    {
+      "path": ".agents/skills/academic-humanizer/LICENSE",
+      "bytes": 1070,
+      "sha256": "2c6bb70adbaa20dbd0e974dacde30366b371dc8c119f45e53515ab388ab345f7"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/PROVENANCE.json",
+      "bytes": 372,
+      "sha256": "23b898d55b15dc3b7a74c66770cec1aabb6309ae6c1e1713ba2266cac5c11886"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/SKILL.md",
+      "bytes": 19551,
+      "sha256": "918e48c34c6d1b372a37cc660fb5ee8dde8b1218c7f558949dec3e81ea4f82f1"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/SOURCE_SKILL.md",
+      "bytes": 19542,
+      "sha256": "f88e1e77d8056eab2457e459edc04b5245bdeec2e21f2247054fc6769e936379"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/UPSTREAM_README.md",
+      "bytes": 3700,
+      "sha256": "12599cbf6e3cb26847f9dc82f5191a144c8a22d0f56b69724f410a520eb2f1c7"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/references/before-after-examples.md",
+      "bytes": 7449,
+      "sha256": "c0f5be8ba6e775ddcb8ae0b598df68b3535c0e658d147d03e26a030a97c3522f"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/references/full-taxonomy.md",
+      "bytes": 45936,
+      "sha256": "760f1028ad1d46219d1589223eace276bdb8c317e92a0a3f1b535e977a7c294f"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/references/measured-signals.md",
+      "bytes": 5701,
+      "sha256": "b8ea29f109fee627561744909d3dd56b4a014e48128be2e2c4de4c3c18df64dd"
+    },
+    {
+      "path": ".agents/skills/academic-humanizer/scripts/detect_ai.py",
+      "bytes": 9230,
+      "sha256": "16c179f8e23b7f1e80a419620f22c26d3cb83b112246fa9b9868d1d5ad2496ef"
+    },
+    {
+      "path": ".agents/skills/awt-audit/INSTALLATION.md",
+      "bytes": 699,
+      "sha256": "eb392fd4cf6df3197f4957b89472abfdbcc35bbbb0555f3fb8e72e0a486b4cc3"
+    },
+    {
+      "path": ".agents/skills/awt-audit/LICENSE",
+      "bytes": 1067,
+      "sha256": "775db395ee51cd5ad84f0391a71203893ee51650cb79367437952e7c85f2d42d"
+    },
+    {
+      "path": ".agents/skills/awt-audit/SKILL.md",
+      "bytes": 20381,
+      "sha256": "50af81db290b1733019619751782b860b815bc74bd8dbf3a38cd6e678063a11a"
+    },
+    {
+      "path": ".agents/skills/awt-audit/UPSTREAM_SKILL.md",
+      "bytes": 20329,
+      "sha256": "65976521ddc5fc02889b5c4d6599172cb8d3302516a1de5afa24a6e16d856adf"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/argument-checklist.md",
+      "bytes": 2110,
+      "sha256": "6e73a50414745021a7ecd9f1461d4c5c578802acd0cac0ce540c755cf92320f0"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/argument-licence/README.md",
+      "bytes": 2141,
+      "sha256": "22dc8bfa6747c23b0b9cc8607e7fc2005209a664bb75b886a76fbbbfc8b28a54"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/argument-licence/argument-level-lock.md",
+      "bytes": 10552,
+      "sha256": "3c9be71e11c73cd1ee29d7b1aba2043219f633aae3936960297373a80501fc27"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/argument-licence/legacy-checks.md",
+      "bytes": 8108,
+      "sha256": "e7204c8286338a7dbe235fe4e288ae785db534e146910ebf56a371ec9ad180f4"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/argument-licence/legacy-schema.md",
+      "bytes": 13498,
+      "sha256": "f73333492d12a4a7466c5b71558d9aa6fd3924bbc074ca74037b3e0f370d2362"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/evidence-vocabulary.md",
+      "bytes": 1308,
+      "sha256": "a7c9b3d140bb6f7acfad9e8029ae43555b2cd604668a08499d3e08357a0f4868"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/prose-polish-method.md",
+      "bytes": 11076,
+      "sha256": "8a9fd37c7bc9b567938f6a999276d83e30f01d546eab6bd1975d46192bc187ce"
+    },
+    {
+      "path": ".agents/skills/awt-audit/references/reframe-method.md",
+      "bytes": 1493,
+      "sha256": "2115f82dc9c21871da81c76aba9fc158cd3e977910b7c2f35b7d410799fc0bb9"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-citation-fidelity.mjs",
+      "bytes": 13982,
+      "sha256": "778e39f041f6b878bb546f0358151cd7e12962eeedcfefd7c9c384c1b2f7afd7"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-claim-ledger.py",
+      "bytes": 31687,
+      "sha256": "08a9a42eeaefb6db2748dab7315854685f5326f67853bc83a9f6cf91d701e54f"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-claim-positioning.py",
+      "bytes": 15283,
+      "sha256": "65a0775f3d2b448710c9e7900dca907fe77d751c0f7f2bdc6534c27090f88588"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-cross-refs.py",
+      "bytes": 7559,
+      "sha256": "b5b58417c7cf11fc159de69173faec5f75ae9fa46ecbe667e1959fea14b50e86"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-float-reviews.py",
+      "bytes": 58688,
+      "sha256": "01bff0e0f04e40eb7a41bc10c042563d352ad79485872f08e95e01eaffbaf3df"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-front-matter.py",
+      "bytes": 25171,
+      "sha256": "6c14a301ad43d74ebca4d5cff324f4cbb72e7cb2208ee4ab436083b05ccfb452"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-generated-copies.py",
+      "bytes": 25584,
+      "sha256": "bd97dbf33100441981fb728c230894831e4287255c8932ec94ff88cae221ff92"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-method-ledger.py",
+      "bytes": 29062,
+      "sha256": "e3281b182c0ea7c75f5d851481365ab05fd754b508e0c0c668dc3fe43f8660cc"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-number-ledger.py",
+      "bytes": 19358,
+      "sha256": "12c2fcf4c903c3ee05943ccc1de17958a82f856e05a6bc61a942106d1139d0e7"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-prose-fingerprint.py",
+      "bytes": 37845,
+      "sha256": "9f45d1f0c1d42146776803d660e00a9cf37b6728225f0764a1615bc15a041f13"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-prose-structure.py",
+      "bytes": 11152,
+      "sha256": "abe500ebdedcb164ea07020df50119b53b9955a22134d57e0217a899bce3c430"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/audit-sentence-changes.py",
+      "bytes": 66492,
+      "sha256": "386f1b8aa34d8afb3c06ea62b4d2c11f2b5ad96c2900eaee051fc5abd13575f5"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/build-venue-baseline.py",
+      "bytes": 13614,
+      "sha256": "51a29de468248309d6245c2587c4dc4c0a0b829a925df5db658ebdf311eb020f"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/citations.mjs",
+      "bytes": 1506,
+      "sha256": "664731908d03c85575af3c86bcc79dd91c2d498dbd9941586e1308ffb5d696d3"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/pdf-pages.mjs",
+      "bytes": 530,
+      "sha256": "e66dd6936d9751ff3590e38fbe64a81c72f9ab990165d4eda17ecd8841767800"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/prose-view.py",
+      "bytes": 6372,
+      "sha256": "31f06577f99cf270bb10018084c84f2164f34c30c11f12869190342655b22d4b"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/quote-fidelity.mjs",
+      "bytes": 1982,
+      "sha256": "6cbef1a76f7e609fbe18e7dfe6f0903090861612cf5086a870b2b7f3bd8acede"
+    },
+    {
+      "path": ".agents/skills/awt-audit/scripts/venue-topic-fit.py",
+      "bytes": 13687,
+      "sha256": "4b1cc47c1c99cf0bf52ea554b10206ed41b2f0398751b2e08e8ab0656d5ddd02"
+    },
+    {
+      "path": ".agents/skills/awt-export/INSTALLATION.md",
+      "bytes": 646,
+      "sha256": "a796b5316a8a8c2f87b7c345edbeaabebf15d7a58fe2dc808ee6379c09fb457c"
+    },
+    {
+      "path": ".agents/skills/awt-export/LICENSE",
+      "bytes": 1067,
+      "sha256": "775db395ee51cd5ad84f0391a71203893ee51650cb79367437952e7c85f2d42d"
+    },
+    {
+      "path": ".agents/skills/awt-export/SKILL.md",
+      "bytes": 3726,
+      "sha256": "407b7db1ce4ca3294e0788f395efe8ba17e80a9d2050617b564a0bb1375628e5"
+    },
+    {
+      "path": ".agents/skills/awt-export/UPSTREAM_SKILL.md",
+      "bytes": 3714,
+      "sha256": "7263eacba1cfadcd6acecacd56c53e78e0789bab624862d91ca7945013e48a7b"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/argument-checklist.md",
+      "bytes": 2110,
+      "sha256": "6e73a50414745021a7ecd9f1461d4c5c578802acd0cac0ce540c755cf92320f0"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/argument-licence/README.md",
+      "bytes": 2141,
+      "sha256": "22dc8bfa6747c23b0b9cc8607e7fc2005209a664bb75b886a76fbbbfc8b28a54"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/argument-licence/argument-level-lock.md",
+      "bytes": 10552,
+      "sha256": "3c9be71e11c73cd1ee29d7b1aba2043219f633aae3936960297373a80501fc27"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/argument-licence/legacy-checks.md",
+      "bytes": 8108,
+      "sha256": "e7204c8286338a7dbe235fe4e288ae785db534e146910ebf56a371ec9ad180f4"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/argument-licence/legacy-schema.md",
+      "bytes": 13498,
+      "sha256": "f73333492d12a4a7466c5b71558d9aa6fd3924bbc074ca74037b3e0f370d2362"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/evidence-vocabulary.md",
+      "bytes": 1308,
+      "sha256": "a7c9b3d140bb6f7acfad9e8029ae43555b2cd604668a08499d3e08357a0f4868"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/prose-polish-method.md",
+      "bytes": 11076,
+      "sha256": "8a9fd37c7bc9b567938f6a999276d83e30f01d546eab6bd1975d46192bc187ce"
+    },
+    {
+      "path": ".agents/skills/awt-export/references/reframe-method.md",
+      "bytes": 1493,
+      "sha256": "2115f82dc9c21871da81c76aba9fc158cd3e977910b7c2f35b7d410799fc0bb9"
+    },
+    {
+      "path": ".agents/skills/awt-export/scripts/audit-claim-positioning.py",
+      "bytes": 15283,
+      "sha256": "65a0775f3d2b448710c9e7900dca907fe77d751c0f7f2bdc6534c27090f88588"
+    },
+    {
+      "path": ".agents/skills/awt-export/scripts/convert_to_docx.py",
+      "bytes": 16411,
+      "sha256": "d2d9af5abfd50ffbcc358fc598d788c207af9f45f414b9a73d741d1bdf04e849"
+    },
+    {
+      "path": ".agents/skills/awt-export/scripts/requirements.txt",
+      "bytes": 1054,
+      "sha256": "3cd5c47cc85446f9dcb0d3a55c0fe7233e24ac1d04e7257814d90abfe8d5dd02"
+    },
+    {
+      "path": ".agents/skills/awt-map/INSTALLATION.md",
+      "bytes": 561,
+      "sha256": "d617af96d4133f58d8a28ee67b771e3cc7a3053a6c19deda5f3707e0be1fdcc6"
+    },
+    {
+      "path": ".agents/skills/awt-map/LICENSE",
+      "bytes": 1067,
+      "sha256": "775db395ee51cd5ad84f0391a71203893ee51650cb79367437952e7c85f2d42d"
+    },
+    {
+      "path": ".agents/skills/awt-map/SKILL.md",
+      "bytes": 3755,
+      "sha256": "4d1ce4b78d8d7ea194fd43f3e3023db2e316e381bf8f9e9b450c9201287e0aba"
+    },
+    {
+      "path": ".agents/skills/awt-map/UPSTREAM_SKILL.md",
+      "bytes": 3747,
+      "sha256": "53b95d12eb9701414a43207b8a43376a7cebec35c285102073dfe17e855beac8"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/argument-checklist.md",
+      "bytes": 2110,
+      "sha256": "6e73a50414745021a7ecd9f1461d4c5c578802acd0cac0ce540c755cf92320f0"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/argument-licence/README.md",
+      "bytes": 2141,
+      "sha256": "22dc8bfa6747c23b0b9cc8607e7fc2005209a664bb75b886a76fbbbfc8b28a54"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/argument-licence/argument-level-lock.md",
+      "bytes": 10552,
+      "sha256": "3c9be71e11c73cd1ee29d7b1aba2043219f633aae3936960297373a80501fc27"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/argument-licence/legacy-checks.md",
+      "bytes": 8108,
+      "sha256": "e7204c8286338a7dbe235fe4e288ae785db534e146910ebf56a371ec9ad180f4"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/argument-licence/legacy-schema.md",
+      "bytes": 13498,
+      "sha256": "f73333492d12a4a7466c5b71558d9aa6fd3924bbc074ca74037b3e0f370d2362"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/evidence-vocabulary.md",
+      "bytes": 1308,
+      "sha256": "a7c9b3d140bb6f7acfad9e8029ae43555b2cd604668a08499d3e08357a0f4868"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/prose-polish-method.md",
+      "bytes": 11076,
+      "sha256": "8a9fd37c7bc9b567938f6a999276d83e30f01d546eab6bd1975d46192bc187ce"
+    },
+    {
+      "path": ".agents/skills/awt-map/references/reframe-method.md",
+      "bytes": 1493,
+      "sha256": "2115f82dc9c21871da81c76aba9fc158cd3e977910b7c2f35b7d410799fc0bb9"
+    },
+    {
+      "path": ".agents/skills/awt-map/scripts/count-words.mjs",
+      "bytes": 2008,
+      "sha256": "0a47ccb7e8236d23e8f5d96db43e19d4a5349eb89c011e303876d2bbe1d3d3af"
+    },
+    {
+      "path": ".agents/skills/awt-note/INSTALLATION.md",
+      "bytes": 564,
+      "sha256": "2fa2808a84c0264f6c7159fa80d0ce802034b2b7639ed090689e56ab8e1d4cda"
+    },
+    {
+      "path": ".agents/skills/awt-note/LICENSE",
+      "bytes": 1067,
+      "sha256": "775db395ee51cd5ad84f0391a71203893ee51650cb79367437952e7c85f2d42d"
+    },
+    {
+      "path": ".agents/skills/awt-note/SKILL.md",
+      "bytes": 4947,
+      "sha256": "a1cf9c003bd90b0ed1ddbea05d1ba8603199f988b72afeb30513a7af217e8831"
+    },
+    {
+      "path": ".agents/skills/awt-note/UPSTREAM_SKILL.md",
+      "bytes": 4939,
+      "sha256": "11f56741b846d10179297d5fd7501e9057ea45c078e8ad679ae97c7b0f923bec"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/argument-checklist.md",
+      "bytes": 2110,
+      "sha256": "6e73a50414745021a7ecd9f1461d4c5c578802acd0cac0ce540c755cf92320f0"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/argument-licence/README.md",
+      "bytes": 2141,
+      "sha256": "22dc8bfa6747c23b0b9cc8607e7fc2005209a664bb75b886a76fbbbfc8b28a54"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/argument-licence/argument-level-lock.md",
+      "bytes": 10552,
+      "sha256": "3c9be71e11c73cd1ee29d7b1aba2043219f633aae3936960297373a80501fc27"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/argument-licence/legacy-checks.md",
+      "bytes": 8108,
+      "sha256": "e7204c8286338a7dbe235fe4e288ae785db534e146910ebf56a371ec9ad180f4"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/argument-licence/legacy-schema.md",
+      "bytes": 13498,
+      "sha256": "f73333492d12a4a7466c5b71558d9aa6fd3924bbc074ca74037b3e0f370d2362"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/evidence-vocabulary.md",
+      "bytes": 1308,
+      "sha256": "a7c9b3d140bb6f7acfad9e8029ae43555b2cd604668a08499d3e08357a0f4868"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/prose-polish-method.md",
+      "bytes": 11076,
+      "sha256": "8a9fd37c7bc9b567938f6a999276d83e30f01d546eab6bd1975d46192bc187ce"
+    },
+    {
+      "path": ".agents/skills/awt-note/references/reframe-method.md",
+      "bytes": 1493,
+      "sha256": "2115f82dc9c21871da81c76aba9fc158cd3e977910b7c2f35b7d410799fc0bb9"
+    },
+    {
+      "path": ".agents/skills/awt-note/scripts/notes-lint.mjs",
+      "bytes": 5655,
+      "sha256": "c21767918de1c8f78de7a18ec075ff0226c7a5a263e8214797449cf887d22618"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/INSTALLATION.md",
+      "bytes": 590,
+      "sha256": "af0daebcdac667f0ff390c9ddeb141cbee0fca7068616a04b798c48d06cfb56e"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/LICENSE",
+      "bytes": 1067,
+      "sha256": "775db395ee51cd5ad84f0391a71203893ee51650cb79367437952e7c85f2d42d"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/SKILL.md",
+      "bytes": 2955,
+      "sha256": "af11ae57c1770bd119ee0e1df1a39ff43d8d4349c20b46336f2c83b7dceed9b1"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/UPSTREAM_SKILL.md",
+      "bytes": 2939,
+      "sha256": "31d2c265b9d1fa606ad9f0e58c6b689264823540d459ea11092846c90c2913cb"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/argument-checklist.md",
+      "bytes": 2110,
+      "sha256": "6e73a50414745021a7ecd9f1461d4c5c578802acd0cac0ce540c755cf92320f0"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/argument-licence/README.md",
+      "bytes": 2141,
+      "sha256": "22dc8bfa6747c23b0b9cc8607e7fc2005209a664bb75b886a76fbbbfc8b28a54"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/argument-licence/argument-level-lock.md",
+      "bytes": 10552,
+      "sha256": "3c9be71e11c73cd1ee29d7b1aba2043219f633aae3936960297373a80501fc27"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/argument-licence/legacy-checks.md",
+      "bytes": 8108,
+      "sha256": "e7204c8286338a7dbe235fe4e288ae785db534e146910ebf56a371ec9ad180f4"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/argument-licence/legacy-schema.md",
+      "bytes": 13498,
+      "sha256": "f73333492d12a4a7466c5b71558d9aa6fd3924bbc074ca74037b3e0f370d2362"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/evidence-vocabulary.md",
+      "bytes": 1308,
+      "sha256": "a7c9b3d140bb6f7acfad9e8029ae43555b2cd604668a08499d3e08357a0f4868"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/prose-polish-method.md",
+      "bytes": 11076,
+      "sha256": "8a9fd37c7bc9b567938f6a999276d83e30f01d546eab6bd1975d46192bc187ce"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/references/reframe-method.md",
+      "bytes": 1493,
+      "sha256": "2115f82dc9c21871da81c76aba9fc158cd3e977910b7c2f35b7d410799fc0bb9"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/scripts/reconcile-cites.py",
+      "bytes": 18587,
+      "sha256": "5dd84f75327cdaddd18489a6ab7669c90cdf1edefbd104e512daa578c94996e8"
+    },
+    {
+      "path": ".agents/skills/awt-verify-refs/scripts/verify-refs.py",
+      "bytes": 17746,
+      "sha256": "1bda43e328e417bbb7bc9296be88cbb7e2caef4c65a7a32036f8ab62554c1373"
+    },
+    {
+      "path": ".agents/skills/citation-verification/LICENSE",
+      "bytes": 1216,
+      "sha256": "0e5b3b9a6a640ba83663fb88313c30e991d5a28dfddef5bf1eebe59e7cbec12d"
+    },
+    {
+      "path": ".agents/skills/citation-verification/PROVENANCE.json",
+      "bytes": 417,
+      "sha256": "6e0ed6dfa91b322109ab19cc63b01843de67148429b26459546f54d5ce9acdbe"
+    },
+    {
+      "path": ".agents/skills/citation-verification/SKILL.md",
+      "bytes": 4572,
+      "sha256": "dfc482ae5d8f555828ba8b84648330f26012d2c2a18b713c9856c19db9816c86"
+    },
+    {
+      "path": ".agents/skills/citation-verification/THIRD_PARTY_NOTICES.md",
+      "bytes": 7918,
+      "sha256": "ca9be3083e0a802524a9e40c59eb7c4604eb2cb849399eec4c9763a6df130f05"
+    },
+    {
+      "path": ".agents/skills/citation-verification/UPSTREAM_README.md",
+      "bytes": 89323,
+      "sha256": "add01364232760e5c85a4e3e87398becdd43ba3373dc2b5bacbfebd11fcae686"
+    },
+    {
+      "path": ".agents/skills/citation-verification/scripts/verify_citations.py",
+      "bytes": 13852,
+      "sha256": "cea61edff59311162271bf61c36ba5c6ba735bdfcf22534914798b0cf272d99a"
+    },
+    {
+      "path": ".agents/skills/historian/LICENSE",
+      "bytes": 1100,
+      "sha256": "f7cb14446ec035b188d38be0c2c0ef7b2c990a17e2e4e9426f7e43b2469acae3"
+    },
+    {
+      "path": ".agents/skills/historian/PROVENANCE.json",
+      "bytes": 384,
+      "sha256": "8ecf9a0902354a95844407ff029f985bc4b8a5a34ad18bda154cbd92324dd23f"
+    },
+    {
+      "path": ".agents/skills/historian/SKILL.md",
+      "bytes": 13695,
+      "sha256": "4bc5c657a880c309527e86a500c192c9d4b036b3b65d5f5eec2acb4f9ba32a3d"
+    },
+    {
+      "path": ".agents/skills/historian/UPSTREAM_README.md",
+      "bytes": 29480,
+      "sha256": "0f9e92da0068355148aa35641b875b29b13009d5bd672e220bd087d8ddaeb337"
+    },
+    {
+      "path": ".agents/skills/historian/references/artifacts.md",
+      "bytes": 6719,
+      "sha256": "2d1b1df5f20bb7d013d0d3afa7924e04c454375a4fbe5c5095a7fc83ebbbd0dc"
+    },
+    {
+      "path": ".agents/skills/historian/references/red-flags.md",
+      "bytes": 6635,
+      "sha256": "09efe1f35b236374da8f93f9b9a9e5ed72a630cdedf51598af9af89ae22ebfbf"
+    },
+    {
+      "path": ".agents/skills/historian/references/vocabulary.md",
+      "bytes": 7858,
+      "sha256": "fb1c0b621cbc21848d78ffdfef2da46b9980f1c07d0bfba47f05297c27e725e4"
+    },
+    {
+      "path": ".agents/skills/history-research-guide/LICENSE",
+      "bytes": 1066,
+      "sha256": "e2bd618434a583076e20182db9557ce94df9f72975549e5d233d4d4c0ad079a7"
+    },
+    {
+      "path": ".agents/skills/history-research-guide/PROVENANCE.json",
+      "bytes": 430,
+      "sha256": "3157c6163e9c00d643f73610db1a1cabe7ca562c5bbb541d950880549eb09a9e"
+    },
+    {
+      "path": ".agents/skills/history-research-guide/SKILL.md",
+      "bytes": 10371,
+      "sha256": "aeebb5dc3509bfd6c100eb8c88e44e3dc5033bc9fff743a7fc0c663d976e1805"
+    },
+    {
+      "path": ".agents/skills/history-research-guide/UPSTREAM_README.md",
+      "bytes": 9377,
+      "sha256": "2e54e6ff4edd17f26c02ea17d38b5677932ca300aaa9179603d3734744cc73bb"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/INSTALLATION.md",
+      "bytes": 685,
+      "sha256": "94dde01c67d83c69bebbe66e605572c6522a689c675f641781deef95ae020268"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/LICENSE",
+      "bytes": 11341,
+      "sha256": "296e0999fca56b294ee6f0db3160ff4ceeca5962e3e766b2aa512a2807f076e6"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/SKILL.md",
+      "bytes": 1172,
+      "sha256": "81f33a9a56cf11363f3e785762636cfda61d90b6a765f252fb209bf98047d607"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/UPSTREAM_SKILL.md",
+      "bytes": 1192,
+      "sha256": "3f83a1e5473fcf33f993fbe9d1d48282cbdba392f7cb1d826e7ed94e1ed17124"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/agents/openai.yaml",
+      "bytes": 327,
+      "sha256": "68a64510252a66ab43499da3f50c61aa675b92ceffc37668979be96ea2ee8dce"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/core-policy.md",
+      "bytes": 5831,
+      "sha256": "e8d13811f7f38c0644e5d3e27772e819823254b0c86400e3250461ec218a07bf"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/domain-profile-packs.md",
+      "bytes": 1440,
+      "sha256": "7def42f1de4b408657bde513d359ea1d290ec6b4a59cfbf29e21c58ae2118d9a"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/domains/README.md",
+      "bytes": 259,
+      "sha256": "fa2dd3fe75ed528503f18946b7e8244cebb98796c96cf15c5025bee1e9f0c8e1"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/evidence-contract.md",
+      "bytes": 3055,
+      "sha256": "fd45ffa4954159f3477388444cf8eb78a6fad9dc14ce6d624c3545d6a708445d"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/historical-prose-zh.md",
+      "bytes": 7442,
+      "sha256": "35fde78fd6086698a3dbcec38a1693a2573ad26933ed25a6591380a09102465c"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/methodology.md",
+      "bytes": 1313,
+      "sha256": "322ba8d1d437eccb242d1f8b8ad9e2fe8a3d44576b53ee6af3db8d03d972120f"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/project-stages.md",
+      "bytes": 1542,
+      "sha256": "757b5a4375f52196b3f0e1e8a15e1c0c12cfcbf5e7bd3664fccf6679a5b9a9f4"
+    },
+    {
+      "path": ".agents/skills/hr-argument-planning/references/source-provider-policy.md",
+      "bytes": 2744,
+      "sha256": "770661ca223a65afe03fb1dc67f66b84b5b024262f932159588fe5ae05ac70c6"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/INSTALLATION.md",
+      "bytes": 685,
+      "sha256": "94dde01c67d83c69bebbe66e605572c6522a689c675f641781deef95ae020268"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/LICENSE",
+      "bytes": 11341,
+      "sha256": "296e0999fca56b294ee6f0db3160ff4ceeca5962e3e766b2aa512a2807f076e6"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/SKILL.md",
+      "bytes": 1145,
+      "sha256": "a096f9a4cfc08fc83c32a12a74811d3858ba6474225ec64a717dae059b8b7673"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/UPSTREAM_SKILL.md",
+      "bytes": 1165,
+      "sha256": "a5a4cea0acd57f8a12bb7c51caaafa0ceee8da465d7b5802df7b99415e5ea183"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/agents/openai.yaml",
+      "bytes": 336,
+      "sha256": "d7006bd7b8aefd79a8cf89f963d9df76711de3783a0b0d0d97de0a7ab05fbcd4"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/core-policy.md",
+      "bytes": 5831,
+      "sha256": "e8d13811f7f38c0644e5d3e27772e819823254b0c86400e3250461ec218a07bf"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/domain-profile-packs.md",
+      "bytes": 1440,
+      "sha256": "7def42f1de4b408657bde513d359ea1d290ec6b4a59cfbf29e21c58ae2118d9a"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/domains/README.md",
+      "bytes": 259,
+      "sha256": "fa2dd3fe75ed528503f18946b7e8244cebb98796c96cf15c5025bee1e9f0c8e1"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/evidence-contract.md",
+      "bytes": 3055,
+      "sha256": "fd45ffa4954159f3477388444cf8eb78a6fad9dc14ce6d624c3545d6a708445d"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/historical-prose-zh.md",
+      "bytes": 7442,
+      "sha256": "35fde78fd6086698a3dbcec38a1693a2573ad26933ed25a6591380a09102465c"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/methodology.md",
+      "bytes": 1313,
+      "sha256": "322ba8d1d437eccb242d1f8b8ad9e2fe8a3d44576b53ee6af3db8d03d972120f"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/project-stages.md",
+      "bytes": 1542,
+      "sha256": "757b5a4375f52196b3f0e1e8a15e1c0c12cfcbf5e7bd3664fccf6679a5b9a9f4"
+    },
+    {
+      "path": ".agents/skills/hr-explanation-testing/references/source-provider-policy.md",
+      "bytes": 2744,
+      "sha256": "770661ca223a65afe03fb1dc67f66b84b5b024262f932159588fe5ae05ac70c6"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/INSTALLATION.md",
+      "bytes": 685,
+      "sha256": "94dde01c67d83c69bebbe66e605572c6522a689c675f641781deef95ae020268"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/LICENSE",
+      "bytes": 11341,
+      "sha256": "296e0999fca56b294ee6f0db3160ff4ceeca5962e3e766b2aa512a2807f076e6"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/SKILL.md",
+      "bytes": 1149,
+      "sha256": "fbf45868d032332e36f5dc8136fe3f3d7c87cbc462e26be789ba4b88e8b0a052"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/UPSTREAM_SKILL.md",
+      "bytes": 1169,
+      "sha256": "632ca767f4a17ee92f8355a5428b0b8d20e53a69be4a3d5fa5df52027c8b55cb"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/agents/openai.yaml",
+      "bytes": 326,
+      "sha256": "f0e66a30de6c719a08caa1a0a8c3562f3d7bc56916b13ef91b14caedd4ebebc3"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/core-policy.md",
+      "bytes": 5831,
+      "sha256": "e8d13811f7f38c0644e5d3e27772e819823254b0c86400e3250461ec218a07bf"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/domain-profile-packs.md",
+      "bytes": 1440,
+      "sha256": "7def42f1de4b408657bde513d359ea1d290ec6b4a59cfbf29e21c58ae2118d9a"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/domains/README.md",
+      "bytes": 259,
+      "sha256": "fa2dd3fe75ed528503f18946b7e8244cebb98796c96cf15c5025bee1e9f0c8e1"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/evidence-contract.md",
+      "bytes": 3055,
+      "sha256": "fd45ffa4954159f3477388444cf8eb78a6fad9dc14ce6d624c3545d6a708445d"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/historical-prose-zh.md",
+      "bytes": 7442,
+      "sha256": "35fde78fd6086698a3dbcec38a1693a2573ad26933ed25a6591380a09102465c"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/methodology.md",
+      "bytes": 1313,
+      "sha256": "322ba8d1d437eccb242d1f8b8ad9e2fe8a3d44576b53ee6af3db8d03d972120f"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/project-stages.md",
+      "bytes": 1542,
+      "sha256": "757b5a4375f52196b3f0e1e8a15e1c0c12cfcbf5e7bd3664fccf6679a5b9a9f4"
+    },
+    {
+      "path": ".agents/skills/hr-historiography/references/source-provider-policy.md",
+      "bytes": 2744,
+      "sha256": "770661ca223a65afe03fb1dc67f66b84b5b024262f932159588fe5ae05ac70c6"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/INSTALLATION.md",
+      "bytes": 685,
+      "sha256": "94dde01c67d83c69bebbe66e605572c6522a689c675f641781deef95ae020268"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/LICENSE",
+      "bytes": 11341,
+      "sha256": "296e0999fca56b294ee6f0db3160ff4ceeca5962e3e766b2aa512a2807f076e6"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/SKILL.md",
+      "bytes": 1204,
+      "sha256": "bd490a80ca8405f2031d3880daab9d5db859cdf5011d0e6f463ea08a2a77377c"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/UPSTREAM_SKILL.md",
+      "bytes": 1230,
+      "sha256": "2b6ea1df50fb40db05058d20fa282a136bce39436431fd4849b2415cf56e19d4"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/agents/openai.yaml",
+      "bytes": 337,
+      "sha256": "b205a6d7ce9bad613f1c0473512d0c6ecc923c786dacda7553d7b8f714f9ba2b"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/core-policy.md",
+      "bytes": 5831,
+      "sha256": "e8d13811f7f38c0644e5d3e27772e819823254b0c86400e3250461ec218a07bf"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/domain-profile-packs.md",
+      "bytes": 1440,
+      "sha256": "7def42f1de4b408657bde513d359ea1d290ec6b4a59cfbf29e21c58ae2118d9a"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/domains/README.md",
+      "bytes": 259,
+      "sha256": "fa2dd3fe75ed528503f18946b7e8244cebb98796c96cf15c5025bee1e9f0c8e1"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/evidence-contract.md",
+      "bytes": 3055,
+      "sha256": "fd45ffa4954159f3477388444cf8eb78a6fad9dc14ce6d624c3545d6a708445d"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/historical-prose-zh.md",
+      "bytes": 7442,
+      "sha256": "35fde78fd6086698a3dbcec38a1693a2573ad26933ed25a6591380a09102465c"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/methodology.md",
+      "bytes": 1313,
+      "sha256": "322ba8d1d437eccb242d1f8b8ad9e2fe8a3d44576b53ee6af3db8d03d972120f"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/project-stages.md",
+      "bytes": 1542,
+      "sha256": "757b5a4375f52196b3f0e1e8a15e1c0c12cfcbf5e7bd3664fccf6679a5b9a9f4"
+    },
+    {
+      "path": ".agents/skills/hr-source-criticism/references/source-provider-policy.md",
+      "bytes": 2744,
+      "sha256": "770661ca223a65afe03fb1dc67f66b84b5b024262f932159588fe5ae05ac70c6"
+    },
+    {
+      "path": ".agents/skills/humanizer/LICENSE",
+      "bytes": 1062,
+      "sha256": "6ed4351b9f61f7d179c0b8e4ba19e71ac62b7b8345af1dbe3bea21b3be2f4909"
+    },
+    {
+      "path": ".agents/skills/humanizer/PROVENANCE.json",
+      "bytes": 366,
+      "sha256": "edd252a9d3280b53960545fe3d53c9d3ca4cf5420e18b322b6194f10be96f91c"
+    },
+    {
+      "path": ".agents/skills/humanizer/SKILL.md",
+      "bytes": 18378,
+      "sha256": "be41d90e1d9e09886534930f278da8016814e0b4ee8f4187a545235ae80fe099"
+    },
+    {
+      "path": ".agents/skills/humanizer/UPSTREAM_README.md",
+      "bytes": 12807,
+      "sha256": "507f15f8b225b8965a17b01725e1f005daec77f3e0a0985ecf97964ad787d520"
+    },
+    {
+      "path": ".agents/skills/humanizer/references/do-not-flag.md",
+      "bytes": 7231,
+      "sha256": "81149e25df73f8c5859d7e94b198ed14b6a2033eee9d4b7e2de7ec72e3da7862"
+    },
+    {
+      "path": ".agents/skills/humanizer/references/examples.md",
+      "bytes": 16868,
+      "sha256": "49701fa804dee92d051c3739b638734ef7746c20433de5f0848cda01d37ce3f4"
+    },
+    {
+      "path": ".agents/skills/humanizer/references/tell-patterns.md",
+      "bytes": 25261,
+      "sha256": "22be039559fa94916f9beedd78cab6b463a135a67cdaa5a9fb68b0403cf351b3"
+    },
+    {
+      "path": ".agents/skills/humanizer/references/text-hygiene.md",
+      "bytes": 5592,
+      "sha256": "9fc84ebfc172438b0ac26057445d03baf3709c4ad68ac2035174e468d9a80b19"
+    },
+    {
+      "path": ".agents/skills/humanizer/references/voice-matching.md",
+      "bytes": 5905,
+      "sha256": "84008569b1403aa20d5988aebb826ac06eca4e72a2c44d08567ce286eac0cada"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/LICENSE",
+      "bytes": 1216,
+      "sha256": "0e5b3b9a6a640ba83663fb88313c30e991d5a28dfddef5bf1eebe59e7cbec12d"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/PROVENANCE.json",
+      "bytes": 421,
+      "sha256": "0a02d8a06cdb6cd6001042476476e501677aa608a768fce46f192dc2a6538888"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/SKILL.md",
+      "bytes": 6071,
+      "sha256": "978e0f89c50b1f01ea4a6ef80c44d06c83f1f8e59a0518c4c71b348809c16aaf"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/THIRD_PARTY_NOTICES.md",
+      "bytes": 7918,
+      "sha256": "ca9be3083e0a802524a9e40c59eb7c4604eb2cb849399eec4c9763a6df130f05"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/UPSTREAM_README.md",
+      "bytes": 89323,
+      "sha256": "add01364232760e5c85a4e3e87398becdd43ba3373dc2b5bacbfebd11fcae686"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/references/discipline-voice.md",
+      "bytes": 2443,
+      "sha256": "69c54b52b4e00373c7c1df1c50d5a8c309dd4f04ebcaf264e45f6eeabae5c192"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/references/patterns.md",
+      "bytes": 4757,
+      "sha256": "2a373d771c0ef004e493cd0f076be0cfde2e34e4230a27398ae82b5a23a8ff66"
+    },
+    {
+      "path": ".agents/skills/unslop-academic-writing/scripts/slop_check.py",
+      "bytes": 15175,
+      "sha256": "355a1c71cc72d4819d66dc04bdfbdf770d9a8949e866064cf97c58db06a41b27"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 295,
+      "sha256": "6893984dec5a759f66aa1ebbf041ad2ab098f6e847c7c77bb444300c6b7d97e2"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 9215,
+      "sha256": "58367d7172f68f14cc341452a0f524337cfb64c1d1e6aa91c3f482a8ab7a5ba8"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 9930,
+      "sha256": "878939b99f50ff00f40d552160fc766cf16378db7721a6eabfb96caf4b276e1e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7950,
+      "sha256": "51e1cd3fdba86e4751ef6998ebef7573bd3acaaa265b72155c2edf3b43f8af8e"
+    },
+    {
+      "path": "assets/cover.png",
+      "bytes": 99617,
+      "sha256": "0fa2cc74f94dfb4d576a80a5f80b826d7cf71588714a2f8100d466967e186168"
+    },
+    {
+      "path": "assets/cover.svg",
+      "bytes": 2261,
+      "sha256": "5a73a506d6b079507c99554a55537fa79301d5d87a1f847e06bfeb178e00bbc8"
+    },
+    {
+      "path": "assets/epub.css",
+      "bytes": 1395,
+      "sha256": "8940237f057ccc41e4da27abe0b20853989c656e9cfb8f7516a9b7840322ce1a"
+    },
+    {
+      "path": "assets/genealogy.png",
+      "bytes": 150503,
+      "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4"
+    },
+    {
+      "path": "assets/genealogy.svg",
+      "bytes": 3331,
+      "sha256": "23f8b3885eb55db45f3c7892432c941643265f321853d13b72552252528a01e6"
+    },
+    {
+      "path": "assets/image_register.md",
+      "bytes": 15339,
+      "sha256": "4dd62a6c16cf053807321a8f7813e0a51c3a6caf2a937f57def23f17b39e4578"
+    },
+    {
+      "path": "assets/images/met_248037.jpg",
+      "bytes": 92596,
+      "sha256": "8916ee4a84b0347c45b71911e20b584ef4090200d016e648c61446cff3730e51"
+    },
+    {
+      "path": "assets/images/met_248119.jpg",
+      "bytes": 47935,
+      "sha256": "09fb4d0fcfa91d6c50ab42fb4aebea7b3fc2010a69473ac577f80c008527a9d7"
+    },
+    {
+      "path": "assets/provenance/files_manifest.json",
+      "bytes": 721,
+      "sha256": "794b21dbb54f9e5699bb1417676209da6c26567338be834cce49a427bc90a1d1"
+    },
+    {
+      "path": "assets/provenance/met_248037.json",
+      "bytes": 1868,
+      "sha256": "2bed938c3089aea68055f3d2f5835309bc0947451b0cee0da08ccfc72a767001"
+    },
+    {
+      "path": "assets/provenance/met_248119.json",
+      "bytes": 2420,
+      "sha256": "5b15ac2b216505c48a148fbcddb473734cdf6f5991f01148aa33b68dc223a794"
+    },
+    {
+      "path": "dist/Caesar_Augustus_v0.1.docx",
+      "bytes": 341721,
+      "sha256": "b6c920d32c7ce3ca524c0b0b56ba2ea89624fd018590e01a0d98cac039f2a984"
+    },
+    {
+      "path": "dist/Caesar_Augustus_v0.1.epub",
+      "bytes": 407217,
+      "sha256": "7197c510b568f7126a705e77e0b8c413de78b8726579695685226eb3185d0062"
+    },
+    {
+      "path": "dist/Caesar_Augustus_v0.1.pdf",
+      "bytes": 422631,
+      "sha256": "e51acc2fc2d33afe32366199684ea01b9a82d967375f9ee45b5eafde139df6e3"
+    },
+    {
+      "path": "dist/build.log",
+      "bytes": 2,
+      "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "path": "dist/build_manifest.json",
+      "bytes": 2941,
+      "sha256": "ec712514d8402bf8bdbda01afe7362cf217f53c5e65ed97bea714ce1a2c6953d"
+    },
+    {
+      "path": "dist/epubcheck.log",
+      "bytes": 148,
+      "sha256": "478f911690cb2ab318cc90ab4c25f42e06999e7c81659aaa4444442c804f095f"
+    },
+    {
+      "path": "dist/latex_warnings.txt",
+      "bytes": 23169,
+      "sha256": "a765cd1bf6f1d6867ef04321df9260e7e610bfed12b4dc64403bf69b58d15f11"
+    },
+    {
+      "path": "dist/pdf_fonts.txt",
+      "bytes": 470,
+      "sha256": "8887da1030a420e6fd027eac51a1c3b25f463027994c973fd669b4f686ee2adb"
+    },
+    {
+      "path": "dist/pdf_page_bounds.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "dist/tex_format_setup.log",
+      "bytes": 6830,
+      "sha256": "90a7d194f20258c7fb3ea4ca648eb1ef85c800d7357e580e37df34c3debbab35"
+    },
+    {
+      "path": "dist/validation.json",
+      "bytes": 993,
+      "sha256": "41552d87f7977e906b240212ae3fbe7e912276271f1f0700b0ddefa46793c4fe"
+    },
+    {
+      "path": "manuscript/appendices.md",
+      "bytes": 7919,
+      "sha256": "e6ccd7d6f5884f306f8629744264ce09ef343ce4a607d207b501a5d8d016800d"
+    },
+    {
+      "path": "manuscript/bibliography.md",
+      "bytes": 7834,
+      "sha256": "69bc39e83d0b711740e5a053f9150add01ee3faa5c9f724661bcfc8da559766d"
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "bytes": 58419,
+      "sha256": "7209c0f48059b234025011485111a60c87b2835bd485ea9e9b8bd7b437f27708"
+    },
+    {
+      "path": "manuscript/introduction.md",
+      "bytes": 40077,
+      "sha256": "1be65f3f1674cb0bb2118828f04ef7890e5b858b04fe85f61b3805a172e070e2"
+    },
+    {
+      "path": "manuscript/metadata.yaml",
+      "bytes": 1113,
+      "sha256": "e8c4cc791cc1ce8183e43e8635ac7ad978aa0c0e6bcace5f6fdf1ef027aa1ccd"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 11254,
+      "sha256": "df82d555b27c277cc0978e84b3daa27fe0a9cc392d915504e7e00752218791c5"
+    },
+    {
+      "path": "research/argument_map.md",
+      "bytes": 3812,
+      "sha256": "bd0fa1a6702a99c8d31a89045d2bf330b45925dac95a24681b1124a2fc6005f3"
+    },
+    {
+      "path": "research/build_notes.md",
+      "bytes": 9302,
+      "sha256": "217b238bbe305299e137c11a3fbcf139eff8601108aefe36370305ef64df8d10"
+    },
+    {
+      "path": "research/chronology.md",
+      "bytes": 6043,
+      "sha256": "2c67acc6f9e9f91fb9e12c1093feb4cbbaa04d2a948df87bee51fee1398e9b92"
+    },
+    {
+      "path": "research/claim_ledger.md",
+      "bytes": 18586,
+      "sha256": "1467a84e5196939de4a62b0703fc8e65089b886f7661514d00c57582bebd6a87"
+    },
+    {
+      "path": "research/conception.md",
+      "bytes": 8231,
+      "sha256": "7d26384d0f53267b0a53bfcfe548cf47086dbab4dee7ba5e0f9c759d8dae2af7"
+    },
+    {
+      "path": "research/export_review.md",
+      "bytes": 8674,
+      "sha256": "b61b84fbbfc663daf13ce49990c6c0351873d16010b975f4d1803b61537600ae"
+    },
+    {
+      "path": "research/project_audit.json",
+      "bytes": 1774,
+      "sha256": "32cbea7df457e544bae981bf506f1b24bcd3ac962371e467738d9496b97e0aa0"
+    },
+    {
+      "path": "research/review_chapter01.md",
+      "bytes": 13078,
+      "sha256": "d2db2bc4d3ff970b8292657f891bec0e47228ffa22b73428ff3d2410ad660804"
+    },
+    {
+      "path": "research/review_introduction.md",
+      "bytes": 12273,
+      "sha256": "592847f1a585043cfb27cc4eb72abeeb269779e47d26da1a8dc341ec09603027"
+    },
+    {
+      "path": "research/review_log.md",
+      "bytes": 11779,
+      "sha256": "04bfe0e0e577235e46e511552d83774bb9ec80ed7c29cab3130ddbeba0834e62"
+    },
+    {
+      "path": "research/skills_core_install.md",
+      "bytes": 8328,
+      "sha256": "02796f413259dbcd85c6f28c74fe07ac2b8aec48f55df0e5a69b1e9be5ecb933"
+    },
+    {
+      "path": "research/skills_core_manifest.json",
+      "bytes": 9702,
+      "sha256": "d7b4c17b6f0dbc168ae5a7f43de9aa658a5bfcea14d6cc0e2b923c0afe88df7b"
+    },
+    {
+      "path": "research/skills_toolkits_install.md",
+      "bytes": 10504,
+      "sha256": "32afde2b9d7b67e0e1ddff1cc4beea79142a78e49934b94e94bef4842e05742e"
+    },
+    {
+      "path": "research/skills_toolkits_manifest.json",
+      "bytes": 18160,
+      "sha256": "4649dc01a9226b607a2dfd3c4d8172de986d445050378ed7669142bf17bac91b"
+    },
+    {
+      "path": "research/source_notes/chapter01.md",
+      "bytes": 10260,
+      "sha256": "cb472f497c6d51b677d7e5b57a71dd1612f2d34dbc92e77c433280096ae7b5cf"
+    },
+    {
+      "path": "research/source_notes/evidence/README.md",
+      "bytes": 1884,
+      "sha256": "666eec04ba03aa109dd558a30313057e9b8e10434c4db1d001ded371f62d5d70"
+    },
+    {
+      "path": "research/source_notes/evidence/modern_crossref_metadata.json",
+      "bytes": 2869,
+      "sha256": "880ff614e2322ee75f1a2e930760c6e54fa0019f00c86cb483ed750aafaae50d"
+    },
+    {
+      "path": "research/source_notes/evidence/modern_fulltext_access.json",
+      "bytes": 1028,
+      "sha256": "7b7aa632555eb30651328b135e5ea68ed8b91c8617f86d7933412066fd1bd709"
+    },
+    {
+      "path": "research/source_notes/evidence/primary_access_log.json",
+      "bytes": 8925,
+      "sha256": "de7e7b5c24d79eaddb9d4b9d56e61a8f5cc6fd1f219cf7ee4a54b49c7df560d9"
+    },
+    {
+      "path": "research/source_notes/historiography_initial.md",
+      "bytes": 12015,
+      "sha256": "9d0df49d75abeb96f907759098384bebf03a751778a685cab7dad2f6077db0a6"
+    },
+    {
+      "path": "research/source_notes/introduction.md",
+      "bytes": 5080,
+      "sha256": "bbd898f8dcaf2d35ca38d11e81e2c2a8d7fe1340cc63d69bb331616c74b26342"
+    },
+    {
+      "path": "research/source_notes/primary_initial.md",
+      "bytes": 19190,
+      "sha256": "c719587fe1a5f800991309092ba7eccd63e23f32f28455518e120e4a13473675"
+    },
+    {
+      "path": "scripts/audit_project.py",
+      "bytes": 4937,
+      "sha256": "bcd1bb74e047abdea42fc6a7780076f7f9abc713ebbc24b47054a556cb6c091b"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 8192,
+      "sha256": "515d1c33c6dca92e4773b3697311a07f909777f48b6118c18c523c35ab90e29c"
+    },
+    {
+      "path": "scripts/make_cover.py",
+      "bytes": 2173,
+      "sha256": "a0d23eaf9ee1c27b68ab10e5b38ca0e9ad5211cd466047a29a94f385d161def6"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "bytes": 3766,
+      "sha256": "5087c5e645359f36ccb1b948e83f46705053ff73ff97bb1af09a034958f56294"
+    },
+    {
+      "path": "scripts/tex-support/LPPL-1.3c.txt",
+      "bytes": 19036,
+      "sha256": "c1ae6e179a6d28bbd5c483fbacc744acc75e922d598281dc3390aab26126e163"
+    },
+    {
+      "path": "scripts/tex-support/README.md",
+      "bytes": 4094,
+      "sha256": "b40dc34d6b724a6d279ca7a87c29278522ea384161c77e50fd03c4c64eed31a0"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/config/language.dat",
+      "bytes": 126,
+      "sha256": "7ce8d6f23efd153219bafa8d742d2987ea3c8c50cd9dadfedf124ccf76a2c969"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/hyph-ru.tex",
+      "bytes": 68421,
+      "sha256": "ce988fcc66e5e29d7474df5ab5b489d3f52a50ebccf570997f992d84221b922a"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/loadhyph-ru.tex",
+      "bytes": 1324,
+      "sha256": "8d59a50b003ef646b4a38645802a7e4db55bb8f84e2f85a5a118c7049d186fe9"
+    },
+    {
+      "path": "scripts/verify_exports.py",
+      "bytes": 9262,
+      "sha256": "2bc2c411925a3eb04e0e1756b26846e672953815f3c8b67ef586fd826bc628b5"
+    },
+    {
+      "path": "sources/primary_bibliography_for_merge.md",
+      "bytes": 4913,
+      "sha256": "f74f5aadbecfe6dc0ea0fdb1283a87fe2c0072248bd0d4cc677d8fa34143ac3e"
+    },
+    {
+      "path": "sources/primary_entries.bib",
+      "bytes": 5300,
+      "sha256": "e644c9c129764996349aaeaa3db000dae1ff1b670cab13f9587b66b57800585b"
+    },
+    {
+      "path": "sources/primary_sources.md",
+      "bytes": 17554,
+      "sha256": "dfd831c24892b3b84bc4011d3a6593b81575ee1f7fab9e01f4fe1c5dad30e13f"
+    },
+    {
+      "path": "sources/secondary_sources.md",
+      "bytes": 8354,
+      "sha256": "497c97bb6632dc505b0e1d40f90d84c35d43a228d9c9bb247d69a923e2a31192"
+    }
+  ],
+  "exclusions": [
+    ".git; full external evidence snapshots; temporary caches; external validators and fonts",
+    ".agents/skills/paper-deep-research and paper-reviewer-check: no general redistribution license; see installation reports"
+  ],
+  "archive": {
+    "path": "dist/Caesar_Augustus_Research_v0.1.zip",
+    "bytes": 2360981,
+    "sha256": "3b6a3a9f09d43302864e97a582d4bd20b991680fc014d13245472b1288648f24",
+    "crc": "pass",
+    "file_hashes": "pass"
+  }
+}

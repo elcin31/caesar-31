@@ -1,0 +1,34 @@
+[
+  {
+    "path": "images/met_248037.jpg",
+    "bytes": 92596,
+    "sha256": "8916ee4a84b0347c45b71911e20b584ef4090200d016e648c61446cff3730e51",
+    "dimensions": [
+      599,
+      504
+    ]
+  },
+  {
+    "path": "images/met_248119.jpg",
+    "bytes": 47935,
+    "sha256": "09fb4d0fcfa91d6c50ab42fb4aebea7b3fc2010a69473ac577f80c008527a9d7",
+    "dimensions": [
+      468,
+      624
+    ]
+  },
+  {
+    "path": "genealogy.svg",
+    "bytes": 3331,
+    "sha256": "23f8b3885eb55db45f3c7892432c941643265f321853d13b72552252528a01e6"
+  },
+  {
+    "path": "genealogy.png",
+    "bytes": 150503,
+    "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4",
+    "dimensions": [
+      1650,
+      1050
+    ]
+  }
+]

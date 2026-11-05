@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="title desc">
+<title id="title">Родственная связь Цезаря и Октавия</title>
+<desc id="desc">Современная схема. Юлий Цезарь и Юлия являются братом и сестрой. Юлия — мать Атии, Атия — мать Гая Октавия, будущего Августа. Пунктир от Цезаря к Октавию обозначает усыновление по завещанию и передачу имени, а не биологическое происхождение.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#8b402e"/></marker></defs>
+<rect width="1100" height="700" fill="#fffdf8"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#242b30" text-anchor="middle">
+<text x="550" y="50" font-size="28" font-weight="bold">Родственная связь Цезаря и Октавия</text>
+<text x="550" y="84" font-size="18">Современная схема по свидетельству Светония</text>
+<rect x="60" y="145" width="340" height="100" rx="8" fill="#ede7db" stroke="#6b665d" stroke-width="2"/>
+<text x="230" y="187" font-size="26">Гай Юлий Цезарь</text>
+<text x="230" y="219" font-size="18">завещатель</text>
+<rect x="660" y="145" width="340" height="100" rx="8" fill="#ede7db" stroke="#6b665d" stroke-width="2"/>
+<text x="830" y="187" font-size="26">Юлия</text>
+<text x="830" y="219" font-size="18">сестра Цезаря</text>
+<path d="M400 194 H660" stroke="#6b665d" stroke-width="2"/>
+<rect x="455" y="174" width="150" height="38" fill="#fffdf8"/>
+<text x="530" y="199" font-size="18">брат и сестра</text>
+<path d="M830 245 V305" stroke="#6b665d" stroke-width="2"/>
+<rect x="660" y="305" width="340" height="90" rx="8" fill="#ede7db" stroke="#6b665d" stroke-width="2"/>
+<text x="830" y="345" font-size="26">Атия</text>
+<text x="830" y="376" font-size="18">дочь Юлии, мать Октавия</text>
+<path d="M830 395 V455" stroke="#6b665d" stroke-width="2"/>
+<rect x="660" y="455" width="340" height="100" rx="8" fill="#ede7db" stroke="#6b665d" stroke-width="2"/>
+<text x="830" y="497" font-size="26">Гай Октавий</text>
+<text x="830" y="529" font-size="18">будущий Август</text>
+<path d="M230 245 V505 H645" stroke="#8b402e" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#arrow)" fill="none"/>
+<rect x="266" y="408" width="352" height="70" fill="#fffdf8"/>
+<text x="442" y="431" font-size="18" fill="#8b402e">Усыновление по завещанию;</text>
+<text x="442" y="459" font-size="18" fill="#8b402e">передача имени Цезаря</text>
+<text x="550" y="605" font-size="17">Сплошные линии: кровное родство. Пунктир: завещательное усыновление.</text>
+<text x="550" y="635" font-size="17">Источники: Suet. Aug. 4.1; 7.2; 8.2; Iul. 83.2.</text>
+<text x="550" y="665" font-size="15">Юридические стадии оформления усыновления на схеме не показаны.</text>
+</g></svg>

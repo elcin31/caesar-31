@@ -1,0 +1,9 @@
+{
+  "name": "humanizer",
+  "repository": "https://github.com/hannsxpeter/humanizer",
+  "path": ".",
+  "commit": "e8f1248a7d4919689c1f942e356ed95b102d9f07",
+  "source_skill_sha256": "be41d90e1d9e09886534930f278da8016814e0b4ee8f4187a545235ae80fe099",
+  "installed_skill_sha256": "be41d90e1d9e09886534930f278da8016814e0b4ee8f4187a545235ae80fe099",
+  "license": "MIT"
+}

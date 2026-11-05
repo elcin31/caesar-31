@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Deep Research"
+  short_description: "Research a paper topic with verifiable sources before writing."
+  default_prompt: "Use $paper-deep-research to investigate this paper topic and list missing inputs before drafting."

@@ -1,0 +1,766 @@
+#!/usr/bin/env python3
+"""Deterministic prose-fingerprint audit against a corpus of published papers.
+
+This script does not rewrite prose. It measures a small set of stylistic
+constructions and reports where the target sits relative to a baseline corpus.
+
+The point is the *distribution*, not the count. A construction used twelve
+times as often as published work is a problem; so is one used at exactly the
+right rate but spread perfectly evenly, because human writers cluster. Every
+metric that can be distributed is therefore reported three ways: how often, how
+bunched (coefficient of variation of the gaps between occurrences, which is
+rate-independent), and how long the longest stretch without one runs.
+
+Baseline percentiles are only shown when a baseline corpus is supplied. Without
+one the numbers are still reported, but nothing here says what a good value is:
+"published papers in your own bibliography" is the only reference this tool
+trusts, and pooling gaps across papers of different rates inflates CV, so
+dispersion baselines are computed per document and never pooled.
+
+Python 3.8 stdlib only. PDF baselines require `pdftotext` on PATH; without it,
+PDFs are skipped and named in the report.
+"""
+
+import argparse
+import fnmatch
+import json
+import math
+import re
+import shutil
+import statistics
+import subprocess
+import sys
+from pathlib import Path
+from typing import Dict, List, Optional, Sequence, Tuple
+
+SCHEMA_VERSION = 3
+
+# --- constructions -----------------------------------------------------------
+# Each is a family of surface forms, not a single string. The corrective
+# diptych in particular has five common shapes and counting only "rather than"
+# understates it by roughly half.
+CONTRAST = (
+    r"\brather than\b|\band not\b|\b, not\b|\bnot\b[^.]{0,40}\bbut\b|\binstead of\b"
+)
+EXPLANATORY_COLON = r"[a-z]:\s+[a-z]"
+SEMICOLON = r";"
+DISCOURSE = (
+    r"\b(?:[Hh]owever|[Mm]oreover|[Ff]urthermore|[Tt]hus|[Tt]herefore"
+    r"|[Nn]evertheless|[Cc]onsequently|[Nn]onetheless)\b"
+)
+# A sentence that opens with a linking adverbial says how it stands to the sentence before it: a contrast, a
+# consequence, an example, an addition. Published papers open a steady share of their sentences this way; a draft
+# that opens almost none of them leaves the reader to supply every relation. The count is of sentences, not of
+# words, and only of the opening: "however" in mid-sentence is the discourse-marker rate above.
+# Not counted: enumerators (First, Second, Finally), which order a list without saying how its items relate, and
+# subordinators (Although, Because, While), which relate two clauses inside one sentence. "Instead of" and
+# "In addition to" open a phrase, not a link. Words that are links only when a comma follows them need the comma.
+# The list is closed: a link it does not name is not counted. audit-sentence-changes.py reads it from here.
+LINKING_OPENER = re.compile(
+    r"^[\"'\u201c\u2018]?(?:"
+    r"(?:However|Thus|Therefore|Hence|Moreover|Furthermore|Consequently|Nevertheless|Nonetheless|Accordingly"
+    r"|Conversely|Similarly|Likewise|Indeed|Yet|Additionally|Specifically|Notably|Importantly|Meanwhile"
+    r"|As a result|As a consequence|In contrast|By contrast|For example|For instance|In particular"
+    r"|On the other hand|In other words|In turn|In summary|In short|To this end|Even so|Instead(?! of)"
+    r"|In addition(?! to))\b"
+    r"|(?:That is|Overall|Still|Otherwise|In practice|Taken together|Put differently)\s*,)")
+NOMINALISATION = r"\b\w+(?:tion|ment|ness|ity)s?\b"
+# [Ss]peculat\w*: speculate(s/d), speculating, speculation(s), speculative(ly) hedge a claim as "may" does. The capital
+# is allowed for these alone: a sentence may open on them, and unlike "May" none of them is also a month.
+HEDGE = r"\b(?:may|might|could|appears?|suggests?|seems?|likely|plausibl\w+|[Ss]peculat\w*)\b"
+
+DISTRIBUTED = ("contrast", "explanatory_colon", "semicolon", "discourse_marker")
+PATTERNS = {
+    "contrast": CONTRAST,
+    "explanatory_colon": EXPLANATORY_COLON,
+    "semicolon": SEMICOLON,
+    "discourse_marker": DISCOURSE,
+    "nominalisation": NOMINALISATION,
+    "hedge": HEDGE,
+}
+
+TEXT_SUFFIXES = {".md", ".tex", ".txt"}
+STOP_HEADINGS = re.compile(r"\n\s*(?:References|REFERENCES|Bibliography|Works Cited)\s*\n")
+
+
+# --- extraction --------------------------------------------------------------
+
+# Share of whitespace tokens that are words. Measured 2026-09-22 on 81 real papers: lowest 0.579 (a table-heavy
+# paper), median 0.886; a PDF whose fonts extracted as symbols scored 0.036.
+MIN_WORD_SHARE = 0.30
+_WORD = re.compile(r"^[(\[\"'\u201c\u2018]?[A-Za-z][A-Za-z'\u2019\-]*[.,;:!?)\]\"'\u201d\u2019]*$")
+
+
+def word_share(text: str) -> float:
+    tokens = text.split()
+    return sum(1 for x in tokens if _WORD.match(x)) / len(tokens) if tokens else 0.0
+
+
+def read_pdf(path: Path) -> Optional[str]:
+    if not shutil.which("pdftotext"):
+        return None
+    try:
+        out = subprocess.run(
+            ["pdftotext", "-q", str(path), "-"],
+            capture_output=True, text=True, timeout=120,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return None
+    if not out.stdout:
+        return None
+    # pdftotext preserves the printed line breaks, so a word hyphenated across
+    # a line arrives as two tokens and inflates the sentence it sits in.
+    return re.sub(r"-\n", "", out.stdout)
+
+
+def strip_markup(text: str, suffix: str) -> str:
+    """Remove markup that is not prose the reader sees."""
+    if suffix == ".tex":
+        # Everything before \begin{document} is package loading and macro
+        # definitions. It is not prose, and counting it inflates the word
+        # total that every per-1k rate is divided by.
+        body = re.split(r"\\begin\{document\}", text, maxsplit=1)
+        if len(body) == 2:
+            text = body[1]
+        text = re.sub(r"(?m)^\s*%.*$", "", text)
+        # Alt text and comments are not read aloud in the flow of the argument,
+        # but they do drift, so they are measured separately by --include-alt.
+        text = re.sub(r"\\Description\{(?:[^{}]|\{[^{}]*\})*\}", " ", text)
+        text = re.sub(r"\\(?:label|ref|eqref|cite\w*)\{[^}]*\}", " ", text)
+        text = re.sub(r"\\begin\{(?:tabular|table|figure|itemize|enumerate|description|equation|align)\*?\}"
+                      r".*?\\end\{(?:tabular|table|figure|itemize|enumerate|description|equation|align)\*?\}",
+                      " ", text, flags=re.S)
+        # An environment's name is not prose: \begin{center} used to leave the word "center" behind, and a
+        # colon before it ("character by character: center") was counted as an explanatory colon.
+        text = re.sub(r"\\(?:begin|end)\{[^}]*\}", " ", text)
+        # A digit group set as 4{,}120 is the number 4,120 on the page, and \, \; \: \! are spaces. Stripping
+        # only the braces or the backslash left "4 , 120" (two extra words in every such sentence) or a comma,
+        # semicolon or colon the reader never sees.
+        text = re.sub(r"(?<=\d)\{,\}(?=\d)", ",", text)
+        text = re.sub(r"(?<=\d)(?<!\\)\\[,;:!](?=\d)", "", text)
+        text = re.sub(r"(?<!\\)\\[,;:!]", " ", text)
+        text = re.sub(r"\\[a-zA-Z]+\*?", " ", text)
+        text = re.sub(r"[{}$&~\\]", " ", text)
+    elif suffix == ".md":
+        text = re.sub(r"```.*?```", " ", text, flags=re.S)
+        text = re.sub(r"(?m)^\s*\|.*$", " ", text)
+        text = re.sub(r"(?m)^#+\s*", "", text)
+    m = list(STOP_HEADINGS.finditer(text))
+    if m:
+        text = text[: m[-1].start()]
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def load(path: Path) -> Optional[str]:
+    if path.suffix.lower() == ".pdf":
+        raw = read_pdf(path)
+        return strip_markup(raw, ".txt") if raw else None
+    if path.suffix.lower() in TEXT_SUFFIXES:
+        return strip_markup(path.read_text(encoding="utf-8", errors="replace"), path.suffix.lower())
+    return None
+
+
+def pipeline_of(suffix: str) -> str:
+    """Which reading a suffix gets.
+
+    `.tex` and `.md` have their markup removed: float environments, tables,
+    captions, list bodies and citation commands all go. A PDF cannot be read
+    that way -- pdftotext returns what was printed, furniture included. On one
+    real manuscript the two readings of the SAME document differed by 40% in
+    word count, which is the denominator of every per-1k rate, and the
+    sentence-length lag-1 changed sign between them. A percentile computed
+    across the two is comparing two different readings, not two documents.
+    """
+    if suffix == ".pdf":
+        return "pdf-as-printed"
+    if suffix in {".tex", ".md"}:
+        return "markup-stripped"
+    return "plain-text"
+
+
+def collect(target: Path) -> List[Tuple[str, str, str]]:
+    """(display name, prose, suffix). The suffix travels with the text because
+    the pipeline that produced it is part of what the number means."""
+    if target.is_file():
+        t = load(target)
+        return [(target.name, t, target.suffix.lower())] if t else []
+    out = []
+    for p in sorted(target.rglob("*")):
+        if not p.is_file():
+            continue
+        if p.suffix.lower() in TEXT_SUFFIXES or p.suffix.lower() == ".pdf":
+            t = load(p)
+            if t and len(t.split()) >= 400:
+                out.append((str(p.relative_to(target)), t, p.suffix.lower()))
+    return out
+
+
+# --- statistics --------------------------------------------------------------
+def word_positions(text: str, pattern: str) -> List[int]:
+    """Occurrence positions measured in words, so gaps are rate-comparable."""
+    words = text.split()
+    offsets, cursor = [], 0
+    for w in words:
+        cursor = text.find(w, cursor)
+        offsets.append(cursor)
+        cursor += len(w)
+    positions, j = [], 0
+    for m in re.finditer(pattern, text):
+        while j + 1 < len(offsets) and offsets[j + 1] <= m.start():
+            j += 1
+        positions.append(j)
+    return positions
+
+
+def cv(values: Sequence[float]) -> Optional[float]:
+    if len(values) < 3:
+        return None
+    mean = statistics.mean(values)
+    return statistics.pstdev(values) / mean if mean else None
+
+
+def sentence_lengths(text: str) -> List[Optional[int]]:
+    """Word counts in reading order, with None where a span is not a sentence.
+
+    The positions matter, not just the values: lag-1 must not treat two spans
+    as adjacent when something was dropped between them, so the gaps are kept.
+
+    A sentence may not begin with "(" here. It is tempting to allow it, because
+    a LaTeX source really does open sentences with a numbered label, but in a
+    PDF-derived baseline the same rule splits every inline author-year citation,
+    so a fragment such as "(2019); Smith et al." is counted as a sentence. It
+    does that in proportion to how much author-year citation each paper happens
+    to use -- several percent for some, nothing at all for numerically cited
+    ones -- which corrupts the baseline unevenly, while costing a clean source
+    well under one percent of its sentences.
+
+    The 120-word ceiling exists for PDF extraction runs, not for prose. Raising
+    it from 90 matters: at 90 this metric flips sign depending on whether the
+    gaps above are honoured, and at 120 it does not."""
+    out: List[Optional[int]] = []
+    for s in re.split(r"(?<=[.!?])\s+(?=[A-Z])", text):
+        n = len(s.split())
+        out.append(n if 4 <= n <= 120 else None)
+    return out
+
+
+def linking_opener_share(text: str) -> Optional[float]:
+    """Share of sentences that open with a linking adverbial (LINKING_OPENER). Sentences are split and kept as in
+    sentence_lengths, so the denominator is the same set of sentences the length metrics read."""
+    kept = [s for s in re.split(r"(?<=[.!?])\s+(?=[A-Z])", text) if 4 <= len(s.split()) <= 120]
+    if len(kept) < 30:
+        return None
+    return sum(1 for s in kept if LINKING_OPENER.match(s.strip())) / len(kept)
+
+
+def lag1(values: Sequence[Optional[int]]) -> Optional[float]:
+    """Positive: long sentences cluster with long ones, as in human drafts.
+    Near zero: each length drawn independently.
+    Negative: systematic long-short alternation, a manufactured rhythm.
+
+    Only pairs that were genuinely adjacent contribute. Filtering first and
+    correlating afterwards silently joins the sentences on either side of a
+    dropped span, which is how the same manuscript reads inside the published
+    range under one implementation and outside it under another."""
+    kept = [v for v in values if v is not None]
+    if len(kept) < 30:
+        return None
+    mean = statistics.mean(kept)
+    den = sum((v - mean) ** 2 for v in kept)
+    if not den:
+        return None
+    num = sum((values[i] - mean) * (values[i + 1] - mean)
+              for i in range(len(values) - 1)
+              if values[i] is not None and values[i + 1] is not None)
+    return num / den
+
+
+def repeat_ngram_rate(text: str, n: int = 4) -> float:
+    words = re.findall(r"[a-z']+", text.lower())
+    if len(words) <= n:
+        return 0.0
+    grams: Dict[str, int] = {}
+    for i in range(len(words) - n + 1):
+        g = " ".join(words[i:i + n])
+        grams[g] = grams.get(g, 0) + 1
+    repeated = sum(v - 1 for v in grams.values() if v > 1)
+    return 1000.0 * repeated / (len(words) - n + 1)
+
+
+def ngram_hashes(text: str, n: int = 4) -> set:
+    """Hashed word n-grams, for asking how much of one text sits inside another.
+
+    Hashes rather than the tuples: a 131-document baseline carries a few million
+    n-grams, and the only thing asked of them here is set intersection.
+    """
+    words = re.findall(r"[a-z']+", text.lower())
+    return {hash(tuple(words[i:i + n])) for i in range(len(words) - n + 1)}
+
+
+# A share alone is not enough. A document whose prose is highly repetitive has
+# few distinct n-grams, so a single shared stock phrase can be a large fraction
+# of them -- a synthetic fixture of one sentence repeated 150 times shares 8% of
+# its 4-grams with any text that opens the same way. A real earlier draft shares
+# thousands of distinct n-grams with its successor. The absolute count is what
+# separates those two, so both conditions must hold.
+MIN_SHARED_NGRAMS = 100
+
+
+def containment(target: set, other: set) -> tuple:
+    """Share of the target's n-grams also in the other document, and how many."""
+    if not target:
+        return 0.0, 0
+    shared = len(target & other)
+    return shared / len(target), shared
+
+
+def measure(text: str) -> Dict[str, Optional[float]]:
+    total = len(text.split())
+    out: Dict[str, Optional[float]] = {"words": total}
+    for name, pat in PATTERNS.items():
+        pos = word_positions(text, pat)
+        out[name + "_per_1k"] = 1000.0 * len(pos) / total if total else 0.0
+        if name in DISTRIBUTED:
+            gaps = [b - a for a, b in zip(pos, pos[1:]) if b > a]
+            out[name + "_gap_cv"] = cv(gaps)
+            out[name + "_longest_dry_fraction"] = (max(gaps) / total) if gaps else None
+    lengths = sentence_lengths(text)
+    out["sentence_length_cv"] = cv([n for n in lengths if n is not None])
+    out["sentence_length_lag1"] = lag1(lengths)
+    out["linking_opener_share"] = linking_opener_share(text)
+    out["repeat_4gram_per_1k"] = repeat_ngram_rate(text)
+    verbs = re.findall(r"\b[Ww]e ([a-z]+)\b", text)
+    out["first_person_verb_diversity"] = (len(set(verbs)) / len(verbs)) if verbs else None
+    return out
+
+
+def sections(text: str, suffix: str, raw: str) -> Dict[str, str]:
+    """Per-section rates are the uniformity signal that needs no baseline:
+    when a rhetorical device runs at the same rate in the dataset section and
+    the discussion, that evenness is itself the finding."""
+    if suffix == ".tex":
+        parts = re.split(r"\\section\*?\{([^}]*)\}", raw)
+    elif suffix == ".md":
+        parts = re.split(r"(?m)^#{1,2}\s+(.+)$", raw)
+    else:
+        return {}
+    if len(parts) < 3:
+        return {}
+    out = {}
+    for i in range(1, len(parts) - 1, 2):
+        body = strip_markup(parts[i + 1], suffix)
+        if len(body.split()) >= 200:
+            out[parts[i].strip()[:60]] = body
+    return out
+
+
+# The range alone calls a value at the baseline's first or last paper "inside". A draft can sit there on several
+# metrics at once, below all but one or two published papers, and read as clean. The band is the middle 90% of the
+# baseline (the 5th and 95th percentiles, interpolated); a value inside the range but outside the band is at the edge:
+# reported beside the outliers, never counted as one, and it does not change the exit code.
+EDGE_BAND = (5, 95)
+
+
+def band(population: List[float]) -> Tuple[float, float]:
+    """The 5th and 95th percentiles of a sorted population, by linear interpolation between its values."""
+    if len(population) < 2:
+        return population[0], population[-1]
+    cuts = statistics.quantiles(population, n=20, method="inclusive")
+    return cuts[EDGE_BAND[0] // 5 - 1], cuts[EDGE_BAND[1] // 5 - 1]
+
+
+def percentile(value: Optional[float], population: List[float]) -> Optional[float]:
+    if value is None or not population:
+        return None
+    return 100.0 * sum(1 for x in population if x < value) / len(population)
+
+
+# --- reporting ---------------------------------------------------------------
+KEY_ORDER = [
+    ("contrast_per_1k", "corrective diptych  /1k"),
+    ("contrast_gap_cv", "  gap CV (bunching)"),
+    ("contrast_longest_dry_fraction", "  longest dry run"),
+    ("explanatory_colon_per_1k", "explanatory colon  /1k"),
+    ("semicolon_per_1k", "semicolon  /1k"),
+    ("discourse_marker_per_1k", "discourse marker  /1k"),
+    ("sentence_length_cv", "sentence length CV"),
+    ("sentence_length_lag1", "sentence length lag-1"),
+    ("linking_opener_share", "linking opener share"),
+    ("repeat_4gram_per_1k", "repeated 4-gram  /1k"),
+    ("nominalisation_per_1k", "nominalisation  /1k"),
+    ("hedge_per_1k", "hedging  /1k"),
+    ("first_person_verb_diversity", "we+verb diversity"),
+]
+
+# --per-file: a directory target measured file by file. The whole-paper numbers above are unchanged; this adds where
+# each rhetorical device peaks. A section's rate is NOT compared with the baseline's range: that range is built from
+# whole-paper averages, and a paper's average is never above its highest section, so every lively discussion section
+# would read as out of range and every flat method section as fine. What needs no baseline is the shape (the global
+# prose rules): plain sections (methods, limitations) near zero, the voice in the discussion and conclusion. A peak in
+# a plain section is backwards; in related work or the dataset section it is worth a look.
+DEVICE_KEYS = [("contrast_per_1k", "corrective diptych"),
+               ("explanatory_colon_per_1k", "explanatory colon"),
+               ("semicolon_per_1k", "semicolon")]
+MIN_SECTION_WORDS = 800
+ROLES = [("abstract", r"abstract"), ("introduction", r"intro"), ("related", r"related|background|prior"),
+         ("limitations", r"limit"), ("method", r"method|pipeline|approach|procedure|protocol"),
+         ("dataset", r"dataset|data|corpus|benchmark|collection"),
+         ("results", r"result|finding|experiment|evaluat"), ("discussion", r"discuss"), ("conclusion", r"conclu")]
+PLAIN_ROLES = {"method", "limitations"}
+LOOK_ROLES = {"related", "dataset"}
+
+
+def role_of(name: str) -> Optional[str]:
+    """The section a file holds, guessed from its name only; None when the name says nothing."""
+    stem = Path(name).stem.lower()
+    for role, pat in ROLES:
+        if re.search(pat, stem):
+            return role
+    return None
+
+
+def per_file(target: Path) -> Dict[str, dict]:
+    """Every .tex/.md/.txt file under a directory target, short ones included (and marked), measured alone."""
+    out = {}
+    for p in sorted(target.rglob("*")):
+        if not p.is_file() or p.suffix.lower() not in TEXT_SUFFIXES:
+            continue
+        t = load(p)
+        if not t:
+            # A file with no prose after markup is removed (a stub kept so the main file need not change) is listed,
+            # not dropped: a reader cannot otherwise tell an empty file from one that was never read.
+            out[str(p.relative_to(target))] = {"words": 0, "short": True, "role": role_of(p.name),
+                                               "metrics": {k: None for k, _ in DEVICE_KEYS}}
+            continue
+        m = measure(t)
+        out[str(p.relative_to(target))] = {
+            "words": int(m["words"]), "short": m["words"] < MIN_SECTION_WORDS, "role": role_of(p.name),
+            "metrics": {k: m.get(k) for k, _ in DEVICE_KEYS}}
+    return out
+
+
+def peaks(files: Dict[str, dict]) -> Dict[str, dict]:
+    """Where each device peaks among the files long enough to judge."""
+    judged = {n: f for n, f in files.items() if not f["short"]}
+    out = {}
+    for key, _ in DEVICE_KEYS:
+        vals = {n: f["metrics"][key] for n, f in judged.items() if f["metrics"].get(key) is not None}
+        if len(vals) < 2 or max(vals.values()) <= 0:
+            continue
+        top = max(vals, key=vals.get)
+        role = judged[top]["role"]
+        out[key] = {"file": top, "value": vals[top], "role": role,
+                    "verdict": ("backwards" if role in PLAIN_ROLES else "look" if role in LOOK_ROLES
+                                else "ok" if role else "unknown")}
+    return out
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(
+        description="Audit prose fingerprint against a baseline corpus of published work.")
+    ap.add_argument("--target", required=True,
+                    help="manuscript file, or a directory of .md/.tex/.txt/.pdf")
+    ap.add_argument("--baseline",
+                    help="directory of published papers to compare against "
+                         "(a project's own literature/ is the intended corpus)")
+    ap.add_argument("--exclude", action="append", default=[], metavar="GLOB",
+                    help="skip baseline files whose name matches (repeatable). "
+                         "Use it for the authors' own papers: a baseline that "
+                         "contains them is partly the thing being measured, and "
+                         "it is usually they who set the extreme")
+    ap.add_argument("--min-baseline", type=int, default=5,
+                    help="refuse to report percentiles below this many baseline documents")
+    ap.add_argument("--overlap-threshold", type=float, default=1.0, metavar="PCT",
+                    help="a baseline document sharing more than this percentage of "
+                         "the target's 4-grams is reported as a suspected draft or "
+                         "copy of the target itself (default: 1.0)")
+    ap.add_argument("--allow-overlap", action="store_true",
+                    help="report percentiles even when that scan finds one. Use only "
+                         "when the overlap is intended and you can say why")
+    ap.add_argument("--json", action="store_true", dest="emit_json")
+    ap.add_argument("--per-file", action="store_true", dest="per_file",
+                    help="with a directory target, also measure each file alone and report where each "
+                         "rhetorical device peaks (see DEVICE_KEYS)")
+    args = ap.parse_args()
+
+    target = Path(args.target)
+    if not target.exists():
+        sys.stderr.write("error: --target does not exist\n")
+        return 2
+    docs = collect(target)
+    if not docs:
+        sys.stderr.write("error: no readable prose found in --target\n")
+        return 2
+    text = " ".join(t for _, t, _ in docs)
+    target_pipelines = sorted({pipeline_of(sfx) for _, _, sfx in docs})
+    mine = measure(text)
+
+    base_rows: List[Dict[str, Optional[float]]] = []
+    skipped: List[str] = []
+    excluded: List[str] = []
+    suspect: List[Dict[str, object]] = []
+    target_grams = ngram_hashes(text)
+    too_short: List[Dict] = []
+    garbled: List[Dict] = []
+    base_pipelines: Dict[str, int] = {}
+    if args.baseline:
+        bdir = Path(args.baseline)
+        if not bdir.is_dir():
+            sys.stderr.write("error: --baseline is not a directory\n")
+            return 2
+        for p in sorted(bdir.rglob("*")):
+            if not p.is_file() or p.suffix.lower() not in TEXT_SUFFIXES | {".pdf"}:
+                continue
+            if any(fnmatch.fnmatch(p.name, g) for g in args.exclude):
+                excluded.append(p.name)
+                continue
+            t = load(p)
+            if t is None:
+                skipped.append(p.name)
+                continue
+            words = len(t.split())
+            share = word_share(t)
+            if share < MIN_WORD_SHARE:
+                # A PDF whose fonts extract as symbols still yields thousands of
+                # "words". Counted as a baseline document, one such file set the
+                # lower bound of three ranges while the structure audit, which
+                # needs sentences, skipped it.
+                garbled.append({"file": p.name, "word_share": round(share, 3)})
+                continue
+            if words < 1500:
+                # A document also leaves the baseline by being too short to
+                # measure, and that exit had no name. `baseline_skipped` held
+                # only the unreadable ones, so a corpus of 179 files reported
+                # 129 documents and nothing said where the rest went. The same
+                # silence cost a test run its diagnosis: a fixture at 1470
+                # words dropped out and the failure looked unrelated.
+                too_short.append({"file": p.name, "words": words})
+                continue
+            base_rows.append(measure(t))
+            base_pipelines[pipeline_of(p.suffix.lower())] = (
+                base_pipelines.get(pipeline_of(p.suffix.lower()), 0) + 1)
+            frac, shared = containment(target_grams, ngram_hashes(t))
+            share = 100.0 * frac
+            if share > args.overlap_threshold and shared >= MIN_SHARED_NGRAMS:
+                suspect.append({"file": p.name,
+                                "target_4gram_share_pct": round(share, 3),
+                                "shared_4grams": shared})
+
+    # The method's precondition is that the baseline holds none of the author's
+    # own work. It used to live in prose, and `baseline_excluded: []` meant both
+    # "checked, nothing to exclude" and "never checked". The scan above tells
+    # them apart, and a percentile is an assertion about a baseline, so an
+    # unverified baseline yields no percentile.
+    # Two different questions, and the first draft of this conflated them:
+    # whether the precondition HOLDS, and whether percentiles are withheld.
+    # --allow-overlap answers the second, never the first. Reporting
+    # preconditions_checked: true because someone passed a waiver would rebuild
+    # the ambiguous green light this scan exists to remove.
+    preconditions_ok = not suspect
+    waived = bool(suspect) and args.allow_overlap
+    contaminated = bool(suspect) and not args.allow_overlap
+    enough = len(base_rows) >= args.min_baseline and not contaminated
+    report = {"schema_version": SCHEMA_VERSION, "target": str(target),
+              "target_words": mine["words"], "baseline_documents": len(base_rows),
+              "baseline_sufficient": len(base_rows) >= args.min_baseline,
+              "baseline_skipped": skipped,
+              "baseline_too_short": too_short,
+              "baseline_garbled": garbled,
+              "target_pipeline": target_pipelines,
+              "baseline_pipeline_mix": base_pipelines,
+              "pipeline_mismatch": bool(base_pipelines)
+                                   and set(target_pipelines) != set(base_pipelines),
+              "exclude_patterns": list(args.exclude),
+              "baseline_excluded": excluded,
+              "baseline_suspect": suspect,
+              "overlap_threshold_pct": args.overlap_threshold,
+              "preconditions_checked": preconditions_ok,
+              "overlap_waived": waived,
+              "metrics": {}}
+
+    outliers, edges = [], []
+    for key, _ in KEY_ORDER:
+        pop = [r[key] for r in base_rows if r.get(key) is not None]
+        entry = {"value": mine.get(key)}
+        if enough and pop and mine.get(key) is not None:
+            pop_sorted = sorted(pop)
+            entry.update({
+                "baseline_median": statistics.median(pop_sorted),
+                "baseline_min": pop_sorted[0],
+                "baseline_max": pop_sorted[-1],
+                "percentile": percentile(mine[key], pop_sorted),
+                "outside_range": not (pop_sorted[0] <= mine[key] <= pop_sorted[-1]),
+            })
+            low, high = band(pop_sorted)
+            entry.update({"band_low": low, "band_high": high,
+                          "edge": not entry["outside_range"] and not (low <= mine[key] <= high)})
+            if entry["outside_range"]:
+                outliers.append(key)
+            elif entry["edge"]:
+                edges.append(key)
+        report["metrics"][key] = entry
+
+    # Per-section evenness needs no baseline at all, which makes it the one
+    # measurement here that is never blocked -- and the one whose absence used
+    # to look like nothing. The key was simply missing when the target was a
+    # directory, so a run that never computed it and a run with nothing to say
+    # produced the same report. It now always appears, with its reason.
+    if not (target.is_file() and target.suffix.lower() in {".tex", ".md"}):
+        report["per_section_cv"] = None
+        report["per_section_note"] = (
+            "NOT COMPUTED: per-section rates need a single .tex or .md target and "
+            "--target is {}. This metric needs no baseline and is the one that shows "
+            "whether the device runs evenly across sections, so its absence is a hole "
+            "in the reading, not a clean result.".format(
+                "a directory" if target.is_dir() else "a " + (target.suffix or "file")))
+    else:
+        raw = target.read_text(encoding="utf-8", errors="replace")
+        secs = sections(text, target.suffix.lower(), raw)
+        if len(secs) < 3:
+            report["per_section_cv"] = None
+            report["per_section_note"] = (
+                "NOT COMPUTED: {} section(s) were found in {}; three are needed for a "
+                "cross-section spread.".format(len(secs), target.name))
+        else:
+            rates = {}
+            for name, body in secs.items():
+                w = len(body.split())
+                rates[name] = 1000.0 * len(re.findall(CONTRAST, body)) / w
+            spread = cv(list(rates.values()))
+            report["per_section_contrast_per_1k"] = rates
+            report["per_section_cv"] = spread
+            report["per_section_note"] = (
+                "A low cross-section CV means the device runs at the same rate in the "
+                "dutiful sections as in the discussion. That evenness is the signature; "
+                "the fix is to redistribute, not merely to reduce.")
+    if args.per_file and target.is_dir():
+        files = per_file(target)
+        judged = [f for f in files.values() if not f["short"]]
+        report["per_file"] = files
+        report["peaks"] = peaks(files)
+        if len(judged) >= 3:
+            report["per_section_cv"] = {k: cv([f["metrics"][k] for f in judged if f["metrics"].get(k) is not None])
+                                        for k, _ in DEVICE_KEYS}
+            report["per_section_note"] = None
+        else:
+            report["per_section_cv"] = None
+            report["per_section_note"] = (
+                "NOT COMPUTED: {} file(s) have at least {} words; three are needed for a "
+                "cross-section spread.".format(len(judged), MIN_SECTION_WORDS))
+    # When the target is read one way and the baseline another, every
+    # percentile above compares two readings, not two documents. The tool
+    # cannot remove the asymmetry -- a published PDF has no source to strip --
+    # but it does not have to warn about it in prose either. When the target's
+    # own build sits beside it, the same metrics are measured through the
+    # baseline's pipeline as well, so the cost of the mismatch is a number in
+    # this report rather than a caution the reader is asked to remember.
+    report["pipeline_cross_check"] = None
+    if report["pipeline_mismatch"]:
+        note = ("target and baseline are read through different pipelines "
+                "({} vs {}); percentiles compare two readings of a document, not "
+                "two documents".format(", ".join(target_pipelines),
+                                       ", ".join(sorted(base_pipelines))))
+        twin = target.with_suffix(".pdf") if target.is_file() else None
+        if twin is not None and twin != target and twin.exists():
+            twin_text = load(twin)
+            if twin_text:
+                twin_m = measure(twin_text)
+                report["pipeline_cross_check"] = {
+                    "as_read": target.name,
+                    "as_baseline_would_read": twin.name,
+                    "metrics": {k: {"as_read": mine.get(k),
+                                    "as_baseline_would_read": twin_m.get(k)}
+                                for k, _ in KEY_ORDER},
+                    "words": {"as_read": mine["words"],
+                              "as_baseline_would_read": twin_m["words"]},
+                }
+                note += ("; measured on this document, the two readings are in "
+                         "pipeline_cross_check")
+        else:
+            note += ("; no built .pdf was found next to --target, so the size of "
+                     "the difference on THIS document is not measured here")
+        report["pipeline_note"] = note
+
+    report["outliers"] = outliers
+    report["edge"] = edges
+
+    if contaminated:
+        sys.stderr.write(
+            "error: the baseline contains {} document(s) that share more than "
+            "{:.2f}% of the target's 4-grams, which is what a draft or a copy of "
+            "the target looks like:\n".format(len(suspect), args.overlap_threshold))
+        for s in suspect:
+            sys.stderr.write("  {}  {}%\n".format(s["file"], s["target_4gram_share_pct"]))
+        sys.stderr.write(
+            "  Percentiles are withheld. Exclude them with --exclude, or pass "
+            "--allow-overlap if the overlap is intended.\n")
+
+    if args.emit_json:
+        print(json.dumps(report, indent=2))
+    else:
+        print("target: {}  ({:,} words)".format(target, int(mine["words"])))
+        if args.baseline:
+            print("baseline: {} documents{}".format(
+                len(base_rows), "" if enough else "  [too few for percentiles]"))
+            if skipped:
+                print("  unreadable (install pdftotext?): {}".format(", ".join(skipped[:6])))
+        print()
+        head = "{:<26}{:>10}".format("metric", "target")
+        if enough:
+            head += "{:>10}{:>18}{:>8}".format("median", "range", "pct")
+        if suspect:
+            print("  suspected drafts/copies of the target in the baseline: {}".format(
+                ", ".join("{} ({}%)".format(s["file"], s["target_4gram_share_pct"])
+                          for s in suspect)))
+            print()
+        print(head)
+        for key, label in KEY_ORDER:
+            e = report["metrics"][key]
+            if e["value"] is None:
+                continue
+            line = "{:<26}{:>10.3f}".format(label, e["value"])
+            if "baseline_median" in e:
+                line += "{:>10.3f}{:>18}{:>8.0f}".format(
+                    e["baseline_median"],
+                    "{:.2f}-{:.2f}".format(e["baseline_min"], e["baseline_max"]),
+                    e["percentile"])
+                if e["outside_range"]:
+                    line += "  *"
+                elif e.get("edge"):
+                    line += "  ~"
+            print(line)
+        if report.get("per_file"):
+            print("\nper file, /1k: " + ", ".join(label for _, label in DEVICE_KEYS) + "  (* too short to judge)")
+            for name, f in report["per_file"].items():
+                vals = "".join("{:>9.2f}".format(f["metrics"][k] or 0.0) for k, _ in DEVICE_KEYS)
+                print("  {:<44}{}{}".format(name[:44], vals, "  *" if f["short"] else ""))
+            for key, pk in report.get("peaks", {}).items():
+                if pk["verdict"] in ("backwards", "look"):
+                    print("  {} peaks in {} ({}): {}".format(
+                        key, pk["file"], pk["role"],
+                        "backwards, this section should be plain" if pk["verdict"] == "backwards" else "worth a look"))
+        if isinstance(report.get("per_section_cv"), float):
+            print("\nper-section corrective-diptych rate  (cross-section CV {:.2f})".format(
+                report["per_section_cv"]))
+            for name, r in report["per_section_contrast_per_1k"].items():
+                print("  {:<44}{:>7.1f}".format(name, r))
+        if outliers:
+            print("\noutside the baseline range: {}".format(", ".join(outliers)))
+        if edges:
+            print("at the edge (inside the range, outside the baseline's {}th-{}th percentile band): {}".format(
+                EDGE_BAND[0], EDGE_BAND[1], ", ".join(edges)))
+        print("\nNote: none of these values is a target to hit. Editing to move a "
+              "number\nrather than to fix a sentence produces a different artefact, "
+              "not a better one.")
+
+    # 2, not 1: 1 means "measured, and something is outside the range"; 2 means
+    # "not measured, because the baseline could not be trusted". Without the
+    # distinction a contaminated run returns 0, since withheld percentiles
+    # produce no outliers -- a failed precondition reading as success.
+    if contaminated:
+        return 2
+    return 1 if outliers else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

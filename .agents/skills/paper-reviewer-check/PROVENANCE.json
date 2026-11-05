@@ -1,0 +1,9 @@
+{
+  "name": "paper-reviewer-check",
+  "repository": "https://github.com/duck011002/codex-custom-skills",
+  "path": "skills/paper-reviewer-check",
+  "commit": "6fa6a497e601bd54039ff109ac89272b3a82b585",
+  "source_skill_sha256": "faf7bbd0edd90a949121b7719c30a3d8dd131405209fa46d98250c49e0570fbd",
+  "installed_skill_sha256": "faf7bbd0edd90a949121b7719c30a3d8dd131405209fa46d98250c49e0570fbd",
+  "license": "UNSPECIFIED; README explicitly permits copy-install; no general redistribution license"
+}

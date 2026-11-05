@@ -1,0 +1,61 @@
+{
+  "method": "Russian letter tokens in body; headings included; footnotes excluded",
+  "files": [
+    {
+      "path": "manuscript/introduction.md",
+      "sha256": "1be65f3f1674cb0bb2118828f04ef7890e5b858b04fe85f61b3805a172e070e2",
+      "russian_body_words": 2116,
+      "whitespace_body_words": 2174,
+      "footnote_definitions": 16,
+      "footnote_occurrences": 16,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "sha256": "7209c0f48059b234025011485111a60c87b2835bd485ea9e9b8bd7b437f27708",
+      "russian_body_words": 3288,
+      "whitespace_body_words": 3303,
+      "footnote_definitions": 32,
+      "footnote_occurrences": 33,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
+    }
+  ],
+  "errors": [],
+  "cross_file_duplicate_footnotes": [],
+  "bibliographic_entries": 29,
+  "duplicate_bibliographic_keys": [],
+  "installed_skill_names": [
+    "academic-humanizer",
+    "awt-audit",
+    "awt-export",
+    "awt-map",
+    "awt-note",
+    "awt-verify-refs",
+    "citation-verification",
+    "historian",
+    "history-research-guide",
+    "hr-argument-planning",
+    "hr-explanation-testing",
+    "hr-historiography",
+    "hr-source-criticism",
+    "humanizer",
+    "paper-deep-research",
+    "paper-reviewer-check",
+    "unslop-academic-writing"
+  ],
+  "duplicate_skill_names": [],
+  "installed_skill_files_hash_checked": 180,
+  "installed_skill_file_mismatches": [],
+  "documented_distribution_exclusions_absent": [],
+  "total_russian_body_words": 5404,
+  "total_footnote_occurrences": 49,
+  "status": "pass"
+}

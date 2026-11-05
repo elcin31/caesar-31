@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Reviewer Check"
+  short_description: "Review a draft like a strict academic reviewer."
+  default_prompt: "Use $paper-reviewer-check to review this draft and list fixable weaknesses."

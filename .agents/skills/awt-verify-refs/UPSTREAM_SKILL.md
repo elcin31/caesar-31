@@ -1,0 +1,50 @@
+---
+name: verify-refs
+description: Use when checking BibTeX reference records for missing fields, malformed identifiers, duplicate keys, or metadata mismatches before submission.
+allowed-tools: Read, Glob, Bash, WebFetch
+---
+
+# /verify-refs — Reference Authenticity Check
+
+## Running Python helpers
+
+Choose the interpreter before running the examples. For a globally installed
+copy, use the private runtime recorded by its installer. In a checkout or linked
+workspace, use `AWT_PYTHON` when set, otherwise the toolkit's `.venv` (follow the
+skill directory link back to the toolkit): `Scripts/python.exe` on Windows,
+`bin/python` on macOS/Linux. Without that environment, check that `python`
+(Windows) or `python3` (macOS/Linux) actually runs and has the helper's dependencies.
+Replace the example's `python3` with that executable. In PowerShell, prefix a
+quoted executable with `&`; keep commands on one line and quote file paths.
+
+## Purpose
+
+Check reference records for missing required fields, duplicate keys, malformed DOI values, malformed arXiv identifiers, and invalid URLs. The default mode is offline and deterministic.
+
+## Trigger Words
+
+This skill activates on: `verify refs`, `verify references`, `reference check`, `/verify-refs`.
+
+## Workflow
+
+1. Identify the target Markdown or `.bib` file. If the user does not specify one, ask.
+2. Run:
+   `python3 .claude/skills/verify-refs/scripts/verify-refs.py --bib "{path}" --json`
+3. Report issues by entry key and severity.
+4. For explicit metadata verification, run:
+   `python3 .claude/skills/verify-refs/scripts/verify-refs.py --bib "{path}" --json --online`
+5. Use CrossRef for DOI metadata, Semantic Scholar as a secondary metadata source, and arXiv for preprint identifiers. Online checks must be explicit because they depend on network availability.
+6. In tests or offline review, use `--metadata-dir "{dir}"` to read CrossRef JSON, Semantic Scholar JSON, and arXiv Atom fixtures instead of live network calls.
+7. For a LaTeX manuscript, reconcile its citations with the `.bib` file both ways:
+   `python3 .claude/skills/verify-refs/scripts/reconcile-cites.py --bib "{bib}" --root "{repo}" --json "{main.tex}" ...`
+   It follows `\input`, `\include` and `\subfile`, reports keys cited but not defined and entries defined but cited
+   nowhere, and treats `\nocite{*}` as citing everything. Macro definitions (`\newcommand`, `\renewcommand`,
+   `\providecommand`, `\def`, `\let` ...) are skipped with their bodies, and a token starting with `\` or `#` is never
+   read as a key; a key written out in a definition body counts as cited. Exit 2 when nothing could be read.
+
+## Constraints
+
+1. Do not import project-specific reference rules from other repositories.
+2. Do not auto-fix reference records without user approval.
+3. Keep output plain Markdown with no emoji.
+4. Treat CrossRef, Semantic Scholar, and arXiv as verification sources, not as citation style authorities.

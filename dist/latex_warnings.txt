@@ -1,0 +1,614 @@
+Underfull \hbox (badness 4913) in paragraph at lines 7--7
+ [] []\TU/DejaVuSerif(2)/b/n/10 Глава 1. Римская республика: институты, об- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ \TU/DejaVuSerif(2)/b/n/10 щество и кризисы позднереспубликанского 
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 215--227
+\TU/DejaVuSerif(2)/m/n/10 заговоры и попытки мятежа. Их перечень разнороден,
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 215--227
+\TU/DejaVuSerif(2)/m/n/10 а обстоятельства отдельных эпизодов требуют особой
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 215--227
+\TU/DejaVuSerif(2)/m/n/10 жений и сохранять признанное первенство в условиях
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 215--227
+\TU/DejaVuSerif(2)/m/n/10 но не служит его заменой. Система, действующая при
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 258--268
+[]\TU/DejaVuSerif(2)/m/n/10 Историческая значимость этой проблемы определяется
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 258--268
+\TU/DejaVuSerif(2)/m/n/10 связью между согласованными процедурами и неравен-
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 258--268
+\TU/DejaVuSerif(2)/m/n/10 ничения власти, выборы, коллегиальность и публичное
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 258--268
+\TU/DejaVuSerif(2)/m/n/10 исход силой. Современные аналогии могут подсказать
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 258--268
+\TU/DejaVuSerif(2)/m/n/10 вопрос, но доказательство должно оставаться римским:
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 272--283
+\TU/DejaVuSerif(2)/m/n/10 сколько влиятельным был гражданский коллектив при
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 304--304
+\TU/DejaVuSerif(2)/m/n/8 Erich S. Gruen, \TU/DejaVuSerif(2)/m/it/8 The Last Gen
+eration of the Roman Republic \TU/DejaVuSerif(2)/m/n/8 (Berkeley:
+ []
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--305
+[]\TU/DejaVuSerif(2)/m/n/10 Отправной библиографический корпус включает \TU/Dej
+aVuSerif(2)/m/it/10 The
+ []
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--305
+\TU/DejaVuSerif(2)/m/n/10 обсуждают спор о продолжающейся жизнеспособно-
+ []
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 284--305
+\TU/DejaVuSerif(2)/m/n/10 сти позднереспубликанских институтов, обращаясь, в
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 284--305
+\TU/DejaVuSerif(2)/m/n/10 по себе не устанавливает неизбежности последующей
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 306--317
+\TU/DejaVuSerif(2)/m/n/10 ря до августовских урегулирований, выделяют разные
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 306--317
+\TU/DejaVuSerif(2)/m/n/10 этой монографии поэтому различает историю насилия,
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 355--355
+[][][]\TU/DejaVuSerif(2)/m/n/8 Francisco Pina Polo, “Idea y práctica de la demo
+cracia en la Roma
+ []
+
+Underfull \hbox (badness 1983) in paragraph at lines 336--356
+\TU/DejaVuSerif(2)/m/n/10 Пина Поло возражает против слишком сильного пред-
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 386--396
+\TU/DejaVuSerif(2)/m/n/10 Источниковый корпус не представляет собой последо-
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 386--396
+\TU/DejaVuSerif(2)/m/n/10 и Цицерон были участниками борьбы; Август оставил
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 386--396
+\TU/DejaVuSerif(2)/m/n/10 надёжности. Современник мог оправдываться; поздний
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 386--396
+\TU/DejaVuSerif(2)/m/n/10 автор мог сохранить утраченное раннее свидетельство.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--426
+[]\TU/DejaVuSerif(2)/m/n/10 Цицероновская переписка позволяет приблизиться к
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 412--426
+\TU/DejaVuSerif(2)/m/n/10 неопределённости ещё не завершившихся событий. В
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 412--426
+\TU/DejaVuSerif(2)/m/n/10 требует учитывать адресата, условия обмена письмами
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 487--499
+\TU/DejaVuSerif(2)/m/n/10 отбора, произведённого самим автором и последующей
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 487--499
+\TU/DejaVuSerif(2)/m/n/10 передачей текста. Монеты, надписи и памятники архи-
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 487--499
+\TU/DejaVuSerif(2)/m/n/10 тектуры расширяют корпус за пределы литературной
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 503--512
+\TU/DejaVuSerif(2)/m/n/10 современной литературы указываются только там, где
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 513--522
+\TU/DejaVuSerif(2)/m/n/10 вым вопросам: происхождение ресурсов, состав союзов,
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 513--522
+\TU/DejaVuSerif(2)/m/n/10 войны может менять отношения между победителем и
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 513--522
+\TU/DejaVuSerif(2)/m/n/10 восстановить последовательность и показать механизм,
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 523--532
+\TU/DejaVuSerif(2)/m/n/10 конкуренции. Вторая прослеживает связь завоеваний,
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 523--532
+\TU/DejaVuSerif(2)/m/n/10 гражданской войны и диктатуры, завершаясь анализом
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 523--532
+\TU/DejaVuSerif(2)/m/n/10 наследника в самостоятельного руководителя коалиции
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 523--532
+\TU/DejaVuSerif(2)/m/n/10 и участника триумвирата. Четвёртая исследует устрой-
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 523--532
+\TU/DejaVuSerif(2)/m/n/10 выражение, финансы и преемство. Пятая сопоставляет
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 523--532
+\TU/DejaVuSerif(2)/m/n/10 полученные результаты, сохраняя различие между че-
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 580--590
+\TU/DejaVuSerif(2)/m/n/10 решений. Военное командование поэтому вырастало из
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 580--590
+\TU/DejaVuSerif(2)/m/n/10 распоряжался финансовыми решениями, участвовал в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--617
+[]\TU/DejaVuSerif(2)/m/n/10 Республиканское устройство поэтому нельзя описать
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 606--617
+\TU/DejaVuSerif(2)/m/n/10 полномочия учреждений, способы их осуществления и
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 618--630
+\TU/DejaVuSerif(2)/m/n/10 альными отношениями: отсрочка платежа, исполнение
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 618--630
+\TU/DejaVuSerif(2)/m/n/10 договора, судебное разбирательство могли затрагивать
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 618--630
+\TU/DejaVuSerif(2)/m/n/10 частное благополучие. Институты действовали внутри
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 618--630
+\TU/DejaVuSerif(2)/m/n/10 общества обязательств, ожиданий и неравного досту-
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 618--630
+\TU/DejaVuSerif(2)/m/n/10 па к средствам защиты. Поэтому противопоставление
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 618--630
+\TU/DejaVuSerif(2)/m/n/10 средств, посредством которых влияние превращалось в
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 631--646
+\TU/DejaVuSerif(2)/m/n/10 сотрудничать. Историк столь же уверенно рассчитывал
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 631--646
+\TU/DejaVuSerif(2)/m/n/10 ное усиление друг друга в мирное время. Но наличие
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 631--646
+\TU/DejaVuSerif(2)/m/n/10 точки зрения позднереспубликанский кризис состоял
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 о том, какое поведение заслуживает признания. Поли-
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 гражданами выступали носители изображений предков,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 обозначавшие одеждой и знаками отличия прежние
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 магистратуры и победы. Погребальная речь соединяла
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 заслуги умершего с достижениями рода. Так частная
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 в политической борьбе. Для молодого аристократа се-
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 мейная память создавала одновременно преимущество
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 всегда находилась вне республиканского порядка. Сам
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 647--666
+\TU/DejaVuSerif(2)/m/n/10 порядок воспитывал соревнование, обещая признание
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 685--699
+[]\TU/DejaVuSerif(2)/m/n/10 Картина Полибия отличается от позднейшего рассказа
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--699
+\TU/DejaVuSerif(2)/m/n/10 Саллюстия о разрушительном воздействии богатства.
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 685--699
+\TU/DejaVuSerif(2)/m/n/10 заговоре, исследует нравственные основания смуты. В
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 685--699
+\TU/DejaVuSerif(2)/m/n/10 обоих случаях виден отбор примеров, соответствующих
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 685--699
+\TU/DejaVuSerif(2)/m/n/10 поставленной задаче. Отсюда возникает методическое
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 685--699
+\TU/DejaVuSerif(2)/m/n/10 требование: ни похвала прежней дисциплине, ни осуж-
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 717--717
+[][][]\TU/DejaVuSerif(2)/m/n/8 Аппиан, \TU/DejaVuSerif(2)/m/it/8 Гражданские во
+йны \TU/DejaVuSerif(2)/m/n/8 1.7–9. Проверено по: Appian, \TU/DejaVuSerif(2)/m/
+it/8 Roman
+
+Underfull \hbox (badness 2269) in paragraph at lines 703--718
+\TU/DejaVuSerif(2)/m/n/10 богатые владельцы закреплялись на занятых участках,
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 703--718
+\TU/DejaVuSerif(2)/m/n/10 положение свободных земледельцев. Земельный вопрос
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 703--718
+\TU/DejaVuSerif(2)/m/n/10 оказывается одновременно вопросом собственности, во-
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 703--718
+\TU/DejaVuSerif(2)/m/n/10 енного набора и численности италийского населения.
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 719--733
+\TU/DejaVuSerif(2)/m/n/10 едином непрерывном разорении всего крестьянства из
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 747--759
+\TU/DejaVuSerif(2)/m/n/10 господства, но общность военных усилий не означала
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 850--860
+\TU/DejaVuSerif(2)/m/n/10 напряжённости и механизм её превращения в войну.
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 850--860
+\TU/DejaVuSerif(2)/m/n/10 ставляет пространство политической истории, которое
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 862--862
+|\TU/DejaVuSerif(2)/b/n/14.4 Войско, гражданская война и сул-
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 892--903
+\TU/DejaVuSerif(2)/m/n/10 новых граждан по трибам. Военное назначение, граж-
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 892--903
+\TU/DejaVuSerif(2)/m/n/10 ссылались на проведённое ими решение. Каждый мог
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 892--903
+\TU/DejaVuSerif(2)/m/n/10 ности. Тем самым спор о действительности процедуры
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 917--928
+[]\TU/DejaVuSerif(2)/m/n/10 Сулланские проскрипции после победы в следующей
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 956--967
+[]\TU/DejaVuSerif(2)/m/n/10 Сулланские меры регулировали последовательность ма-
+
+ []
+
+Underfull \hbox (badness 2726) in paragraph at lines 956--967
+\TU/DejaVuSerif(2)/m/n/10 существования Сената. Необходимо выяснять, кто мог
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 968--980
+\TU/DejaVuSerif(2)/m/n/10 повседневное управление обычным учреждениям. Одна-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 968--980
+\TU/DejaVuSerif(2)/m/n/10 удалившегося диктатора, завершается предсказанием
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 968--980
+\TU/DejaVuSerif(2)/m/n/10 о невозможности будущих отставок. Это литературное
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 982--982
+|\TU/DejaVuSerif(2)/b/n/14.4 Республика после Суллы: незавер-
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 984--1000
+\TU/DejaVuSerif(2)/m/n/10 Восстановление трибунских полномочий при консулах
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 984--1000
+\TU/DejaVuSerif(2)/m/n/10 чество людей, прикрывающих собственное возвышение
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1001--1012
+[]\TU/DejaVuSerif(2)/m/n/10 Долговые затруднения также затрагивали разные соци-
+
+ []
+
+Underfull \hbox (badness 4752) in paragraph at lines 1001--1012
+\TU/DejaVuSerif(2)/m/n/10 Манлия сторонники Катилины объясняют вооружение
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 1001--1012
+\TU/DejaVuSerif(2)/m/n/10 нравственной испорченности: утрата имущества могла
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 1013--1026
+\TU/DejaVuSerif(2)/m/n/10 ствием богатства, честолюбия и памяти о сулланской
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 1013--1026
+\TU/DejaVuSerif(2)/m/n/10 победе. Его описание городской массы демонстрирует
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 1013--1026
+\TU/DejaVuSerif(2)/m/n/10 явную враждебность: бедность превращается у него в
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 1027--1039
+\TU/DejaVuSerif(2)/m/n/10 само противопоставление не сводится к снисходитель-
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 1078--1090
+\TU/DejaVuSerif(2)/m/n/10 обычные учреждения сохраняли способность произво-
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 1078--1090
+\TU/DejaVuSerif(2)/m/n/10 всем участникам безопасного поражения. Здесь сходи-
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 1078--1090
+\TU/DejaVuSerif(2)/m/n/10 лись несколько напряжений: распределение завоёван-
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 1137--1143
+\TU/DejaVuSerif(2)/m/n/10 данские войны»1.9–27,34–60,95–104; Саллюстий, «Югур-
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 1137--1143
+\TU/DejaVuSerif(2)/m/n/10 тинская война»86.2–3 и «Заговор Катилины»38,51–54;
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 1203--1206
+\TU/DejaVuSerif(2)/m/n/10 случае различать полномочие лица и территориально-
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 1207--1210
+[]\TU/DejaVuSerif(2)/b/n/10 Intercessio. \TU/DejaVuSerif(2)/m/n/10 Вмешательств
+о, останавливающее действие
+ []
+
+Underfull \hbox (badness 10000) in paragraph at lines 1235--1235
+|\TU/DejaVuSerif(2)/b/n/14.4 Античные источники: выбранные
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 1237--1244
+\TU/DejaVuSerif(2)/m/n/10 ванные электронные воспроизведения с указанием их
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 1237--1244
+\TU/DejaVuSerif(2)/m/n/10 транскрипций перечислены в сопровождающем реестре
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 1245--1250
+\TU/DejaVuSerif(2)/m/n/10 White. Т. III. Loeb Classical Library, 1913. Электрон
+ная
+ []
+
+Underfull \hbox (badness 2418) in paragraph at lines 1251--1258
+\TU/DejaVuSerif(2)/m/n/10 греческий перевод и английский перевод Frederick W.
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 1251--1258
+\TU/DejaVuSerif(2)/m/it/10 Divi Augusti\TU/DejaVuSerif(2)/m/n/10 . Loeb Classic
+al Library, 1924. [][]LacusCurtius[][].
+ []
+
+Underfull \hbox (badness 1033) in paragraph at lines 1251--1258
+\TU/DejaVuSerif(2)/m/n/10 § 34 используется с оговоркой об устаревших чтениях;
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 1259--1263
+[]\TU/DejaVuSerif(2)/m/n/10 Веллей Патеркул. \TU/DejaVuSerif(2)/m/it/10 Compend
+ium of Roman History\TU/DejaVuSerif(2)/m/n/10 . Пере-
+ []
+
+Underfull \hbox (badness 4391) in paragraph at lines 1259--1263
+\TU/DejaVuSerif(2)/m/n/10 вод Frederick W. Shipley. Loeb Classical Library, 192
+4.
+ []
+
+Underfull \hbox (badness 2452) in paragraph at lines 1324--1327
+[]\TU/DejaVuSerif(2)/m/n/10 Cooley, Alison E. “From the Augustan Principate to 
+the
+ []
+
+Underfull \hbox (badness 1721) in paragraph at lines 1328--1330
+[]\TU/DejaVuSerif(2)/m/n/10 Flower, Harriet I. \TU/DejaVuSerif(2)/m/it/10 Roman
+ Republics\TU/DejaVuSerif(2)/m/n/10 . Princeton: Princeton
+ []
+
+Underfull \hbox (badness 2753) in paragraph at lines 1331--1333
+[]\TU/DejaVuSerif(2)/m/n/10 Galinsky, Karl. \TU/DejaVuSerif(2)/m/it/10 Augustus
+: Introduction to the Life of an
+ []
+
+Underfull \hbox (badness 1264) in paragraph at lines 1343--1345
+[]\TU/DejaVuSerif(2)/m/n/10 Lintott, Andrew. \TU/DejaVuSerif(2)/m/it/10 The Con
+stitution of the Roman Republic\TU/DejaVuSerif(2)/m/n/10 .
+ []
+
+Underfull \hbox (badness 10000) in paragraph at lines 1350--1355
+[]\TU/DejaVuSerif(2)/m/n/10 Morstein-Marx, Robert, and Nathan Rosenstein. “The
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 1350--1355
+\TU/DejaVuSerif(2)/m/n/10 Transformation of the Republic.” In \TU/DejaVuSerif(2
+)/m/it/10 A Companion to the
+ []
+
+Underfull \hbox (badness 4353) in paragraph at lines 1360--1365
+\TU/DejaVuSerif(2)/m/n/10 In \TU/DejaVuSerif(2)/m/it/10 Des réformes augustéenn
+es\TU/DejaVuSerif(2)/m/n/10 , 37–121. Publications de
+ []
+
+Underfull \hbox (badness 5331) in paragraph at lines 1360--1365
+\TU/DejaVuSerif(2)/m/n/10 l’École française de Rome 458. Rome: École française
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 1366--1368
+[]\TU/DejaVuSerif(2)/m/n/10 Syme, Ronald. \TU/DejaVuSerif(2)/m/it/10 The Roman 
+Revolution\TU/DejaVuSerif(2)/m/n/10 . Oxford: Clarendon
+ []

@@ -1,0 +1,148 @@
+[
+  {
+    "key": "millar1984",
+    "doi": "10.2307/299003",
+    "title": [
+      "The Political Character of the Classical Roman Republic, 200–151 B.C."
+    ],
+    "author": [
+      {
+        "given": "Fergus",
+        "family": "Millar",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1984,
+          11
+        ]
+      ]
+    },
+    "volume": "74",
+    "issue": null,
+    "page": "1-19",
+    "accessed": "2026-11-04"
+  },
+  {
+    "key": "wallacehadrill1982",
+    "doi": "10.2307/299114",
+    "title": [
+      "Civilis Princeps: Between Citizen and King"
+    ],
+    "author": [
+      {
+        "given": "Andrew",
+        "family": "Wallace-Hadrill",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1982,
+          11
+        ]
+      ]
+    },
+    "volume": "72",
+    "issue": null,
+    "page": "32-48",
+    "accessed": "2026-11-04"
+  },
+  {
+    "key": "cooley2019",
+    "doi": "10.1017/S0075435819000674",
+    "title": [
+      "From the Augustan Principate to the Invention of the Age of Augustus"
+    ],
+    "author": [
+      {
+        "given": "Alison E.",
+        "family": "Cooley",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          4
+        ]
+      ]
+    },
+    "volume": "109",
+    "issue": null,
+    "page": "71-87",
+    "accessed": "2026-11-04"
+  },
+  {
+    "key": "pinapolo2019",
+    "doi": "10.5209/geri.65979",
+    "title": [
+      "Idea y práctica de la democracia en la Roma republicana",
+      "Idea and Practice of Democracy in Republican Rome"
+    ],
+    "author": [
+      {
+        "given": "Francisco",
+        "family": "Pina Polo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/012a91z28",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Universidad de Zaragoza"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          9
+        ]
+      ]
+    },
+    "volume": "37",
+    "issue": "2",
+    "page": "379-397",
+    "accessed": "2026-11-04"
+  }
+]

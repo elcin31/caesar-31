@@ -1,0 +1,262 @@
+[
+  {
+    "name": "unslop-academic-writing",
+    "repository": "https://github.com/KalarisLabs/research-agent-skills",
+    "path": "skills/unslop-academic-writing",
+    "commit": "fa023d6d166562a8de118f59bb73647c0e444b8c",
+    "source_skill_sha256": "978e0f89c50b1f01ea4a6ef80c44d06c83f1f8e59a0518c4c71b348809c16aaf",
+    "installed_skill_sha256": "978e0f89c50b1f01ea4a6ef80c44d06c83f1f8e59a0518c4c71b348809c16aaf",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "0e5b3b9a6a640ba83663fb88313c30e991d5a28dfddef5bf1eebe59e7cbec12d"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "978e0f89c50b1f01ea4a6ef80c44d06c83f1f8e59a0518c4c71b348809c16aaf"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "sha256": "ca9be3083e0a802524a9e40c59eb7c4604eb2cb849399eec4c9763a6df130f05"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "add01364232760e5c85a4e3e87398becdd43ba3373dc2b5bacbfebd11fcae686"
+      },
+      {
+        "path": "references/discipline-voice.md",
+        "sha256": "69c54b52b4e00373c7c1df1c50d5a8c309dd4f04ebcaf264e45f6eeabae5c192"
+      },
+      {
+        "path": "references/patterns.md",
+        "sha256": "2a373d771c0ef004e493cd0f076be0cfde2e34e4230a27398ae82b5a23a8ff66"
+      },
+      {
+        "path": "scripts/slop_check.py",
+        "sha256": "355a1c71cc72d4819d66dc04bdfbdf770d9a8949e866064cf97c58db06a41b27"
+      }
+    ]
+  },
+  {
+    "name": "citation-verification",
+    "repository": "https://github.com/KalarisLabs/research-agent-skills",
+    "path": "skills/citation-verification",
+    "commit": "fa023d6d166562a8de118f59bb73647c0e444b8c",
+    "source_skill_sha256": "dfc482ae5d8f555828ba8b84648330f26012d2c2a18b713c9856c19db9816c86",
+    "installed_skill_sha256": "dfc482ae5d8f555828ba8b84648330f26012d2c2a18b713c9856c19db9816c86",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "0e5b3b9a6a640ba83663fb88313c30e991d5a28dfddef5bf1eebe59e7cbec12d"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "dfc482ae5d8f555828ba8b84648330f26012d2c2a18b713c9856c19db9816c86"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "sha256": "ca9be3083e0a802524a9e40c59eb7c4604eb2cb849399eec4c9763a6df130f05"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "add01364232760e5c85a4e3e87398becdd43ba3373dc2b5bacbfebd11fcae686"
+      },
+      {
+        "path": "scripts/verify_citations.py",
+        "sha256": "cea61edff59311162271bf61c36ba5c6ba735bdfcf22534914798b0cf272d99a"
+      }
+    ]
+  },
+  {
+    "name": "humanizer",
+    "repository": "https://github.com/hannsxpeter/humanizer",
+    "path": ".",
+    "commit": "e8f1248a7d4919689c1f942e356ed95b102d9f07",
+    "source_skill_sha256": "be41d90e1d9e09886534930f278da8016814e0b4ee8f4187a545235ae80fe099",
+    "installed_skill_sha256": "be41d90e1d9e09886534930f278da8016814e0b4ee8f4187a545235ae80fe099",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "6ed4351b9f61f7d179c0b8e4ba19e71ac62b7b8345af1dbe3bea21b3be2f4909"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "be41d90e1d9e09886534930f278da8016814e0b4ee8f4187a545235ae80fe099"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "507f15f8b225b8965a17b01725e1f005daec77f3e0a0985ecf97964ad787d520"
+      },
+      {
+        "path": "references/do-not-flag.md",
+        "sha256": "81149e25df73f8c5859d7e94b198ed14b6a2033eee9d4b7e2de7ec72e3da7862"
+      },
+      {
+        "path": "references/examples.md",
+        "sha256": "49701fa804dee92d051c3739b638734ef7746c20433de5f0848cda01d37ce3f4"
+      },
+      {
+        "path": "references/tell-patterns.md",
+        "sha256": "22be039559fa94916f9beedd78cab6b463a135a67cdaa5a9fb68b0403cf351b3"
+      },
+      {
+        "path": "references/text-hygiene.md",
+        "sha256": "9fc84ebfc172438b0ac26057445d03baf3709c4ad68ac2035174e468d9a80b19"
+      },
+      {
+        "path": "references/voice-matching.md",
+        "sha256": "84008569b1403aa20d5988aebb826ac06eca4e72a2c44d08567ce286eac0cada"
+      }
+    ]
+  },
+  {
+    "name": "academic-humanizer",
+    "repository": "https://github.com/ashgreat/humanizer",
+    "path": ".",
+    "commit": "952c8a138e29eb2cbe637b8ae8e9f6c6e2f6d627",
+    "source_skill_sha256": "f88e1e77d8056eab2457e459edc04b5245bdeec2e21f2247054fc6769e936379",
+    "installed_skill_sha256": "918e48c34c6d1b372a37cc660fb5ee8dde8b1218c7f558949dec3e81ea4f82f1",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "2c6bb70adbaa20dbd0e974dacde30366b371dc8c119f45e53515ab388ab345f7"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "918e48c34c6d1b372a37cc660fb5ee8dde8b1218c7f558949dec3e81ea4f82f1"
+      },
+      {
+        "path": "SOURCE_SKILL.md",
+        "sha256": "f88e1e77d8056eab2457e459edc04b5245bdeec2e21f2247054fc6769e936379"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "12599cbf6e3cb26847f9dc82f5191a144c8a22d0f56b69724f410a520eb2f1c7"
+      },
+      {
+        "path": "references/before-after-examples.md",
+        "sha256": "c0f5be8ba6e775ddcb8ae0b598df68b3535c0e658d147d03e26a030a97c3522f"
+      },
+      {
+        "path": "references/full-taxonomy.md",
+        "sha256": "760f1028ad1d46219d1589223eace276bdb8c317e92a0a3f1b535e977a7c294f"
+      },
+      {
+        "path": "references/measured-signals.md",
+        "sha256": "b8ea29f109fee627561744909d3dd56b4a014e48128be2e2c4de4c3c18df64dd"
+      },
+      {
+        "path": "scripts/detect_ai.py",
+        "sha256": "16c179f8e23b7f1e80a419620f22c26d3cb83b112246fa9b9868d1d5ad2496ef"
+      }
+    ]
+  },
+  {
+    "name": "historian",
+    "repository": "https://github.com/wonsukchoi/domain-experts",
+    "path": "roles/historian",
+    "commit": "859db64cd745861e528dffc1936e9dbaf0b50ee2",
+    "source_skill_sha256": "4bc5c657a880c309527e86a500c192c9d4b036b3b65d5f5eec2acb4f9ba32a3d",
+    "installed_skill_sha256": "4bc5c657a880c309527e86a500c192c9d4b036b3b65d5f5eec2acb4f9ba32a3d",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "f7cb14446ec035b188d38be0c2c0ef7b2c990a17e2e4e9426f7e43b2469acae3"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "4bc5c657a880c309527e86a500c192c9d4b036b3b65d5f5eec2acb4f9ba32a3d"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "0f9e92da0068355148aa35641b875b29b13009d5bd672e220bd087d8ddaeb337"
+      },
+      {
+        "path": "references/artifacts.md",
+        "sha256": "2d1b1df5f20bb7d013d0d3afa7924e04c454375a4fbe5c5095a7fc83ebbbd0dc"
+      },
+      {
+        "path": "references/red-flags.md",
+        "sha256": "09efe1f35b236374da8f93f9b9a9e5ed72a630cdedf51598af9af89ae22ebfbf"
+      },
+      {
+        "path": "references/vocabulary.md",
+        "sha256": "fb1c0b621cbc21848d78ffdfef2da46b9980f1c07d0bfba47f05297c27e725e4"
+      }
+    ]
+  },
+  {
+    "name": "history-research-guide",
+    "repository": "https://github.com/wentorai/research-plugins",
+    "path": "skills/domains/humanities/history-research-guide",
+    "commit": "bf44b3cd617fa94c8a1b254c5d1987142ca3d631",
+    "source_skill_sha256": "aeebb5dc3509bfd6c100eb8c88e44e3dc5033bc9fff743a7fc0c663d976e1805",
+    "installed_skill_sha256": "aeebb5dc3509bfd6c100eb8c88e44e3dc5033bc9fff743a7fc0c663d976e1805",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "e2bd618434a583076e20182db9557ce94df9f72975549e5d233d4d4c0ad079a7"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "aeebb5dc3509bfd6c100eb8c88e44e3dc5033bc9fff743a7fc0c663d976e1805"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "2e54e6ff4edd17f26c02ea17d38b5677932ca300aaa9179603d3734744cc73bb"
+      }
+    ]
+  },
+  {
+    "name": "paper-deep-research",
+    "repository": "https://github.com/duck011002/codex-custom-skills",
+    "path": "skills/paper-deep-research",
+    "commit": "6fa6a497e601bd54039ff109ac89272b3a82b585",
+    "source_skill_sha256": "b98b9d3e2ac9843832149f45879d1eeb19188fe7cf8eb2a12abcd6f5199934ed",
+    "installed_skill_sha256": "b98b9d3e2ac9843832149f45879d1eeb19188fe7cf8eb2a12abcd6f5199934ed",
+    "license": "UNSPECIFIED; README explicitly permits copy-install; no general redistribution license",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "b98b9d3e2ac9843832149f45879d1eeb19188fe7cf8eb2a12abcd6f5199934ed"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "7242639b81d12217e2d2eaae123f02866adf2322041a199c334d6b1903090944"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "sha256": "9c3f388f4cdd93b3e00a00c72a398bc49833d93861e445b042a483ad93a7ce7d"
+      }
+    ]
+  },
+  {
+    "name": "paper-reviewer-check",
+    "repository": "https://github.com/duck011002/codex-custom-skills",
+    "path": "skills/paper-reviewer-check",
+    "commit": "6fa6a497e601bd54039ff109ac89272b3a82b585",
+    "source_skill_sha256": "faf7bbd0edd90a949121b7719c30a3d8dd131405209fa46d98250c49e0570fbd",
+    "installed_skill_sha256": "faf7bbd0edd90a949121b7719c30a3d8dd131405209fa46d98250c49e0570fbd",
+    "license": "UNSPECIFIED; README explicitly permits copy-install; no general redistribution license",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "faf7bbd0edd90a949121b7719c30a3d8dd131405209fa46d98250c49e0570fbd"
+      },
+      {
+        "path": "UPSTREAM_README.md",
+        "sha256": "7242639b81d12217e2d2eaae123f02866adf2322041a199c334d6b1903090944"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "sha256": "8e77009810a4f87b0459440dd75515670778ac3fdb6c42d52600ef700ae40959"
+      }
+    ]
+  }
+]

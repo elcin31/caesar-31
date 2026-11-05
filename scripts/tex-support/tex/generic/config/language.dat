@@ -1,0 +1,6 @@
+% Project-local formats: English and Russian only.
+english hyphen.tex
+=usenglish
+=USenglish
+=american
+russian loadhyph-ru.tex

@@ -1,0 +1,12 @@
+__pycache__/
+.cache/
+*.pyc
+.DS_Store
+# External full-text working snapshots: own notes and access logs are retained.
+research/source_notes/evidence/*.txt
+# Generated book drafts are committed for this explicitly requested release.
+dist/*.aux
+dist/*.toc
+dist/*.out
+dist/*.tex
+dist/reference.docx

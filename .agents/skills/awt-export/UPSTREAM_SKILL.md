@@ -1,0 +1,85 @@
+---
+name: export
+description: Convert thesis chapters and reading notes from Markdown to Word (.docx) and package for submission. Use when preparing materials for supervisors or examiners.
+disable-model-invocation: true
+allowed-tools: Bash, Read, Glob, Write
+---
+
+# /export — Document Export Skill
+
+## Running Python helpers
+
+Choose the interpreter before running the examples. For a globally installed
+copy, use the private runtime recorded by its installer. In a checkout or linked
+workspace, use `AWT_PYTHON` when set, otherwise the toolkit's `.venv` (follow the
+skill directory link back to the toolkit): `Scripts/python.exe` on Windows,
+`bin/python` on macOS/Linux. Without that environment, check that `python`
+(Windows) or `python3` (macOS/Linux) actually runs and has the helper's dependencies.
+Replace the example's `python3` with that executable. In PowerShell, prefix a
+quoted executable with `&`; keep commands on one line and quote file paths.
+
+## Purpose
+
+Convert thesis chapters and reading notes from Markdown to Word (.docx) format and package them into a ZIP archive for submission to supervisors or examiners. This skill is user-invoked only and will not be triggered automatically.
+
+## Trigger Words
+
+This skill activates on: `/export`. It is never invoked automatically by the model.
+
+## Parameters
+
+- `$ARGUMENTS[0]` -- **scope**: `chapters` | `notes` | `all` (default: `all`)
+- `$ARGUMENTS[1]` -- **language filter**: `en-only` | `all` (default: `all`)
+
+Examples:
+- `/export chapters en-only` -- export only chapter files, skip files with significant CJK content
+- `/export notes all` -- export only reading notes, include all languages
+- `/export` -- export everything, all languages
+
+## Workflow
+
+0. **Resolve every source first (Advisory here; Enforced in the AWT app).**
+   Before converting, confirm that every author-year citation in `chapters/`
+   has a lint-conforming notes file under `literature/reading_notes/`, and
+   that `references.bib` (when present) neither contains entries nothing
+   cites nor lacks an entry a chapter cites:
+
+   ```
+   python3 .claude/skills/audit/scripts/audit-claim-positioning.py --base-dir chapters --bib references.bib --json
+   ```
+
+   Stop and report if anything is unresolved. On this surface nothing blocks
+   you from exporting anyway — say so if you do. In the AWT app the same
+   condition is a typed denial (`EXPORT_SOURCES_UNRESOLVED`) on the
+   `export_docx` tool, and the export does not run.
+
+1. **Check dependencies.** Verify that `pypandoc` is installed AND a working `pandoc` binary is on PATH (the script smoke-probes via `pypandoc.get_pandoc_version()`). If pypandoc/pandoc are unavailable, fall back to `python-docx` + `markdown`. Report which conversion method is being used.
+
+   **Run from the project root.**
+
+2. **Run the conversion script.**
+   ```
+   python3 .claude/skills/export/scripts/convert_to_docx.py --base-dir "{project_root}" --output-dir "{project_root}/final_output" --scope {scope} --lang-filter {lang_filter}
+   ```
+
+3. **Report results.**
+   ```
+   ## Export Complete
+
+   | Item | Value |
+   |------|-------|
+   | Files converted | {N} |
+   | Files skipped (language filter) | {N} |
+   | Output directory | {path} |
+   | ZIP archive | {path} |
+   | Total size | {size} |
+
+   Conversion method: {pandoc | python-docx fallback}
+   ```
+
+## Constraints
+
+1. **User-invoked only.** This skill has `disable-model-invocation: true` and must not run unless the user explicitly calls `/export`.
+2. **No hardcoded paths.** All paths are derived from arguments or project root.
+3. **No emoji** in output.
+4. **Preserve formatting** as much as possible during conversion -- headings, tables, block quotes, inline code.

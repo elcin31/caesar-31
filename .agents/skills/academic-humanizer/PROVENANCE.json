@@ -1,0 +1,9 @@
+{
+  "name": "academic-humanizer",
+  "repository": "https://github.com/ashgreat/humanizer",
+  "path": ".",
+  "commit": "952c8a138e29eb2cbe637b8ae8e9f6c6e2f6d627",
+  "source_skill_sha256": "f88e1e77d8056eab2457e459edc04b5245bdeec2e21f2247054fc6769e936379",
+  "installed_skill_sha256": "918e48c34c6d1b372a37cc660fb5ee8dde8b1218c7f558949dec3e81ea4f82f1",
+  "license": "MIT"
+}

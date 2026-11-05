@@ -1,0 +1,9 @@
+{
+  "name": "citation-verification",
+  "repository": "https://github.com/KalarisLabs/research-agent-skills",
+  "path": "skills/citation-verification",
+  "commit": "fa023d6d166562a8de118f59bb73647c0e444b8c",
+  "source_skill_sha256": "dfc482ae5d8f555828ba8b84648330f26012d2c2a18b713c9856c19db9816c86",
+  "installed_skill_sha256": "dfc482ae5d8f555828ba8b84648330f26012d2c2a18b713c9856c19db9816c86",
+  "license": "MIT"
+}

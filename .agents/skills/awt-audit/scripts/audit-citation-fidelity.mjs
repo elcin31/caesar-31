@@ -1,0 +1,287 @@
+#!/usr/bin/env node
+// Sentence-level citation fidelity audit (P4 item 4).
+//
+//   node scripts/audit-citation-fidelity.mjs [--base-dir <workspace>] [--json] [--allow-empty]
+//
+// Exit: 1 on a hard finding; 2 when nothing was checked (no citation found in
+// chapters/**/*.md), unless --allow-empty — checking nothing is not a pass.
+//
+// The gap this closes: every existing gate asks whether a source was read,
+// verified, or cited — none asks whether the CITING SENTENCE matches the
+// source. On a real manuscript, five of seven re-read citing sentences were
+// wrong about their source and three were inverted. This audit checks what
+// can be checked deterministically, per citing sentence under chapters/**:
+//
+//   quote-not-in-source   a quoted span (>= 4 words) that does not appear
+//                         verbatim in the source's reading notes (or in the
+//                         source PDF's text when one is present)
+//   page-mismatch         the sentence cites a page for a quote and the notes
+//                         (or PDF) place that quote on a different page
+//   notes-missing         a citation with no lint-parseable notes file — the
+//                         same condition the NOTES_MISSING guard enforces
+//   low-overlap           EXPERIMENTAL: the sentence shares no content word
+//                         with the source's notes. No false-positive rate has
+//                         been measured on real notes; treat as a prompt to
+//                         re-read, never as a finding.
+//
+// What it does NOT do, and says so in its own output: detect semantic
+// inversion. A sentence that asserts the opposite of its source with the
+// source's own vocabulary passes every check here. Catching that still
+// requires reading the source; tests/citation-fidelity pin this limit.
+//
+// The graders, the citation extractor and the notes parser ship beside this
+// file (quote-fidelity.mjs, citations.mjs, pdf-pages.mjs) and the notes lint
+// is /note's own (../../note/scripts/notes-lint.mjs), so the audit and the
+// contract agree on what a citation and a notes file are. Until 2026-09-20
+// these came from the dsh guards package and the E1 instrument, both retired;
+// see docs/specs/2026-09-20-retire-dsh-line-design.md.
+
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
+import { spawnSync } from 'node:child_process'
+import { join, resolve, relative } from 'node:path'
+import { labelPdfPages } from './pdf-pages.mjs'
+import { extractQuotedSpans, gradeQuoteFidelity, normalizeForMatch, pagesFromLabeledText } from './quote-fidelity.mjs'
+import { extractCitations, parseNotesSource } from './citations.mjs'
+import { lintNotes, hasErrors } from '../../note/scripts/notes-lint.mjs'
+
+// This file lives inside the skill that calls it, so both surfaces name one
+// path. Node resolves modules through the real path, so a workspace reaching
+// it through .agents/skills still finds the toolkit's own trees below.
+const SCHEMA_VERSION = 1
+
+const args = process.argv.slice(2)
+const emitJson = args.includes('--json')
+const allowEmpty = args.includes('--allow-empty')
+const baseArg = args.includes('--base-dir') ? args[args.indexOf('--base-dir') + 1] : '.'
+const base = resolve(baseArg)
+
+function die(code, message, remedy) {
+  console.error(`${code}: ${message}`)
+  if (remedy) console.error(`  remedy: ${remedy}`)
+  process.exit(2)
+}
+
+// --- corpus ----------------------------------------------------------------------
+
+function chapterFiles(root) {
+  const out = []
+  const walk = (rel) => {
+    const dir = join(root, rel)
+    if (!existsSync(dir)) return
+    for (const name of readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
+      const childRel = `${rel}/${name.name}`
+      if (name.isDirectory()) walk(childRel)
+      else if (name.name.endsWith('.md')) out.push(childRel)
+    }
+  }
+  walk('chapters')
+  return out
+}
+
+/** surname|year -> { file, text, parseable, pages: Map<normalizedQuote, page> } */
+function notesIndex(root) {
+  const dir = join(root, 'literature', 'reading_notes')
+  const index = new Map()
+  if (!existsSync(dir)) return index
+  for (const name of readdirSync(dir).sort()) {
+    if (!name.endsWith('_NOTES.md') || name === '_template_NOTES.md') continue
+    const text = readFileSync(join(dir, name), 'utf8')
+    const source = parseNotesSource(text)
+    if (!source) continue
+    const pages = new Map()
+    for (const span of extractQuotedSpans(text)) {
+      if (span.page !== undefined) pages.set(normalizeForMatch(span.quote), span.page)
+    }
+    index.set(`${source.surname}|${source.year}`, {
+      file: `literature/reading_notes/${name}`,
+      text,
+      parseable: !hasErrors(lintNotes(text)),
+      pages,
+    })
+  }
+  return index
+}
+
+/** Optional stronger reference: the source PDF's text, page-labeled like read_pdf output. */
+function pdfText(root, surname, year) {
+  const path = join(root, 'literature', `${surname}${year}.pdf`)
+  if (!existsSync(path)) return undefined
+  const res = spawnSync('pdftotext', ['-layout', path, '-'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 })
+  if (res.status !== 0) return undefined
+  return labelPdfPages(res.stdout)
+}
+
+/**
+ * Sentence split that keeps quoted spans intact (never splits inside quotes)
+ * and treats a terminator as a boundary only when whitespace and a
+ * capital letter or an opening quote follow, or the text ends — so "p.12",
+ * "et al.", "3.5" and "e.g." do not cut a citing sentence in half.
+ */
+function sentences(text) {
+  // Drop ATX heading lines before buffering prose. Filtering a completed
+  // sentence starting with '#' also discarded the first paragraph that
+  // followed a heading without punctuation.
+  const src = text.replace(/\r/g, '').replace(/^ {0,3}#{1,6}(?:[ \t]+.*|[ \t]*)$/gm, '')
+  const out = []
+  let buf = ''
+  let inQuote = false
+  for (let i = 0; i < src.length; i++) {
+    const ch = src[i]
+    buf += ch
+    if (ch === '"') inQuote = !inQuote
+    else if (ch === '“') inQuote = true
+    else if (ch === '”') inQuote = false
+    if (!inQuote && /[.!?]/.test(ch)) {
+      const rest = src.slice(i + 1)
+      const boundary = rest.length === 0 || /^["”)]?\s+(?:[A-Z"“]|$)/.test(rest) || /^["”)]?\s*\n/.test(rest)
+      if (boundary) {
+        out.push(buf)
+        buf = ''
+      }
+    } else if (ch === '\n' && buf.trim() === '') {
+      buf = ''
+    }
+  }
+  if (buf.trim()) out.push(buf)
+  return out.map((s) => s.replace(/\s+/g, ' ').trim()).filter((s) => s.length > 0 && !s.startsWith('#'))
+}
+
+const STOP = new Set(['about', 'above', 'after', 'again', 'against', 'argue', 'argues', 'argued', 'because', 'before', 'being', 'between', 'could', 'during', 'every', 'found', 'further', 'however', 'might', 'other', 'shows', 'showed', 'since', 'their', 'there', 'these', 'those', 'through', 'under', 'which', 'while', 'where', 'would', 'should', 'study', 'paper', 'work', 'chapter', 'section', 'thesis'])
+function contentWords(text) {
+  return new Set(text.toLowerCase().match(/[a-z][a-z-]{4,}/g)?.filter((w) => !STOP.has(w)) ?? [])
+}
+
+// --- audit -----------------------------------------------------------------------
+
+const notes = notesIndex(base)
+
+const corpus = chapterFiles(base)
+
+const findings = []
+let sentencesChecked = 0
+let citationsChecked = 0
+
+for (const rel of corpus) {
+  const text = readFileSync(join(base, rel), 'utf8')
+  for (const sentence of sentences(text)) {
+    const cites = extractCitations(sentence)
+    if (cites.length === 0) continue
+    sentencesChecked += 1
+    const spans = extractQuotedSpans(sentence)
+    const words = contentWords(sentence)
+    for (const c of cites) {
+      citationsChecked += 1
+      const key = `${c.surname}|${c.year}`
+      const source = notes.get(key)
+      const loc = `${rel}: ${sentence.slice(0, 90)}${sentence.length > 90 ? '…' : ''}`
+      if (!source || !source.parseable) {
+        findings.push({ kind: 'notes-missing', source: `${c.surname} ${c.year}`, location: loc,
+          detail: source ? `${source.file} does not pass the notes lint` : 'no reading notes file for this source' })
+        continue
+      }
+      const pdf = pdfText(base, c.surname, c.year)
+      const reference = pdf ? `${source.text}\n${pdf}` : source.text
+      if (spans.length > 0) {
+        const graded = gradeQuoteFidelity(spans, reference)
+        for (const miss of graded.misses) {
+          findings.push({ kind: 'quote-not-in-source', source: `${c.surname} ${c.year}`, location: loc,
+            detail: `"${miss}" is not verbatim in ${source.file}${pdf ? ' or the source PDF' : ''}` })
+        }
+        for (const span of spans) {
+          if (span.page === undefined) continue
+          const norm = normalizeForMatch(span.quote)
+          let actual
+          if (pdf) {
+            for (const [page, body] of pagesFromLabeledText(pdf)) {
+              if (normalizeForMatch(body).includes(norm)) { actual = page; break }
+            }
+          } else if (source.pages.has(norm)) {
+            actual = source.pages.get(norm)
+          }
+          if (actual !== undefined && actual !== span.page) {
+            findings.push({ kind: 'page-mismatch', source: `${c.surname} ${c.year}`, location: loc,
+              detail: `cited p.${span.page}; ${pdf ? 'the PDF' : 'the notes'} place the quote on p.${actual}` })
+          }
+        }
+      }
+      // The cited surname is in every citing sentence and in every notes file;
+      // it says nothing about fidelity, so it is not overlap.
+      const candidates = [...words].filter((w) => !cites.some((x) => x.surname === w))
+      const overlap = candidates.filter((w) => source.text.toLowerCase().includes(w))
+      if (candidates.length >= 3 && overlap.length === 0) {
+        findings.push({ kind: 'low-overlap', experimental: true, source: `${c.surname} ${c.year}`, location: loc,
+          detail: 'no content word of this sentence appears in the source\'s notes — re-read before trusting either' })
+      }
+    }
+  }
+}
+
+const hard = findings.filter((f) => f.kind === 'quote-not-in-source' || f.kind === 'page-mismatch')
+
+// Checking nothing is not a pass. The corpus is chapters/**/*.md; a manuscript
+// kept elsewhere (a LaTeX paper's sections/*.tex with \cite) yields zero
+// citations here, which must not read as a clean audit.
+function latexCites(root) {
+  // Counts run over every .tex under --base-dir. Pointed at a repository that
+  // also holds archived copies of the manuscript, the command count came out
+  // fifteen times the manuscript's own; the distinct-key count and the
+  // per-file list exist so that inflation is visible in the payload itself.
+  let n = 0
+  const keys = new Set()
+  const perFile = []
+  const walk = (dir, depth) => {
+    if (depth > 6 || !existsSync(dir)) return
+    for (const e of readdirSync(dir, { withFileTypes: true })) {
+      if (e.name.startsWith('.') || e.name === 'node_modules') continue
+      const p = join(dir, e.name)
+      if (e.isDirectory()) walk(p, depth + 1)
+      else if (e.name.endsWith('.tex')) {
+        let k = 0
+        for (const m of readFileSync(p, 'utf8').matchAll(/\\[A-Za-z]*cite[A-Za-z]*\*?(?:\[[^\]]*\])*\{([^}]*)\}/g)) {
+          k += 1
+          for (const key of m[1].split(',')) { const t = key.trim(); if (t) keys.add(t) }
+        }
+        n += k
+        if (k > 0) perFile.push([relative(root, p), k])
+      }
+    }
+  }
+  walk(root, 0)
+  perFile.sort((a, b) => b[1] - a[1])
+  return { commands: n, files: perFile.length, keys: keys.size, top: perFile.slice(0, 10) }
+}
+const nothingChecked = citationsChecked === 0
+const payload = {
+  schema_version: SCHEMA_VERSION,
+  base: base,
+  corpus_files: corpus.length,
+  notes_sources_indexed: notes.size,
+  sentences_checked: sentencesChecked,
+  citations_checked: citationsChecked,
+  findings,
+  hard_finding_count: hard.length,
+  nothing_checked: nothingChecked,
+  ...(nothingChecked ? { not_covered: { reads: 'chapters/**/*.md (author-year citations) against literature/reading_notes/*_NOTES.md', ...(() => { const l = latexCites(base); return { latex_cite_commands: l.commands, latex_files_with_cites: l.files, latex_distinct_cite_keys: l.keys, latex_files_top: l.top } })() } } : {}),
+  limits: {
+    semantic_inversion: 'NOT detected: a sentence asserting the opposite of its source in the source\'s own words passes every check here; that still requires reading the source',
+    low_overlap: 'experimental — no false-positive rate has been measured on real notes; it never fails the audit',
+    matching: 'quotes are matched verbatim after whitespace/typography normalisation; pages come from notes annotations or the source PDF when literature/<surname><year>.pdf exists',
+  },
+}
+
+if (emitJson) {
+  console.log(JSON.stringify(payload, null, 2))
+} else {
+  console.log(`citation fidelity: ${citationsChecked} citation(s) in ${sentencesChecked} citing sentence(s) under ${base}`)
+  for (const kind of ['quote-not-in-source', 'page-mismatch', 'notes-missing', 'low-overlap']) {
+    const group = findings.filter((f) => f.kind === kind)
+    if (group.length === 0) continue
+    console.log(`\n${kind}${kind === 'low-overlap' ? ' (experimental — not a finding)' : ''} (${group.length})`)
+    for (const f of group) console.log(`  ${f.source} — ${f.location}\n    ${f.detail}`)
+  }
+  console.log(`\nNot checked: whether a citing sentence says the OPPOSITE of its source. ${payload.limits.semantic_inversion}.`)
+  if (nothingChecked) {
+    console.log(`\nNOTHING CHECKED: no citation found under chapters/**/*.md.${payload.not_covered.latex_cite_commands > 0 ? ` ${payload.not_covered.latex_cite_commands} LaTeX \\cite command(s) (${payload.not_covered.latex_distinct_cite_keys} distinct key(s)) exist in ${payload.not_covered.latex_files_with_cites} .tex file(s) under --base-dir; this audit does not read them.` : ''} This is not a pass${allowEmpty ? ' (accepted by --allow-empty)' : ''}.`)
+  }
+}
+process.exit(hard.length > 0 ? 1 : nothingChecked && !allowEmpty ? 2 : 0)

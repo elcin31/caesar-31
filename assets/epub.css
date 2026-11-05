@@ -1,0 +1,24 @@
+@charset "UTF-8";
+html { color: #202020; background: #fff; }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 1em; line-height: 1.5; margin: 5%; }
+p { margin: 0; text-indent: 1.4em; orphans: 2; widows: 2; }
+h1, h2, h3 { font-weight: normal; line-height: 1.2; break-after: avoid; }
+h1 { font-size: 1.7em; margin: 1.5em 0 1em; text-align: center; }
+h2 { font-size: 1.25em; margin: 1.7em 0 .8em; }
+h3 { font-size: 1.1em; margin: 1.4em 0 .7em; }
+h1 + p, h2 + p, h3 + p, .titlepage p { text-indent: 0; }
+a { color: #544322; text-decoration: underline; }
+a.footnote-ref { vertical-align: super; font-size: .75em; }
+aside, .footnotes { font-size: .85em; line-height: 1.4; }
+.footnotes p, li p { text-indent: 0; margin: .4em 0; }
+img, svg { max-width: 100%; height: auto; }
+figure { margin: 1.3em 0; break-inside: avoid; text-align: center; }
+figcaption { font-size: .85em; margin-top: .5em; }
+table { border-collapse: collapse; width: 100%; font-size: .85em; }
+th, td { text-align: left; vertical-align: top; padding: .4em; border-bottom: 1px solid #aaa; }
+blockquote { margin: 1em 1.5em; }
+blockquote p { text-indent: 0; }
+.titlepage { text-align: center; margin: 12% 2%; }
+.titlepage h1 { font-size: 1.9em; }
+.titlepage .subtitle { font-size: 1.1em; margin-top: 1em; }
+@media (prefers-color-scheme: dark) { html, body { color: inherit; background: inherit; } a { color: inherit; } }

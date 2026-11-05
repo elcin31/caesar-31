@@ -1,0 +1,9 @@
+{
+  "name": "historian",
+  "repository": "https://github.com/wonsukchoi/domain-experts",
+  "path": "roles/historian",
+  "commit": "859db64cd745861e528dffc1936e9dbaf0b50ee2",
+  "source_skill_sha256": "4bc5c657a880c309527e86a500c192c9d4b036b3b65d5f5eec2acb4f9ba32a3d",
+  "installed_skill_sha256": "4bc5c657a880c309527e86a500c192c9d4b036b3b65d5f5eec2acb4f9ba32a3d",
+  "license": "MIT"
+}

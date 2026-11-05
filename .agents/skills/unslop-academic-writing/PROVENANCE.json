@@ -1,0 +1,9 @@
+{
+  "name": "unslop-academic-writing",
+  "repository": "https://github.com/KalarisLabs/research-agent-skills",
+  "path": "skills/unslop-academic-writing",
+  "commit": "fa023d6d166562a8de118f59bb73647c0e444b8c",
+  "source_skill_sha256": "978e0f89c50b1f01ea4a6ef80c44d06c83f1f8e59a0518c4c71b348809c16aaf",
+  "installed_skill_sha256": "978e0f89c50b1f01ea4a6ef80c44d06c83f1f8e59a0518c4c71b348809c16aaf",
+  "license": "MIT"
+}

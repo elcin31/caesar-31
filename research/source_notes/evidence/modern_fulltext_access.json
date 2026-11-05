@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-04",
+  "items": [
+    {
+      "key": "morsteinrosenstein2006",
+      "url": "https://www.classics.ucsb.edu/wp-content/uploads/2022/12/2006-The-Transformation-of-the-Republic.pdf",
+      "bytes": 1263838,
+      "sha256": "1fcf6805aacd0a4484fae9884b22f4d3d2563cd0f9440efe9d9c2016244f1973",
+      "pages_read": "625–628",
+      "access_status": "PARTIAL",
+      "file_redistributed": false
+    },
+    {
+      "key": "pinapolo2019",
+      "url": "https://revistas.ucm.es/index.php/GERI/en/article/download/65979/4564456552594/4564456577013",
+      "pages_read": "379–383",
+      "access_status": "PARTIAL",
+      "method": "web PDF full text; direct download redirect loop",
+      "license": "CC BY4.0"
+    },
+    {
+      "key": "rich2012",
+      "url": "https://www.persee.fr/doc/efr_0223-5099_2012_act_458_1_10423",
+      "pages_read": "37–40",
+      "access_status": "PARTIAL",
+      "method": "parent investigator reports direct reading, bibliographic record independently confirmed"
+    }
+  ]
+}
