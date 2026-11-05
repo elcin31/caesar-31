@@ -1,0 +1,34 @@
+[
+  {
+    "object_id": "248037",
+    "url": "https://images.metmuseum.org/CRDImages/gr/original/LC-08_170_89b.jpg",
+    "old_dimensions": [
+      599,
+      504
+    ],
+    "new_dimensions": [
+      2168,
+      1824
+    ],
+    "error": null,
+    "upgraded": true,
+    "bytes": 1126292,
+    "sha256": "87b78cfde5e0e35b17f400bd7271abbfaccfd4bd0a5143b7a7d7707807965ce7"
+  },
+  {
+    "object_id": "248119",
+    "url": "https://images.metmuseum.org/CRDImages/gr/original/DP331249.jpg",
+    "old_dimensions": [
+      468,
+      624
+    ],
+    "new_dimensions": [
+      3000,
+      4000
+    ],
+    "error": null,
+    "upgraded": true,
+    "bytes": 1374427,
+    "sha256": "baa7f252a229f97157e0da8b95a806dd9d3cfe38722c1562c8e98d30caa91f45"
+  }
+]

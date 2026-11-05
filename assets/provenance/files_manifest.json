@@ -1,34 +1,48 @@
 [
   {
-    "path": "images/met_248037.jpg",
+    "path": "assets/images/met_248037.jpg",
+    "bytes": 1126292,
+    "dimensions": [
+      2168,
+      1824
+    ],
+    "sha256": "87b78cfde5e0e35b17f400bd7271abbfaccfd4bd0a5143b7a7d7707807965ce7"
+  },
+  {
+    "path": "assets/images/met_248037_web-large.jpg",
     "bytes": 92596,
-    "sha256": "8916ee4a84b0347c45b71911e20b584ef4090200d016e648c61446cff3730e51",
     "dimensions": [
       599,
       504
-    ]
+    ],
+    "sha256": "8916ee4a84b0347c45b71911e20b584ef4090200d016e648c61446cff3730e51"
   },
   {
-    "path": "images/met_248119.jpg",
+    "path": "assets/images/met_248119.jpg",
+    "bytes": 1374427,
+    "dimensions": [
+      3000,
+      4000
+    ],
+    "sha256": "baa7f252a229f97157e0da8b95a806dd9d3cfe38722c1562c8e98d30caa91f45"
+  },
+  {
+    "path": "assets/images/met_248119_web-large.jpg",
     "bytes": 47935,
-    "sha256": "09fb4d0fcfa91d6c50ab42fb4aebea7b3fc2010a69473ac577f80c008527a9d7",
     "dimensions": [
       468,
       624
-    ]
+    ],
+    "sha256": "09fb4d0fcfa91d6c50ab42fb4aebea7b3fc2010a69473ac577f80c008527a9d7"
   },
   {
-    "path": "genealogy.svg",
+    "path": "assets/genealogy.svg",
     "bytes": 3331,
     "sha256": "23f8b3885eb55db45f3c7892432c941643265f321853d13b72552252528a01e6"
   },
   {
-    "path": "genealogy.png",
+    "path": "assets/genealogy.png",
     "bytes": 150503,
-    "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4",
-    "dimensions": [
-      1650,
-      1050
-    ]
+    "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4"
   }
 ]
