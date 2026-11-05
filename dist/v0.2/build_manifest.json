@@ -1,0 +1,128 @@
+{
+  "release": "0.2",
+  "final": false,
+  "stem": "Caesar_Augustus_v0.2",
+  "output_dir": "dist/v0.2",
+  "localized_epub_labels": [
+    {
+      "file": "EPUB/content.opf",
+      "label": "Содержание"
+    },
+    {
+      "file": "EPUB/content.opf",
+      "label": "Обложка"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Титульный лист"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Обложка"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Содержание"
+    }
+  ],
+  "cover_preserved_sha256": "0fa2cc74f94dfb4d576a80a5f80b826d7cf71588714a2f8100d466967e186168",
+  "built_utc": "2026-11-05T10:38:17.830833+00:00",
+  "inputs": [
+    {
+      "path": "manuscript/introduction.md",
+      "sha256": "a7557fe62735dd58f18614910cd1b7734ffcc168f60c38abf5d0d5a484b756d5"
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "sha256": "48ee0e5e9df59446d0adb16ba836da4db7f7eb8ff02c72815f3b85987f5129cc"
+    },
+    {
+      "path": "manuscript/appendices.md",
+      "sha256": "e6ccd7d6f5884f306f8629744264ce09ef343ce4a607d207b501a5d8d016800d"
+    },
+    {
+      "path": "manuscript/bibliography.md",
+      "sha256": "7e1f4a45f871cc1093def05362651052d00f8caf8f184c993a1641522cbff003"
+    }
+  ],
+  "resources": [
+    {
+      "path": "assets/cover.png",
+      "sha256": "0fa2cc74f94dfb4d576a80a5f80b826d7cf71588714a2f8100d466967e186168"
+    },
+    {
+      "path": "assets/epub.css",
+      "sha256": "8940237f057ccc41e4da27abe0b20853989c656e9cfb8f7516a9b7840322ce1a"
+    },
+    {
+      "path": "assets/genealogy.png",
+      "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4"
+    },
+    {
+      "path": "assets/images/met_248037.jpg",
+      "sha256": "8916ee4a84b0347c45b71911e20b584ef4090200d016e648c61446cff3730e51"
+    },
+    {
+      "path": "assets/images/met_248119.jpg",
+      "sha256": "09fb4d0fcfa91d6c50ab42fb4aebea7b3fc2010a69473ac577f80c008527a9d7"
+    },
+    {
+      "path": "manuscript/metadata.yaml",
+      "sha256": "e8c4cc791cc1ce8183e43e8635ac7ad978aa0c0e6bcace5f6fdf1ef027aa1ccd"
+    },
+    {
+      "path": "scripts/build.py",
+      "sha256": "bcaa954bf8b4c1fd23d04aafa9323512075150c768c412d7c1e569ae0c686fdc"
+    },
+    {
+      "path": "scripts/epub_localization.py",
+      "sha256": "0115c0363c5dc1b9a9a244cd2c7334ec0814abb5ce76528834e6392b35a92ee3"
+    },
+    {
+      "path": "scripts/publication_config.py",
+      "sha256": "d61d45cc00f61b852c13f347604a1d80ea45b7312909df3025c0cdf9e2eecd5e"
+    },
+    {
+      "path": "scripts/tex-support/LPPL-1.3c.txt",
+      "sha256": "c1ae6e179a6d28bbd5c483fbacc744acc75e922d598281dc3390aab26126e163"
+    },
+    {
+      "path": "scripts/tex-support/README.md",
+      "sha256": "b40dc34d6b724a6d279ca7a87c29278522ea384161c77e50fd03c4c64eed31a0"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/config/language.dat",
+      "sha256": "7ce8d6f23efd153219bafa8d742d2987ea3c8c50cd9dadfedf124ccf76a2c969"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/hyph-ru.tex",
+      "sha256": "ce988fcc66e5e29d7474df5ab5b489d3f52a50ebccf570997f992d84221b922a"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/loadhyph-ru.tex",
+      "sha256": "8d59a50b003ef646b4a38645802a7e4db55bb8f84e2f85a5a118c7049d186fe9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "dist/v0.2/Caesar_Augustus_v0.2.docx",
+      "bytes": 347182,
+      "sha256": "d959f8beaea1186caf1cf275e737b36d643ed39c594ab03e6f452854fb4aa3b2"
+    },
+    {
+      "path": "dist/v0.2/Caesar_Augustus_v0.2.epub",
+      "bytes": 412884,
+      "sha256": "490020b94b7b8b2e9f27b05d7afbabd3a2d19cadbc4a41fe9894b89f686d5fa4"
+    },
+    {
+      "path": "dist/v0.2/Caesar_Augustus_v0.2.pdf",
+      "bytes": 438325,
+      "sha256": "fe9deddd4f0c397372ee798d043eebe327b5892bf0106fe0eaaca7211fea97f9"
+    }
+  ],
+  "versions": {
+    "pandoc": "pandoc 3.1.11.1",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)"
+  },
+  "warnings": "\n\n"
+}

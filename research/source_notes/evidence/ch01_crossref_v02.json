@@ -1,0 +1,62 @@
+[
+  {
+    "doi": "10.1017/CBO9780511482885",
+    "title": [
+      "<i>Plebs</i> and Politics in the Late Roman Republic"
+    ],
+    "author": [
+      {
+        "given": "Henrik",
+        "family": "Mouritsen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          6,
+          7
+        ]
+      ]
+    },
+    "page": null
+  },
+  {
+    "doi": "10.2307/25011085",
+    "title": [
+      "Publicity, Popularity and Patronage in the \"Commentariolum Petitionis\""
+    ],
+    "author": [
+      {
+        "given": "Robert",
+        "family": "Morstein-Marx",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1998,
+          10,
+          1
+        ]
+      ]
+    },
+    "page": "259-288"
+  }
+]

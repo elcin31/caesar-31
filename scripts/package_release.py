@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""Package the reviewed local release with a verifiable inventory and rights exclusions."""
+"""Package an actually checked release; final filenames require completion."""
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import zipfile
+from publication_config import ROOT, add_release_arguments, release_from_args, relative
 
-ROOT = Path(__file__).resolve().parents[1]
-DIST = ROOT / 'dist'
-NAME = 'Caesar_Augustus_Research_v0.1.zip'
-TOP = {'README.md', 'AGENTS.md', 'PROJECT_STATUS.md', 'references.bib', '.gitignore'}
-DIRS = {'.agents', 'research', 'sources', 'manuscript', 'assets', 'scripts', 'dist'}
+TOP = {'README.md', 'AGENTS.md', 'PROJECT_STATUS.md', 'NEXT_ACTION.md', 'references.bib', '.gitignore',
+       'Bibliography.md', 'Research_Methodology.md', 'Editorial_Report.md'}
+DIRS = {'.agents', 'research', 'sources', 'manuscript', 'assets', 'scripts'}
 NO_REDISTRIBUTION = {'paper-deep-research', 'paper-reviewer-check'}
 
 
@@ -17,49 +17,87 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def selected(path):
+def selected(path, dist):
     rel = path.relative_to(ROOT)
     parts = rel.parts
-    if parts[0] not in TOP | DIRS: return False
-    if '__pycache__' in parts or path.suffix in {'.pyc', '.zip'}: return False
-    if parts[0] == '.agents' and len(parts) > 2 and parts[2] in NO_REDISTRIBUTION: return False
-    if rel.as_posix().startswith('research/source_notes/evidence/') and path.suffix == '.txt': return False
-    if parts[0] == 'dist' and path.name in {'package_manifest.json', 'archive.sha256', 'reference.docx', 'pdf-header.tex'}: return False
+    if path.is_symlink():
+        return False
+    if parts[0] not in TOP | DIRS and not path.is_relative_to(dist):
+        return False
+    if '__pycache__' in parts or path.suffix in {'.pyc', '.zip'}:
+        return False
+    if parts[0] == '.agents' and len(parts) > 2 and parts[2] in NO_REDISTRIBUTION:
+        return False
+    if rel.as_posix().startswith('research/source_notes/evidence/') and path.suffix == '.txt':
+        return False
+    if path.is_relative_to(dist) and path.name in {'package_manifest.json', 'archive.sha256', 'reference.docx', 'pdf-header.tex'}:
+        return False
     return True
 
 
+def require(condition, message):
+    if not condition:
+        raise SystemExit(message)
+
+
 def main():
-    audit = json.loads((ROOT / 'research/project_audit.json').read_text())
-    validation = json.loads((DIST / 'validation.json').read_text())
-    assert audit['status'] == 'pass', 'Run and fix audit_project.py first'
+    parser = argparse.ArgumentParser()
+    add_release_arguments(parser)
+    args = parser.parse_args()
+    release = release_from_args(args)
+    dist = release.output_dir
+    require(dist.is_relative_to(ROOT), 'A packaged release must be built within this project directory.')
+    audit = json.loads((ROOT / 'research/project_audit.json').read_text(encoding='utf-8'))
+    validation = json.loads((dist / 'validation.json').read_text(encoding='utf-8'))
+    manifest_path = dist / 'build_manifest.json'
+    manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    require(audit['status'] == 'pass', 'Run and fix audit_project.py first')
     for item in audit['files']:
-        assert digest((ROOT / item['path']).read_bytes()) == item['sha256'], 'Stale source audit: ' + item['path']
-    assert validation['epubcheck']['status'] == 'pass', 'This release requires actual EPUBCheck validation'
-    for suffix in ['docx', 'epub', 'pdf']:
-        assert (DIST / f'Caesar_Augustus_v0.1.{suffix}').is_file()
-    files = sorted((p for p in ROOT.rglob('*') if p.is_file() and selected(p)), key=lambda p: p.relative_to(ROOT).as_posix())
-    listing = [{'path': p.relative_to(ROOT).as_posix(), 'bytes': p.stat().st_size, 'sha256': digest(p.read_bytes())} for p in files]
-    inventory = {'release': '0.1', 'files': listing, 'exclusions': [
-        '.git; full external evidence snapshots; temporary caches; external validators and fonts',
+        require(digest((ROOT / item['path']).read_bytes()) == item['sha256'], 'Stale source audit: ' + item['path'])
+    require(manifest.get('release') == release.version and manifest.get('final') == release.final, 'Build release metadata differs from package request')
+    require(validation.get('build_manifest_sha256') == digest(manifest_path.read_bytes()), 'Export validation is stale: run verify_exports.py again')
+    require(validation['epubcheck']['status'] == 'pass', 'This release requires actual EPUBCheck validation')
+    for group in ('inputs', 'resources', 'outputs'):
+        for item in manifest[group]:
+            path = ROOT / item['path']
+            require(path.is_file() and digest(path.read_bytes()) == item['sha256'], 'File changed since verified build: ' + item['path'])
+    for suffix in ('docx', 'epub', 'pdf'):
+        require((dist / f'{release.stem}.{suffix}').is_file(), 'Missing checked ' + suffix.upper() + ' edition')
+        require(suffix in validation, 'No validation record for ' + suffix.upper())
+    files = sorted((p for p in ROOT.rglob('*') if p.is_file() and selected(p, dist)), key=lambda p: p.relative_to(ROOT).as_posix())
+    listing = [{'path': relative(p), 'bytes': p.stat().st_size, 'sha256': digest(p.read_bytes())} for p in files]
+    inventory = {'release': release.version, 'final': release.final, 'build_manifest_sha256': digest(manifest_path.read_bytes()),
+                 'validation_sha256': digest((dist / 'validation.json').read_bytes()), 'files': listing, 'exclusions': [
+        '.git; full external evidence snapshots; temporary caches; external validators and fonts; other release directories',
         '.agents/skills/paper-deep-research and paper-reviewer-check: no general redistribution license; see installation reports'
     ]}
-    out = DIST / NAME
-    with zipfile.ZipFile(out, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+    out = dist / release.archive_name
+    aliases = {}
+    if release.final:
+        for suffix in ('docx', 'epub', 'pdf'):
+            aliases[f'Caesar_Augustus.{suffix}'] = dist / f'{release.stem}.{suffix}'
+        for name in ('Bibliography.md', 'Research_Methodology.md', 'Editorial_Report.md'):
+            aliases[name] = ROOT / name
+    with zipfile.ZipFile(out, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for path in files:
-            info = zipfile.ZipInfo('caesar-augustus/' + path.relative_to(ROOT).as_posix(), (2026, 11, 5, 0, 0, 0))
+            info = zipfile.ZipInfo('caesar-augustus/' + relative(path), (2026, 11, 5, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
-            z.writestr(info, path.read_bytes())
-        z.writestr('caesar-augustus/PACKAGE_MANIFEST.json', json.dumps(inventory, ensure_ascii=False, indent=2) + '\n')
-    with zipfile.ZipFile(out) as z:
-        assert z.testzip() is None, 'Archive integrity failed'
+            archive.writestr(info, path.read_bytes())
+        for name, path in aliases.items():
+            archive.writestr(name, path.read_bytes())
+        archive.writestr('caesar-augustus/PACKAGE_MANIFEST.json', json.dumps(inventory, ensure_ascii=False, indent=2) + '\n')
+    with zipfile.ZipFile(out) as archive:
+        require(archive.testzip() is None, 'Archive integrity failed')
         for item in listing:
-            assert digest(z.read('caesar-augustus/' + item['path'])) == item['sha256'], item['path']
-        assert 'caesar-augustus/PROJECT_STATUS.md' in z.namelist()
-        assert not any('/.git/' in n or any('/skills/' + s + '/' in n for s in NO_REDISTRIBUTION) for n in z.namelist())
-    inventory['archive'] = {'path': 'dist/' + NAME, 'bytes': out.stat().st_size, 'sha256': digest(out.read_bytes()), 'crc': 'pass', 'file_hashes': 'pass'}
-    (DIST / 'package_manifest.json').write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + '\n')
-    (DIST / 'archive.sha256').write_text(inventory['archive']['sha256'] + '  ' + NAME + '\n')
+            require(digest(archive.read('caesar-augustus/' + item['path'])) == item['sha256'], 'Archive hash mismatch: ' + item['path'])
+        require('caesar-augustus/PROJECT_STATUS.md' in archive.namelist(), 'Missing project status')
+        require(not any('/.git/' in name or any('/skills/' + skill + '/' in name for skill in NO_REDISTRIBUTION) for name in archive.namelist()), 'Archive contains excluded files')
+        for name, path in aliases.items():
+            require(digest(archive.read(name)) == digest(path.read_bytes()), 'Final alias mismatch: ' + name)
+    inventory['archive'] = {'path': relative(out), 'bytes': out.stat().st_size, 'sha256': digest(out.read_bytes()), 'crc': 'pass', 'file_hashes': 'pass'}
+    (dist / 'package_manifest.json').write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (dist / 'archive.sha256').write_text(inventory['archive']['sha256'] + '  ' + release.archive_name + '\n', encoding='utf-8')
     print(json.dumps({'archive': inventory['archive'], 'files': len(listing)}, ensure_ascii=False, indent=2))
 
 

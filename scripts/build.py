@@ -1,21 +1,20 @@
 #!/usr/bin/env python3
 """Build all reading editions from the same Markdown sources. Run from any directory."""
 from pathlib import Path
-import argparse, hashlib, json, os, re, shutil, subprocess, sys
+import argparse, hashlib, json, os, re, subprocess, uuid
 from datetime import datetime, timezone
 from docx import Document
 from docx.shared import Cm, Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
-ROOT=Path(__file__).resolve().parents[1]
-DIST=ROOT/'dist'
-STEM='Caesar_Augustus_v0.1'
+from publication_config import ROOT, add_release_arguments, release_from_args, source_inputs, relative
+from epub_localization import localize_epub
 
 def run(args,env=None):
     return subprocess.run([str(x) for x in args],cwd=ROOT,check=True,text=True,capture_output=True,env=env)
 
-def russian_tex_environment():
+def russian_tex_environment(dist):
     """Create an isolated format with Russian patterns, without changing system TeX."""
     support=ROOT/'scripts/tex-support'
     env=os.environ.copy()
@@ -26,11 +25,11 @@ def russian_tex_environment():
     fmt=ROOT/'.cache/texmf-var/web2c/xetex/xelatex.fmt'
     if not fmt.exists() or not stamp.exists() or stamp.read_text().strip()!=signature:
         result=run(['fmtutil-user','--byfmt','xelatex'],env=env)
-        (DIST/'tex_format_setup.log').write_text(result.stdout+'\n'+result.stderr,encoding='utf-8')
+        (dist/'tex_format_setup.log').write_text(result.stdout+'\n'+result.stderr,encoding='utf-8')
         stamp.parent.mkdir(parents=True,exist_ok=True);stamp.write_text(signature+'\n')
     return env
 
-def reference_docx(path):
+def reference_docx(path,release):
     doc=Document()
     sec=doc.sections[0]
     sec.top_margin=Cm(2.2); sec.bottom_margin=Cm(2.2)
@@ -62,7 +61,7 @@ def reference_docx(path):
     sec.different_first_page_header_footer=True
     header=sec.header.paragraphs[0]
     header.alignment=WD_ALIGN_PARAGRAPH.CENTER
-    r=header.add_run('Цезарь и Август · Исследовательская версия 0.1'); r.font.name='DejaVu Serif'; r.font.size=Pt(8)
+    r=header.add_run('Цезарь и Август · '+release.label); r.font.name='DejaVu Serif'; r.font.size=Pt(8)
     footer=sec.footer.paragraphs[0]; footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
     fld=OxmlElement('w:fldSimple'); fld.set(qn('w:instr'),'PAGE')
     footer._p.append(fld)
@@ -74,7 +73,7 @@ def finish_docx(path):
     doc=Document(path)
     # A page break before TOC keeps the title block on its own page.
     for p in doc.paragraphs:
-        if p.text.strip() in ('Оглавление','Table of Contents','Contents'):
+        if p.text.strip() in ('Содержание','Оглавление','Table of Contents','Contents'):
             p.paragraph_format.page_break_before=True
     for p in doc.paragraphs:
         if p.style.name in ('Title','Subtitle','Author','Date'):
@@ -82,21 +81,26 @@ def finish_docx(path):
     doc.save(path)
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--no-pdf',action='store_true'); ap.add_argument('--inputs',nargs='+',type=Path)
+    ap=argparse.ArgumentParser(); add_release_arguments(ap)
+    ap.add_argument('--no-pdf',action='store_true'); ap.add_argument('--inputs',nargs='+',type=Path)
     a=ap.parse_args()
-    DIST.mkdir(exist_ok=True)
-    candidates=[ROOT/'manuscript/introduction.md',*sorted((ROOT/'manuscript/chapters').glob('*.md')),ROOT/'manuscript/appendices.md',ROOT/'manuscript/bibliography.md']
-    inputs=[p.resolve() for p in a.inputs] if a.inputs else [p for p in candidates if p.exists() and p.stat().st_size>0]
+    release=release_from_args(a); DIST=release.output_dir; STEM=release.stem
+    DIST.mkdir(parents=True,exist_ok=True)
+    inputs=[(ROOT/p).resolve() for p in a.inputs] if a.inputs else source_inputs()
+    if a.final and inputs!=source_inputs(): raise SystemExit('A final build must use the complete canonical manuscript.')
     if not inputs: raise SystemExit('No non-empty manuscript files found.')
-    reference=DIST/'reference.docx'; reference_docx(reference)
-    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','-M','toc-title=Оглавление','--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
+    reference=DIST/'reference.docx'; reference_docx(reference,release)
+    identifier='urn:uuid:'+str(uuid.uuid5(uuid.NAMESPACE_URL,'caesar-augustus/research/'+('final' if a.final else release.version)))
+    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','-M','toc-title=Содержание','-M','lang=ru-RU','-M','date='+datetime.now(timezone.utc).date().isoformat(),'-M','description='+release.label+'. Академическая монография'+('.' if a.final else ' в процессе подготовки.'),'-M','identifier='+identifier,'--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
     outputs=[]; logs=[]
     def build(extra,out,env=None):
         r=run(common+extra+['-o',out],env=env); logs.append(r.stderr)
         outputs.append(out)
     docx=DIST/f'{STEM}.docx'
     build(['--reference-doc',reference],docx); finish_docx(docx)
-    build(['--to=epub3','--epub-cover-image',ROOT/'assets/cover.png','--css',ROOT/'assets/epub.css','--split-level=1'],DIST/f'{STEM}.epub')
+    epub=DIST/f'{STEM}.epub'
+    build(['--to=epub3','--epub-cover-image',ROOT/'assets/cover.png','--css',ROOT/'assets/epub.css','--split-level=1'],epub)
+    localized_labels=localize_epub(epub)
     if not a.no_pdf:
         tex_header=DIST/'pdf-header.tex'
         tex_header.write_text(r'''\usepackage{fancyhdr}
@@ -117,13 +121,13 @@ def main():
 \renewcommand{\headrulewidth}{0.2pt}
 \setlength{\emergencystretch}{3em}
 ''',encoding='utf-8')
-        build(['--pdf-engine=xelatex','-V','documentclass=book','-V','classoption=oneside,openany','-V','papersize=a5','-V','geometry:inner=20mm,outer=17mm,top=21mm,bottom=22mm','-V','fontsize=10pt','-V','mainfont=DejaVu Serif','-V','sansfont=DejaVu Sans','-V','monofont=DejaVu Sans Mono','-V','linestretch=1.08','-V','colorlinks=true','-V','linkcolor=black','-V','urlcolor=black','--include-in-header',tex_header],DIST/f'{STEM}.pdf',env=russian_tex_environment())
-    resources={ROOT/'manuscript/metadata.yaml',ROOT/'assets/epub.css',ROOT/'assets/cover.png'}
+        build(['--pdf-engine=xelatex','-V','documentclass=book','-V','classoption=oneside,openany','-V','papersize=a5','-V','geometry:inner=20mm,outer=17mm,top=21mm,bottom=22mm','-V','fontsize=10pt','-V','mainfont=DejaVu Serif','-V','sansfont=DejaVu Sans','-V','monofont=DejaVu Sans Mono','-V','linestretch=1.08','-V','colorlinks=true','-V','linkcolor=black','-V','urlcolor=black','--include-in-header',tex_header],DIST/f'{STEM}.pdf',env=russian_tex_environment(DIST))
+    resources={ROOT/'manuscript/metadata.yaml',ROOT/'assets/epub.css',ROOT/'assets/cover.png',Path(__file__).resolve(),ROOT/'scripts/epub_localization.py',ROOT/'scripts/publication_config.py'}
     for p in inputs:
         resources.update(ROOT/image for image in re.findall(r'!\[[^\]]*\]\(([^)]+)\)',p.read_text(encoding='utf-8')))
     resources.update(p for p in (ROOT/'scripts/tex-support').rglob('*') if p.is_file())
-    manifest={'built_utc':datetime.now(timezone.utc).isoformat(),'inputs':[{'path':str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in inputs], 'resources':[{'path':str(p.relative_to(ROOT)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(resources)], 'outputs':[{'path':str(p.relative_to(ROOT)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in outputs], 'versions':{'pandoc':run(['pandoc','--version']).stdout.splitlines()[0],'xelatex':run(['xelatex','--version']).stdout.splitlines()[0]},'warnings':'\n'.join(logs)}
+    manifest={'release':release.version,'final':release.final,'stem':STEM,'output_dir':relative(DIST),'localized_epub_labels':localized_labels,'cover_preserved_sha256':hashlib.sha256((ROOT/'assets/cover.png').read_bytes()).hexdigest(),'built_utc':datetime.now(timezone.utc).isoformat(),'inputs':[{'path':relative(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in inputs], 'resources':[{'path':relative(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(resources)], 'outputs':[{'path':relative(p),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in outputs], 'versions':{'pandoc':run(['pandoc','--version']).stdout.splitlines()[0],'xelatex':run(['xelatex','--version']).stdout.splitlines()[0]},'warnings':'\n'.join(logs)}
     (DIST/'build_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (DIST/'build.log').write_text('\n'.join(logs),encoding='utf-8')
-    for p in outputs: print(f'{p.relative_to(ROOT)} ({p.stat().st_size:,} bytes)')
+    for p in outputs: print(f'{relative(p)} ({p.stat().st_size:,} bytes)')
 if __name__=='__main__': main()

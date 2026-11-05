@@ -62,3 +62,12 @@ Syme, Ronald. *The Roman Revolution*. Oxford: Clarendon Press, 1939.
 Wallace-Hadrill, Andrew. “Civilis Princeps: Between Citizen and King.” *The Journal of Roman Studies* 72 (1982): 32–48. https://doi.org/10.2307/299114.
 
 Zanker, Paul. *The Power of Images in the Age of Augustus*. Translated by Alan Shapiro. Ann Arbor: University of Michigan Press, 1988.
+
+
+## Дополнения после повторной проверки первой главы
+
+Campbell, Brian. Review of *Rome at War: Farms, Families, and Death in the Middle Republic*, by Nathan Rosenstein. *Electronic Antiquity* 8, no. 2 (May 2005): 61–66. https://scholar.lib.vt.edu/ejournals/ElAnt/V8N2/.
+
+Morstein-Marx, Robert. “Publicity, Popularity and Patronage in the ‘Commentariolum Petitionis’.” *Classical Antiquity* 17, no. 2 (1998): 259–288. https://doi.org/10.2307/25011085.
+
+Mouritsen, Henrik. *Plebs and Politics in the Late Roman Republic*. Cambridge: Cambridge University Press, 2001. https://doi.org/10.1017/CBO9780511482885.

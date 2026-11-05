@@ -1,0 +1,59 @@
+{
+  "release": "0.2",
+  "final": false,
+  "output_dir": "dist/v0.2",
+  "build_manifest_sha256": "9930a920b7cfea171e7e15356cc864b7e56706e4c80e86f13e456f8ca3e0c567",
+  "docx": {
+    "crc": "pass",
+    "xml_parts_parsed": 18,
+    "footnote_references": 59,
+    "footnote_resolution": "pass",
+    "toc_field": "pass",
+    "toc_heading": "Содержание",
+    "language": "ru-RU",
+    "cyrillic": "pass",
+    "image_resources": 3
+  },
+  "epub": {
+    "crc": "pass",
+    "xml_parts_parsed": 11,
+    "manifest_resources": "pass",
+    "version": "3.0",
+    "language": "ru-RU",
+    "xhtml_languages": "ru-RU",
+    "localized_navigation": "pass",
+    "landmark_labels": {
+      "titlepage": "Титульный лист",
+      "cover": "Обложка",
+      "toc": "Содержание"
+    },
+    "opf_guide_labels": "pass",
+    "ncx_generated_labels": "pass",
+    "cover_preserved": "pass",
+    "xhtml_files": 7,
+    "internal_links": "pass",
+    "footnote_references": 59,
+    "footnote_backlinks": 59,
+    "image_resources": 4
+  },
+  "pdf": {
+    "pages": 47,
+    "cyrillic_extraction": "pass",
+    "text_characters": 74650,
+    "embedded_fonts": "pass",
+    "font_count": 3,
+    "page_bounds": "pass"
+  },
+  "epubcheck": {
+    "status": "pass",
+    "log": "dist/v0.2/epubcheck.log"
+  },
+  "source_heading_count": 4,
+  "expected_note_occurrences": 59,
+  "manuscript_image_sources": [
+    "assets/genealogy.png",
+    "assets/images/met_248037.jpg",
+    "assets/images/met_248119.jpg"
+  ],
+  "visual_proofreading": "Separate PDF page inspection and reader testing required; structural checks do not certify Apple Books rendering."
+}

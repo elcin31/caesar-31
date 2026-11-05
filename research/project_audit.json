@@ -3,9 +3,9 @@
   "files": [
     {
       "path": "manuscript/introduction.md",
-      "sha256": "1be65f3f1674cb0bb2118828f04ef7890e5b858b04fe85f61b3805a172e070e2",
-      "russian_body_words": 2116,
-      "whitespace_body_words": 2174,
+      "sha256": "a7557fe62735dd58f18614910cd1b7734ffcc168f60c38abf5d0d5a484b756d5",
+      "russian_body_words": 2144,
+      "whitespace_body_words": 2202,
       "footnote_definitions": 16,
       "footnote_occurrences": 16,
       "undefined": [],
@@ -16,11 +16,11 @@
     },
     {
       "path": "manuscript/chapters/01-republic.md",
-      "sha256": "7209c0f48059b234025011485111a60c87b2835bd485ea9e9b8bd7b437f27708",
-      "russian_body_words": 3288,
-      "whitespace_body_words": 3303,
-      "footnote_definitions": 32,
-      "footnote_occurrences": 33,
+      "sha256": "48ee0e5e9df59446d0adb16ba836da4db7f7eb8ff02c72815f3b85987f5129cc",
+      "russian_body_words": 4015,
+      "whitespace_body_words": 4037,
+      "footnote_definitions": 43,
+      "footnote_occurrences": 43,
       "undefined": [],
       "unused": [],
       "duplicate_definitions": [],
@@ -30,7 +30,7 @@
   ],
   "errors": [],
   "cross_file_duplicate_footnotes": [],
-  "bibliographic_entries": 29,
+  "bibliographic_entries": 32,
   "duplicate_bibliographic_keys": [],
   "installed_skill_names": [
     "academic-humanizer",
@@ -55,7 +55,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 5404,
-  "total_footnote_occurrences": 49,
+  "total_russian_body_words": 6159,
+  "total_footnote_occurrences": 59,
   "status": "pass"
 }
