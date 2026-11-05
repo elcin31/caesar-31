@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import json
 import re
+import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
 LABELS = {'planned': 'не начата', 'researching': 'исследование', 'draft': 'написана, проверка не завершена', 'reviewed': 'внутренняя проверка пройдена'}
@@ -31,11 +32,25 @@ def main():
     conclusion = ROOT / 'manuscript/conclusion.md'
     conclusion_words = count(conclusion) if conclusion.exists() else 0
     total += conclusion_words
+    drafts = []
+    for path in sorted((ROOT / 'research/drafts').glob('*.md')):
+        number = path.name.split('-', 1)[0]
+        if not list((ROOT / 'manuscript/chapters').glob(number + '-*.md')):
+            drafts.append((path, count(path)))
+    draft_table = '\n'.join(f'| {p.name} | {n} | ещё не включён в основную рукопись |' for p,n in drafts)
     bibliography = len(re.findall(r'^@\w+\s*\{', (ROOT / 'references.bib').read_text(), re.M))
     validation_file = ROOT / 'dist' / f'v{version}' / 'validation.json'
     if validation_file.exists():
         v = json.loads(validation_file.read_text())
         exports = f"Версия v{version}: DOCX/EPUB/PDF фактически собраны; PDF {v.get('pdf', {}).get('pages', '?')} страниц; EPUBCheck: {v.get('epubcheck', {}).get('status', 'не выполнен')}. Подробности и SHA-256 — в dist/v{version}/validation.json и build_manifest.json."
+        manifest_file = validation_file.parent / 'build_manifest.json'
+        if manifest_file.exists():
+            manifest = json.loads(manifest_file.read_text())
+            current_files = {str(p.relative_to(ROOT)) for p in [ROOT/'manuscript/introduction.md', *sorted((ROOT/'manuscript/chapters').glob('*.md')), ROOT/'manuscript/conclusion.md', ROOT/'manuscript/appendices.md', ROOT/'manuscript/bibliography.md'] if p.exists()}
+            old_files = {x['path'] for x in manifest['inputs']}
+            stale = current_files != old_files or any(not (ROOT/x['path']).exists() or hashlib.sha256((ROOT/x['path']).read_bytes()).hexdigest() != x['sha256'] for x in manifest['inputs'])
+            if stale:
+                exports += ' Эта сборка относится к прежней контрольной точке: текущая рукопись уже расширена и требует новой сборки после завершения части. Наличие прежних файлов не означает экспорта новых глав.'
     else:
         exports = f'Читательские файлы v{version} ещё не собраны; предыдущие версии сохранены в dist.'
     text = f'''# Состояние CAESAR & AUGUSTUS — v{version}
@@ -47,6 +62,16 @@ def main():
 | Глава | Содержание | Состояние | Русских слов |
 |---|---|---|---:|
 ''' + '\n'.join(rows) + f'''
+
+## Сохранённые черновики последующих глав
+
+Эти тексты сохраняются для защиты от прерывания, проходят отдельную проверку и включаются в книгу по порядку. Они не входят в заявленный выше объём основной рукописи и не считаются завершёнными главами.
+
+| Файл в research/drafts/ | Русских слов | Статус |
+|---|---:|---|
+{draft_table if drafts else '| — | 0 | сохранённых невключённых черновиков пока нет |'}
+
+Суммарный объём сохранённых невключённых черновиков: {sum(n for _,n in drafts)} слов. Временный файл в /tmp не считается достаточным способом сохранения законченного текста.
 
 Введение сохранено и точечно актуализировано после нового чтения. Развёрнутый план и гипотезы — research/conception.md. Исходный статус v0.1 сохранён в research/status_v01.md; первоначальный коммит и исходные читательские файлы сохранены.
 

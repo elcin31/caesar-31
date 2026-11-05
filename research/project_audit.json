@@ -16,11 +16,24 @@
     },
     {
       "path": "manuscript/chapters/01-republic.md",
-      "sha256": "48ee0e5e9df59446d0adb16ba836da4db7f7eb8ff02c72815f3b85987f5129cc",
+      "sha256": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245",
       "russian_body_words": 4015,
-      "whitespace_body_words": 4037,
+      "whitespace_body_words": 4038,
       "footnote_definitions": 43,
       "footnote_occurrences": 43,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "sha256": "fcf58cdb6c24971311ae6793ce4e45b839b24cb01c7f12ad71cad50db52ccae6",
+      "russian_body_words": 2916,
+      "whitespace_body_words": 2939,
+      "footnote_definitions": 29,
+      "footnote_occurrences": 29,
       "undefined": [],
       "unused": [],
       "duplicate_definitions": [],
@@ -30,7 +43,7 @@
   ],
   "errors": [],
   "cross_file_duplicate_footnotes": [],
-  "bibliographic_entries": 32,
+  "bibliographic_entries": 38,
   "duplicate_bibliographic_keys": [],
   "installed_skill_names": [
     "academic-humanizer",
@@ -55,7 +68,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 6159,
-  "total_footnote_occurrences": 59,
+  "total_russian_body_words": 9075,
+  "total_footnote_occurrences": 88,
   "status": "pass"
 }

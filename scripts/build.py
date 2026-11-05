@@ -67,6 +67,15 @@ def reference_docx(path,release):
     footer._p.append(fld)
     update=OxmlElement('w:updateFields'); update.set(qn('w:val'),'true'); doc.settings.element.append(update)
     lang=OxmlElement('w:themeFontLang'); lang.set(qn('w:val'),'ru-RU'); doc.settings.element.append(lang)
+    doc.core_properties.language='ru-RU'
+    defaults=doc.styles.element.find(qn('w:docDefaults'))
+    if defaults is not None:
+        default_rpr=defaults.find('.//' + qn('w:rPr'))
+        if default_rpr is not None:
+            language=default_rpr.find(qn('w:lang'))
+            if language is None:
+                language=OxmlElement('w:lang');default_rpr.append(language)
+            language.set(qn('w:val'),'ru-RU')
     doc.save(path)
 
 def finish_docx(path):

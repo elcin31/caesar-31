@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     files = [ROOT / 'manuscript/introduction.md', *sorted((ROOT / 'manuscript/chapters').glob('*.md'))]
+    if (ROOT / 'manuscript/conclusion.md').exists():
+        files.append(ROOT / 'manuscript/conclusion.md')
     report = {'method': 'Russian letter tokens in body; headings included; footnotes excluded', 'files': [], 'errors': []}
     all_ids = []
     banned = ['следует отметить', 'нельзя не подчеркнуть', 'не только', 'важную роль в этом процессе сыграл', 'данное событие стало поворотным моментом']

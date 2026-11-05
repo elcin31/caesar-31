@@ -71,3 +71,18 @@ Campbell, Brian. Review of *Rome at War: Farms, Families, and Death in the Middl
 Morstein-Marx, Robert. “Publicity, Popularity and Patronage in the ‘Commentariolum Petitionis’.” *Classical Antiquity* 17, no. 2 (1998): 259–288. https://doi.org/10.2307/25011085.
 
 Mouritsen, Henrik. *Plebs and Politics in the Late Roman Republic*. Cambridge: Cambridge University Press, 2001. https://doi.org/10.1017/CBO9780511482885.
+
+
+## Дополнения к главе2
+
+Badian, Ernst. “From the Iulii to Caesar.” In *A Companion to Julius Caesar*, edited by Miriam Griffin, 11–22. Chichester: Wiley-Blackwell, 2009. https://doi.org/10.1002/9781444308440.ch2.
+
+Liou-Gille, Bernadette. “César, ‘flamen Dialis destinatus’.” *Revue des Études Anciennes* 101, nos. 3–4 (1999): 433–459. https://doi.org/10.3406/rea.1999.4776.
+
+Ładoń, Tomasz. “Geneza i okoliczności konfliktu G. Juliusza Cezara z L. Korneliuszem Sullą.” *Wieki Stare i Nowe* 16 (21) (2021): 7–22. https://doi.org/10.31261/WSN.2021.21.01.
+
+Morstein-Marx, Robert. *Julius Caesar and the Roman People*. Cambridge: Cambridge University Press, 2021. https://doi.org/10.1017/9781108943260.
+
+Геллий, Авл. *The Attic Nights*. Перевод J. C. Rolfe. Т.2. Loeb Classical Library, 1927. Электронная транскрипция LacusCurtius: [книга10](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/10*.html).
+
+Светоний. *De grammaticis*. Перевод J. C. Rolfe. Т.2. Loeb Classical Library, 1914. Электронная транскрипция LacusCurtius: [текст](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/de_Grammaticis*.html).

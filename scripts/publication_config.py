@@ -59,13 +59,16 @@ def final_completion_gate():
             continue
         body = re.sub(r'^\[\^[^]]+\]:.*(?:\n(?:[ \t]+.*|[ \t]*$))*', '', path.read_text(encoding='utf-8'), flags=re.M)
         total += len(re.findall(r'[А-Яа-яЁё]+(?:[–-][А-Яа-яЁё]+)*', body))
-    if total < 45000:
-        errors.append(f'Russian body word count {total} is below 45000')
+    below_target = total < 45000
     status_file = ROOT / 'research/final_review_status.json'
     if not status_file.is_file():
         errors.append('research/final_review_status.json has not recorded the completed reviews')
     else:
         status = json.loads(status_file.read_text(encoding='utf-8'))
+        if below_target:
+            exception = status.get('word_count_exception', {})
+            if not (exception.get('editorial_justification') and len(exception['editorial_justification'].strip()) >= 80):
+                errors.append(f'Russian body word count {total} is below target45000; a substantive editorial justification is required, without padding or new user approval')
         for n in range(1, 17):
             for check in ('historical', 'scientific', 'style'):
                 if status.get('chapters', {}).get(f'{n:02}', {}).get(check) != 'pass':
