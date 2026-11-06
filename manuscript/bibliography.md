@@ -86,3 +86,13 @@ Morstein-Marx, Robert. *Julius Caesar and the Roman People*. Cambridge: Cambridg
 Геллий, Авл. *The Attic Nights*. Перевод J. C. Rolfe. Т.2. Loeb Classical Library, 1927. Электронная транскрипция LacusCurtius: [книга10](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/10*.html).
 
 Светоний. *De grammaticis*. Перевод J. C. Rolfe. Т.2. Loeb Classical Library, 1914. Электронная транскрипция LacusCurtius: [текст](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/de_Grammaticis*.html).
+
+## Дополнения к главе 3
+
+Gruen, Erich S. “Caesar as a Politician.” In *A Companion to Julius Caesar*, edited by Miriam Griffin, 23–36. Chichester: Wiley-Blackwell, 2009. https://doi.org/10.1002/9781444308440.ch3.
+
+Jehne, Martin. “Caesar the Politician.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 6–12. New York: Pantheon Books, 2017. Исправленный официальный PDF от 5 января 2018 г. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
+
+Цицерон. *In Catilinam IV*. Перевод H. E. D. Blakiston, 1894. Электронное воспроизведение Attalus: https://www.attalus.org/cicero/catilina4.html.
+
+Цицерон. *Letters to Atticus*. Перевод E. O. Winstedt, 1919. Электронное воспроизведение Attalus: https://www.attalus.org/cicero/atticus1.html; https://www.attalus.org/cicero/atticus2.html.

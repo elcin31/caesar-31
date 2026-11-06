@@ -1,0 +1,91 @@
+{
+  "method": "Russian letter tokens in body; headings included; footnotes excluded",
+  "files": [
+    {
+      "path": "manuscript/introduction.md",
+      "sha256": "a7557fe62735dd58f18614910cd1b7734ffcc168f60c38abf5d0d5a484b756d5",
+      "russian_body_words": 2144,
+      "whitespace_body_words": 2202,
+      "footnote_definitions": 16,
+      "footnote_occurrences": 16,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "sha256": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245",
+      "russian_body_words": 4015,
+      "whitespace_body_words": 4038,
+      "footnote_definitions": 43,
+      "footnote_occurrences": 43,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "sha256": "fcf58cdb6c24971311ae6793ce4e45b839b24cb01c7f12ad71cad50db52ccae6",
+      "russian_body_words": 2916,
+      "whitespace_body_words": 2939,
+      "footnote_definitions": 29,
+      "footnote_occurrences": 29,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "sha256": "396b3fc5d6f05224a2af87407f7c9c8a19a0cd3ffcfdf747a52218f34d196c0e",
+      "russian_body_words": 2929,
+      "whitespace_body_words": 2956,
+      "footnote_definitions": 33,
+      "footnote_occurrences": 33,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [
+        "не только"
+      ],
+      "hidden_characters": []
+    }
+  ],
+  "errors": [
+    "manuscript/chapters/03-career.md"
+  ],
+  "cross_file_duplicate_footnotes": [],
+  "bibliographic_entries": 42,
+  "duplicate_bibliographic_keys": [],
+  "installed_skill_names": [
+    "academic-humanizer",
+    "awt-audit",
+    "awt-export",
+    "awt-map",
+    "awt-note",
+    "awt-verify-refs",
+    "citation-verification",
+    "historian",
+    "history-research-guide",
+    "hr-argument-planning",
+    "hr-explanation-testing",
+    "hr-historiography",
+    "hr-source-criticism",
+    "humanizer",
+    "paper-deep-research",
+    "paper-reviewer-check",
+    "unslop-academic-writing"
+  ],
+  "duplicate_skill_names": [],
+  "installed_skill_files_hash_checked": 180,
+  "installed_skill_file_mismatches": [],
+  "documented_distribution_exclusions_absent": [],
+  "total_russian_body_words": 12004,
+  "total_footnote_occurrences": 121,
+  "status": "fail"
+}

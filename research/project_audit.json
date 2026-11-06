@@ -39,11 +39,28 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "sha256": "396b3fc5d6f05224a2af87407f7c9c8a19a0cd3ffcfdf747a52218f34d196c0e",
+      "russian_body_words": 2929,
+      "whitespace_body_words": 2956,
+      "footnote_definitions": 33,
+      "footnote_occurrences": 33,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [
+        "не только"
+      ],
+      "hidden_characters": []
     }
   ],
-  "errors": [],
+  "errors": [
+    "manuscript/chapters/03-career.md"
+  ],
   "cross_file_duplicate_footnotes": [],
-  "bibliographic_entries": 38,
+  "bibliographic_entries": 42,
   "duplicate_bibliographic_keys": [],
   "installed_skill_names": [
     "academic-humanizer",
@@ -68,7 +85,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 9075,
-  "total_footnote_occurrences": 88,
-  "status": "pass"
+  "total_russian_body_words": 12004,
+  "total_footnote_occurrences": 121,
+  "status": "fail"
 }
