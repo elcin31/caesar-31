@@ -1,0 +1,1230 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.258617,
+                    41.114588
+                ]
+            },
+            "type": "Feature",
+            "id": "darmc-location-20183",
+            "properties": {
+                "snippet": "Unknown; 550 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/246349/darmc-location-20183",
+                "description": "1M scale point location",
+                "location_precision": "precise",
+                "title": "DARMC location 20183"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.258058,
+                    41.119196
+                ]
+            },
+            "type": "Feature",
+            "id": "dare-location",
+            "properties": {
+                "snippet": "Settlement; 550 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/246349/dare-location",
+                "description": "Representative point location, site precision",
+                "location_precision": "precise",
+                "title": "DARE Location"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+            "username": "enesy",
+            "homepage": null,
+            "name": "Enes Yılandiloğlu",
+            "uri": "https://pleiades.stoa.org/author/enesy"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+                }
+            ],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "citationDetail": "20183",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "DARMC",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 20183.",
+                    "otherIdentifier": " ",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "darmc-location-20183",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "end": 640,
+            "title": "DARMC location 20183",
+            "provenance": "DARMC OBJECTID: 20183",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -550,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "DARMC OBJECTID: 20183",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+            "featureType": [
+                "unknown"
+            ],
+            "description": "1M scale point location",
+            "created": "2011-03-04T23:31:33Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.258617,
+                    41.114588
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/246349/darmc-location-20183",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "S.J. Keay"
+                },
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T03:31:32Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-04T23:37:08Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-04T23:31:34Z"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-04T23:31:34Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-04T23:31:34Z"
+                }
+            ]
+        },
+        {
+            "contributors": [],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "shortTitle": "",
+                    "bibliographicURI": "",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "type": "cites"
+                }
+            ],
+            "id": "dare-location",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "end": 640,
+            "title": "DARE Location",
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -550,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "featureType": [
+                "settlement"
+            ],
+            "description": "Representative point location, site precision",
+            "created": "2012-10-20T23:53:56Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.258058,
+                    41.119196
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/246349/dare-location",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:53:57Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:53:57Z"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:53:57Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:53:56Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2016-07-13T14:02:32Z",
+            "associationCertainty": "certain",
+            "title": "Via Augusta",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/246349/803793619",
+            "connectionType": "connection",
+            "id": "803793619",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T14:02:32Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T14:02:32Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T14:02:32Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/803793619",
+            "details": "",
+            "references": [],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "admin",
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "25 G4 Col. Tarraco",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/40415507",
+            "citationDetail": "151-55",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "TIR Tarraco",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/XH3XVBTP",
+            "formattedCitation": "<div class=\"csl-entry\">Cepas, Adela, Joseph Guitart i Duran, and Guillermo Fatás Cabeza. <i>Tabula Imperii Romani: K/J-31 Pyrénées Orientales/Baleares: Tarraco - Baliares</i>. Tabula Imperii Romani, K/J-31. Pyreneés Orientales-Baleares. Madrid: Ministerio de Fomento: Ministerio de Educación y Cultura CSIC : Institut D’Estudis Catalans, 1997. http://www.worldcat.org/oclc/40415507.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://whc.unesco.org/en/list/875",
+            "citationDetail": "875: Archaeological Ensemble of Tárraco",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "WHL",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+            "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Tarraco",
+            "citationDetail": "Tarraco",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Tarraco.",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://latin.packhum.org/loc/978/1/223/1155-1162",
+            "citationDetail": "3.21.6",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Plin., NH (Mayhoff: PHI)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+            "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Torre_dels_Escipions",
+            "citationDetail": "Torre dels Escipions",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Torre dels Escipions.",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.encquran.brill.nl/entries/brill-s-new-pauly/tarraco-e1201130?s.num=0&s.q=tarraco",
+            "citationDetail": "Tarraco",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.trismegistos.org/place/3371",
+            "citationDetail": "GEO ID 3371: Tarraco (Tarragona)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:3.4.7",
+            "citationDetail": "3.4.7",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Str. (Meineke: Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+            "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.geonames.org/10860263/forum-roma-tarragona.html",
+            "citationDetail": "10860263: Forum Romà Tarragona",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "GeoNames",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. “GeoNames,” 2005. http://www.geonames.org/.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.jstor.org/stable/10.3764/aja.117.1.0083",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Shaya 2013",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B39H246J",
+            "formattedCitation": "<div class=\"csl-entry\">Shaya, Josephine. “The Public Life of Monuments: The Summi Viri of the Forum of Augustus.” <i>American Journal of Archaeology</i> 117, no. 1 (2013): 83–110. https://doi.org/10.3764/aja.117.1.0083.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/411013UTar",
+            "citationDetail": "Tarraco (Iberia) 96 Tarragona - Ταρράκων",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://directory.doabooks.org/handle/20.500.12854/80908",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Vinci 2020",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HZ7RQ6H5",
+            "formattedCitation": "<div class=\"csl-entry\">VINCI, MARIA SERENA. <i>Il “Foro Provinciale” di Tarraco (Hispania Citerior): tecniche e processi edilizi</i>. DAN@. Pessac: Ausonius Éditions, 2020. https://directory.doabooks.org/handle/20.500.12854/80908.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.sciencedirect.com/science/article/pii/S2352409X23000123",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Cau Ontiveros 2023",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IITEVRUD",
+            "formattedCitation": "<div class=\"csl-entry\">Cau Ontiveros, Miguel Ángel, Leandro Fantuzzi, Francesc Rodríguez Martorell, Evanthia Tsantini, and Josep M. Macias Solé. “Sorting out Problems with Late Roman Eastern Mediterranean Cooking Wares from Tarraco (Tarragona, Spain) Combining Archaeology and Archaeometry.” <i>Journal of Archaeological Science: Reports</i> 48 (April 1, 2023): 103837. https://doi.org/10.1016/j.jasrep.2023.103837.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Col. Tarraco",
+            "attestations": [
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "col-tarraco",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 25 G4 Col. Tarraco",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -550,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-11-09T18:57:36Z",
+            "uri": "https://pleiades.stoa.org/places/246349/col-tarraco",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "S.J. Keay"
+                },
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T03:31:32Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-11-10T17:48:05Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-09T19:11:07Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-09T18:57:36Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Col. Iulia Urbs Triumphalis",
+            "attestations": [
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "col-iulia-urbs-triumphalis",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 25 G4 Col. Tarraco",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -550,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-11-09T18:57:37Z",
+            "uri": "https://pleiades.stoa.org/places/246349/col-iulia-urbs-triumphalis",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "S.J. Keay"
+                },
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T03:31:32Z"
+                },
+                {
+                    "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-01-20T03:25:36Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-11-10T17:48:05Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-09T19:11:07Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-09T18:57:37Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Tarragona",
+            "attestations": [
+                {
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://en.wikipedia.org/wiki/Tarragona",
+                    "citationDetail": "Tarragona",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Wikipedia (English)",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Tarragona.",
+                    "otherIdentifier": " ",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "name.2014-05-29.9987667579",
+            "end": 2100,
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "es",
+            "created": "2014-05-29T16:30:33Z",
+            "uri": "https://pleiades.stoa.org/places/246349/name.2014-05-29.9987667579",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Tarragona",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2021-04-22T10:59:39Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2021-04-22T10:59:34Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2015-05-16T15:57:41Z"
+                },
+                {
+                    "comment": "added name",
+                    "modifiedBy": "jbecker",
+                    "modified": "2014-05-29T16:30:49Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2014-05-29T16:30:37Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Tarrakon, Tarrákōn",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:3.4.7",
+                    "citationDetail": "3.4.7",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Str. (Meineke: Perseus)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+                    "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+                    "otherIdentifier": " ",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "tarrakon",
+            "end": 300,
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "grc",
+            "created": "2016-06-27T06:31:06Z",
+            "uri": "https://pleiades.stoa.org/places/246349/tarrakon",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Ταρράκων",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2021-04-22T11:00:16Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2021-04-22T10:59:58Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-02-01T01:09:02Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2016-06-27T06:31:17Z"
+                },
+                {
+                    "comment": "added name",
+                    "modifiedBy": "jbecker",
+                    "modified": "2016-06-27T06:31:08Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2016-06-27T06:31:06Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Tarraco",
+            "attestations": [
+                {
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://directory.doabooks.org/handle/20.500.12854/80908",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "Vinci 2020",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HZ7RQ6H5",
+                    "formattedCitation": "<div class=\"csl-entry\">VINCI, MARIA SERENA. <i>Il “Foro Provinciale” di Tarraco (Hispania Citerior): tecniche e processi edilizi</i>. DAN@. Pessac: Ausonius Éditions, 2020. https://directory.doabooks.org/handle/20.500.12854/80908.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "tarraco",
+            "end": 2099,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 2000,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "it",
+            "created": "2023-02-23T15:04:50Z",
+            "uri": "https://pleiades.stoa.org/places/246349/tarraco",
+            "creators": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "attested": "Tarraco",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-02-23T16:50:27Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2023-02-23T15:04:57Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "thomase",
+                    "modified": "2023-02-23T15:04:51Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "thomase",
+                    "modified": "2023-02-23T15:04:50Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Ṭarrekūne",
+            "attestations": [
+                {
+                    "timePeriod": "sixteenth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/sixteenth-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://ekitap.yek.gov.tr/urun/kunhu%E2%80%99l-ahbar--takim-5-cilt-_821.aspx",
+                    "citationDetail": "1st Volume, 363, s.v. \"Ṭarrekūne\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Künhü'l-ahbâr",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WKDD5W8W",
+                    "formattedCitation": "<div class=\"csl-entry\">Âli, Mustafa bin Ahmet. <i>Künhü’l-ahbâr: (tenkitli metin)</i>. Edited by Suat Donuk and Derya Örs. 1. baskı. 5 vols. Türkiye Yazma Eserler Kurumu Başkanlığı yayınları. Fatih, İstanbul: Türkiye Yazma Eserler Kurumu Başkanlığı, 2020. https://ekitap.yek.gov.tr/urun/kunhu%E2%80%99l-ahbar--takim-5-cilt-_821.aspx.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "id": "tarrekune",
+            "end": 1599,
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1500,
+            "details": "<p class=\"p1\"><em>Ṭarrekūne</em>: It is a city in Andalusia. (translated by the first creator of this entry)</p>",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "ota",
+            "created": "2025-11-08T10:42:44Z",
+            "uri": "https://pleiades.stoa.org/places/246349/tarrekune",
+            "creators": [
+                {
+                    "username": "enesy",
+                    "homepage": null,
+                    "name": "Enes Yılandiloğlu",
+                    "uri": "https://pleiades.stoa.org/author/enesy"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2025-11-11T22:14:25Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2025-11-11T22:14:21Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "enesy",
+                    "modified": "2025-11-08T10:42:50Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "enesy",
+                    "modified": "2025-11-08T10:42:45Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "enesy",
+                    "modified": "2025-11-08T10:42:44Z"
+                }
+            ]
+        }
+    ],
+    "id": "246349",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=1",
+        "dare:feature=major settlement",
+        "UWHS"
+    ],
+    "title": "Col. Tarraco",
+    "provenance": "Barrington Atlas: BAtlas 25 G4 Col. Tarraco",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Tarragona</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "An Iberian site in contact with Greek and Phoenician merchants that became a major Roman center from the third century BC onward.",
+    "reprPoint": [
+        1.2583375,
+        41.116892
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "bbox": [
+        1.258058,
+        41.114588,
+        1.258617,
+        41.119196
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/803793619",
+        "https://pleiades.stoa.org/places/468980180",
+        "https://pleiades.stoa.org/places/353133530",
+        "https://pleiades.stoa.org/places/379765985",
+        "https://pleiades.stoa.org/places/246496",
+        "https://pleiades.stoa.org/places/246696",
+        "https://pleiades.stoa.org/places/246238",
+        "https://pleiades.stoa.org/places/250017",
+        "https://pleiades.stoa.org/places/246893"
+    ],
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2010-11-09T18:57:36Z",
+    "uri": "https://pleiades.stoa.org/places/246349",
+    "creators": [
+        {
+            "username": null,
+            "name": "H.S. Sivan"
+        },
+        {
+            "username": null,
+            "name": "S.J. Keay"
+        },
+        {
+            "username": null,
+            "name": "R.W. Mathisen"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "added Cau Ontiveros 2023",
+            "modifiedBy": "thomase",
+            "modified": "2023-03-03T00:03:50Z"
+        },
+        {
+            "comment": "added Vinci 2020",
+            "modifiedBy": "thomase",
+            "modified": "2023-02-23T15:03:52Z"
+        },
+        {
+            "comment": "added Topostext, updated references",
+            "modifiedBy": "jbecker",
+            "modified": "2020-11-08T01:07:45Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2019-08-20T00:03:20Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2018-10-03T12:53:20Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2018-08-10T01:35:25Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2016-07-01T18:08:26Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2016-06-27T06:29:57Z"
+        },
+        {
+            "comment": "added connection",
+            "modifiedBy": "jbecker",
+            "modified": "2014-01-11T02:58:01Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2013-11-12T01:34:56Z"
+        },
+        {
+            "comment": "added UWHS tag",
+            "modifiedBy": "jbecker",
+            "modified": "2012-12-28T21:52:57Z"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-23T19:44:42Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T23:53:58Z"
+        },
+        {
+            "comment": "edited description",
+            "modifiedBy": "jbecker",
+            "modified": "2012-10-05T19:54:13Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2012-10-05T19:51:22Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T03:31:31Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-04T23:31:35Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T19:15:05Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-11-10T17:48:05Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-11-09T19:11:07Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-11-09T18:57:36Z"
+        }
+    ]
+}

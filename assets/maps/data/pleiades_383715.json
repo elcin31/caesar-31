@@ -1,0 +1,960 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.925223,
+                    44.647057
+                ]
+            },
+            "type": "Feature",
+            "id": "darmc-location-6781",
+            "properties": {
+                "snippet": "Unknown; 30 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/383715/darmc-location-6781",
+                "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+                "location_precision": "precise",
+                "title": "DARMC location 6781"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+                }
+            ],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "citationDetail": "6781",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "DARMC",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 6781.",
+                    "otherIdentifier": " ",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "darmc-location-6781",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "end": 640,
+            "title": "DARMC location 6781",
+            "provenance": "DARMC OBJECTID: 6781",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "DARMC OBJECTID: 6781",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+            "featureType": [
+                "unknown"
+            ],
+            "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+            "created": "2011-03-09T19:34:05Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.925223,
+                    44.647057
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/383715/darmc-location-6781",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "M. Pearce"
+                },
+                {
+                    "username": null,
+                    "name": "P. Tozzi"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T04:34:14Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-10T04:59:45Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T19:34:06Z"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T19:34:06Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T19:34:05Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": null,
+            "description": "",
+            "contributors": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:33:34Z",
+            "associationCertainty": "certain",
+            "title": "Via Aemilia",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/383715/66908841",
+            "connectionType": "on",
+            "id": "66908841",
+            "attestations": [],
+            "history": [
+                {
+                    "comment": "changed cnxn type to 'on'",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-04-08T02:51:37Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:33:34Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:33:34Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:33:34Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/66908841",
+            "details": "",
+            "references": [],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "39 H4 Mutina",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Cardarelli 1988",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N775EITX",
+            "formattedCitation": "<div class=\"csl-entry\">Cardarelli, A., I. Pulini, and C. Zanasi, eds. <i>Modena Dalle Origini All’anno Mille: Studi Di Archeologia e Storia: Modena, Galleria Civica, Gennaio/Giugno 1989</i>. 2 vols. Modena: Panini; Modena (Italy): Galleria civica, 1988.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://francia.ahlfeldt.se/places/2720",
+            "citationDetail": "2720",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "shortTitle": "RFO",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2CEKGRY9",
+            "formattedCitation": "<div class=\"csl-entry\">Åhlfeldt, Johan. <i>Regnum Francorum Online</i>, 2009. http://francia.ahlfeldt.se/.</div>",
+            "otherIdentifier": " ",
+            "type": "seeAlso"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=mutina",
+            "citationDetail": "MUTINA (Modena) Emilia Romagna, Italy",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "PECS (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Modena",
+            "citationDetail": "Modena",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://latin.packhum.org/loc/978/1/254/470-477#254",
+            "citationDetail": "3.115.7",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Plin., NH (Mayhoff: PHI)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+            "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://latin.packhum.org/loc/914/1/555/628-634,1001-1007,1448-1454,1540-1546",
+            "citationDetail": "21.25.3.5, 21.25.6.1, 21.25.8.1, 21.25.8.3",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Liv. (OCT: PHI)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MCDKGDL9",
+            "formattedCitation": "<div class=\"csl-entry\">Titus Livius. <i>Titi Livi Ab Urbe Condita</i>. 5 vols. Clarendon: Oxford U.P, 1908. https://latin.packhum.org/loc/914/1/0#0.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace1067.html",
+            "citationDetail": "3B4 (Talbert 1067)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "TP (Talbert: CUP)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:entry=mutina-geo",
+            "citationDetail": "MUTINA",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Smith 1854 (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+            "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0551.tlg017.perseus-grc1:3.9.65",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "",
+            "bibliographicURI": "",
+            "formattedCitation": "App. 3.9.65",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://doi.org/10.1163/1574-9347_bnp_e813490",
+            "citationDetail": "Mutina (A. Sartori)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.trismegistos.org/place/5846",
+            "citationDetail": "GEO ID 5846: Mutina (Modena)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/446109UMut",
+            "citationDetail": "Mutina (Italia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "http://atlantides.org/bibliography/",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.jstor.org/stable/10.2307/jj.3643599",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Riso 2023",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2ZTDPZ7M",
+            "formattedCitation": "<div class=\"csl-entry\">Riso, Federica Maria. <i>Roman Funerary Rituals in Mutina (Modena, Italy)</i>. Archaeopress Roman Archaeology. Summertown, Oxford, [UK]: Archaeopress, 2023. https://www.jstor.org/stable/10.2307/jj.3643599.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/936644063",
+            "citationDetail": "287,6",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItAnt (Cuntz)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/M4UH8NCU",
+            "formattedCitation": "<div class=\"csl-entry\">Cuntz, Otto, ed. <i>Itineraria Antonini Augusti et Burdigalense</i>. Itineraria Romana 1. Leipzig: Teubner, 1929. http://www.worldcat.org/oclc/936644063.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/6684340",
+            "citationDetail": "207",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItMiller",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q8X83VMV",
+            "formattedCitation": "<div class=\"csl-entry\">Miller, Konrad. <i>Itineraria romana: Römische Reisewege an der Hand der Tabula Peutingeriana</i>. Stuttgart: Strecker und Schröder, 1916. http://www.worldcat.org/oclc/6684340.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.wikidata.org/wiki/Q11786862",
+            "citationDetail": "Mutina (Q11786862)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Wikidata",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://arachne.dainst.org/entity/2300729",
+            "citationDetail": "Mutina Modena (Provinz) (Mutina), Italien",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Arachne",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: iDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute, 2025. https://arachne.dainst.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "125 ff.",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Lackner 2008",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UD9ZQRUB",
+            "formattedCitation": "<div class=\"csl-entry\">Lackner, Eva-Maria. <i>Republikanische Fora</i>. München: Biering &amp; Brinkmann, 2008.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://gazetteer.dainst.org/place/2346928",
+            "citationDetail": "2346928: Modena",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "iDAI.gazetteer",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KNGREWYQ",
+            "formattedCitation": "<div class=\"csl-entry\"><i>iDAI.Gazetteer</i>. Deutsches Archäologisches Institut. Accessed February 1, 2018. https://gazetteer.dainst.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://vici.org/vici/1605",
+            "citationDetail": "1605: Mutina",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "vici.org",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://edh.ub.uni-heidelberg.de/edh/geographie/G000219",
+            "citationDetail": "Geographic Database G000219: Mutina – Modena",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "EDH",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PY3AZV8F",
+            "formattedCitation": "<div class=\"csl-entry\">Alföldy, Géza, and Christian Witschel, eds. <i>Epigraphic Database Heidelberg</i>. Heidelberg: Heidelberg Academy of Sciences and Humanities, 1997. http://edh-www.adw.uni-heidelberg.de/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://doi.org/10.1163/1574-9347_bnp_e813490",
+            "citationDetail": "Mutina (Hans Philipp)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "RE",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HSGNAEBR",
+            "formattedCitation": "<div class=\"csl-entry\">Pauly, August Friedrich von, Georg Wissowa, Wilhelm Kroll, Kurt Witte, Karl Mittelhaus, and Konrat Ziegler, eds. <i>Real-Encyclopaedie der classischen Altertumswissenschaft</i>. 83 vols. Stuttgart: J. B. Metzler, 1894. https://de.wikisource.org/wiki/Paulys_Realencyclop%C3%A4die_der_classischen_Altertumswissenschaft.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://tp-online.ku.de/trefferanzeige_en.php?id=75",
+            "citationDetail": "75: Mvtina (Mutina)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "KU TP Database (Rathmann)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KDZ6Q72N",
+            "formattedCitation": "<div class=\"csl-entry\">Ingolstadt, Katholische Universität Eichstätt-. “Tabula Peutingeriana.” Datenbank tp-online, 2019. https://www.ku.de/ggf/geschichte/alte-geschichte/forschung/datenbank-tp-online.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Mutina",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://latin.packhum.org/loc/978/1/254/428-434",
+                    "citationDetail": "3.115.7",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Plin., NH (Mayhoff: PHI)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+                    "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+                    "otherIdentifier": " ",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "mutina",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                },
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                },
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 39 H4 Mutina",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2010-11-15T17:57:48Z",
+            "uri": "https://pleiades.stoa.org/places/383715/mutina",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "M. Pearce"
+                },
+                {
+                    "username": null,
+                    "name": "P. Tozzi"
+                }
+            ],
+            "attested": "Mvtina",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "update Pliny reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2025-02-03T03:27:52Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2022-02-05T23:51:59Z"
+                },
+                {
+                    "comment": "added reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2015-05-04T02:22:02Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T04:34:14Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-11-15T18:29:26Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-15T18:08:03Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-15T17:57:48Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Modena",
+            "attestations": [
+                {
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "modena",
+            "end": 2100,
+            "contributors": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 39 H4 Mutina ",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "",
+            "review_state": "published",
+            "description": "Modern Name",
+            "transcriptionCompleteness": "complete",
+            "language": "it",
+            "created": "2012-05-25T22:10:41Z",
+            "uri": "https://pleiades.stoa.org/places/383715/modena",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Change language to Italian ",
+                    "modifiedBy": "jbecker",
+                    "modified": "2021-10-08T13:44:03Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "jbecker",
+                    "modified": "2013-01-26T20:49:06Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:10:43Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:10:43Z"
+                },
+                {
+                    "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:10:42Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:10:42Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Mo[u]tίnē, Moutine",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:4.6.7",
+                    "citationDetail": "4.6.7",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Str. (Meineke: Perseus)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+                    "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+                    "otherIdentifier": " ",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "mo-u-tne",
+            "end": 300,
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "grc",
+            "created": "2015-03-22T16:03:43Z",
+            "uri": "https://pleiades.stoa.org/places/383715/mo-u-tne",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Μο[υ]τίνη",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2021-10-08T15:41:15Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2021-10-08T15:41:01Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2021-10-07T23:43:21Z"
+                },
+                {
+                    "comment": "reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2021-10-07T23:43:14Z"
+                },
+                {
+                    "comment": "added name",
+                    "modifiedBy": "jbecker",
+                    "modified": "2015-03-22T16:03:57Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2015-03-22T16:03:47Z"
+                }
+            ]
+        }
+    ],
+    "id": "383715",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=1",
+        "colonia Romana",
+        "dare:feature=major settlement"
+    ],
+    "title": "Mutina",
+    "provenance": "Barrington Atlas: BAtlas 39 H4 Mutina",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Modena</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "Ancient Mutina (originally the Etruscan town Mutna) was first inhabited by Villanovans and later by Ligurians and the Gaulish Boii. The Boii sieged the city in 218 BC, and later Mutina was re-established as a Roman colony (183 BC). It was an important city and played a role in the civil wars during the last decades of the Roman Republic.",
+    "reprPoint": [
+        10.925223,
+        44.647057
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "bbox": [
+        10.925223,
+        44.647057,
+        10.925223,
+        44.647057
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/66908841",
+        "https://pleiades.stoa.org/places/385842",
+        "https://pleiades.stoa.org/places/copy_of_383607",
+        "https://pleiades.stoa.org/places/393390",
+        "https://pleiades.stoa.org/places/396382"
+    ],
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2018-06-08T00:47:11Z",
+    "uri": "https://pleiades.stoa.org/places/383715",
+    "creators": [
+        {
+            "username": null,
+            "name": "M. Pearce"
+        },
+        {
+            "username": null,
+            "name": "P. Tozzi"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2026-06-20T13:50:58Z"
+        },
+        {
+            "comment": "wikidata Q11786862",
+            "modifiedBy": "jbecker",
+            "modified": "2025-02-03T03:27:15Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2023-12-29T17:30:34Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2021-10-07T23:44:18Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2020-11-13T17:17:19Z"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-08T00:47:15Z"
+        },
+        {
+            "comment": "references",
+            "modifiedBy": "jbecker",
+            "modified": "2018-04-08T02:53:43Z"
+        },
+        {
+            "comment": "references",
+            "modifiedBy": "jbecker",
+            "modified": "2017-12-29T04:16:23Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2015-07-05T21:36:38Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2015-03-22T16:02:44Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2015-03-22T05:09:20Z"
+        },
+        {
+            "comment": "added connection",
+            "modifiedBy": "jbecker",
+            "modified": "2013-06-30T16:02:56Z"
+        },
+        {
+            "comment": "edited description; added references",
+            "modifiedBy": "jbecker",
+            "modified": "2013-01-26T20:48:26Z"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-23T19:31:04Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T19:30:01Z"
+        },
+        {
+            "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-05-25T22:10:43Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T04:34:14Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T19:34:06Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T19:36:22Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-11-15T18:29:26Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-11-15T18:08:03Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-11-15T17:57:48Z"
+        }
+    ]
+}

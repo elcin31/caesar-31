@@ -1,0 +1,51 @@
+{
+  "checked": "2026-11-05",
+  "scope": "source maps only; exported book pages require separate check",
+  "maps": [
+    {
+      "stem": "map_01_gaul_58_52",
+      "svg_xml": "pass",
+      "png_decode": "pass",
+      "pixel_dimensions": [
+        1860,
+        2520
+      ],
+      "coordinate_agreement": "all points equal saved official reprPoint",
+      "visual_review": "2026-11-05: labels and legends read; no cropped labels; shifted numbers linked to source coordinates",
+      "sha256": {
+        ".svg": "73ce7c1c937c0ea2a4e91bcc994e36a40b154f5e9c5349e332236d6d540256ce",
+        ".png": "135e69c0053c5b78d17a0e8bd1c211db15f5838c3650b905fb0b22a275e3e94a"
+      }
+    },
+    {
+      "stem": "map_02_civil_wars_49_30",
+      "svg_xml": "pass",
+      "png_decode": "pass",
+      "pixel_dimensions": [
+        1860,
+        2440
+      ],
+      "coordinate_agreement": "all points equal saved official reprPoint",
+      "visual_review": "2026-11-05: labels and legends read; no cropped labels; shifted numbers linked to source coordinates",
+      "sha256": {
+        ".svg": "51ce870581ace45d922e5ef777dbf69a645a9965e26fe8da2b09b7c2fca04d2d",
+        ".png": "94ab1303654647315518a528e1139e124bf30163464181c24ef76a3fa8700413"
+      }
+    },
+    {
+      "stem": "map_03_administration_27",
+      "svg_xml": "pass",
+      "png_decode": "pass",
+      "pixel_dimensions": [
+        1860,
+        2800
+      ],
+      "coordinate_agreement": "all points equal saved official reprPoint",
+      "visual_review": "2026-11-05: labels and legends read; no cropped labels; shifted numbers linked to source coordinates",
+      "sha256": {
+        ".svg": "aaa4b6196265bf09af9819a0e822a46120813b031db6e604cae4df29d71ad362",
+        ".png": "166c1db52a290c814761f613120a7f94907fb73bfa2fc8a20c394d2c32993a9e"
+      }
+    }
+  ]
+}

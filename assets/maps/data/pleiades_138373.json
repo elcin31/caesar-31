@@ -1,0 +1,636 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.129429,
+                    45.716242
+                ]
+            },
+            "type": "Feature",
+            "id": "darmc-location-12528",
+            "properties": {
+                "snippet": "Unknown; 330 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/138373/darmc-location-12528",
+                "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+                "location_precision": "precise",
+                "title": "DARMC location 12528"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.118858,
+                    45.720092
+                ]
+            },
+            "type": "Feature",
+            "id": "dare-location",
+            "properties": {
+                "snippet": "Settlement; 330 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/138373/dare-location",
+                "description": "Representative point location, site precision",
+                "location_precision": "precise",
+                "title": "DARE Location"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+                }
+            ],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "citationDetail": "12528",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "DARMC",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 12528.",
+                    "otherIdentifier": " ",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "darmc-location-12528",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "end": 640,
+            "title": "DARMC location 12528",
+            "provenance": "DARMC OBJECTID: 12528",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "DARMC OBJECTID: 12528",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+            "featureType": [
+                "unknown"
+            ],
+            "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+            "created": "2011-03-09T21:13:39Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.129429,
+                    45.716242
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/138373/darmc-location-12528",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:23:34Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T00:00:05Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-10T05:06:21Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T21:13:40Z"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T21:13:40Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T21:13:39Z"
+                }
+            ]
+        },
+        {
+            "contributors": [],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "shortTitle": "",
+                    "bibliographicURI": "",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "type": "cites"
+                }
+            ],
+            "id": "dare-location",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "end": 640,
+            "title": "DARE Location",
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "featureType": [
+                "settlement"
+            ],
+            "description": "Representative point location, site precision",
+            "created": "2012-10-20T23:21:12Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.118858,
+                    45.720092
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/138373/dare-location",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:21:13Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:21:13Z"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:21:13Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:21:12Z"
+                }
+            ]
+        }
+    ],
+    "connections": [],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "14 I3 Gergovia?",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/c.html#CAG-63/2.302",
+            "formattedCitation": "CAG 63/2.302",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://francia.ahlfeldt.se/places/17712",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "shortTitle": "",
+            "bibliographicURI": "",
+            "formattedCitation": "RFO 17712",
+            "otherIdentifier": " ",
+            "type": "seeAlso"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=gergovia",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "",
+            "bibliographicURI": "",
+            "formattedCitation": "PECS (Perseus), GERGOVIA or Gergobia, Commune of La Roche-Blanche, Puy-de-Dôme, France",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Gergovia",
+            "citationDetail": "Gergovia",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Gergovia.",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/457031XGer",
+            "citationDetail": "Gergovia (Gallia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+            "formattedCitation": "Kiesling, Brady. ToposText – a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "less-certain",
+            "romanized": "Gergovia",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "gergovia",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 14 I3 Gergovia?",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+            "start": -330,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-06-21T12:19:53Z",
+            "uri": "https://pleiades.stoa.org/places/138373/gergovia",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:23:34Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T00:00:06Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-06-22T21:03:56Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-21T12:43:02Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-21T12:19:53Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Gergovie",
+            "attestations": [
+                {
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "gergovie",
+            "end": 2100,
+            "contributors": [],
+            "provenance": "Regnum Francorum Online",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "",
+            "review_state": "published",
+            "description": "Modern Name",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2012-05-25T22:06:33Z",
+            "uri": "https://pleiades.stoa.org/places/138373/gergovie",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:06:34Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:06:34Z"
+                },
+                {
+                    "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:06:34Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:06:33Z"
+                }
+            ]
+        }
+    ],
+    "id": "138373",
+    "subject": [
+        "dare:ancient=1",
+        "dare:feature=settlement",
+        "dare:major=0"
+    ],
+    "title": "Gergovia?",
+    "provenance": "Barrington Atlas: BAtlas 14 I3 Gergovia?",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "details": "The Barrington Atlas Directory notes: Gergovie",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "An ancient place, cited: BAtlas 14 I3 Gergovia?",
+    "reprPoint": [
+        3.1241434999999997,
+        45.718167
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "bbox": [
+        3.118858,
+        45.716242,
+        3.129429,
+        45.720092
+    ],
+    "connectsWith": [],
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2018-06-08T00:54:03Z",
+    "uri": "https://pleiades.stoa.org/places/138373",
+    "creators": [
+        {
+            "username": null,
+            "name": "H.S. Sivan"
+        },
+        {
+            "username": null,
+            "name": "R.W. Mathisen"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-08T00:54:07Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2013-07-03T03:17:54Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T23:21:14Z"
+        },
+        {
+            "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-05-25T22:06:34Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T02:23:34Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T00:00:05Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T21:13:40Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T18:56:32Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-06-22T21:03:56Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-21T12:43:02Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-21T12:19:53Z"
+        }
+    ]
+}

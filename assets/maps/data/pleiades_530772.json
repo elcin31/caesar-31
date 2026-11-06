@@ -1,0 +1,499 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.749775,
+                    38.923568
+                ]
+            },
+            "type": "Feature",
+            "id": "imagery-location-of-the-actium-promontory",
+            "properties": {
+                "snippet": "Cape; 750 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/530772/imagery-location-of-the-actium-promontory",
+                "description": "Location determined in Google Earth with reference to placement of label in Barrington Atlas",
+                "location_precision": "precise",
+                "title": "Imagery Location of the Actium promontory"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "shortTitle": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/b.html#BAtlas-54-C4-Actium-Pr.",
+                    "formattedCitation": "BAtlas 54 C4 Actium Pr.",
+                    "otherIdentifier": "",
+                    "type": "cites"
+                }
+            ],
+            "id": "imagery-location-of-the-actium-promontory",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cape"
+            ],
+            "end": 640,
+            "title": "Imagery Location of the Actium promontory",
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cape"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "<p>Location here, confirmed in Google Earth, follows the placement used in the Barrington Atlas.</p>",
+            "review_state": "published",
+            "accuracy_value": 5.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-geoeye-2011",
+            "featureType": [
+                "cape"
+            ],
+            "description": "Location determined in Google Earth with reference to placement of label in Barrington Atlas",
+            "created": "2011-11-21T15:57:01Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.749775,
+                    38.923568
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/530772/imagery-location-of-the-actium-promontory",
+            "creators": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "comment": "summary; place type = cape/promontory",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-02-15T15:07:44Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T05:56:20Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T16:00:30Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T15:59:10Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T15:59:02Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T15:57:04Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T15:57:01Z"
+                }
+            ]
+        }
+    ],
+    "connections": [],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "54 C4 Actium Pr.",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://de.wikisource.org/wiki/RE:Aktion",
+            "citationDetail": "Aktion",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "RE",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HSGNAEBR",
+            "formattedCitation": "<div class=\"csl-entry\">Pauly, August Friedrich von, Georg Wissowa, Wilhelm Kroll, Kurt Witte, Karl Mittelhaus, and Konrat Ziegler, eds. <i>Real-Encyclopaedie der classischen Altertumswissenschaft</i>. 83 vols. Stuttgart: J. B. Metzler, 1894.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.encquran.brill.nl/entries/brill-s-new-pauly/actium-e112350",
+            "citationDetail": "Actium",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:entry=actium-geo&highlight=",
+            "citationDetail": "ACTIUM",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Smith 1854 (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+            "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:10.2.7",
+            "citationDetail": "10.2.7",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Str. (Meineke: Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+            "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://latin.packhum.org/loc/1348/1/36/942-948,3019-3025",
+            "citationDetail": "Aug. 17.2.7, 18.2.6",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Suet. (Ihm: Packard)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VGRVDTNB",
+            "formattedCitation": "<div class=\"csl-entry\">Suetonius, Max Ihm, Karl Wilhelm August Reifferscheid, Friedrich Wilhelm Ritschl, and Giorgio Brugnoli. <i>The works of C. Suetonius Tranquillus</i>. PHI CD ROM #5.3. Los Altos, CA: Packard Humanities Institute, 1991. https://latin.packhum.org/loc/1348/1/0.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Actium Pr.",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "Actium-Pr",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 54 C4 Actium Pr.",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-06-24T13:43:50Z",
+            "uri": "https://pleiades.stoa.org/places/530772/Actium-Pr",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "W.M. Murray"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T05:56:20Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T15:37:21Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T15:37:21Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T15:37:20Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-06-24T14:08:11Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-24T13:53:47Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-24T13:43:50Z"
+                }
+            ]
+        }
+    ],
+    "id": "530772",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=0",
+        "dare:feature=natural"
+    ],
+    "title": "Actium (promontory)",
+    "provenance": "Barrington Atlas: BAtlas 54 C4 Actium Pr.",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/cape"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Akra Akri</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "A promontory on the southern side of the entrance to the Ambracian Gulf from the Ionian Sea. It was in the sea off this promontory in 31BC that M. Antonius suffered a famous naval defeat at the hands of Octavian.",
+    "reprPoint": [
+        20.749775,
+        38.923568
+    ],
+    "placeTypes": [
+        "cape"
+    ],
+    "bbox": [
+        20.749775,
+        38.923568,
+        20.749775,
+        38.923568
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/530771"
+    ],
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2010-06-24T13:43:50Z",
+    "uri": "https://pleiades.stoa.org/places/530772",
+    "creators": [
+        {
+            "username": null,
+            "name": "W.M. Murray"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-04-26T02:22:18Z"
+        },
+        {
+            "comment": "title",
+            "modifiedBy": "thomase",
+            "modified": "2024-02-15T15:08:03Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-02-14T21:56:20Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2020-01-12T16:49:53Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2015-09-04T19:25:23Z"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-23T19:40:20Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T22:09:08Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T05:56:19Z"
+        },
+        {
+            "comment": "Initial revision",
+            "modifiedBy": "thomase",
+            "modified": "2011-11-21T16:03:55Z"
+        },
+        {
+            "comment": "better coordinates, confirmed in google earth",
+            "modifiedBy": "thomase",
+            "modified": "2011-11-21T16:01:16Z"
+        },
+        {
+            "comment": "Baseline created",
+            "modifiedBy": "thomase",
+            "modified": "2011-11-21T15:37:16Z"
+        },
+        {
+            "comment": "Finding capes by their titles and setting feature types",
+            "modifiedBy": "sgillies",
+            "modified": "2011-07-19T20:30:41Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T20:12:11Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-06-24T14:08:11Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-24T13:53:47Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-24T13:43:50Z"
+        }
+    ]
+}

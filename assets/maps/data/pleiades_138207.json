@@ -1,0 +1,1045 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.396563,
+                    47.08286
+                ]
+            },
+            "type": "Feature",
+            "id": "darmc-location-11593",
+            "properties": {
+                "snippet": "Unknown; 330 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/138207/darmc-location-11593",
+                "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+                "location_precision": "precise",
+                "title": "DARMC location 11593"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.399168,
+                    47.08221
+                ]
+            },
+            "type": "Feature",
+            "id": "dare-location",
+            "properties": {
+                "snippet": "Settlement; 330 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/138207/dare-location",
+                "description": "Representative point location, site precision",
+                "location_precision": "precise",
+                "title": "DARE Location"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+                }
+            ],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "citationDetail": "11593",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "DARMC",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 11593.",
+                    "otherIdentifier": " ",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "darmc-location-11593",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "end": 640,
+            "title": "DARMC location 11593",
+            "provenance": "DARMC OBJECTID: 11593",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "DARMC OBJECTID: 11593",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+            "featureType": [
+                "unknown"
+            ],
+            "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+            "created": "2011-03-09T20:48:07Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.396563,
+                    47.08286
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/138207/darmc-location-11593",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:21:54Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-14T23:57:53Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-10T05:04:50Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T20:48:08Z"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T20:48:08Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T20:48:07Z"
+                }
+            ]
+        },
+        {
+            "contributors": [],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "shortTitle": "",
+                    "bibliographicURI": "",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "type": "cites"
+                }
+            ],
+            "id": "dare-location",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "end": 640,
+            "title": "DARE Location",
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "featureType": [
+                "settlement"
+            ],
+            "description": "Representative point location, site precision",
+            "created": "2012-10-20T23:18:41Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.399168,
+                    47.08221
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/138207/dare-location",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:18:42Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:18:42Z"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:18:42Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T23:18:41Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2016-07-13T13:58:36Z",
+            "associationCertainty": "certain",
+            "title": "Bituriges Cubi",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/138207/138225",
+            "connectionType": "connection",
+            "id": "138225",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:58:36Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:58:36Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:58:36Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/138225",
+            "details": "",
+            "references": [],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "admin",
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection"
+        },
+        {
+            "end": 640,
+            "description": "",
+            "contributors": [],
+            "created": "2019-07-21T17:47:47Z",
+            "associationCertainty": "certain",
+            "title": "Aquitania I (province)",
+            "start": 300,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/138207/aquitania-i",
+            "connectionType": "capital",
+            "id": "aquitania-i",
+            "attestations": [
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2025-03-26T22:48:34Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2019-07-24T01:59:14Z"
+                },
+                {
+                    "comment": "reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2019-07-24T01:59:07Z"
+                },
+                {
+                    "comment": "cnxn",
+                    "modifiedBy": "jbecker",
+                    "modified": "2019-07-21T17:47:50Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2019-07-21T17:47:47Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/991330",
+            "details": "",
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://en.wikipedia.org",
+                    "citationDetail": "Gallia Aquitania",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Wikipedia (English)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/capital"
+        },
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2024-05-26T18:05:29Z",
+            "associationCertainty": "certain",
+            "title": "Untitled",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/138207/untitled",
+            "connectionType": "on",
+            "id": "untitled",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-06-26T16:12:43Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-05-26T18:05:35Z"
+                },
+                {
+                    "comment": "cnxn, reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-05-26T18:05:31Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-05-26T18:05:29Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/141200",
+            "details": "",
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Couraud 1962",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZRV29NCK",
+                    "formattedCitation": "<div class=\"csl-entry\">Couraud, R. “La Voie de Burdigala-Augustoritum-Avaricum Dans La Traversée de La Région d’Ambazac.” <i>Bulletin de La Société Archéologique et Historique Du Limousin</i> 89 (1962): 204–6.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "14 H1 Avaricum/Biturigae",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://worldcat.org/title/214941679",
+            "citationDetail": "038",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "CAG 18",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H2W8F8KP",
+            "formattedCitation": "<div class=\"csl-entry\">Chevrot, J-F, and J Troadec. <i>Carte archéologique de la Gaule 18 Le Cher</i>. Paris: Académie des inscriptions et belles-lettres : Ministère de l’éducation nationale et de la culture, 1992. https://worldcat.org/title/214941679.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://francia.ahlfeldt.se/places/119",
+            "citationDetail": "119",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "shortTitle": "RFO",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2CEKGRY9",
+            "formattedCitation": "<div class=\"csl-entry\">Åhlfeldt, Johan. <i>Regnum Francorum Online</i>, 2009. http://francia.ahlfeldt.se/.</div>",
+            "otherIdentifier": " ",
+            "type": "seeAlso"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=avaricum",
+            "citationDetail": "AVARICUM (Bourges) Cher, France",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "PECS (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Avaricum",
+            "citationDetail": "Avaricum",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Avaricum.",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://referenceworks.brillonline.com/entries/brill-s-new-pauly/avaricum-e210420",
+            "citationDetail": "Avaricum",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DA%3Aentry+group%3D22%3Aentry%3Davaricum-geo",
+            "citationDetail": "AVARICUM",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Smith 1854 (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+            "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://latin.packhum.org/loc/448/1/144/1546-1554",
+            "citationDetail": "7.13.3.2",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Caes. BGall. (Seel: PHI)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Y3E58P65",
+            "formattedCitation": "<div class=\"csl-entry\">Caesar, Julius. <i>De bello Gallico</i>. Edited by Otto Seel. Los Altos, Calif.: Packard Humanities Institute, 1991. http://latin.packhum.org/loc/448/1/0#0.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.trismegistos.org/place/3276",
+            "citationDetail": "GEO ID 3276: Avaricum (Bourges)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://latin.packhum.org/loc/1242/1/45/4952-4960",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "",
+            "bibliographicURI": "",
+            "formattedCitation": "Flor. 1.45.90",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/471024UAva",
+            "citationDetail": "Avaricum/Biturigae (Gallia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+            "formattedCitation": "Kiesling, Brady. ToposText – a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace677.html",
+            "citationDetail": "1B3 (Talbert 677)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "TP (Talbert: CUP)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.wikidata.org/wiki/Q281826",
+            "citationDetail": "Avaricum (Q281826)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Wikidata",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/936644063",
+            "citationDetail": "460,4",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItAnt (Cuntz)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/M4UH8NCU",
+            "formattedCitation": "<div class=\"csl-entry\">Cuntz, Otto, ed. <i>Itineraria Antonini Augusti et Burdigalense</i>. Itineraria Romana 1. Leipzig: Teubner, 1929. http://www.worldcat.org/oclc/936644063.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/6684340",
+            "citationDetail": "114",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItMiller",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q8X83VMV",
+            "formattedCitation": "<div class=\"csl-entry\">Miller, Konrad. <i>Itineraria romana: Römische Reisewege an der Hand der Tabula Peutingeriana</i>. Stuttgart: Strecker und Schröder, 1916. http://www.worldcat.org/oclc/6684340.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Avaricum",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "avaricum",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 14 H1 Avaricum/Biturigae",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-06-21T12:16:26Z",
+            "uri": "https://pleiades.stoa.org/places/138207/avaricum",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:21:54Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-14T23:57:53Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-06-22T21:03:29Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-21T12:42:33Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-21T12:16:26Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Biturigae",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "biturigae",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 14 H1 Avaricum/Biturigae",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-06-21T12:16:26Z",
+            "uri": "https://pleiades.stoa.org/places/138207/biturigae",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "R.W. Mathisen"
+                },
+                {
+                    "username": null,
+                    "name": "H.S. Sivan"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:21:54Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-14T23:57:54Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-06-22T21:03:29Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-21T12:42:33Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-21T12:16:26Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Bourges",
+            "attestations": [
+                {
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "bourges",
+            "end": 2100,
+            "contributors": [],
+            "provenance": "Regnum Francorum Online",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "",
+            "review_state": "published",
+            "description": "Modern Name",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2012-05-25T22:03:33Z",
+            "uri": "https://pleiades.stoa.org/places/138207/bourges",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:03:34Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:03:34Z"
+                },
+                {
+                    "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:03:34Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:03:33Z"
+                }
+            ]
+        }
+    ],
+    "id": "138207",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=1",
+        "dare:feature=major settlement"
+    ],
+    "title": "Avaricum/Biturigae",
+    "provenance": "Barrington Atlas: BAtlas 14 H1 Avaricum/Biturigae",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Bourges</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "Avaricum/Biturigae, located at the confluence of Auron and Yèvre river, served as the capital of the Bituriges Cubi.",
+    "reprPoint": [
+        2.3978655,
+        47.082535
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "bbox": [
+        2.396563,
+        47.08221,
+        2.399168,
+        47.08286
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/138225",
+        "https://pleiades.stoa.org/places/991330",
+        "https://pleiades.stoa.org/places/141200",
+        "https://pleiades.stoa.org/places/141206"
+    ],
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2018-06-07T20:32:52Z",
+    "uri": "https://pleiades.stoa.org/places/138207",
+    "creators": [
+        {
+            "username": null,
+            "name": "H.S. Sivan"
+        },
+        {
+            "username": null,
+            "name": "R.W. Mathisen"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2025-01-07T16:24:39Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-03-04T21:30:26Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2022-12-19T01:49:56Z"
+        },
+        {
+            "comment": "references",
+            "modifiedBy": "jbecker",
+            "modified": "2018-08-10T14:41:28Z"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-07T20:32:55Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2017-09-13T22:07:05Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2015-12-06T06:47:41Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2015-03-16T20:12:29Z"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-23T19:43:01Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T23:18:42Z"
+        },
+        {
+            "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-05-25T22:03:34Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T02:21:54Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-14T23:57:53Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T20:48:08Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T18:56:02Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-06-22T21:03:29Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-21T12:42:33Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-21T12:16:26Z"
+        }
+    ]
+}

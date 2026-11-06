@@ -1,0 +1,1438 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.293832,
+                    49.892624
+                ]
+            },
+            "type": "Feature",
+            "id": "darmc-location-14589",
+            "properties": {
+                "snippet": "Unknown; 330 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/109321/darmc-location-14589",
+                "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+                "location_precision": "precise",
+                "title": "DARMC location 14589"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.302064,
+                    49.894591
+                ]
+            },
+            "type": "Feature",
+            "id": "dare-location",
+            "properties": {
+                "snippet": "Settlement; 330 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/109321/dare-location",
+                "description": "Representative point location, site precision",
+                "location_precision": "precise",
+                "title": "DARE Location"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "dndimitrov",
+            "homepage": null,
+            "name": "Damian Noah Dimitrov",
+            "uri": "https://pleiades.stoa.org/author/dndimitrov"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "enesy",
+            "homepage": null,
+            "name": "Enes Yılandiloğlu",
+            "uri": "https://pleiades.stoa.org/author/enesy"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+                }
+            ],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "citationDetail": "14589",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "DARMC",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 14589.",
+                    "otherIdentifier": " ",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "darmc-location-14589",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "end": 640,
+            "title": "DARMC location 14589",
+            "provenance": "DARMC OBJECTID: 14589",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "DARMC OBJECTID: 14589",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+            "featureType": [
+                "unknown"
+            ],
+            "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+            "created": "2011-03-09T22:12:59Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.293832,
+                    49.892624
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/109321/darmc-location-14589",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "C. Haselgrove"
+                },
+                {
+                    "username": null,
+                    "name": "J. Kunow"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:12:59Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-14T23:46:15Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-10T05:09:25Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T22:13:00Z"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T22:13:00Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-09T22:12:59Z"
+                }
+            ]
+        },
+        {
+            "contributors": [],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "shortTitle": "",
+                    "bibliographicURI": "",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "type": "cites"
+                }
+            ],
+            "id": "dare-location",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "end": 640,
+            "title": "DARE Location",
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "featureType": [
+                "settlement"
+            ],
+            "description": "Representative point location, site precision",
+            "created": "2012-10-21T00:14:06Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.302064,
+                    49.894591
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/109321/dare-location",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-21T00:14:07Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-21T00:14:07Z"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-21T00:14:07Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-21T00:14:06Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2018-06-01T21:05:26Z",
+            "associationCertainty": "certain",
+            "title": "Ambiani",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/109321/ambiani",
+            "connectionType": "part_of_admin",
+            "id": "ambiani",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2018-06-05T21:32:55Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-06-01T21:42:40Z"
+                },
+                {
+                    "comment": "cnxn",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-06-01T21:05:27Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-06-01T21:05:26Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/108740",
+            "details": "",
+            "references": [],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_admin"
+        },
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2018-06-01T21:07:59Z",
+            "associationCertainty": "certain",
+            "title": "Samara (river)",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/109321/samara-river",
+            "connectionType": "on",
+            "id": "samara-river",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2018-06-05T21:32:55Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-06-01T21:14:02Z"
+                },
+                {
+                    "comment": "cnxn",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-06-01T21:08:00Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-06-01T21:07:59Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/109320",
+            "details": "",
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://en.wikipedia.org/wiki/Amiens",
+                    "citationDetail": "Amiens",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Wikipedia (English)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "11 C3 Samarobriva Ambianorum",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/758914364",
+            "citationDetail": "29-31",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "TIR Lutetia",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WJXDVUB3",
+            "formattedCitation": "<div class=\"csl-entry\">Chevallier, Raymond. <i>Lutetia–Atuatuca–Ulpia Noviomagus</i>. Tabula Imperii Romani, M 31. Paris: Picard, 1975. http://www.worldcat.org/oclc/758914364.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Bayard 1983",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/E9TQ84BN",
+            "formattedCitation": "<div class=\"csl-entry\">Bayard, Didier, and Jean-Luc Massy. <i>Amiens Romain: Samarobriva Ambianorum</i>. Amiens: Revue archéologique de Picardie, 1983.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://francia.ahlfeldt.se/places/46",
+            "citationDetail": "46",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "shortTitle": "RFO",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2CEKGRY9",
+            "formattedCitation": "<div class=\"csl-entry\">Åhlfeldt, Johan. <i>Regnum Francorum Online</i>, 2009. http://francia.ahlfeldt.se/.</div>",
+            "otherIdentifier": " ",
+            "type": "seeAlso"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=samarobriva",
+            "citationDetail": "SAMAROBRIVA or Samarabriva (Amiens) Somme, France",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "PECS (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://latin.packhum.org/loc/448/1/95/78-95",
+            "citationDetail": "5.24.1.1",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Caes. BGall. (Seel: PHI)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Y3E58P65",
+            "formattedCitation": "<div class=\"csl-entry\">Caesar, Julius. <i>De bello Gallico</i>. Edited by Otto Seel. Los Altos, Calif.: Packard Humanities Institute, 1991. http://latin.packhum.org/loc/448/1/0#0.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "VIII, 3490",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "CIL",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JCY8WN8B",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Corpus inscriptionum latinarum</i>. Berolini: Apud G. Reimerum, 1862.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "VIII, 3487",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "CIL",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JCY8WN8B",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Corpus inscriptionum latinarum</i>. Berolini: Apud G. Reimerum, 1862.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.trismegistos.org/place/3262",
+            "citationDetail": "GEO ID 3262: Samarobriva (Amiens)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Amiens",
+            "citationDetail": "Amiens",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace601.html",
+            "citationDetail": "1A3 (Talbert 601)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "TP (Talbert: CUP)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/499023USam",
+            "citationDetail": "Samarobriva Ambianorum (Gallia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+            "formattedCitation": "Kiesling, Brady. ToposText – a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.wikidata.org/wiki/Q2728193",
+            "citationDetail": "Samarobriva (Q2728193)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Wikidata",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/936644063",
+            "citationDetail": "379,9-10 Samarabrivas",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItAnt (Cuntz)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/M4UH8NCU",
+            "formattedCitation": "<div class=\"csl-entry\">Cuntz, Otto, ed. <i>Itineraria Antonini Augusti et Burdigalense</i>. Itineraria Romana 1. Leipzig: Teubner, 1929. http://www.worldcat.org/oclc/936644063.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/6684340",
+            "citationDetail": "76, 68, 90",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItMiller",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q8X83VMV",
+            "formattedCitation": "<div class=\"csl-entry\">Miller, Konrad. <i>Itineraria romana: Römische Reisewege an der Hand der Tabula Peutingeriana</i>. Stuttgart: Strecker und Schröder, 1916. http://www.worldcat.org/oclc/6684340.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://tp-online.ku.de/trefferanzeige_en.php?id=3036",
+            "citationDetail": "3036: Sammarobriua (Sammarobriva)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "KU TP Database (Rathmann)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KDZ6Q72N",
+            "formattedCitation": "<div class=\"csl-entry\">Ingolstadt, Katholische Universität Eichstätt-. “Tabula Peutingeriana.” Datenbank tp-online, 2019. https://www.ku.de/ggf/geschichte/alte-geschichte/forschung/datenbank-tp-online.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://nomisma.org/id/ambianum",
+            "citationDetail": "Ambianum",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "nomisma.org",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N5BAUNTN",
+            "formattedCitation": "<div class=\"csl-entry\">Meadows, Andrew, Sebastian Heath, and Ethan Gruber. <i>Nomisma.Org</i>. New York: American Numismatic Society, 2010. http://nomisma.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://edh.ub.uni-heidelberg.de/edh/geographie/G003651",
+            "citationDetail": "Geographic Database G003651: Samarobriva – Amiens",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "EDH",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PY3AZV8F",
+            "formattedCitation": "<div class=\"csl-entry\">Alföldy, Géza, and Christian Witschel, eds. <i>Epigraphic Database Heidelberg</i>. Heidelberg: Heidelberg Academy of Sciences and Humanities, 1997. http://edh-www.adw.uni-heidelberg.de/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Samarobrioua",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://babel.hathitrust.org/cgi/pt?id=uiug.30112023831271&seq=237&q1=%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%BF%CE%B2%CF%81%CE%AF%CE%BF%CF%85%CE%B1",
+                    "citationDetail": "2.9.4 (page 223)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Ptol (Müller: Hathi Trust)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2AUSPQIZ",
+                    "formattedCitation": "<div class=\"csl-entry\">Ptolemy. <i>Klaudiou Ptolemaiou Geographike hyphegesis = Claudii Ptolemæi Geographia</i>. Edited by Karl Müller. 2 vols. Parisiis: Alfredo Firmin Didot, 1883. https://catalog.hathitrust.org/Record/003477580.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "samarobrioua",
+            "end": 300,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "grc",
+            "created": "2026-09-15T17:12:22Z",
+            "uri": "https://pleiades.stoa.org/places/109321/samarobrioua",
+            "creators": [
+                {
+                    "username": "dndimitrov",
+                    "homepage": null,
+                    "name": "Damian Noah Dimitrov",
+                    "uri": "https://pleiades.stoa.org/author/dndimitrov"
+                },
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "attested": "Σαμαροβρίουα",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-10-29T14:06:27Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-10-29T14:06:08Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-10-29T14:05:30Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-10-29T14:05:17Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "dndimitrov",
+                    "modified": "2026-10-17T08:31:40Z"
+                },
+                {
+                    "action": "Send back",
+                    "modifiedBy": "jbecker",
+                    "modified": "2026-09-24T20:21:05Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "dndimitrov",
+                    "modified": "2026-09-15T17:12:47Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "dndimitrov",
+                    "modified": "2026-09-15T17:12:23Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "dndimitrov",
+                    "modified": "2026-09-15T17:12:22Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Samarobriva Ambianorum",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [],
+            "id": "samarobriva-ambianorum",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                },
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                },
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 11 C3 Samarobriva Ambianorum",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2009-11-02T15:56:40Z",
+            "uri": "https://pleiades.stoa.org/places/109321/samarobriva-ambianorum",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Kunow"
+                },
+                {
+                    "username": null,
+                    "name": "C. Haselgrove"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Baseline created",
+                    "modifiedBy": "dndimitrov",
+                    "modified": "2026-09-15T17:59:21Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "jbecker",
+                    "modified": "2018-06-01T21:39:36Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:13:00Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-14T23:46:15Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-05-19T21:32:27Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2009-11-02T16:56:53Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2009-11-02T15:56:40Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Amiens",
+            "attestations": [
+                {
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://fr.wikipedia.org/wiki/Amiens",
+                    "citationDetail": "Amiens",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "Wikipedia (French)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B4HPCZIK",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipédia: L’encyclopédie libre que chacun peut améliorer</i>. Wikimedia Foundation, 2001. https://fr.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "amiens",
+            "end": 2100,
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "provenance": "Regnum Francorum Online",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "",
+            "review_state": "published",
+            "description": "Modern Name",
+            "transcriptionCompleteness": "complete",
+            "language": "fr",
+            "created": "2026-04-02T20:23:46Z",
+            "uri": "https://pleiades.stoa.org/places/109321/amiens",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "attested": "Amiens",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "added attested form, french language, and wikipedia citation @thomase",
+                    "modifiedBy": "jbecker",
+                    "modified": "2026-04-02T20:36:39Z"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-04-02T20:23:45Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:01:43Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:01:43Z"
+                },
+                {
+                    "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:01:43Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-05-25T22:01:42Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Sammarobriva",
+            "attestations": [
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://www.cambridge.org/us/talbert/talbertdatabase/TPPlace601.html",
+                    "citationDetail": "1A3 (Talbert 601)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "TP (Talbert: CUP)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "sammarobriva",
+            "end": 640,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 300,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2023-07-02T00:44:34Z",
+            "uri": "https://pleiades.stoa.org/places/109321/sammarobriva",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Sammarobriva",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2023-07-03T15:02:34Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-07-02T00:44:43Z"
+                },
+                {
+                    "comment": "add TP reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-07-02T00:44:35Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-07-02T00:44:34Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Amiens",
+            "attestations": [
+                {
+                    "timePeriod": "eighteenth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/eighteenth-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "nineteenth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/nineteenth-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "twentieth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "",
+                    "citationDetail": "s.v. \"Amiens\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Seally 1787",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ELN6T7BX",
+                    "formattedCitation": "<div class=\"csl-entry\">Seally, John. <i>A Complete Geographical Dictionary, or Universal Gazetteer: Of Ancient and Modern Geography: Containing a Full, Particular, and Accurate Description of the Known World ; in Europe, Asia, Africa, and America: Comprising a Complete System of Geography, Illustrated with Correct Maps and Beautiful Views of the Principal Cities, &amp;c. and Chronological Tables of the Sovereigns of Europe. The Geographical Parts by John Seally, A.M. Member of the Roman Academy ; Author of the Histoire Chronologique, Sacre’e et Profane ; Elements of Geography and Astronomy, &amp;c. &amp;c. Interspersed with Extracts from the Private Manuscripts of One of the Officers Who Accompanied Captain Cook in His Voyage to the Southern Hemisphere. the Astronomical Parts from the Papers of the Late Mr. Israel Lyons, of Cambridge ; Astronomer in Lord Mulgrave’s Voyage to the Northern Hemisphere. Vol. I. By the King’s Royal Licence and Authority</i>. 1 vols. London: Printed for Scatcherd and Whitaker, Ave-mary Lane, 1787.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://search.worldcat.org/title/45084869",
+                    "citationDetail": "page 158 see \"Samarobriva Ambianorum\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "BAtlDir",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9377UUFB",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World: Map-by-Map Directory</i>. 2 vols. Princeton, N.J.: Princeton University Press, 2000. https://search.worldcat.org/title/45084869.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://en.wikipedia.org/wiki/Amiens",
+                    "citationDetail": "Amiens",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Wikipedia (English)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "id": "amiens-1",
+            "end": 2099,
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "<p>\"AMIENS, in Latin Ambienum, Ambicnum, anciently Samarobriva, Samarobrica, or Samarobriga. So called from its situation on the river Somme. It is the capital of Picardy and county of Amineois, and is a place of great antiquity...\"</p>",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "en",
+            "created": "2026-04-02T20:21:45Z",
+            "uri": "https://pleiades.stoa.org/places/109321/amiens-1",
+            "creators": [
+                {
+                    "username": "enesy",
+                    "homepage": null,
+                    "name": "Enes Yılandiloğlu",
+                    "uri": "https://pleiades.stoa.org/author/enesy"
+                }
+            ],
+            "attested": "Amiens",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "added dates 19th-21st centuries with references to BAtlDir and Wikiidata @thomase",
+                    "modifiedBy": "jbecker",
+                    "modified": "2026-04-02T20:39:38Z"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-04-02T20:21:43Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-04-02T20:20:50Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:41:36Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:41:29Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:41:27Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Ambienum",
+            "attestations": [
+                {
+                    "timePeriod": "eighteenth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/eighteenth-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "",
+                    "citationDetail": "s.v. \"Amiens\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Seally 1787",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ELN6T7BX",
+                    "formattedCitation": "<div class=\"csl-entry\">Seally, John. <i>A Complete Geographical Dictionary, or Universal Gazetteer: Of Ancient and Modern Geography: Containing a Full, Particular, and Accurate Description of the Known World ; in Europe, Asia, Africa, and America: Comprising a Complete System of Geography, Illustrated with Correct Maps and Beautiful Views of the Principal Cities, &amp;c. and Chronological Tables of the Sovereigns of Europe. The Geographical Parts by John Seally, A.M. Member of the Roman Academy ; Author of the Histoire Chronologique, Sacre’e et Profane ; Elements of Geography and Astronomy, &amp;c. &amp;c. Interspersed with Extracts from the Private Manuscripts of One of the Officers Who Accompanied Captain Cook in His Voyage to the Southern Hemisphere. the Astronomical Parts from the Papers of the Late Mr. Israel Lyons, of Cambridge ; Astronomer in Lord Mulgrave’s Voyage to the Northern Hemisphere. Vol. I. By the King’s Royal Licence and Authority</i>. 1 vols. London: Printed for Scatcherd and Whitaker, Ave-mary Lane, 1787.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "id": "ambienum",
+            "end": 1799,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "<p><span>\"AMIENS, in Latin Ambienum, Ambicnum, anciently Samarobriva, Samarobrica, or Samarobriga. So called from its situation on the river Somme. It is the capital of Picardy and county of Amineois, and is a place of great antiquity...\"</span></p>",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2026-04-02T18:43:09Z",
+            "uri": "https://pleiades.stoa.org/places/109321/ambienum",
+            "creators": [
+                {
+                    "username": "enesy",
+                    "homepage": null,
+                    "name": "Enes Yılandiloğlu",
+                    "uri": "https://pleiades.stoa.org/author/enesy"
+                }
+            ],
+            "attested": "Ambienum",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-04-02T20:20:40Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:43:18Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:43:10Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:43:09Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Ambicnum",
+            "attestations": [
+                {
+                    "timePeriod": "eighteenth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/eighteenth-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "",
+                    "citationDetail": "s.v. \"Amiens\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Seally 1787",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ELN6T7BX",
+                    "formattedCitation": "<div class=\"csl-entry\">Seally, John. <i>A Complete Geographical Dictionary, or Universal Gazetteer: Of Ancient and Modern Geography: Containing a Full, Particular, and Accurate Description of the Known World ; in Europe, Asia, Africa, and America: Comprising a Complete System of Geography, Illustrated with Correct Maps and Beautiful Views of the Principal Cities, &amp;c. and Chronological Tables of the Sovereigns of Europe. The Geographical Parts by John Seally, A.M. Member of the Roman Academy ; Author of the Histoire Chronologique, Sacre’e et Profane ; Elements of Geography and Astronomy, &amp;c. &amp;c. Interspersed with Extracts from the Private Manuscripts of One of the Officers Who Accompanied Captain Cook in His Voyage to the Southern Hemisphere. the Astronomical Parts from the Papers of the Late Mr. Israel Lyons, of Cambridge ; Astronomer in Lord Mulgrave’s Voyage to the Northern Hemisphere. Vol. I. By the King’s Royal Licence and Authority</i>. 1 vols. London: Printed for Scatcherd and Whitaker, Ave-mary Lane, 1787.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "id": "ambicnum",
+            "end": 1799,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "<p><span>\"AMIENS, in Latin Ambienum, Ambicnum, anciently Samarobriva, Samarobrica, or Samarobriga. So called from its situation on the river Somme. It is the capital of Picardy and county of Amineois, and is a place of great antiquity...\"</span></p>",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2026-04-02T18:43:59Z",
+            "uri": "https://pleiades.stoa.org/places/109321/ambicnum",
+            "creators": [
+                {
+                    "username": "enesy",
+                    "homepage": null,
+                    "name": "Enes Yılandiloğlu",
+                    "uri": "https://pleiades.stoa.org/author/enesy"
+                }
+            ],
+            "attested": "Ambicnum",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-04-02T20:20:22Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:44:04Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:43:59Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "enesy",
+                    "modified": "2026-04-02T18:43:59Z"
+                }
+            ]
+        }
+    ],
+    "id": "109321",
+    "subject": [
+        "dare:ancient=1",
+        "dare:feature=settlement",
+        "dare:major=0"
+    ],
+    "title": "Samarobriva Ambianorum",
+    "provenance": "Barrington Atlas: BAtlas 11 C3 Samarobriva Ambianorum",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Amiens</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "A city of Gallia Belgica located on the Somme that is mentioned in Caesar's commentaries.",
+    "reprPoint": [
+        2.297948,
+        49.8936075
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "bbox": [
+        2.293832,
+        49.892624,
+        2.302064,
+        49.894591
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/108740",
+        "https://pleiades.stoa.org/places/109320",
+        "https://pleiades.stoa.org/places/113296",
+        "https://pleiades.stoa.org/places/113297"
+    ],
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2026-09-15T17:08:53Z",
+    "uri": "https://pleiades.stoa.org/places/109321",
+    "creators": [
+        {
+            "username": null,
+            "name": "C. Haselgrove"
+        },
+        {
+            "username": null,
+            "name": "J. Kunow"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "added Greek name from Ptolemy by dndimitrov and by thomase",
+            "modifiedBy": "thomase",
+            "modified": "2026-10-29T14:07:40Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2026-04-02T20:39:05Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-05-08T16:38:30Z"
+        },
+        {
+            "comment": "update reference",
+            "modifiedBy": "jbecker",
+            "modified": "2023-07-10T00:17:36Z"
+        },
+        {
+            "comment": "update reference",
+            "modifiedBy": "jbecker",
+            "modified": "2023-07-02T00:42:54Z"
+        },
+        {
+            "comment": "update references, added wikidata",
+            "modifiedBy": "jbecker",
+            "modified": "2022-04-08T01:26:10Z"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-08T09:55:39Z"
+        },
+        {
+            "comment": "reference",
+            "modifiedBy": "jbecker",
+            "modified": "2018-06-01T21:42:22Z"
+        },
+        {
+            "comment": "reference",
+            "modifiedBy": "jbecker",
+            "modified": "2018-06-01T21:06:57Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2016-01-22T16:49:36Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2015-03-29T17:21:15Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-21T00:14:07Z"
+        },
+        {
+            "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-05-25T22:01:44Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T02:12:59Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-14T23:46:15Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T22:13:01Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T18:53:07Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-05-19T21:32:27Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2009-11-02T16:56:53Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2009-11-02T15:56:40Z"
+        }
+    ]
+}

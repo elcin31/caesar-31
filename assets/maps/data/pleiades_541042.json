@@ -1,0 +1,942 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        22.3863889,
+                        39.2880445
+                    ],
+                    [
+                        22.3856844,
+                        39.2880445
+                    ],
+                    [
+                        22.3848364,
+                        39.2881758
+                    ],
+                    [
+                        22.3850321,
+                        39.288721
+                    ],
+                    [
+                        22.3874196,
+                        39.2891552
+                    ],
+                    [
+                        22.3902767,
+                        39.2889634
+                    ],
+                    [
+                        22.3908638,
+                        39.2881051
+                    ],
+                    [
+                        22.3897679,
+                        39.2880041
+                    ],
+                    [
+                        22.3880197,
+                        39.2880546
+                    ],
+                    [
+                        22.3863889,
+                        39.2880445
+                    ]
+                ]
+            },
+            "type": "Feature",
+            "id": "osm-location-iioiiii-i-i-ii-i-i-i-iii-i-i-i",
+            "properties": {
+                "snippet": "Acropolis; 750 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/541042/osm-location-iioiiii-i-i-ii-i-i-i-iii-i-i-i",
+                "description": "Location based on OpenStreetMap. Dates after BAtlas.",
+                "location_precision": "precise",
+                "title": "OSM Location: Ακρόπολη της Φαρσάλου"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "diffenda",
+            "homepage": null,
+            "name": "Dan Diffendale",
+            "uri": "https://pleiades.stoa.org/author/diffenda"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": null,
+            "name": "G. Reger"
+        },
+        {
+            "username": "rssmith",
+            "homepage": null,
+            "name": "R. Scott Smith",
+            "uri": "https://pleiades.stoa.org/author/rssmith"
+        },
+        {
+            "username": "ghawes",
+            "homepage": null,
+            "name": "Greta Hawes",
+            "uri": "https://pleiades.stoa.org/author/ghawes"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://www.openstreetmap.org/browse/way/281012960",
+                    "citationDetail": "Way 281012960",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "OSM",
+                    "bibliographicURI": "",
+                    "formattedCitation": "osm:way=281012960",
+                    "otherIdentifier": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "osm-location-iioiiii-i-i-ii-i-i-i-iii-i-i-i",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/acropolis"
+            ],
+            "end": 640,
+            "title": "OSM Location: Ακρόπολη της Φαρσάλου",
+            "provenance": "OpenStreetMap (Way 281012960, version 2, osm:changeset=140971684, 2023-09-08T07:08:20Z)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/acropolis"
+            ],
+            "archaeologicalRemains": "traces",
+            "details": "",
+            "review_state": "published",
+            "accuracy_value": 20.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "featureType": [
+                "acropolis"
+            ],
+            "description": "Location based on OpenStreetMap. Dates after BAtlas.",
+            "created": "2024-04-11T15:58:58Z",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        22.3863889,
+                        39.2880445
+                    ],
+                    [
+                        22.3856844,
+                        39.2880445
+                    ],
+                    [
+                        22.3848364,
+                        39.2881758
+                    ],
+                    [
+                        22.3850321,
+                        39.288721
+                    ],
+                    [
+                        22.3874196,
+                        39.2891552
+                    ],
+                    [
+                        22.3902767,
+                        39.2889634
+                    ],
+                    [
+                        22.3908638,
+                        39.2881051
+                    ],
+                    [
+                        22.3897679,
+                        39.2880041
+                    ],
+                    [
+                        22.3880197,
+                        39.2880546
+                    ],
+                    [
+                        22.3863889,
+                        39.2880445
+                    ]
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/541042/osm-location-iioiiii-i-i-ii-i-i-i-iii-i-i-i",
+            "creators": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-19T14:11:56Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T16:01:14Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T16:00:09Z"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T15:58:58Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T15:58:58Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": null,
+            "description": "",
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "created": "2024-04-09T23:15:22Z",
+            "associationCertainty": "certain",
+            "title": "Thessalia",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/541042/thessalia",
+            "connectionType": "part_of_regional",
+            "id": "thessalia",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T15:53:31Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T15:53:28Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "cdlisle",
+                    "modified": "2024-04-09T23:15:27Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "cdlisle",
+                    "modified": "2024-04-09T23:15:22Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "cdlisle",
+                    "modified": "2024-04-09T23:15:22Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/1332",
+            "details": "",
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://doi.org/10.1093/acrefore/9780199381135.013.5063",
+                    "citationDetail": "Phthiotis (B. Helly)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "OCD Online",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YNU2WLIH",
+                    "formattedCitation": "<div class=\"csl-entry\">Whitmarsh, Tim, ed. <i>Oxford Classical Dictionary (Online)</i>. Post-4th digital. Post-4th Continuously Updated. Accessed March 12, 2023. https://oxfordre.com/classics/classics/.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "cdlisle",
+                    "homepage": null,
+                    "name": "Chris de Lisle",
+                    "uri": "https://pleiades.stoa.org/author/cdlisle"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_regional"
+        },
+        {
+            "end": null,
+            "description": "",
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "created": "2024-04-09T23:16:05Z",
+            "associationCertainty": "certain",
+            "title": "Phthiotis",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/541042/phthiotis",
+            "connectionType": "part_of_regional",
+            "id": "phthiotis",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T15:52:46Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-04-11T15:52:43Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "cdlisle",
+                    "modified": "2024-04-09T23:16:09Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "cdlisle",
+                    "modified": "2024-04-09T23:16:05Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "cdlisle",
+                    "modified": "2024-04-09T23:16:05Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/541052",
+            "details": "",
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://doi.org/10.1093/acrefore/9780199381135.013.5063",
+                    "citationDetail": "Phthiotis (B. Helly)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "OCD Online",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YNU2WLIH",
+                    "formattedCitation": "<div class=\"csl-entry\">Whitmarsh, Tim, ed. <i>Oxford Classical Dictionary (Online)</i>. Post-4th digital. Post-4th Continuously Updated. Accessed March 12, 2023. https://oxfordre.com/classics/classics/.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "cdlisle",
+                    "homepage": null,
+                    "name": "Chris de Lisle",
+                    "uri": "https://pleiades.stoa.org/author/cdlisle"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_regional"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "55 C2 Pharsalus",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DP%3Aentry+group%3D4%3Aentry%3Dpharsalos",
+            "citationDetail": "PHARSALOS Thessaly, Greece",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "PECS (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "150-1",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Leekley 1980",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/AJ35DGXT",
+            "formattedCitation": "<div class=\"csl-entry\">Leekley, Dorothy, and Nicholas Efstratiou. <i>Archaeological Excavations in Central and Northern Greece</i>. Park Ridge, NJ: Noyes Press, 1980.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/20780482",
+            "citationDetail": "535-37",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Lauffer 1989",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9S9AJF9Z",
+            "formattedCitation": "<div class=\"csl-entry\">Lauffer, Siegfried. <i>Griechenland: Lexikon der historischen Stätten von den Anfängen bis zur Gegenwart</i>. München: Beck, 1989. http://www.worldcat.org/oclc/20780482.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.trismegistos.org/place/15757",
+            "citationDetail": "GEO ID 15757: Pharsalos",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.encquran.brill.nl/entries/brill-s-new-pauly/pharsalus-e918740?s.num=0&s.q=pharsalus",
+            "citationDetail": "Pharsalus",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brill.com/display/db/npoe.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/252695579",
+            "citationDetail": "702-4",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Hansen 2004",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WBM4X5NH",
+            "formattedCitation": "<div class=\"csl-entry\">Hansen, Mogens Herman, and Thomas Heine Nielsen. <i>An Inventory of Archaic and Classical Poleis</i>. Oxford: Oxford University Press, 2004. http://www.worldcat.org/oclc/252695579.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0003.tlg001.perseus-grc1:1.111.1",
+            "citationDetail": "1.111.1",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Thuc. Hist. (Jones; Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/EFG24VXW",
+            "formattedCitation": "<div class=\"csl-entry\">Thucydides. <i>Thucydidis Historiae; recognovit brevique adnotatione critica instruxit Henricus Stuart Jones ..</i> Edited by Henry Stuart Jones and J. Enoch Powell. 2 vols. Oxonii: e typographeo Clarendoniano, 1942. http://data.perseus.org/texts/urn:cts:greekLit:tlg0003.tlg001.perseus-grc1.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DP%3Aentry+group%3D8%3Aentry%3Dpharsalus-geo",
+            "citationDetail": "PHARSÁLUS",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Smith 1854 (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+            "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/393224UPha",
+            "citationDetail": "Pharsalos (Thessaly)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+            "formattedCitation": "Kiesling, Brady. ToposText – a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://resource.manto.unh.edu/10272345",
+            "citationDetail": "10272345: Pharsalos (Thessaly)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "MANTO",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SLCUI2TB",
+            "formattedCitation": "<div class=\"csl-entry\">Hawes, Greta, and Scott Smith. <i>MANTO</i>. Accessed February 17, 2023. https://www.manto-myth.org/manto.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.wikidata.org/wiki/Q38281085",
+            "citationDetail": "Pharsalos ancient city (Q38281085)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Wikidata",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://darmc.harvard.edu/",
+            "citationDetail": "2015 and 14231",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "DARMC",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Pharsalus",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://latin.packhum.org/loc/914/1/1290/1979-1988",
+                    "citationDetail": "36.14.11.1",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Liv. (OCT: PHI)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MCDKGDL9",
+                    "formattedCitation": "<div class=\"csl-entry\">Titus Livius. <i>Titi Livi Ab Urbe Condita</i>. 5 vols. Clarendon: Oxford U.P, 1908. https://latin.packhum.org/loc/914/1/0#0.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "pharsalus",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "G. Reger"
+                },
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                },
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                },
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 55 C2 Pharsalus",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2010-11-23T00:42:06Z",
+            "uri": "https://pleiades.stoa.org/places/541042/pharsalus",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Fossey"
+                },
+                {
+                    "username": null,
+                    "name": "J. Morin"
+                }
+            ],
+            "attested": "Pharsalus",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "update reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-04-13T01:25:50Z"
+                },
+                {
+                    "comment": "added reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2017-02-07T15:03:34Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:09:17Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-11-23T14:15:06Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-23T00:47:59Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-11-23T00:42:06Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Pharsalos",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0032.tlg001.perseus-grc1:6.1.8",
+                    "citationDetail": "6.1.8",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Xen. Hell. (Marchant; Perseus)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SQY9BEJ6",
+                    "formattedCitation": "<div class=\"csl-entry\">Xenophon. “Hellenica.” In <i>Xenophontis Opera omnia</i>, edited by E. C. Marchant, Vol. 1. Scriptorum classicorum bibliotheca Oxoniensis. Oxonii: E Typographeo Clarendoniano, 1900. http://data.perseus.org/texts/urn:cts:greekLit:tlg0032.tlg001.perseus-grc1.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "pharsalos",
+            "end": -30,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "grc",
+            "created": "2017-02-07T14:59:19Z",
+            "uri": "https://pleiades.stoa.org/places/541042/pharsalos",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Φαρσάλος",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "update reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-04-13T01:25:13Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2021-09-17T15:40:14Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2017-02-07T15:00:11Z"
+                },
+                {
+                    "comment": "added name",
+                    "modifiedBy": "jbecker",
+                    "modified": "2017-02-07T14:59:28Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2017-02-07T14:59:19Z"
+                }
+            ]
+        }
+    ],
+    "id": "541042",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=1",
+        "dare:feature=major settlement"
+    ],
+    "title": "Pharsalus",
+    "provenance": "Barrington Atlas: BAtlas 55 C2 Pharsalus",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/acropolis"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Pharsala</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "Pharsalus was one of the most important cities of ancient Thessaly.",
+    "reprPoint": [
+        22.387853348986145,
+        39.288497457090756
+    ],
+    "placeTypes": [
+        "settlement",
+        "acropolis"
+    ],
+    "bbox": [
+        22.3848364,
+        39.2880041,
+        22.3908638,
+        39.2891552
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/1332",
+        "https://pleiades.stoa.org/places/541052",
+        "https://pleiades.stoa.org/places/541144",
+        "https://pleiades.stoa.org/places/541004",
+        "https://pleiades.stoa.org/places/430178769"
+    ],
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2018-06-08T10:47:36Z",
+    "uri": "https://pleiades.stoa.org/places/541042",
+    "creators": [
+        {
+            "username": null,
+            "name": "J. Fossey"
+        },
+        {
+            "username": null,
+            "name": "J. Morin"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modifiedBy": "thomase",
+            "modified": "2024-04-19T14:12:51Z"
+        },
+        {
+            "comment": "add MANTO, wikidata references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-04-13T01:24:08Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-04-13T01:22:20Z"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-08T10:47:42Z"
+        },
+        {
+            "comment": "Baseline created",
+            "modifiedBy": "admin",
+            "modified": "2018-06-08T10:47:33Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2017-02-07T15:02:08Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2017-02-07T14:57:00Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2016-09-25T02:13:43Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2016-09-25T02:12:44Z"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-23T19:35:35Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T20:57:05Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T06:09:16Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T22:01:59Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T18:46:44Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T20:18:26Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-11-23T14:15:06Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-11-23T00:47:59Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-11-23T00:42:06Z"
+        }
+    ]
+}

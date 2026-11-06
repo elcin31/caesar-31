@@ -1,0 +1,2923 @@
+{
+  "schema_version": 1,
+  "created_for": "Caesar & Augustus research monograph",
+  "access_date": "2026-11-05",
+  "cartography": "Modern original project maps prepared with AI assistance; no generated historical artefact",
+  "base_data": {
+    "object": "Natural Earth ne_50m_land",
+    "version": "4.1.0",
+    "source_url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/",
+    "download_url": "https://naturalearth.s3.amazonaws.com/50m_physical/ne_50m_land.zip",
+    "license": "Public Domain",
+    "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "attribution": "Made with Natural Earth. Tom Patterson, Nathaniel Vaughn Kelso and contributors.",
+    "transformation": "Land polygons only; modern coastline retained; no modern country boundaries used.",
+    "access_date": "2026-11-05"
+  },
+  "projection": {
+    "name": "Equirectangular, spherical approximation",
+    "formula": "x=longitude*cos(standard_parallel); y=latitude",
+    "standard_parallel_degrees": {
+      "map_01": 47,
+      "map_02": 38,
+      "map_03": 38
+    },
+    "coordinate_datum": "Pleiades WGS84 longitude/latitude; no datum shift",
+    "scale_bar": "Approximate horizontal distance at the stated standard parallel; spherical radius 6371.0088 km"
+  },
+  "maps": {
+    "map_01_gaul_58_52": {
+      "objects": [
+        {
+          "map_number": 1,
+          "label_ru": "Генава",
+          "date_bce": "58",
+          "layer": "a",
+          "pleiades_id": "177528",
+          "source_url": "https://pleiades.stoa.org/places/177528",
+          "data_url": "https://pleiades.stoa.org/places/177528/json",
+          "title": "Genava",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            6.1437985,
+            46.201961499999996
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "G.D. Woolf"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "G.D. Woolf and contributors, Pleiades, Genava, https://pleiades.stoa.org/places/177528",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BG 1.6–8",
+          "interpretation_ru": "Мост и начало кампании против гельветов.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 2,
+          "label_ru": "Бибракте",
+          "date_bce": "58",
+          "layer": "a",
+          "pleiades_id": "177473",
+          "source_url": "https://pleiades.stoa.org/places/177473",
+          "data_url": "https://pleiades.stoa.org/places/177473/json",
+          "title": "Bibracte",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            4.035592329485176,
+            46.92582608902465
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "G.D. Woolf"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "dndimitrov",
+              "homepage": null,
+              "name": "Damian Noah Dimitrov",
+              "uri": "https://pleiades.stoa.org/author/dndimitrov"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "G.D. Woolf and contributors, Pleiades, Bibracte, https://pleiades.stoa.org/places/177473",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BG 1.23–24",
+          "interpretation_ru": "Ориентир кампании; поле сражения не локализовано этой точкой.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 3,
+          "label_ru": "Везонтион",
+          "date_bce": "58",
+          "layer": "a",
+          "pleiades_id": "177657",
+          "source_url": "https://pleiades.stoa.org/places/177657",
+          "data_url": "https://pleiades.stoa.org/places/177657/json",
+          "title": "Vesontio",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            6.0279240000000005,
+            47.2372405
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "G.D. Woolf"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "G.D. Woolf and contributors, Pleiades, Vesontio, https://pleiades.stoa.org/places/177657",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BG 1.38",
+          "interpretation_ru": "Занятие города перед действиями против Ариовиста.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 4,
+          "label_ru": "Самаробрива",
+          "date_bce": "54",
+          "layer": "b",
+          "pleiades_id": "109321",
+          "source_url": "https://pleiades.stoa.org/places/109321",
+          "data_url": "https://pleiades.stoa.org/places/109321/json",
+          "title": "Samarobriva Ambianorum",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            2.297948,
+            49.8936075
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "C. Haselgrove"
+            },
+            {
+              "username": null,
+              "name": "J. Kunow"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "dndimitrov",
+              "homepage": null,
+              "name": "Damian Noah Dimitrov",
+              "uri": "https://pleiades.stoa.org/author/dndimitrov"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "C. Haselgrove; J. Kunow and contributors, Pleiades, Samarobriva Ambianorum, https://pleiades.stoa.org/places/109321",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BG 5.24; 5.53",
+          "interpretation_ru": "Собрание галлов и зимняя дислокация; не поле битвы.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 5,
+          "label_ru": "Аварик",
+          "date_bce": "52",
+          "layer": "c",
+          "pleiades_id": "138207",
+          "source_url": "https://pleiades.stoa.org/places/138207",
+          "data_url": "https://pleiades.stoa.org/places/138207/json",
+          "title": "Avaricum/Biturigae",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            2.3978655,
+            47.082535
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "H.S. Sivan"
+            },
+            {
+              "username": null,
+              "name": "R.W. Mathisen"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "H.S. Sivan; R.W. Mathisen and contributors, Pleiades, Avaricum/Biturigae, https://pleiades.stoa.org/places/138207",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BG 7.13; 7.27–28",
+          "interpretation_ru": "Осада и взятие города.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 6,
+          "label_ru": "Герговия?",
+          "date_bce": "52",
+          "layer": "c",
+          "pleiades_id": "138373",
+          "source_url": "https://pleiades.stoa.org/places/138373",
+          "data_url": "https://pleiades.stoa.org/places/138373/json",
+          "title": "Gergovia?",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            3.1241434999999997,
+            45.718167
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "H.S. Sivan"
+            },
+            {
+              "username": null,
+              "name": "R.W. Mathisen"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "H.S. Sivan; R.W. Mathisen and contributors, Pleiades, Gergovia?, https://pleiades.stoa.org/places/138373",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BG 7.36",
+          "interpretation_ru": "В Pleiades название Gergovia?; неопределённость сохранена.",
+          "uncertain_location": true,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 7,
+          "label_ru": "Алезия",
+          "date_bce": "52",
+          "layer": "c",
+          "pleiades_id": "177434",
+          "source_url": "https://pleiades.stoa.org/places/177434",
+          "data_url": "https://pleiades.stoa.org/places/177434/json",
+          "title": "Alesia",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            4.503884,
+            47.536622
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "G.D. Woolf"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "G.D. Woolf and contributors, Pleiades, Alesia, https://pleiades.stoa.org/places/177434",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BG 7.68–69; 7.89",
+          "interpretation_ru": "Осада; точка обозначает поселение, а не линии осадных сооружений.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        }
+      ],
+      "files": [
+        "map_01_gaul_58_52.svg",
+        "map_01_gaul_58_52.png"
+      ]
+    },
+    "map_02_civil_wars_49_30": {
+      "objects": [
+        {
+          "map_number": 1,
+          "label_ru": "Илерда",
+          "date_bce": "49",
+          "layer": "a",
+          "pleiades_id": "246431",
+          "source_url": "https://pleiades.stoa.org/places/246431",
+          "data_url": "https://pleiades.stoa.org/places/246431/json",
+          "title": "Ilerda",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            0.625938,
+            41.6159535
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "H.S. Sivan"
+            },
+            {
+              "username": null,
+              "name": "S.J. Keay"
+            },
+            {
+              "username": null,
+              "name": "R.W. Mathisen"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "H.S. Sivan; S.J. Keay; R.W. Mathisen and contributors, Pleiades, Ilerda, https://pleiades.stoa.org/places/246431",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BC 1.38–41; 1.78–87",
+          "interpretation_ru": "Район кампании, завершившейся капитуляцией.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 2,
+          "label_ru": "Диррахий",
+          "date_bce": "48",
+          "layer": "a",
+          "pleiades_id": "481818",
+          "source_url": "https://pleiades.stoa.org/places/481818",
+          "data_url": "https://pleiades.stoa.org/places/481818/json",
+          "title": "Dyrr(h)achium/Epidamnos",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            19.447355,
+            41.3163425
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "J.J. Wilkes"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "J.J. Wilkes and contributors, Pleiades, Dyrr(h)achium/Epidamnos, https://pleiades.stoa.org/places/481818",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BC 3.41–45; 3.62–72",
+          "interpretation_ru": "Город-ориентир сражений; не точка прорыва укреплений.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 3,
+          "label_ru": "Фарсал",
+          "date_bce": "48",
+          "layer": "a",
+          "pleiades_id": "541042",
+          "source_url": "https://pleiades.stoa.org/places/541042",
+          "data_url": "https://pleiades.stoa.org/places/541042/json",
+          "title": "Pharsalus",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            22.387853348986145,
+            39.288497457090756
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "J. Fossey"
+            },
+            {
+              "username": null,
+              "name": "J. Morin"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "diffenda",
+              "homepage": null,
+              "name": "Dan Diffendale",
+              "uri": "https://pleiades.stoa.org/author/diffenda"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": null,
+              "name": "G. Reger"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "J. Fossey; J. Morin and contributors, Pleiades, Pharsalus, https://pleiades.stoa.org/places/541042",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Caes. BC 3.82–99",
+          "interpretation_ru": "Город-ориентир Фарсальского сражения; положение поля битвы этим не устанавливается.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 4,
+          "label_ru": "Тапс",
+          "date_bce": "46",
+          "layer": "a",
+          "pleiades_id": "324827",
+          "source_url": "https://pleiades.stoa.org/places/324827",
+          "data_url": "https://pleiades.stoa.org/places/324827/json",
+          "title": "Thapsus",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            11.042709352262834,
+            35.62136857457454
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "R.B. Hitchner"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": null,
+              "name": "R. Warner"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "R.B. Hitchner and contributors, Pleiades, Thapsus, https://pleiades.stoa.org/places/324827",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 43.7–8",
+          "interpretation_ru": "Поселение-ориентир сражения.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 5,
+          "label_ru": "Мунда?",
+          "date_bce": "45",
+          "layer": "a",
+          "pleiades_id": "256314",
+          "source_url": "https://pleiades.stoa.org/places/256314",
+          "data_url": "https://pleiades.stoa.org/places/256314/json",
+          "title": "Munda",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            -5.141862,
+            37.419687
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "Jr."
+            },
+            {
+              "username": null,
+              "name": "F.H. Stanley"
+            },
+            {
+              "username": null,
+              "name": "R.C. Knapp"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": null,
+              "name": "R. Warner"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "Jr.; F.H. Stanley; R.C. Knapp and contributors, Pleiades, Munda, https://pleiades.stoa.org/places/256314",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 43.35–38",
+          "interpretation_ru": "Pleiades указывает Cerro de las Camorras?; локализация предположительна.",
+          "uncertain_location": true,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 6,
+          "label_ru": "Мутина",
+          "date_bce": "43",
+          "layer": "b",
+          "pleiades_id": "383715",
+          "source_url": "https://pleiades.stoa.org/places/383715",
+          "data_url": "https://pleiades.stoa.org/places/383715/json",
+          "title": "Mutina",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            10.925223,
+            44.647057
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "M. Pearce"
+            },
+            {
+              "username": null,
+              "name": "P. Tozzi"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "M. Pearce; P. Tozzi and contributors, Pleiades, Mutina, https://pleiades.stoa.org/places/383715",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "App. BC 3.71–72",
+          "interpretation_ru": "Бои у города; соседний Форум Галлорум отдельной точкой не обозначен.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 7,
+          "label_ru": "Филиппы",
+          "date_bce": "42",
+          "layer": "b",
+          "pleiades_id": "501482",
+          "source_url": "https://pleiades.stoa.org/places/501482",
+          "data_url": "https://pleiades.stoa.org/places/501482/json",
+          "title": "Krenides/Philippi/Col. Augusta Iulia Philippensis",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            24.284637286816082,
+            41.012651339626466
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "E.N. Borza"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "cbouras",
+              "homepage": null,
+              "name": "Catherine Bouras",
+              "uri": "https://pleiades.stoa.org/author/cbouras"
+            },
+            {
+              "username": null,
+              "name": "G. Reger"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "cdlisle",
+              "homepage": null,
+              "name": "Chris de Lisle",
+              "uri": "https://pleiades.stoa.org/author/cdlisle"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "E.N. Borza and contributors, Pleiades, Krenides/Philippi/Col. Augusta Iulia Philippensis, https://pleiades.stoa.org/places/501482",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "App. BC 4.105–112; 4.128–131",
+          "interpretation_ru": "Город-ориентир двух сражений.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 8,
+          "label_ru": "Навлох",
+          "date_bce": "36",
+          "layer": "c",
+          "pleiades_id": "462384",
+          "source_url": "https://pleiades.stoa.org/places/462384",
+          "data_url": "https://pleiades.stoa.org/places/462384/json",
+          "title": "Naulochos",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            15.374469,
+            38.221699
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "R.J.A. Wilson"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "R.J.A. Wilson and contributors, Pleiades, Naulochos, https://pleiades.stoa.org/places/462384",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "App. BC 5.116; 5.118–121",
+          "interpretation_ru": "Береговой ориентир морского сражения; точное положение флотов не дано.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 9,
+          "label_ru": "Акций",
+          "date_bce": "31",
+          "layer": "c",
+          "pleiades_id": "530772",
+          "source_url": "https://pleiades.stoa.org/places/530772",
+          "data_url": "https://pleiades.stoa.org/places/530772/json",
+          "title": "Actium (promontory)",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            20.749775,
+            38.923568
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "W.M. Murray"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "W.M. Murray and contributors, Pleiades, Actium (promontory), https://pleiades.stoa.org/places/530772",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 50.12; 50.31–35; 51.1.1",
+          "interpretation_ru": "Мыс-ориентир морского сражения; не координаты боевого построения.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 10,
+          "label_ru": "Александрия",
+          "date_bce": "30",
+          "layer": "c",
+          "pleiades_id": "727070",
+          "source_url": "https://pleiades.stoa.org/places/727070",
+          "data_url": "https://pleiades.stoa.org/places/727070/json",
+          "title": "Alexandria",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            29.909773,
+            31.201435
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "A. Bernand"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": null,
+              "name": "Jen Thum"
+            },
+            {
+              "username": "rrumora",
+              "homepage": null,
+              "name": "Roko Rumora",
+              "uri": "https://pleiades.stoa.org/author/rrumora"
+            },
+            {
+              "username": "irisf",
+              "homepage": null,
+              "name": "Iris Fernandez",
+              "uri": "https://pleiades.stoa.org/author/irisf"
+            },
+            {
+              "username": null,
+              "name": "H. Kopp"
+            },
+            {
+              "username": null,
+              "name": "Herbert Verreth"
+            },
+            {
+              "username": "eplatte",
+              "homepage": null,
+              "name": "Elizabeth Platte",
+              "uri": "https://pleiades.stoa.org/author/eplatte"
+            },
+            {
+              "username": "ameadows",
+              "homepage": null,
+              "name": "Andy Meadows",
+              "uri": "https://pleiades.stoa.org/author/ameadows"
+            },
+            {
+              "username": "renevoorburg",
+              "homepage": null,
+              "name": "René Voorburg",
+              "uri": "https://pleiades.stoa.org/author/renevoorburg"
+            },
+            {
+              "username": null,
+              "name": "Paola Buzi"
+            },
+            {
+              "username": null,
+              "name": "B. Siewert-Mayer"
+            },
+            {
+              "username": null,
+              "name": "Mark Depauw"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "adamp",
+              "homepage": null,
+              "name": "Adam Prins",
+              "uri": "https://pleiades.stoa.org/author/adamp"
+            },
+            {
+              "username": null,
+              "name": "Ethan Gruber"
+            },
+            {
+              "username": null,
+              "name": "W. Röllig"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "sebs",
+              "homepage": null,
+              "name": "Sebastian Heath",
+              "uri": "https://pleiades.stoa.org/author/sebs"
+            },
+            {
+              "username": null,
+              "name": "Angelo Colonna"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": null,
+              "name": "Ilaria Rossetti"
+            },
+            {
+              "username": "ekansa",
+              "homepage": null,
+              "name": "Eric Kansa",
+              "uri": "https://pleiades.stoa.org/author/ekansa"
+            },
+            {
+              "username": "fdeblauwe",
+              "homepage": null,
+              "name": "Francis Deblauwe",
+              "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "A. Bernand and contributors, Pleiades, Alexandria, https://pleiades.stoa.org/places/727070",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 51.9–10",
+          "interpretation_ru": "Город-ориентир завершающих боёв в Египте.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        }
+      ],
+      "files": [
+        "map_02_civil_wars_49_30.svg",
+        "map_02_civil_wars_49_30.png"
+      ]
+    },
+    "map_03_administration_27": {
+      "objects": [
+        {
+          "map_number": 1,
+          "label_ru": "Испания: Тарракон",
+          "date_bce": "27",
+          "layer": "a",
+          "pleiades_id": "246349",
+          "source_url": "https://pleiades.stoa.org/places/246349",
+          "data_url": "https://pleiades.stoa.org/places/246349/json",
+          "title": "Col. Tarraco",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            1.2583375,
+            41.116892
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "H.S. Sivan"
+            },
+            {
+              "username": null,
+              "name": "S.J. Keay"
+            },
+            {
+              "username": null,
+              "name": "R.W. Mathisen"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "H.S. Sivan; S.J. Keay; R.W. Mathisen and contributors, Pleiades, Col. Tarraco, https://pleiades.stoa.org/places/246349",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.5",
+          "interpretation_ru": "Географический ориентир провинциального управления Августа.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 2,
+          "label_ru": "Нарбонская Галлия: Нарбон",
+          "date_bce": "27",
+          "layer": "a",
+          "pleiades_id": "246347",
+          "source_url": "https://pleiades.stoa.org/places/246347",
+          "data_url": "https://pleiades.stoa.org/places/246347/json",
+          "title": "Col. Narbo Martius",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            3.004203,
+            43.1836165
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "H.S. Sivan"
+            },
+            {
+              "username": null,
+              "name": "S.J. Keay"
+            },
+            {
+              "username": null,
+              "name": "R.W. Mathisen"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "H.S. Sivan; S.J. Keay; R.W. Mathisen and contributors, Pleiades, Col. Narbo Martius, https://pleiades.stoa.org/places/246347",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.5; 53.12.7",
+          "interpretation_ru": "В выбранном срезе у Августа; последующая передача народу не перенесена в 27 г.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 3,
+          "label_ru": "Сирия: Антиохия",
+          "date_bce": "27",
+          "layer": "a",
+          "pleiades_id": "658381",
+          "source_url": "https://pleiades.stoa.org/places/658381",
+          "data_url": "https://pleiades.stoa.org/places/658381/json",
+          "title": "Antiochia/Theoupolis",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            36.17684236666667,
+            36.2158868
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "T. Sinclair"
+            },
+            {
+              "username": null,
+              "name": "P.-L. Gatier"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "M. Ballance"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": null,
+              "name": "H. Kopp"
+            },
+            {
+              "username": null,
+              "name": "B. Siewert-Mayer"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            },
+            {
+              "username": null,
+              "name": "W. Röllig"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "fdeblauwe",
+              "homepage": null,
+              "name": "Francis Deblauwe",
+              "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+            },
+            {
+              "username": null,
+              "name": "R. Warner"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            },
+            {
+              "username": "rmhorne",
+              "homepage": null,
+              "name": "Ryan Horne",
+              "uri": "https://pleiades.stoa.org/author/rmhorne"
+            },
+            {
+              "username": "ekansa",
+              "homepage": null,
+              "name": "Eric Kansa",
+              "uri": "https://pleiades.stoa.org/author/ekansa"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "T. Sinclair; P.-L. Gatier and contributors, Pleiades, Antiochia/Theoupolis, https://pleiades.stoa.org/places/658381",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.7",
+          "interpretation_ru": "Географический ориентир; сопредельные области не закрашены.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 4,
+          "label_ru": "Египет: Александрия",
+          "date_bce": "27",
+          "layer": "a",
+          "pleiades_id": "727070",
+          "source_url": "https://pleiades.stoa.org/places/727070",
+          "data_url": "https://pleiades.stoa.org/places/727070/json",
+          "title": "Alexandria",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            29.909773,
+            31.201435
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "A. Bernand"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": null,
+              "name": "Jen Thum"
+            },
+            {
+              "username": "rrumora",
+              "homepage": null,
+              "name": "Roko Rumora",
+              "uri": "https://pleiades.stoa.org/author/rrumora"
+            },
+            {
+              "username": "irisf",
+              "homepage": null,
+              "name": "Iris Fernandez",
+              "uri": "https://pleiades.stoa.org/author/irisf"
+            },
+            {
+              "username": null,
+              "name": "H. Kopp"
+            },
+            {
+              "username": null,
+              "name": "Herbert Verreth"
+            },
+            {
+              "username": "eplatte",
+              "homepage": null,
+              "name": "Elizabeth Platte",
+              "uri": "https://pleiades.stoa.org/author/eplatte"
+            },
+            {
+              "username": "ameadows",
+              "homepage": null,
+              "name": "Andy Meadows",
+              "uri": "https://pleiades.stoa.org/author/ameadows"
+            },
+            {
+              "username": "renevoorburg",
+              "homepage": null,
+              "name": "René Voorburg",
+              "uri": "https://pleiades.stoa.org/author/renevoorburg"
+            },
+            {
+              "username": null,
+              "name": "Paola Buzi"
+            },
+            {
+              "username": null,
+              "name": "B. Siewert-Mayer"
+            },
+            {
+              "username": null,
+              "name": "Mark Depauw"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "adamp",
+              "homepage": null,
+              "name": "Adam Prins",
+              "uri": "https://pleiades.stoa.org/author/adamp"
+            },
+            {
+              "username": null,
+              "name": "Ethan Gruber"
+            },
+            {
+              "username": null,
+              "name": "W. Röllig"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "sebs",
+              "homepage": null,
+              "name": "Sebastian Heath",
+              "uri": "https://pleiades.stoa.org/author/sebs"
+            },
+            {
+              "username": null,
+              "name": "Angelo Colonna"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": null,
+              "name": "Ilaria Rossetti"
+            },
+            {
+              "username": "ekansa",
+              "homepage": null,
+              "name": "Eric Kansa",
+              "uri": "https://pleiades.stoa.org/author/ekansa"
+            },
+            {
+              "username": "fdeblauwe",
+              "homepage": null,
+              "name": "Francis Deblauwe",
+              "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "A. Bernand and contributors, Pleiades, Alexandria, https://pleiades.stoa.org/places/727070",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.7; 51.17.1",
+          "interpretation_ru": "Особый порядок: всаднический префект; общий цвет не делает Египет обычной легатской провинцией.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 5,
+          "label_ru": "Африка: Карфаген",
+          "date_bce": "27",
+          "layer": "b",
+          "pleiades_id": "314921",
+          "source_url": "https://pleiades.stoa.org/places/314921",
+          "data_url": "https://pleiades.stoa.org/places/314921/json",
+          "title": "Carthago",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            10.323056,
+            36.853056
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "R.B. Hitchner"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            },
+            {
+              "username": "jprag",
+              "homepage": null,
+              "name": "Jonathan Prag",
+              "uri": "https://pleiades.stoa.org/author/jprag"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": null,
+              "name": "R. Warner"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "iluo",
+              "homepage": null,
+              "name": "Ingrid Luo",
+              "uri": "https://pleiades.stoa.org/author/iluo"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "R.B. Hitchner and contributors, Pleiades, Carthago, https://pleiades.stoa.org/places/314921",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.4",
+          "interpretation_ru": "Выборочный ориентир провинций народа и сената.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 6,
+          "label_ru": "Азия: Эфес",
+          "date_bce": "27",
+          "layer": "b",
+          "pleiades_id": "599612",
+          "source_url": "https://pleiades.stoa.org/places/599612",
+          "data_url": "https://pleiades.stoa.org/places/599612/json",
+          "title": "Ephesus/Arsinoe(ia)",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            27.34240298195866,
+            37.940164271971945
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "C. Foss"
+            },
+            {
+              "username": null,
+              "name": "G. Reger"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": null,
+              "name": "H. Kopp"
+            },
+            {
+              "username": "jkent",
+              "homepage": null,
+              "name": "Joel Michael Kent",
+              "uri": "https://pleiades.stoa.org/author/jkent"
+            },
+            {
+              "username": null,
+              "name": "B. Siewert-Mayer"
+            },
+            {
+              "username": "pacheson",
+              "homepage": null,
+              "name": "Phoebe Acheson",
+              "uri": "https://pleiades.stoa.org/author/pacheson"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": null,
+              "name": "W. Röllig"
+            },
+            {
+              "username": "arabinowitz",
+              "homepage": null,
+              "name": "Adam Rabinowitz",
+              "uri": "https://pleiades.stoa.org/author/arabinowitz"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "jfu"
+            },
+            {
+              "username": "cdlisle",
+              "homepage": null,
+              "name": "Chris de Lisle",
+              "uri": "https://pleiades.stoa.org/author/cdlisle"
+            },
+            {
+              "username": "fdeblauwe",
+              "homepage": null,
+              "name": "Francis Deblauwe",
+              "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            },
+            {
+              "username": "rmhorne",
+              "homepage": null,
+              "name": "Ryan Horne",
+              "uri": "https://pleiades.stoa.org/author/rmhorne"
+            },
+            {
+              "username": "ekansa",
+              "homepage": null,
+              "name": "Eric Kansa",
+              "uri": "https://pleiades.stoa.org/author/ekansa"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "C. Foss; G. Reger and contributors, Pleiades, Ephesus/Arsinoe(ia), https://pleiades.stoa.org/places/599612",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.4",
+          "interpretation_ru": "Выборочный ориентир провинций народа и сената.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 7,
+          "label_ru": "Македония: Фессалоника",
+          "date_bce": "27",
+          "layer": "b",
+          "pleiades_id": "491741",
+          "source_url": "https://pleiades.stoa.org/places/491741",
+          "data_url": "https://pleiades.stoa.org/places/491741/json",
+          "title": "Thessalonica",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            22.952885000000002,
+            40.628342
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "E.N. Borza"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "cbouras",
+              "homepage": null,
+              "name": "Catherine Bouras",
+              "uri": "https://pleiades.stoa.org/author/cbouras"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            },
+            {
+              "username": "rmhorne",
+              "homepage": null,
+              "name": "Ryan Horne",
+              "uri": "https://pleiades.stoa.org/author/rmhorne"
+            },
+            {
+              "username": "cdlisle",
+              "homepage": null,
+              "name": "Chris de Lisle",
+              "uri": "https://pleiades.stoa.org/author/cdlisle"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "E.N. Borza and contributors, Pleiades, Thessalonica, https://pleiades.stoa.org/places/491741",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.4",
+          "interpretation_ru": "Выборочный ориентир; позднейшие изменения границ не изображены.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 8,
+          "label_ru": "Крит и Киренаика: Гортина",
+          "date_bce": "27",
+          "layer": "b",
+          "pleiades_id": "589796",
+          "source_url": "https://pleiades.stoa.org/places/589796",
+          "data_url": "https://pleiades.stoa.org/places/589796/json",
+          "title": "Gortyn(a)",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            24.946943,
+            35.062107
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "J. Bennet"
+            },
+            {
+              "username": null,
+              "name": "G. Reger"
+            }
+          ],
+          "contributors": [
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": null,
+              "name": "Ethan Gruber"
+            },
+            {
+              "username": "rselth",
+              "homepage": null,
+              "name": "Rosemary Selth",
+              "uri": "https://pleiades.stoa.org/author/rselth"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "scosta",
+              "homepage": null,
+              "name": "Stefano Costa",
+              "uri": "https://pleiades.stoa.org/author/scosta"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": "cbouras",
+              "homepage": null,
+              "name": "Catherine Bouras",
+              "uri": "https://pleiades.stoa.org/author/cbouras"
+            },
+            {
+              "username": null,
+              "name": "WHG"
+            },
+            {
+              "username": "ameadows",
+              "homepage": null,
+              "name": "Andy Meadows",
+              "uri": "https://pleiades.stoa.org/author/ameadows"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            },
+            {
+              "username": "sebs",
+              "homepage": null,
+              "name": "Sebastian Heath",
+              "uri": "https://pleiades.stoa.org/author/sebs"
+            }
+          ],
+          "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "J. Bennet; G. Reger and contributors, Pleiades, Gortyn(a), https://pleiades.stoa.org/places/589796",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 53.12.4; 53.12.8",
+          "interpretation_ru": "Один ориентир составной провинции; не вся её территория.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 9,
+          "label_ru": "Галатия, Аминта: Анкира",
+          "date_bce": "27",
+          "layer": "c",
+          "pleiades_id": "619103",
+          "source_url": "https://pleiades.stoa.org/places/619103",
+          "data_url": "https://pleiades.stoa.org/places/619103/json",
+          "title": "Ancyra (Galatia)",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            32.859333,
+            39.9437925
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "S. Mitchell"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "jahlfeldt",
+              "homepage": null,
+              "name": "Johan Åhlfeldt",
+              "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": null,
+              "name": "W. Röllig"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "H. Kopp"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": null,
+              "name": "B. Siewert-Mayer"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            },
+            {
+              "username": "fdeblauwe",
+              "homepage": null,
+              "name": "Francis Deblauwe",
+              "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+            },
+            {
+              "username": "ekansa",
+              "homepage": null,
+              "name": "Eric Kansa",
+              "uri": "https://pleiades.stoa.org/author/ekansa"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "S. Mitchell and contributors, Pleiades, Ancyra (Galatia), https://pleiades.stoa.org/places/619103",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 49.32.3; 51.2.1; 53.26.3",
+          "interpretation_ru": "Выборочный ориентир зависимого царства; провинция возникла после смерти Аминты в 25 г.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        },
+        {
+          "map_number": 10,
+          "label_ru": "Каппадокия, Архелай: Мазака",
+          "date_bce": "27",
+          "layer": "c",
+          "pleiades_id": "629035",
+          "source_url": "https://pleiades.stoa.org/places/629035",
+          "data_url": "https://pleiades.stoa.org/places/629035/json",
+          "title": "Mazaka/Eusebeia/Caesarea",
+          "coordinate_order": "longitude, latitude",
+          "coordinate_datum": "WGS84",
+          "coordinate": [
+            35.4743607,
+            38.726400549999994
+          ],
+          "coordinate_field": "reprPoint",
+          "coordinate_role": "representative place point; not a battlefield or administrative boundary",
+          "creators": [
+            {
+              "username": null,
+              "name": "T.B. Mitford"
+            }
+          ],
+          "contributors": [
+            {
+              "username": "bkiesling",
+              "homepage": null,
+              "name": "Brady Kiesling",
+              "uri": "https://pleiades.stoa.org/author/bkiesling"
+            },
+            {
+              "username": "sgillies",
+              "homepage": null,
+              "name": "Sean Gillies",
+              "uri": "https://pleiades.stoa.org/author/sgillies"
+            },
+            {
+              "username": "cjohansson",
+              "homepage": null,
+              "name": "Carolin Johansson",
+              "uri": "https://pleiades.stoa.org/author/cjohansson"
+            },
+            {
+              "username": null,
+              "name": "H. Kopp"
+            },
+            {
+              "username": null,
+              "name": "B. Siewert-Mayer"
+            },
+            {
+              "username": "rrattenborg",
+              "homepage": null,
+              "name": "Rune Rattenborg",
+              "uri": "https://pleiades.stoa.org/author/rrattenborg"
+            },
+            {
+              "username": null,
+              "name": "R. Talbert"
+            },
+            {
+              "username": "enesy",
+              "homepage": null,
+              "name": "Enes Yılandiloğlu",
+              "uri": "https://pleiades.stoa.org/author/enesy"
+            },
+            {
+              "username": null,
+              "name": "W. Röllig"
+            },
+            {
+              "username": "thomase",
+              "homepage": null,
+              "name": "Tom Elliott",
+              "uri": "https://pleiades.stoa.org/author/thomase"
+            },
+            {
+              "username": null,
+              "name": "DARMC"
+            },
+            {
+              "username": "jbecker",
+              "homepage": null,
+              "name": "Jeffrey Becker",
+              "uri": "https://pleiades.stoa.org/author/jbecker"
+            },
+            {
+              "username": "rssmith",
+              "homepage": null,
+              "name": "R. Scott Smith",
+              "uri": "https://pleiades.stoa.org/author/rssmith"
+            },
+            {
+              "username": "ghawes",
+              "homepage": null,
+              "name": "Greta Hawes",
+              "uri": "https://pleiades.stoa.org/author/ghawes"
+            },
+            {
+              "username": "sbond",
+              "homepage": null,
+              "name": "Sarah Bond",
+              "uri": "https://pleiades.stoa.org/author/sbond"
+            },
+            {
+              "username": "fdeblauwe",
+              "homepage": null,
+              "name": "Francis Deblauwe",
+              "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+            },
+            {
+              "username": "ekansa",
+              "homepage": null,
+              "name": "Eric Kansa",
+              "uri": "https://pleiades.stoa.org/author/ekansa"
+            }
+          ],
+          "rights_as_received": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "T.B. Mitford and contributors, Pleiades, Mazaka/Eusebeia/Caesarea, https://pleiades.stoa.org/places/629035",
+          "access_date": "2026-11-05",
+          "access_status": "FULL: individual JSON record inspected; not its full cited bibliography",
+          "primary_locus_checked": "Dio 49.32.3; 51.2.1",
+          "interpretation_ru": "Выборочный ориентир зависимого царства; не утверждение о точном местонахождении царского двора.",
+          "uncertain_location": false,
+          "transformations": "reprPoint selected; label translated to Russian; plotted on scaled longitude grid; civil-war numbers 2, 3, 9 offset with a leader line to the source coordinate"
+        }
+      ],
+      "files": [
+        "map_03_administration_27.svg",
+        "map_03_administration_27.png"
+      ],
+      "reference_city": {
+        "label_ru": "Рим",
+        "pleiades_id": "423025",
+        "source_url": "https://pleiades.stoa.org/places/423025",
+        "data_url": "https://pleiades.stoa.org/places/423025/json",
+        "coordinate": [
+          12.491258174554883,
+          41.8899769864849
+        ],
+        "creators": [
+          {
+            "username": null,
+            "name": "L. Quilici"
+          },
+          {
+            "username": null,
+            "name": "S. Quilici Gigli"
+          }
+        ],
+        "contributors": [
+          {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+          },
+          {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+          },
+          {
+            "username": "rselth",
+            "homepage": null,
+            "name": "Rosemary Selth",
+            "uri": "https://pleiades.stoa.org/author/rselth"
+          },
+          {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+          },
+          {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+          },
+          {
+            "username": null,
+            "name": "DARMC"
+          },
+          {
+            "username": null,
+            "name": "R. Talbert"
+          },
+          {
+            "username": "sebs",
+            "homepage": null,
+            "name": "Sebastian Heath",
+            "uri": "https://pleiades.stoa.org/author/sebs"
+          },
+          {
+            "username": "juser",
+            "homepage": null,
+            "name": "Joe User",
+            "uri": "https://pleiades.stoa.org/author/juser"
+          },
+          {
+            "username": "maximeg",
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg"
+          },
+          {
+            "username": "rssmith",
+            "homepage": null,
+            "name": "R. Scott Smith",
+            "uri": "https://pleiades.stoa.org/author/rssmith"
+          },
+          {
+            "username": "ghawes",
+            "homepage": null,
+            "name": "Greta Hawes",
+            "uri": "https://pleiades.stoa.org/author/ghawes"
+          },
+          {
+            "username": "enesy",
+            "homepage": null,
+            "name": "Enes Yılandiloğlu",
+            "uri": "https://pleiades.stoa.org/author/enesy"
+          }
+        ],
+        "rights_as_received": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "access_date": "2026-11-05",
+        "coordinate_role": "reference city; star is not an administrative category"
+      }
+    }
+  },
+  "file_checksums": {
+    "data/natural_earth_50m_land.zip": {
+      "bytes": 457183,
+      "sha256": "0b8e670cf80dce9cbebe2a193bc44ba5602758c22e1fa603980553646d7ff162"
+    },
+    "data/natural_earth_terms.html": {
+      "bytes": 38013,
+      "sha256": "a5b89bf4c3b574701025257f4caea59d8e17a453667899345cd489e8bf8543ab"
+    },
+    "data/pleiades_109321.json": {
+      "bytes": 66090,
+      "sha256": "178b4825dc6dc82d26c0d380433fca5e5c70520ab44a929b53137f39839b27b7"
+    },
+    "data/pleiades_138207.json": {
+      "bytes": 44443,
+      "sha256": "5df83914cea23d760b6094994b0d7677d3680fc543ce0db077553375426673b5"
+    },
+    "data/pleiades_138373.json": {
+      "bytes": 25428,
+      "sha256": "6f3c3e07832250af4fd190178e22311e5e775818af4a325d8a2c998c96a415c1"
+    },
+    "data/pleiades_177434.json": {
+      "bytes": 27099,
+      "sha256": "1a3ceedf4f57f2e06b710e5942787da95c9a7f19b22a8b7604118d395c371f57"
+    },
+    "data/pleiades_177473.json": {
+      "bytes": 49550,
+      "sha256": "2b0a9d40522bcc978e8b3d7d5241b33a037d0d87040227a5ad9eb0ea6140cbf4"
+    },
+    "data/pleiades_177528.json": {
+      "bytes": 32803,
+      "sha256": "a7262f82e815052d61e61273c6c77410fb2c48fed1adc34cb189406cd77853c1"
+    },
+    "data/pleiades_177657.json": {
+      "bytes": 44935,
+      "sha256": "3e778a08e8aac9c2994abb9d6d2585085f7f062446f12870b245eefacd76b82e"
+    },
+    "data/pleiades_246347.json": {
+      "bytes": 57518,
+      "sha256": "f4072b75ba1b8ced212d4fc9789c85e5503916a02f8307fb130e2f8a25c54e10"
+    },
+    "data/pleiades_246349.json": {
+      "bytes": 52429,
+      "sha256": "17dab375a8077e62035e848e2b426044f2ee5bd9c16c7cbacbcc621961c9c055"
+    },
+    "data/pleiades_246431.json": {
+      "bytes": 39416,
+      "sha256": "cd141f5b627981f45298c2ac6b55d5a38e1178aab3d542917aa2513aca3d3292"
+    },
+    "data/pleiades_256314.json": {
+      "bytes": 20248,
+      "sha256": "b58246c3aaca9e7064946415982c9d6955111b1401d0cd755fa182182500c657"
+    },
+    "data/pleiades_314921.json": {
+      "bytes": 68246,
+      "sha256": "e074161975b62cc1c8a1be10c6610b995a67638bbb03301ff405b0acbcd30394"
+    },
+    "data/pleiades_324827.json": {
+      "bytes": 27797,
+      "sha256": "23b567bcdc0a9eabcd7720f19fa9ad71eb0d7070a2fe645cfed0ca746cb94ef0"
+    },
+    "data/pleiades_383715.json": {
+      "bytes": 43065,
+      "sha256": "78b1a6a4e1079f1948436b539796ac19125fa262d3b47a16a72d7ef25ee296d1"
+    },
+    "data/pleiades_423025.json": {
+      "bytes": 167018,
+      "sha256": "d602f3bc04b9241fe4516a9c1a46ee473946b3fd195f742e067a5cf613ea3fe4"
+    },
+    "data/pleiades_462384.json": {
+      "bytes": 15840,
+      "sha256": "a5bd74fae80476b8e55eed514bf66ffae20889c0fe8c35ce4d2c10ebfa0743cb"
+    },
+    "data/pleiades_481818.json": {
+      "bytes": 51330,
+      "sha256": "1140518ca7492887151b3321da117b1a57b41ee033888fe8592c92576c471ee8"
+    },
+    "data/pleiades_491741.json": {
+      "bytes": 61112,
+      "sha256": "01ab7eed16056f59fcdbf661d48f4c6bedfe97dce40dd77c02cb9145471d8b18"
+    },
+    "data/pleiades_501482.json": {
+      "bytes": 64751,
+      "sha256": "16e59f09cb0e98fe5727ba189af7bada5199f6b0fd56748e33e018a4c7e3e66d"
+    },
+    "data/pleiades_530772.json": {
+      "bytes": 20875,
+      "sha256": "66494b5e9e9779e79a97b24dca165cdc7ec9701db108a4dd16fa662cb2cbef08"
+    },
+    "data/pleiades_541042.json": {
+      "bytes": 40061,
+      "sha256": "bac699b1eeeabef29ad692d393e084cc71a8875d4c8470cfc421505c29445604"
+    },
+    "data/pleiades_589796.json": {
+      "bytes": 61916,
+      "sha256": "b67d15b309e078618606cae0a982dbc1927e3490239dd8f61a0c2bbfcb199669"
+    },
+    "data/pleiades_599612.json": {
+      "bytes": 179447,
+      "sha256": "8470af6ada252498ddfd37c4fcb6c4cbb40673a6b5bb312310f303adeee95eb4"
+    },
+    "data/pleiades_619103.json": {
+      "bytes": 109381,
+      "sha256": "9c6b532579466da29531f0d9a0132b9965ba0db832e1c4a7c63d5f1a95a8debf"
+    },
+    "data/pleiades_629035.json": {
+      "bytes": 70957,
+      "sha256": "b9d72792dabb042b91d77539881361cc25f9c6d98a4355395f5c976564c981e0"
+    },
+    "data/pleiades_658381.json": {
+      "bytes": 129362,
+      "sha256": "d55577e8e6c12960afa0b9baa4b622efb423bef40199491a54a6496b218be41e"
+    },
+    "data/pleiades_727070.json": {
+      "bytes": 97920,
+      "sha256": "ef28d6a0e40e5ec660456638b74ee9cd033d827716eb7e78bd169be099575c22"
+    },
+    "map_01_gaul_58_52.png": {
+      "bytes": 377514,
+      "sha256": "135e69c0053c5b78d17a0e8bd1c211db15f5838c3650b905fb0b22a275e3e94a"
+    },
+    "map_01_gaul_58_52.svg": {
+      "bytes": 433450,
+      "sha256": "73ce7c1c937c0ea2a4e91bcc994e36a40b154f5e9c5349e332236d6d540256ce"
+    },
+    "map_02_civil_wars_49_30.png": {
+      "bytes": 409672,
+      "sha256": "94ab1303654647315518a528e1139e124bf30163464181c24ef76a3fa8700413"
+    },
+    "map_02_civil_wars_49_30.svg": {
+      "bytes": 340675,
+      "sha256": "51ce870581ace45d922e5ef777dbf69a645a9965e26fe8da2b09b7c2fca04d2d"
+    },
+    "map_03_administration_27.png": {
+      "bytes": 463148,
+      "sha256": "6466060b006adc48b8145342416382b786449875f33ffb2dcf6ef836747aff28"
+    },
+    "map_03_administration_27.svg": {
+      "bytes": 341536,
+      "sha256": "5a8c7263495f0a5516e55c952366957155123433c38a4b60de035bd06f1afcc6"
+    },
+    "source_access.json": {
+      "bytes": 18866,
+      "sha256": "548fab230916a2ed39284b204946f18e6a6e6737a02c06874708a14a9a37bcde"
+    }
+  }
+}

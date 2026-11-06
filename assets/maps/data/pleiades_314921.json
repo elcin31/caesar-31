@@ -1,0 +1,1471 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.323056,
+                    36.853056
+                ]
+            },
+            "type": "Feature",
+            "id": "dare-location",
+            "properties": {
+                "snippet": "Settlement; 750 BC - AD 640",
+                "link": "https://pleiades.stoa.org/places/314921/dare-location",
+                "description": "Representative point location, site precision",
+                "location_precision": "precise",
+                "title": "DARE Location"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": "ghawes",
+            "homepage": null,
+            "name": "Greta Hawes",
+            "uri": "https://pleiades.stoa.org/author/ghawes"
+        },
+        {
+            "username": "jprag",
+            "homepage": null,
+            "name": "Jonathan Prag",
+            "uri": "https://pleiades.stoa.org/author/jprag"
+        },
+        {
+            "username": "rssmith",
+            "homepage": null,
+            "name": "R. Scott Smith",
+            "uri": "https://pleiades.stoa.org/author/rssmith"
+        },
+        {
+            "username": null,
+            "name": "R. Warner"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "iluo",
+            "homepage": null,
+            "name": "Ingrid Luo",
+            "uri": "https://pleiades.stoa.org/author/iluo"
+        },
+        {
+            "username": "enesy",
+            "homepage": null,
+            "name": "Enes Yılandiloğlu",
+            "uri": "https://pleiades.stoa.org/author/enesy"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "shortTitle": "",
+                    "bibliographicURI": "",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "type": "cites"
+                }
+            ],
+            "id": "dare-location",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "end": 640,
+            "title": "DARE Location",
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "featureType": [
+                "settlement"
+            ],
+            "description": "Representative point location, site precision",
+            "created": "2012-10-20T20:03:41Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.323056,
+                    36.853056
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/314921/dare-location",
+            "creators": [
+                {
+                    "username": "jahlfeldt",
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T20:03:42Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T20:03:42Z"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T20:03:42Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2012-10-20T20:03:41Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2016-07-13T13:37:24Z",
+            "associationCertainty": "certain",
+            "title": "Uticensis Sinus",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/314921/315249",
+            "connectionType": "connection",
+            "id": "315249",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:37:24Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:37:24Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:37:24Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/315249",
+            "details": "",
+            "references": [],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "admin",
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection"
+        },
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2023-12-02T15:31:02Z",
+            "associationCertainty": "certain",
+            "title": "Untitled",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/314921/untitled",
+            "connectionType": "on",
+            "id": "untitled",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2023-12-04T23:23:28Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-12-02T15:31:06Z"
+                },
+                {
+                    "comment": "cnxn",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-12-02T15:31:02Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-12-02T15:31:02Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/319382",
+            "details": "",
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://www.worldcat.org/oclc/43970336",
+                    "citationDetail": "32",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "BAtlas",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "32 F3 Carthago",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "14.1",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "AAT I",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PJGT2ZAD",
+            "formattedCitation": "<div class=\"csl-entry\">Babelon, Ernest, René Cagnat, and Salomon Reinach, eds. <i>Atlas Archéologique de La Tunisie I</i>. Paris: E. Leroux, 1892.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://encyclopedieberbere.revues.org/2070",
+            "citationDetail": "12 Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "EncBerb",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BHPQPEJB",
+            "formattedCitation": "<div class=\"csl-entry\">Camps, Gabriel, and Salem Chaker. <i>Encyclopédie Berbère</i>. Aix-en-Provence, France: Edisud; Institut de Recherches et d’Études sur le Monde Arabe et Musulman (IREMAM), 1984. https://journals.openedition.org/encyclopedieberbere/.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Carthage",
+            "citationDetail": "Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://whc.unesco.org/en/list/37",
+            "citationDetail": "37: Archaeological Site of Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "WHL",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+            "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=carthage",
+            "citationDetail": "CARTHAGE Tunisia",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "PECS (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace60.html",
+            "citationDetail": "4C5 (Talbert 60)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "TP (Talbert: CUP)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://fr.wikipedia.org/wiki/Site_arch%C3%A9ologique_de_Carthage",
+            "citationDetail": "Site archéologique de Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (French)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B4HPCZIK",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipédia: L’encyclopédie libre que chacun peut améliorer</i>. Wikimedia Foundation, 2001. https://fr.wikipedia.org.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.trismegistos.org/place/484",
+            "citationDetail": "GEO ID 484: Carthago",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Mark Depauw, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.encquran.brill.nl/entries/brill-s-new-pauly/carthage-ct-e1408540",
+            "citationDetail": "Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. http://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.geonames.org/2468244/carthage.html",
+            "citationDetail": "2468244: Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "GeoNames",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. “GeoNames,” 2005. http://www.geonames.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Excavations at Carthage",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RT5CTUH5",
+            "formattedCitation": "<div class=\"csl-entry\">Hurst, H. R, Steve Roskams, Maʻhad al-Qawmī lil-Āthār wa-al-Funūn bi-Tūnis, British Academy, and Carthage Committee. <i>Excavations at Carthage: The British Mission. Vol. 1, 1, Vol. 1, 1,</i>. Sheffield: Published for the British Academy from the University of Sheffield, Dept. of Prehistory and Archaeology, 1984.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Excavations at Carthage 2. 2.",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SVF53E2K",
+            "formattedCitation": "<div class=\"csl-entry\">Hurst, H. R. <i>Excavations at Carthage 2. 2.</i> Sheffield, 1984.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Humphrey et al. 1976",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RX7KN5J4",
+            "formattedCitation": "<div class=\"csl-entry\">Humphrey, John H, Institut national d’archéologie et d'art (Tunisie), and American Schools of Oriental Research. <i>Excavations at Carthage.</i> Tunis: Ceres Production, 1976.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Humphrey 1976-1982",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8C7XC9MW",
+            "formattedCitation": "<div class=\"csl-entry\">Humphrey, John H, University of Michigan, American Schools of Oriental Research, Maʻhad al-Qawmī lil-Āthār wa-al-Funūn, and Kelsey Museum of Archeology. <i>Excavations at Carthage ...</i> 7 vols. Ann Arbor: Kelsey Museum, University of Michigan, 1976.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.jstor.org/stable/124290",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Hurst and Stager 1978",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YAJ89Z2M",
+            "formattedCitation": "<div class=\"csl-entry\">Hurst, Henry, and Lawrence E. Stager. “A Metropolitan Landscape: The Late Punic Port of Carthage.” <i>World Archaeology</i> 9, no. 3 (1978): 334–46. http://www.jstor.org/stable/124290.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.jstor.org/stable/24955619",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Humphrey and Pedley 1978",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/5Z3MY9VW",
+            "formattedCitation": "<div class=\"csl-entry\">Humphrey, John H., and John Griffiths Pedley. “Roman Carthage.” <i>Scientific American</i> 238, no. 1 (1978): 110–21. http://www.jstor.org/stable/24955619.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.jstor.org/stable/529581",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Canadian Excavations at Carthage, 1976 and 1978",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/S8TY5YZL",
+            "formattedCitation": "<div class=\"csl-entry\">Wells, C. M., and E. M. Wightman. “Canadian Excavations at Carthage, 1976 and 1978: The Theodosian Wall, Northern Sector.” <i>Journal of Field Archaeology</i> 7, no. 1 (1980): 43–63. https://doi.org/10.2307/529581.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/369103PCar",
+            "citationDetail": "Carthage (Tunisia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+            "formattedCitation": "Kiesling, Brady. ToposText – a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+            "otherIdentifier": "http://atlantides.org/bibliography/",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wightman 1980",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/I5PCYDEV",
+            "formattedCitation": "<div class=\"csl-entry\">Wightman, E. M. “The Plan of Roman Carthage. Practicalities and Politics.” In <i>New Light on Ancient Carthage. Papers of a Symposium Sponsored by the Kelsey Museum of Archaeology, The University of Michigan, Marking the Fiftieth Anniversary of the Museum</i>, 29–46, Taf. Ann Arbor, MI: University of Michigan Press, 1980.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Pedley 1980",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4E2IYSV8",
+            "formattedCitation": "<div class=\"csl-entry\">Pedley, John Griffiths, and Kelsey Museum of Archaeology, eds. <i>New Light on Ancient Carthage: Papers of a Symposium Sponsored by Kelsey Museum of Archaeology, University of Michigan Marking the 50th Anniversary</i>. Ann Arbor: University of Michigan Press, 1980.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.wikidata.org/wiki/Q6343",
+            "citationDetail": "Carthage (Q6343)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Wikidata",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Rakob 2000",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9MJ3AN2U",
+            "formattedCitation": "<div class=\"csl-entry\">Rakob, Friedrich. “The Making of Augustan Carthage.” In <i>Romanization and the City. Creation, Transformations, and Failures. Proceedings of a Conference Held at the American Academy in Rome to Celebrate the 50th Anniversary of the Excavations at Cosa, 14-16 May 1998</i>, 73–82. Portsmouth, RI, 2000.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Rakob 1990",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QAYPQVDE",
+            "formattedCitation": "<div class=\"csl-entry\">Rakob, Friedrich. “La Carthage archaïque.” In <i>Histoire et archéologie de l’Afrique du Nord, 1. Carthage et son territoire dans l’antiquité. Actes du IVe Colloque international réuni dans le cadre du 113e Congrès national des Sociétés savantes. Strasbourg, 5-9 avril 1988</i>, 31–43, Abb. Paris: Comité des Travaux Historiques et Scientifiques, 1990.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://vocab.getty.edu/page/tgn/7016143",
+            "citationDetail": "7016143: Carthage (deserted settlement)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TGN",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZLJQ5AZJ",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Getty Thesaurus of Geographic Names® Online</i>, n.d. https://www.getty.edu/research/tools/vocabularies/tgn/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://arachne.dainst.org/entity/2807",
+            "citationDetail": "Karthago / Carthago / Colonia Iulia Carthago Tunis (Gouvernorat), Republik Tunesien",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Arachne",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://publications.dainst.org/journals/PhDAI/article/view/4045",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Boensch-Bär 2022",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2JRCMNPQ",
+            "formattedCitation": "<div class=\"csl-entry\">Boensch-Bär, Julia. “Die kaiserzeitlichen Nekropolen von Karthago: Archäologische Untersuchungen zu den Grabmonumenten und -objekten Karthagos ab der zweiten Hälfte des 1. Jahrhunderts v. Chr. bis in das frühe 5. Jahrhundert n. Chr.” <i>PhDAI. Reports of the Young Research Network</i>, December 21, 2022, § 1-30. https://doi.org/10.34780/c0cq-8tc0.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.cambridge.org/core/journals/antichthon/article/roman-carthage-an-ethnic-conglomeration-a-study-of-the-anthroponymy-of-an-african-metropolis/8405A87C0202DDF5E5B6BDBD3295399A#",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Świerk 2022",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HPLTN7DY",
+            "formattedCitation": "<div class=\"csl-entry\">Świerk, Martyna. “Roman Carthage – An Ethnic Conglomeration? A Study of the Anthroponymy of an African Metropolis.” <i>Antichthon</i> 56 (2022): 162–79. https://doi.org/10.1017/ann.2022.3.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://darmc.harvard.edu/",
+            "citationDetail": "5640",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "DARMC",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://resource.manto.unh.edu/9721278",
+            "citationDetail": "9721278: Carthage (N. Africa)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "MANTO",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SLCUI2TB",
+            "formattedCitation": "<div class=\"csl-entry\">Greta Hawes, and Scott Smith. <i>MANTO</i>. Accessed February 17, 2023. https://www.manto-myth.org/manto.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/936644063",
+            "citationDetail": "22,5 Cartagine",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItAnt (Cuntz)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/M4UH8NCU",
+            "formattedCitation": "<div class=\"csl-entry\">Cuntz, Otto, ed. <i>Itineraria Antonini Augusti et Burdigalense</i>. Itineraria Romana 1. Leipzig: Teubner, 1929. http://www.worldcat.org/oclc/936644063.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/6684340",
+            "citationDetail": "908",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItMiller",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q8X83VMV",
+            "formattedCitation": "<div class=\"csl-entry\">Miller, Konrad. <i>Itineraria romana: Römische Reisewege an der Hand der Tabula Peutingeriana</i>. Stuttgart: Strecker und Schröder, 1916. http://www.worldcat.org/oclc/6684340.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&AN=3775132",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Altekamp 2024",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/P4G9GH5W",
+            "formattedCitation": "<div class=\"csl-entry\">Altekamp, Stefan. <i>Karthago: Archäologische Stadtbiographie</i>. De Gruyter, 2024. https://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;AN=3775132.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://edizioniquasar.it/products/roman-carthage-a-reappraisal",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Roman Carthage",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/W7AAEP5T",
+            "formattedCitation": "<div class=\"csl-entry\">Carlsen, Jesper, and John Lund, eds. <i>Roman Carthage: a reappraisal</i>. Analecta Romana Instituti Danici. Supplementum 58. Rome: Edizioni Quasar, 2024. https://edizioniquasar.it/products/roman-carthage-a-reappraisal.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://tp-online.ku.de/trefferanzeige_en.php?id=3034",
+            "citationDetail": "3034: Carthagine Colonia",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "KU TP Database (Rathmann)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KDZ6Q72N",
+            "formattedCitation": "<div class=\"csl-entry\">Ingolstadt, Katholische Universität Eichstätt-. “Tabula Peutingeriana.” Datenbank tp-online. Accessed June 4, 2025. https://www.ku.de/ggf/geschichte/alte-geschichte/forschung/datenbank-tp-online.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://nomisma.org/id/carthage",
+            "citationDetail": "Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "nomisma.org",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N5BAUNTN",
+            "formattedCitation": "<div class=\"csl-entry\">Meadows, Andrew, Sebastian Heath, and Ethan Gruber. <i>Nomisma.Org</i>. New York: American Numismatic Society, 2010. http://nomisma.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://edh.ub.uni-heidelberg.de/edh/geographie/G000609",
+            "citationDetail": "Geographic Database G000609: Carthago – Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "EDH",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PY3AZV8F",
+            "formattedCitation": "<div class=\"csl-entry\">Alföldy, Géza, and Christian Witschel, eds. <i>Epigraphic Database Heidelberg</i>. Heidelberg: Heidelberg Academy of Sciences and Humanities, 1997. http://edh-www.adw.uni-heidelberg.de/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Cartagine Scavi italiani 1973-1977",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q5N8VDLE",
+            "formattedCitation": "<div class=\"csl-entry\">Anselmino Balducci, Lucilla, Clementina Panella, and Carlo Pavolini. <i>Cartagine Scavi italiani 1973-1977</i>. Studi miscellanei 41. Rome: “L’Erma” di Bretschneider, 2025.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://gazetteer.dainst.org/place/2282702",
+            "citationDetail": "2282702: Carthage",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "iDAI.gazetteer",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KNGREWYQ",
+            "formattedCitation": "<div class=\"csl-entry\"><i>iDAI.Gazetteer</i>. Deutsches Archäologisches Institut. Accessed February 1, 2018. https://gazetteer.dainst.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Carthago",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://latin.packhum.org/loc/914/1/835/1297-1307",
+                    "citationDetail": "26.42.7.1",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Liv. (OCT: PHI)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MCDKGDL9",
+                    "formattedCitation": "<div class=\"csl-entry\">Titus Livius. <i>Titi Livi Ab Urbe Condita</i>. 5 vols. Clarendon: Oxford U.P, 1908. https://latin.packhum.org/loc/914/1/0#0.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "carthago",
+            "end": 640,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Warner"
+                },
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                },
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                },
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 32 F3 Carthago",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2023-07-28T05:20:46Z",
+            "uri": "https://pleiades.stoa.org/places/314921/carthago",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "R.B. Hitchner"
+                }
+            ],
+            "attested": "Carthago",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "add Latin name, add Livy reference,",
+                    "modifiedBy": "thomase",
+                    "modified": "2023-07-28T18:53:47Z"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-07-28T05:20:46Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T04:08:09Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T14:17:43Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T14:17:43Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-11-21T14:17:42Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-09-29T10:30:04Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-28T05:09:06Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-28T04:55:42Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Carthage",
+            "attestations": [
+                {
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://en.wikipedia.org/wiki/Carthage",
+                    "citationDetail": "Carthage (26 October 2012)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Wikipedia (English)",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Carthage (26 October 2012).",
+                    "otherIdentifier": " ",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "carthage",
+            "end": 2100,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1700,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "en",
+            "created": "2012-10-26T22:09:46Z",
+            "uri": "https://pleiades.stoa.org/places/314921/carthage",
+            "creators": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "attested": "Carthage",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2012-10-26T22:10:41Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2012-10-26T22:10:04Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "thomase",
+                    "modified": "2012-10-26T22:09:48Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "thomase",
+                    "modified": "2012-10-26T22:09:46Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Iunonia",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0007.tlg052b.perseus-grc1:11.1",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "",
+                    "bibliographicURI": "",
+                    "formattedCitation": "Plut. CG 11.1",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "iunonia",
+            "end": -30,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "grc",
+            "created": "2016-11-11T15:34:21Z",
+            "uri": "https://pleiades.stoa.org/places/314921/iunonia",
+            "creators": [
+                {
+                    "username": "jprag",
+                    "homepage": null,
+                    "name": "Jonathan Prag",
+                    "uri": "https://pleiades.stoa.org/author/jprag"
+                }
+            ],
+            "attested": "Ἰουνωνία",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "jbecker",
+                    "modified": "2016-11-13T03:35:06Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jprag",
+                    "modified": "2016-11-11T15:35:02Z"
+                },
+                {
+                    "comment": "Reference for Roman colonial name for attempted foundation in 122 BC",
+                    "modifiedBy": "jprag",
+                    "modified": "2016-11-11T15:34:22Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jprag",
+                    "modified": "2016-11-11T15:34:21Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Chartagine colon",
+            "attestations": [
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://www.jstor.org/stable/40233991",
+                    "citationDetail": "124",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Salway 2005",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UHC4WB58",
+                    "formattedCitation": "<div class=\"csl-entry\">Salway, Benet. “The Nature and Genesis of the Peutinger Map.” <i>Imago Mundi</i> 57, no. 2 (2005): 119–35. https://www.jstor.org/stable/40233991.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://www.cambridge.org/us/talbert/talbertdatabase/TPPlace60.html",
+                    "citationDetail": "4C4 (Talbert 60)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "TP (Talbert: CUP)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "chartagine-colon",
+            "end": 640,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 300,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2023-07-28T05:25:17Z",
+            "uri": "https://pleiades.stoa.org/places/314921/chartagine-colon",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Chartagine colon̄",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "LA",
+                    "modifiedBy": "jbecker",
+                    "modified": "2025-10-03T13:17:46Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2025-06-24T14:46:26Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2025-06-24T03:57:52Z"
+                },
+                {
+                    "comment": "add TP name",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-07-28T05:25:19Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2023-07-28T05:25:17Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Ḳarṭācenne",
+            "attestations": [
+                {
+                    "timePeriod": "sixteenth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/sixteenth-ce",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://ekitap.yek.gov.tr/urun/kunhu%E2%80%99l-ahbar--takim-5-cilt-_821.aspx",
+                    "citationDetail": "1st Volume, 336, s.v. \"Ḳarṭācenne\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Künhü'l-ahbâr",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WKDD5W8W",
+                    "formattedCitation": "<div class=\"csl-entry\">Âli, Mustafa bin Ahmet. <i>Künhü’l-ahbâr: (tenkitli metin)</i>. Edited by Suat Donuk and Derya Örs. 1. baskı. 5 vols. Türkiye Yazma Eserler Kurumu Başkanlığı yayınları. Fatih, İstanbul: Türkiye Yazma Eserler Kurumu Başkanlığı, 2020. https://ekitap.yek.gov.tr/urun/kunhu%E2%80%99l-ahbar--takim-5-cilt-_821.aspx.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "id": "kartacenne",
+            "end": 1599,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 1500,
+            "details": "<p class=\"p1\"><em>Ḳarṭācenne</em>: A town in Africa. [translation]</p>",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "ota",
+            "created": "2025-11-15T14:26:24Z",
+            "uri": "https://pleiades.stoa.org/places/314921/kartacenne",
+            "creators": [
+                {
+                    "username": "enesy",
+                    "homepage": null,
+                    "name": "Enes Yılandiloğlu",
+                    "uri": "https://pleiades.stoa.org/author/enesy"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "jbecker",
+                    "modified": "2025-11-15T15:25:17Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "enesy",
+                    "modified": "2025-11-15T14:26:37Z"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modifiedBy": "enesy",
+                    "modified": "2025-11-15T14:26:26Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "enesy",
+                    "modified": "2025-11-15T14:26:24Z"
+                }
+            ]
+        }
+    ],
+    "id": "314921",
+    "subject": [
+        "UWHS"
+    ],
+    "title": "Carthago",
+    "provenance": "Barrington Atlas: BAtlas 32 F3 Carthago",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/port"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Carthage</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "The ancient city of Carthage, located in modern Tunis (Tunisia). Carthage engaged the Roman state in a series of wars conventionally referred to as the Punic Wars by scholars.",
+    "reprPoint": [
+        10.323056,
+        36.853056
+    ],
+    "placeTypes": [
+        "settlement",
+        "port"
+    ],
+    "bbox": [
+        10.323056,
+        36.853056,
+        10.323056,
+        36.853056
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/315249",
+        "https://pleiades.stoa.org/places/319382",
+        "https://pleiades.stoa.org/places/634585139",
+        "https://pleiades.stoa.org/places/470606136",
+        "https://pleiades.stoa.org/places/158203459",
+        "https://pleiades.stoa.org/places/719445553",
+        "https://pleiades.stoa.org/places/229363104",
+        "https://pleiades.stoa.org/places/719744901",
+        "https://pleiades.stoa.org/places/907258688",
+        "https://pleiades.stoa.org/places/836358555",
+        "https://pleiades.stoa.org/places/315603",
+        "https://pleiades.stoa.org/places/908696791",
+        "https://pleiades.stoa.org/places/513048413",
+        "https://pleiades.stoa.org/places/560130183",
+        "https://pleiades.stoa.org/places/458685459",
+        "https://pleiades.stoa.org/places/791512058",
+        "https://pleiades.stoa.org/places/560130184",
+        "https://pleiades.stoa.org/places/470606135",
+        "https://pleiades.stoa.org/places/599907588",
+        "https://pleiades.stoa.org/places/263978015",
+        "https://pleiades.stoa.org/places/634585138"
+    ],
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2021-11-12T19:20:44Z",
+    "uri": "https://pleiades.stoa.org/places/314921",
+    "creators": [
+        {
+            "username": null,
+            "name": "R.B. Hitchner"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "update contribs",
+            "modifiedBy": "jbecker",
+            "modified": "2026-05-18T21:13:04Z"
+        },
+        {
+            "comment": "idai gaz 2282702: Carthage",
+            "modifiedBy": "jbecker",
+            "modified": "2025-10-03T13:19:45Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2025-10-03T13:18:39Z"
+        },
+        {
+            "comment": "Nomisma, KU TP Database (Rathmann) 3034: Carthagine Colonia, EDH Geographic Database G000609: Carthago – Carthage",
+            "modifiedBy": "jbecker",
+            "modified": "2025-06-24T13:10:36Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-12-11T13:38:23Z"
+        },
+        {
+            "comment": "Altekamp 2024",
+            "modifiedBy": "jbecker",
+            "modified": "2024-04-03T19:49:28Z"
+        },
+        {
+            "comment": "add references - Cuntz, ItMiller",
+            "modifiedBy": "jbecker",
+            "modified": "2023-07-28T05:19:48Z"
+        },
+        {
+            "comment": "added MANTO reference",
+            "modifiedBy": "thomase",
+            "modified": "2023-05-18T22:09:19Z"
+        },
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modifiedBy": "thomase",
+            "modified": "2023-03-07T20:29:08Z"
+        },
+        {
+            "comment": "removed Smith (outdated)",
+            "modifiedBy": "thomase",
+            "modified": "2023-02-23T16:04:37Z"
+        },
+        {
+            "comment": "added Świerk 2022",
+            "modifiedBy": "thomase",
+            "modified": "2023-02-23T16:04:21Z"
+        },
+        {
+            "comment": "added Boensch-Bär 2022",
+            "modifiedBy": "thomase",
+            "modified": "2022-12-21T23:17:37Z"
+        },
+        {
+            "comment": "added arachne, getty tgn refs.",
+            "modifiedBy": "jbecker",
+            "modified": "2022-06-29T14:58:05Z"
+        },
+        {
+            "comment": "Edited; edit summary",
+            "modifiedBy": "jbecker",
+            "modified": "2021-11-13T19:44:47Z"
+        },
+        {
+            "comment": "ref. updates",
+            "modifiedBy": "jbecker",
+            "modified": "2021-04-14T03:37:29Z"
+        },
+        {
+            "comment": "updated references",
+            "modifiedBy": "jbecker",
+            "modified": "2020-04-07T17:13:56Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2019-05-12T01:27:08Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2019-05-11T23:51:03Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2019-05-11T23:49:35Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2019-03-27T21:05:09Z"
+        },
+        {
+            "comment": "references",
+            "modifiedBy": "jbecker",
+            "modified": "2019-03-27T20:27:03Z"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-07T23:44:58Z"
+        },
+        {
+            "comment": "references",
+            "modifiedBy": "jbecker",
+            "modified": "2017-11-02T12:55:44Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2016-09-25T14:24:17Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2016-01-08T03:49:31Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2014-03-15T05:40:48Z"
+        },
+        {
+            "comment": "edited reference",
+            "modifiedBy": "jbecker",
+            "modified": "2012-11-28T18:42:21Z"
+        },
+        {
+            "comment": "added category",
+            "modifiedBy": "jbecker",
+            "modified": "2012-11-02T22:05:11Z"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-23T19:32:52Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T20:03:43Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T04:08:09Z"
+        },
+        {
+            "comment": "Revised description to improve discoverability.",
+            "modifiedBy": "thomase",
+            "modified": "2011-11-21T14:22:33Z"
+        },
+        {
+            "comment": "Add dbpedia reference",
+            "modifiedBy": "sgillies",
+            "modified": "2011-06-19T05:09:47Z"
+        },
+        {
+            "comment": "Add connection to Gulf of Tunis",
+            "modifiedBy": "sgillies",
+            "modified": "2011-06-18T20:11:24Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T19:21:01Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T19:28:46Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-09-29T10:30:04Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-09-28T05:09:06Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-09-28T04:55:41Z"
+        }
+    ]
+}

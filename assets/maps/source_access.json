@@ -1,0 +1,236 @@
+{
+  "access_date": "2026-11-05",
+  "primary_sources": [
+    {
+      "id": "caesar_bg_1_latin",
+      "title_ru": "Цезарь, Галльская война, книга 1",
+      "url": "https://www.thelatinlibrary.com/caesar/gall1.shtml",
+      "edition": "Latin; electronic text: The Latin Library; named editor not supplied on page.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "1.6–8; 1.23–24; 1.38",
+      "verified_use_ru": "Генава и мост; поворот к Бибракте, отделённому от войска расстоянием; занятие Везонтиона.",
+      "downloaded_bytes": 67999,
+      "download_sha256": "01be6f2ca4118d552a83ad55df7e9fb77e91247166a797e534ac29ce845d4d1f",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "caesar_bg_5_latin",
+      "title_ru": "Цезарь, Галльская война, книга 5",
+      "url": "https://www.thelatinlibrary.com/caesar/gall5.shtml",
+      "edition": "Latin; electronic text: The Latin Library; named editor not supplied on page.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "5.24; 5.53",
+      "verified_use_ru": "Собрание в Самаробриве; размещение трёх легионов около неё зимой 54/53 гг.",
+      "downloaded_bytes": 65242,
+      "download_sha256": "995f2c93124fedb6960a629790cf58bb7777342a7d15c05b562bb7cfbcc05401",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "caesar_bg_7_latin",
+      "title_ru": "Цезарь, Галльская война, книга 7",
+      "url": "https://www.thelatinlibrary.com/caesar/gall7.shtml",
+      "edition": "Latin; electronic text: The Latin Library; named editor not supplied on page.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "7.13; 7.27–28; 7.36; 7.68–69; 7.89",
+      "verified_use_ru": "Аварик, Герговия, Алезия: пункты операций и осад; координат первичный текст не содержит.",
+      "downloaded_bytes": 103089,
+      "download_sha256": "980f8aacea57f31e3305b4ed7bda4868a3f6015fe595b9d0634d98a32ff02832",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "caesar_bc_1b",
+      "title_ru": "Цезарь, Гражданская война, книга 1",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1B*.html",
+      "edition": "A. G. Peskett, Loeb Classical Library, 1914; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "1.38; 1.40",
+      "verified_use_ru": "Илерда как избранный район военных действий и бои у мостов.",
+      "downloaded_bytes": 53693,
+      "download_sha256": "1e636b296ee77ab2bf947ce3298305e9de48c391d3b20ed4ec9d975dbceb612a",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "caesar_bc_1c",
+      "title_ru": "Цезарь, Гражданская война, книга 1",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1C*.html",
+      "edition": "A. G. Peskett, Loeb Classical Library, 1914; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "1.86–87",
+      "verified_use_ru": "Условия роспуска и последующий роспуск противостоявшей армии; город не превращён в точную координату капитуляции.",
+      "downloaded_bytes": 51687,
+      "download_sha256": "276d1f39c03b496d0bdb7f8408c9b8c6340447263afc2cbfddc8fa79c284c697",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "caesar_bc_3b",
+      "title_ru": "Цезарь, Гражданская война, книга 3",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3B*.html",
+      "edition": "A. G. Peskett, Loeb Classical Library, 1914; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "3.41–42",
+      "verified_use_ru": "Диррахий как узел снабжения и пункт манёвра; Петра отлична от самого города.",
+      "downloaded_bytes": 48213,
+      "download_sha256": "ef5d04633b224ea5c5a63f428592d9f3a96fdb9a8d5f0f8ad7c0299f384dae25",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "caesar_bc_3c",
+      "title_ru": "Цезарь, Гражданская война, книга 3",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3C*.html",
+      "edition": "A. G. Peskett, Loeb Classical Library, 1914; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "3.62–63",
+      "verified_use_ru": "Прорыв приморских укреплений; маркер города не обозначает точное место прорыва.",
+      "downloaded_bytes": 51218,
+      "download_sha256": "3af9a893af62aae39afd37e88145576a0885e70a4ddfccd7f9d9b1bf976dfa5c",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "caesar_bc_3d",
+      "title_ru": "Цезарь, Гражданская война, книга 3",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3D*.html",
+      "edition": "A. G. Peskett, Loeb Classical Library, 1914; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "3.85–86; сопоставление с издательской сноской к плану Фарсала",
+      "verified_use_ru": "Решение о генеральном сражении; имя карты не служит решением дискуссии о точном поле битвы.",
+      "downloaded_bytes": 57917,
+      "download_sha256": "d284ca7fbb7b2b90a8abe5a4e132fbc14faa320cb76f01d4e902ed4397c5b68e",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "dio_43",
+      "title_ru": "Дион Кассий, Римская история, книга 43",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/43*.html",
+      "edition": "Earnest Cary, Loeb Classical Library; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "43.7–8; 43.35–36 (выборочные фрагменты)",
+      "verified_use_ru": "Тапс и его положение; выбор Мунды для генерального сражения. Топографическая определённость текста не подменяет современную локализацию.",
+      "downloaded_bytes": 113757,
+      "download_sha256": "eea1ee438c462481bf01cdc57131374d27b556258698dbb529c3e116cc8200e8",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "appian_bc_3",
+      "title_ru": "Аппиан, Гражданские войны, книга 3",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/3*.html",
+      "edition": "Horace White, Loeb Classical Library, 1913; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "3.71–72",
+      "verified_use_ru": "Бои у Мутины и уход Антония после второго поражения; сражение у Форума Галлорум отдельной координатой не показано.",
+      "downloaded_bytes": 187439,
+      "download_sha256": "e2d919e9bf7d0311ac8fbf821ac52669e5d2b975a8dc01db468cb5c17dfaf8d0",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "appian_bc_4",
+      "title_ru": "Аппиан, Гражданские войны, книга 4",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/4*.html",
+      "edition": "Horace White, Loeb Classical Library, 1913; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "4.105; 4.109; 4.111; 4.128",
+      "verified_use_ru": "Филиппы как город-ориентир; две фазы сражений. Положение городского маркера не выдаётся за точное положение лагеря.",
+      "downloaded_bytes": 231659,
+      "download_sha256": "b6d87c10800f1bac19fdead8c3f1877e9a7ce52d3d90002259794ef7db642677",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "appian_bc_5",
+      "title_ru": "Аппиан, Гражданские войны, книга 5",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/5*.html",
+      "edition": "Horace White, Loeb Classical Library, 1913; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "5.116; 5.118–121 (выборочные фрагменты)",
+      "verified_use_ru": "Навлохи как береговой пункт, морской бой и бегство Помпея от Навлохов. Чертёж боевого порядка флотов не создавался.",
+      "downloaded_bytes": 241789,
+      "download_sha256": "13f8f221cf5dac4a0d555e6048f4a4b07391e97d77d7b1ff2fc58591d24301a6",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "dio_49",
+      "title_ru": "Дион Кассий, Римская история, книга 49",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/49*.html",
+      "edition": "Earnest Cary, Loeb Classical Library; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "49.32.3",
+      "verified_use_ru": "Наделение Аминты Галатией и Архелая Каппадокией; проверено для идентификации царств, а не их границ.",
+      "downloaded_bytes": 113625,
+      "download_sha256": "733ccf1c2ce7b27964dbf2045724c026841c3b080024f869363ac0c30c763e47",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "dio_50",
+      "title_ru": "Дион Кассий, Римская история, книга 50",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/50*.html",
+      "edition": "Earnest Cary, Loeb Classical Library, 1917; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "50.12; 50.31–35 (выборочные фрагменты)",
+      "verified_use_ru": "Акций и морское сражение в консульский год 31 до н. э.; точное положение кораблей не восстанавливается.",
+      "downloaded_bytes": 95154,
+      "download_sha256": "1f50fd6b9f06f3847b42aa4ac247d322d16d61c2574cd54e280b4dec3b773ad9",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "dio_51",
+      "title_ru": "Дион Кассий, Римская история, книга 51",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/51*.html",
+      "edition": "Earnest Cary, Loeb Classical Library, 1917; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "51.1.1; 51.2.1–2; 51.9–10; 51.17.1",
+      "verified_use_ru": "Год Акция; исключение Аминты и Архелая из лишения пожалованных Антонием владений; бои перед Александрией в 30 г.; особый порядок управления Египтом.",
+      "downloaded_bytes": 97917,
+      "download_sha256": "688a84b45a1c3320cee6b21bdaf1899020505342d2b42e799ae29459ae236711",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    },
+    {
+      "id": "dio_53",
+      "title_ru": "Дион Кассий, Римская история, книга 53",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html",
+      "edition": "Earnest Cary, Loeb Classical Library, 1917; LacusCurtius, Bill Thayer.",
+      "access_date": "2026-11-05",
+      "access_status": "PARTIAL: indicated loci or selected passages within indicated scope directly inspected; no assertion that the entire work was read",
+      "reviewed_loci": "53.12.1–9; 53.26.3",
+      "verified_use_ru": "Раздел провинций в 27 г.; Дион предупреждает, что пользуется позднейшими раздельными названиями областей, ранее управлявшихся совместно. Галатия становится провинциальной после смерти Аминты в 25 г.",
+      "downloaded_bytes": 124502,
+      "download_sha256": "a0c2f888ff6365069b4be9947c221fedc4c7da8e3efaa24f93c029ef7edf433d",
+      "archiving_note": "Downloaded HTML used for inspection and omitted from distributable assets; this record preserves access evidence without reproducing site layout."
+    }
+  ],
+  "limits_ru": [
+    "Ни один античный локус не является источником современных числовых координат: координаты взяты только из Pleiades.",
+    "Античные тексты поздние или пристрастные; выбор точек устанавливает пространственный ориентир, но не подтверждает все причинные объяснения повествователей.",
+    "Даты указаны по годам до н. э.; календарная синхронизация дней сражений здесь не проводится."
+  ],
+  "access_notes": [
+    {
+      "url": "https://classics.mit.edu/Caesar/gallic.1.1.html",
+      "result": "Book 1 response truncated near chapter 52; read relevant earlier sections only."
+    },
+    {
+      "url": "https://classics.mit.edu/Caesar/gallic.7.7.html",
+      "result": "Book 7 response truncated near chapter 59; Alesia passages were instead checked directly in Latin Library 7.68–69 and 7.89."
+    },
+    {
+      "url": "https://pleiades.stoa.org/search?SearchableText=Alesia",
+      "result": "Search page showed anti-bot notice. No circumvention; official public CSV dump identified record IDs, then published individual JSON endpoints were used."
+    },
+    {
+      "url": "https://atlantides.org/downloads/pleiades/dumps/pleiades-places-latest.csv.gz",
+      "result": "Official dump used only to identify records; full dump omitted to avoid packaging unrelated data."
+    }
+  ]
+}

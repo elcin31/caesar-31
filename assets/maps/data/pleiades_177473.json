@@ -1,0 +1,1345 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.0344466,
+                        46.9329393
+                    ],
+                    [
+                        4.0347802,
+                        46.9329007
+                    ],
+                    [
+                        4.0349676,
+                        46.9328399
+                    ],
+                    [
+                        4.0358435,
+                        46.9324372
+                    ],
+                    [
+                        4.0360243,
+                        46.9323523
+                    ],
+                    [
+                        4.0375453,
+                        46.9320411
+                    ],
+                    [
+                        4.0387684,
+                        46.9321509
+                    ],
+                    [
+                        4.0389981,
+                        46.9321407
+                    ],
+                    [
+                        4.0399164,
+                        46.9320997
+                    ],
+                    [
+                        4.0404689,
+                        46.9319879
+                    ],
+                    [
+                        4.0414493,
+                        46.9315227
+                    ],
+                    [
+                        4.0416219,
+                        46.9313658
+                    ],
+                    [
+                        4.0419594,
+                        46.9309253
+                    ],
+                    [
+                        4.042097,
+                        46.9307458
+                    ],
+                    [
+                        4.0415898,
+                        46.9305965
+                    ],
+                    [
+                        4.0417168,
+                        46.9304155
+                    ],
+                    [
+                        4.0416619,
+                        46.9298543
+                    ],
+                    [
+                        4.041306,
+                        46.9294046
+                    ],
+                    [
+                        4.0412551,
+                        46.9289193
+                    ],
+                    [
+                        4.042109,
+                        46.9279964
+                    ],
+                    [
+                        4.0421938,
+                        46.9278419
+                    ],
+                    [
+                        4.0428272,
+                        46.9270695
+                    ],
+                    [
+                        4.0431816,
+                        46.9267854
+                    ],
+                    [
+                        4.0440204,
+                        46.9263821
+                    ],
+                    [
+                        4.04419,
+                        46.9262121
+                    ],
+                    [
+                        4.0442014,
+                        46.9257139
+                    ],
+                    [
+                        4.0436868,
+                        46.9249029
+                    ],
+                    [
+                        4.0420694,
+                        46.9239258
+                    ],
+                    [
+                        4.0409385,
+                        46.9229757
+                    ],
+                    [
+                        4.0395247,
+                        46.9220604
+                    ],
+                    [
+                        4.038907,
+                        46.9214658
+                    ],
+                    [
+                        4.0387766,
+                        46.9213844
+                    ],
+                    [
+                        4.0369065,
+                        46.9200365
+                    ],
+                    [
+                        4.0365672,
+                        46.9197786
+                    ],
+                    [
+                        4.0363639,
+                        46.9196009
+                    ],
+                    [
+                        4.0360793,
+                        46.9194787
+                    ],
+                    [
+                        4.0357218,
+                        46.9193895
+                    ],
+                    [
+                        4.0353542,
+                        46.9193586
+                    ],
+                    [
+                        4.0349159,
+                        46.9193876
+                    ],
+                    [
+                        4.0344296,
+                        46.9193876
+                    ],
+                    [
+                        4.0339231,
+                        46.9194175
+                    ],
+                    [
+                        4.0333866,
+                        46.919489
+                    ],
+                    [
+                        4.0331096,
+                        46.919519
+                    ],
+                    [
+                        4.0325161,
+                        46.91954
+                    ],
+                    [
+                        4.0313512,
+                        46.9194531
+                    ],
+                    [
+                        4.0304492,
+                        46.9195786
+                    ],
+                    [
+                        4.0295501,
+                        46.9195188
+                    ],
+                    [
+                        4.0291146,
+                        46.9195207
+                    ],
+                    [
+                        4.0290298,
+                        46.919569
+                    ],
+                    [
+                        4.0285856,
+                        46.9198687
+                    ],
+                    [
+                        4.0283093,
+                        46.9202129
+                    ],
+                    [
+                        4.0281541,
+                        46.9205195
+                    ],
+                    [
+                        4.0282194,
+                        46.9211257
+                    ],
+                    [
+                        4.028728,
+                        46.9214592
+                    ],
+                    [
+                        4.0305877,
+                        46.9226881
+                    ],
+                    [
+                        4.031448,
+                        46.9232629
+                    ],
+                    [
+                        4.0316659,
+                        46.9234392
+                    ],
+                    [
+                        4.0318269,
+                        46.9236105
+                    ],
+                    [
+                        4.0314147,
+                        46.9243473
+                    ],
+                    [
+                        4.0307671,
+                        46.9243993
+                    ],
+                    [
+                        4.0293274,
+                        46.9252403
+                    ],
+                    [
+                        4.0290617,
+                        46.9260591
+                    ],
+                    [
+                        4.0290334,
+                        46.9266654
+                    ],
+                    [
+                        4.0291804,
+                        46.927291
+                    ],
+                    [
+                        4.0294858,
+                        46.9278587
+                    ],
+                    [
+                        4.0303453,
+                        46.9289401
+                    ],
+                    [
+                        4.0306733,
+                        46.9291409
+                    ],
+                    [
+                        4.0319909,
+                        46.9296236
+                    ],
+                    [
+                        4.0332633,
+                        46.9299209
+                    ],
+                    [
+                        4.0340606,
+                        46.9300407
+                    ],
+                    [
+                        4.034688,
+                        46.9302036
+                    ],
+                    [
+                        4.0348421,
+                        46.9304907
+                    ],
+                    [
+                        4.0347972,
+                        46.9306687
+                    ],
+                    [
+                        4.0344373,
+                        46.9315195
+                    ],
+                    [
+                        4.0340289,
+                        46.9324458
+                    ],
+                    [
+                        4.0341121,
+                        46.9327114
+                    ],
+                    [
+                        4.0342382,
+                        46.9328231
+                    ],
+                    [
+                        4.0344466,
+                        46.9329393
+                    ]
+                ]
+            },
+            "type": "Feature",
+            "id": "osm-location-of-oppidum-de-bibracte",
+            "properties": {
+                "snippet": "Fortified-settlement; 330 BC - AD 300",
+                "link": "https://pleiades.stoa.org/places/177473/osm-location-of-oppidum-de-bibracte",
+                "description": "Representative location based on OpenStreetMap",
+                "location_precision": "precise",
+                "title": "OSM location of Oppidum de Bibracte"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": "jahlfeldt",
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "dndimitrov",
+            "homepage": null,
+            "name": "Damian Noah Dimitrov",
+            "uri": "https://pleiades.stoa.org/author/dndimitrov"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1306295661",
+                    "citationDetail": "Way 1306295661",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "OSM",
+                    "bibliographicURI": "",
+                    "formattedCitation": "osm:way=1306295661",
+                    "otherIdentifier": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "osm-location-of-oppidum-de-bibracte",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fortified-settlement"
+            ],
+            "end": 300,
+            "title": "OSM location of Oppidum de Bibracte",
+            "provenance": "OpenStreetMap (Way 1306295661, version 4, osm:changeset=158657522, 2024-11-02T13:05:06Z)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fortified-settlement"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "",
+            "review_state": "published",
+            "accuracy_value": 20.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "featureType": [
+                "fortified-settlement"
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "created": "2024-11-20T21:17:51Z",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.0344466,
+                        46.9329393
+                    ],
+                    [
+                        4.0347802,
+                        46.9329007
+                    ],
+                    [
+                        4.0349676,
+                        46.9328399
+                    ],
+                    [
+                        4.0358435,
+                        46.9324372
+                    ],
+                    [
+                        4.0360243,
+                        46.9323523
+                    ],
+                    [
+                        4.0375453,
+                        46.9320411
+                    ],
+                    [
+                        4.0387684,
+                        46.9321509
+                    ],
+                    [
+                        4.0389981,
+                        46.9321407
+                    ],
+                    [
+                        4.0399164,
+                        46.9320997
+                    ],
+                    [
+                        4.0404689,
+                        46.9319879
+                    ],
+                    [
+                        4.0414493,
+                        46.9315227
+                    ],
+                    [
+                        4.0416219,
+                        46.9313658
+                    ],
+                    [
+                        4.0419594,
+                        46.9309253
+                    ],
+                    [
+                        4.042097,
+                        46.9307458
+                    ],
+                    [
+                        4.0415898,
+                        46.9305965
+                    ],
+                    [
+                        4.0417168,
+                        46.9304155
+                    ],
+                    [
+                        4.0416619,
+                        46.9298543
+                    ],
+                    [
+                        4.041306,
+                        46.9294046
+                    ],
+                    [
+                        4.0412551,
+                        46.9289193
+                    ],
+                    [
+                        4.042109,
+                        46.9279964
+                    ],
+                    [
+                        4.0421938,
+                        46.9278419
+                    ],
+                    [
+                        4.0428272,
+                        46.9270695
+                    ],
+                    [
+                        4.0431816,
+                        46.9267854
+                    ],
+                    [
+                        4.0440204,
+                        46.9263821
+                    ],
+                    [
+                        4.04419,
+                        46.9262121
+                    ],
+                    [
+                        4.0442014,
+                        46.9257139
+                    ],
+                    [
+                        4.0436868,
+                        46.9249029
+                    ],
+                    [
+                        4.0420694,
+                        46.9239258
+                    ],
+                    [
+                        4.0409385,
+                        46.9229757
+                    ],
+                    [
+                        4.0395247,
+                        46.9220604
+                    ],
+                    [
+                        4.038907,
+                        46.9214658
+                    ],
+                    [
+                        4.0387766,
+                        46.9213844
+                    ],
+                    [
+                        4.0369065,
+                        46.9200365
+                    ],
+                    [
+                        4.0365672,
+                        46.9197786
+                    ],
+                    [
+                        4.0363639,
+                        46.9196009
+                    ],
+                    [
+                        4.0360793,
+                        46.9194787
+                    ],
+                    [
+                        4.0357218,
+                        46.9193895
+                    ],
+                    [
+                        4.0353542,
+                        46.9193586
+                    ],
+                    [
+                        4.0349159,
+                        46.9193876
+                    ],
+                    [
+                        4.0344296,
+                        46.9193876
+                    ],
+                    [
+                        4.0339231,
+                        46.9194175
+                    ],
+                    [
+                        4.0333866,
+                        46.919489
+                    ],
+                    [
+                        4.0331096,
+                        46.919519
+                    ],
+                    [
+                        4.0325161,
+                        46.91954
+                    ],
+                    [
+                        4.0313512,
+                        46.9194531
+                    ],
+                    [
+                        4.0304492,
+                        46.9195786
+                    ],
+                    [
+                        4.0295501,
+                        46.9195188
+                    ],
+                    [
+                        4.0291146,
+                        46.9195207
+                    ],
+                    [
+                        4.0290298,
+                        46.919569
+                    ],
+                    [
+                        4.0285856,
+                        46.9198687
+                    ],
+                    [
+                        4.0283093,
+                        46.9202129
+                    ],
+                    [
+                        4.0281541,
+                        46.9205195
+                    ],
+                    [
+                        4.0282194,
+                        46.9211257
+                    ],
+                    [
+                        4.028728,
+                        46.9214592
+                    ],
+                    [
+                        4.0305877,
+                        46.9226881
+                    ],
+                    [
+                        4.031448,
+                        46.9232629
+                    ],
+                    [
+                        4.0316659,
+                        46.9234392
+                    ],
+                    [
+                        4.0318269,
+                        46.9236105
+                    ],
+                    [
+                        4.0314147,
+                        46.9243473
+                    ],
+                    [
+                        4.0307671,
+                        46.9243993
+                    ],
+                    [
+                        4.0293274,
+                        46.9252403
+                    ],
+                    [
+                        4.0290617,
+                        46.9260591
+                    ],
+                    [
+                        4.0290334,
+                        46.9266654
+                    ],
+                    [
+                        4.0291804,
+                        46.927291
+                    ],
+                    [
+                        4.0294858,
+                        46.9278587
+                    ],
+                    [
+                        4.0303453,
+                        46.9289401
+                    ],
+                    [
+                        4.0306733,
+                        46.9291409
+                    ],
+                    [
+                        4.0319909,
+                        46.9296236
+                    ],
+                    [
+                        4.0332633,
+                        46.9299209
+                    ],
+                    [
+                        4.0340606,
+                        46.9300407
+                    ],
+                    [
+                        4.034688,
+                        46.9302036
+                    ],
+                    [
+                        4.0348421,
+                        46.9304907
+                    ],
+                    [
+                        4.0347972,
+                        46.9306687
+                    ],
+                    [
+                        4.0344373,
+                        46.9315195
+                    ],
+                    [
+                        4.0340289,
+                        46.9324458
+                    ],
+                    [
+                        4.0341121,
+                        46.9327114
+                    ],
+                    [
+                        4.0342382,
+                        46.9328231
+                    ],
+                    [
+                        4.0344466,
+                        46.9329393
+                    ]
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/177473/osm-location-of-oppidum-de-bibracte",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2024-11-21T18:34:54Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-11-20T21:19:01Z"
+                },
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-11-20T21:18:58Z"
+                },
+                {
+                    "comment": "added osm location",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-11-20T21:18:09Z"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-11-20T21:17:51Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2024-11-20T21:17:51Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": -30,
+            "description": "The main center of the Aedui up to the time of the Roman emperor Augustus.",
+            "contributors": [],
+            "created": "2020-07-09T00:26:59Z",
+            "associationCertainty": "certain",
+            "title": "(H)Aedui",
+            "start": -330,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/177473/h-aedui",
+            "connectionType": "capital",
+            "id": "h-aedui",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2020-07-15T14:04:46Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-07-09T00:27:06Z"
+                },
+                {
+                    "comment": "cnxn",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-07-09T00:27:00Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-07-09T00:26:59Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/177533",
+            "details": "",
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://en.wikipedia.org/wiki/Aedui",
+                    "citationDetail": "Aedui",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "shortTitle": "Wikipedia (English)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/capital"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "18 B3 Bibracte",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "s.v. 71/4 477",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "CAG 71/3-4",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/NV44PHPT",
+            "formattedCitation": "<div class=\"csl-entry\">Rebourg, A. <i>Carte Archéologique de La Gaule 71 Saône-et-Loire</i>. Fasc 3. Paris, 1993.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Goudineau 1993",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/88UD85FG",
+            "formattedCitation": "<div class=\"csl-entry\">Goudineau, Christian. <i>Bibracte et Les Eduens: à La Découverte D’un Peuple Gaulois</i>. Glux-en-Glenne (France): Centre archéologique européen du Mont-Beuvray, 1993.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Guillaumet 1996",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CUATVWQU",
+            "formattedCitation": "<div class=\"csl-entry\">Guillaumet, Jean-Paul, Danièle Bertin, and Eric Melot. <i>Bibracte: Bibliographie et Plans Anciens</i>. Documents D’archéologie Française 57. Paris: Editions de la Maison des sciences de l’homme, 1996.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://referenceworks.brillonline.com/entries/brill-s-new-pauly/bibracte-e216900",
+            "citationDetail": "Bibracte",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brill.com/display/db/npoe.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DB%3Aentry+group%3D3%3Aentry%3Dbibracte",
+            "citationDetail": "BIBRACTE Mont Beuvray, Saône-et-Loire, France",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "PECS (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.trismegistos.org/place/23662",
+            "citationDetail": "GEO ID 23662: Bibracte (Mont-Beuvray)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Bibracte",
+            "citationDetail": "Bibracte",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Bibracte.",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Battle_of_Bibracte",
+            "citationDetail": "Battle of Bibracte",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Battle of Bibracte.",
+            "otherIdentifier": "",
+            "type": "seeAlso"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DB%3Aentry+group%3D6%3Aentry%3Dbibracte-geo",
+            "citationDetail": "BIBRACTE",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Smith 1854 (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+            "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.geonames.org/3035883/autun.html",
+            "citationDetail": "3035883: Autun",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "GeoNames",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. <i>GeoNames</i>, 2005. https://www.geonames.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/469040XBib",
+            "citationDetail": "Bibracte (Gallia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+            "formattedCitation": "Kiesling, Brady. ToposText – a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Goláňová 2023",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/XKB8H95A",
+            "formattedCitation": "<div class=\"csl-entry\">Tencer, Tomáš. <i>Oppidum as an Urban Landscape: A Multidisciplinary Approach to the Study of Space Organisation at Bibracte</i>. Edited by Petra Goláňová, Peter Milo, and Mária Hajnalová. Collection “Bibracte.” Glux-en-Glenne: Bibracte, Centre archéologique européen, 2023.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.wikidata.org/wiki/Q650053",
+            "citationDetail": "Bibracte (Q650053)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Wikidata",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Bibracte",
+            "attestations": [
+                {
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                },
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://latin.packhum.org/loc/448/1/12/145-153,328-336",
+                    "citationDetail": "1.23.1.3, 1.23.2.1",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Caes. BGall. (Seel: PHI)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Y3E58P65",
+                    "formattedCitation": "<div class=\"csl-entry\">Caesar, Julius. <i>De bello Gallico</i>. Edited by Otto Seel. Los Altos, Calif.: Packard Humanities Institute, 1991. http://latin.packhum.org/loc/448/1/0#0.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "bibracte",
+            "end": 300,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                },
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                },
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 18 B3 Bibracte",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -330,
+            "details": "",
+            "review_state": "published",
+            "description": "Toponym as attested in De Bello Gallico of Iulius Caesar.",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2020-07-15T14:44:37Z",
+            "uri": "https://pleiades.stoa.org/places/177473/bibracte",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "G.D. Woolf"
+                }
+            ],
+            "attested": "Bibracte",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "update",
+                    "modifiedBy": "jbecker",
+                    "modified": "2021-01-09T19:04:00Z"
+                },
+                {
+                    "comment": "reference",
+                    "modifiedBy": "thomase",
+                    "modified": "2020-07-16T08:37:13Z"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-07-15T14:44:37Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T02:38:16Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T00:18:04Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-06-23T13:58:53Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-23T12:42:08Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-06-23T12:37:19Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Bibrakta",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:4.3.2",
+                    "citationDetail": "4.3.2",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "Str. (Meineke: Perseus)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+                    "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "bibrakta",
+            "end": 300,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "details": "",
+            "review_state": "published",
+            "description": "Greek toponym as attested in Strabo's Geography.",
+            "transcriptionCompleteness": "complete",
+            "language": "grc",
+            "created": "2020-07-15T14:43:29Z",
+            "uri": "https://pleiades.stoa.org/places/177473/bibrakta",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Βίβρακτα",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2020-07-16T08:37:28Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-07-15T14:43:40Z"
+                },
+                {
+                    "comment": "added Greek name via Strabo",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-07-15T14:43:30Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2020-07-15T14:43:29Z"
+                }
+            ]
+        }
+    ],
+    "id": "177473",
+    "subject": [
+        "dare:ancient=1",
+        "dare:feature=settlement",
+        "dare:major=0"
+    ],
+    "title": "Bibracte",
+    "provenance": "Barrington Atlas: BAtlas 18 B3 Bibracte",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fortified-settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "details": "<p>The Barrington Atlas Directory notes: Mont Beuvray</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "Bibracte (modern Mont-Beuvray) was an oppidum of the Celtic Aedui, later named Lugdunensis.",
+    "reprPoint": [
+        4.035592329485176,
+        46.92582608902465
+    ],
+    "placeTypes": [
+        "fortified-settlement",
+        "settlement"
+    ],
+    "bbox": [
+        4.0281541,
+        46.9193586,
+        4.0442014,
+        46.9329393
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/177533"
+    ],
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2026-09-17T17:38:32Z",
+    "uri": "https://pleiades.stoa.org/places/177473",
+    "creators": [
+        {
+            "username": null,
+            "name": "G.D. Woolf"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "Removed redundant generic 'settlement' tag; retained 'settlement (fortified)' as the accurate descriptor for this oppidum.⁠ by @dndimitrov",
+            "modifiedBy": "thomase",
+            "modified": "2026-10-02T15:41:25Z"
+        },
+        {
+            "comment": "Baseline created",
+            "modifiedBy": "dndimitrov",
+            "modified": "2026-09-17T17:38:29Z"
+        },
+        {
+            "comment": "wikidata Q650053",
+            "modifiedBy": "jbecker",
+            "modified": "2024-11-20T21:20:23Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2024-11-20T21:17:20Z"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-07T20:35:09Z"
+        },
+        {
+            "comment": "added references",
+            "modifiedBy": "jbecker",
+            "modified": "2017-03-19T16:59:15Z"
+        },
+        {
+            "comment": "edited description; added references",
+            "modifiedBy": "jbecker",
+            "modified": "2013-04-17T22:34:35Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T22:39:27Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T02:38:16Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T00:18:03Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T20:51:54Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T19:00:50Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-06-23T13:58:53Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-23T12:42:08Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-06-23T12:37:18Z"
+        }
+    ]
+}

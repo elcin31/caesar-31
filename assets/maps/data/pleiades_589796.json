@@ -1,0 +1,1458 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.946943,
+                    35.062107
+                ]
+            },
+            "type": "Feature",
+            "id": "darmc-location-24047",
+            "properties": {
+                "snippet": "Unknown; 750 BC - 550 BC",
+                "link": "https://pleiades.stoa.org/places/589796/darmc-location-24047",
+                "description": "5M scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+                "location_precision": "precise",
+                "title": "DARMC location 24047"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "username": null,
+            "name": "DARMC"
+        },
+        {
+            "username": null,
+            "name": "R. Talbert"
+        },
+        {
+            "username": "bkiesling",
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling"
+        },
+        {
+            "username": "sgillies",
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+            "username": null,
+            "name": "Ethan Gruber"
+        },
+        {
+            "username": "rselth",
+            "homepage": null,
+            "name": "Rosemary Selth",
+            "uri": "https://pleiades.stoa.org/author/rselth"
+        },
+        {
+            "username": "jbecker",
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+            "username": "scosta",
+            "homepage": null,
+            "name": "Stefano Costa",
+            "uri": "https://pleiades.stoa.org/author/scosta"
+        },
+        {
+            "username": "thomase",
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+            "username": "cbouras",
+            "homepage": null,
+            "name": "Catherine Bouras",
+            "uri": "https://pleiades.stoa.org/author/cbouras"
+        },
+        {
+            "username": null,
+            "name": "WHG"
+        },
+        {
+            "username": "ameadows",
+            "homepage": null,
+            "name": "Andy Meadows",
+            "uri": "https://pleiades.stoa.org/author/ameadows"
+        },
+        {
+            "username": "rssmith",
+            "homepage": null,
+            "name": "R. Scott Smith",
+            "uri": "https://pleiades.stoa.org/author/rssmith"
+        },
+        {
+            "username": "ghawes",
+            "homepage": null,
+            "name": "Greta Hawes",
+            "uri": "https://pleiades.stoa.org/author/ghawes"
+        },
+        {
+            "username": "sebs",
+            "homepage": null,
+            "name": "Sebastian Heath",
+            "uri": "https://pleiades.stoa.org/author/sebs"
+        }
+    ],
+    "locations": [
+        {
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+                }
+            ],
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "citationDetail": "24047",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "shortTitle": "DARMC",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 24047.",
+                    "otherIdentifier": " ",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "id": "darmc-location-24047",
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "end": -550,
+            "title": "DARMC location 24047",
+            "provenance": "DARMC OBJECTID: 24047",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "archaeologicalRemains": "unknown",
+            "details": "DARMC OBJECTID: 24047",
+            "review_state": "published",
+            "accuracy_value": 10.0,
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+            "featureType": [
+                "unknown"
+            ],
+            "description": "5M scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+            "created": "2011-03-10T01:54:38Z",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.946943,
+                    35.062107
+                ]
+            },
+            "locationType": [
+                "representative"
+            ],
+            "uri": "https://pleiades.stoa.org/places/589796/darmc-location-24047",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Bennet"
+                },
+                {
+                    "username": null,
+                    "name": "G. Reger"
+                }
+            ],
+            "@type": "Location",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:48:18Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-10T04:56:58Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-10T01:54:40Z"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-10T01:54:39Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2011-03-10T01:54:38Z"
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "end": null,
+            "description": "",
+            "contributors": [
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "created": "2016-07-13T13:40:04Z",
+            "associationCertainty": "certain",
+            "title": "Creta et Cyrene (Roman province)",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/589796/981515",
+            "connectionType": "part_of_admin",
+            "id": "981515",
+            "attestations": [],
+            "history": [
+                {
+                    "comment": "connection type",
+                    "modifiedBy": "thomase",
+                    "modified": "2018-01-18T22:05:14Z"
+                },
+                {
+                    "comment": "switched target from withdrawn duplicate to preferred resource",
+                    "modifiedBy": "thomase",
+                    "modified": "2018-01-18T22:03:02Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:40:04Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:40:04Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:40:04Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/981517",
+            "details": "",
+            "references": [],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_admin"
+        },
+        {
+            "end": null,
+            "description": "",
+            "contributors": [],
+            "created": "2016-07-13T13:40:04Z",
+            "associationCertainty": "certain",
+            "title": "Creta (island)",
+            "start": null,
+            "provenance": "Pleiades",
+            "uri": "https://pleiades.stoa.org/places/589796/589748",
+            "connectionType": "connection",
+            "id": "589748",
+            "attestations": [],
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:40:04Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:40:04Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "admin",
+                    "modified": "2016-07-13T13:40:04Z"
+                }
+            ],
+            "connectsTo": "https://pleiades.stoa.org/places/589748",
+            "details": "",
+            "references": [],
+            "review_state": "published",
+            "creators": [
+                {
+                    "username": "admin",
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin"
+                }
+            ],
+            "@type": "Connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection"
+        }
+    ],
+    "references": [
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "citationDetail": "60 C2 Gortyn(a)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "BAtlas",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "",
+            "citationDetail": "96-103",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Myers 1992",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/S8N66ZQW",
+            "formattedCitation": "<div class=\"csl-entry\">Myers, Eleanor Emlen, Gerald Cadogan, John A Gifford, and Stylianos Alexiou, eds. <i>The Aerial Atlas of Ancient Crete</i>. Berkeley: University of California Press, 1992.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://archive.org/details/bub_gb_sZs-AAAAcAAJ",
+            "citationDetail": "Γόρτυν",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "StByz (Meineke; archive.org)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/25I8PUYK",
+            "formattedCitation": "<div class=\"csl-entry\">Stephanos Byzantinioi, and August Meineke. <i>Ethnikōn: a geographical lexicon on ancient cities, peoples, tribes and toponyms (Stephani Byzantinii Ethnicorum quae supersunt ex recensione Augusti Meinekii)</i>. Chicago, Ill.: Ares Publishers, 1992. https://archive.org/details/bub_gb_sZs-AAAAcAAJ.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.gortinabizantina.it/",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Gortina Bizantina",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RHT2ULSI",
+            "formattedCitation": "<div class=\"csl-entry\">Gortina Bizantina. “Gortina Bizantina,” 2011. http://www.gortinabizantina.it/.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.scuoladiatene.it/Private/gortyna.htm",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "",
+            "bibliographicURI": "",
+            "formattedCitation": "Gortyna - Scuola Archeologica Italiana di Atene",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Gortyn",
+            "citationDetail": "Gortyn",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://en.wikipedia.org/wiki/Gortyn_code",
+            "citationDetail": "Gortyn code",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "shortTitle": "Wikipedia (English)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": " ",
+            "type": "seeAlso"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DG%3Aentry+group%3D3%3Aentry%3Dgortyn",
+            "citationDetail": "GORTYN Kainourgiou, Crete",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "PECS (Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Paus.%208.53&lang=original",
+            "citationDetail": "8.53",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Paus. (Spiro: Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GTGBFEI9",
+            "formattedCitation": "<div class=\"csl-entry\">Pausanias. <i>Pausaniae Graeciae descriptio</i>. Edited by Friedrich Spiro. 3 vols. Bibliotheca Teubneriana. Lipsiae: Teubner, 1903. http://data.perseus.org/texts/urn:cts:greekLit:tlg0525.tlg001.perseus-grc1.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.encquran.brill.nl/entries/brill-s-new-pauly/gortyn-e426630",
+            "citationDetail": "Gortyn",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "New Pauly",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brill.com/display/db/npoe.</div>",
+            "otherIdentifier": " ",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:10.4.7",
+            "citationDetail": "10.4.7",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Str. (Meineke: Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+            "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877. http://data.perseus.org/texts/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:3.276-3.328",
+            "citationDetail": "Od. 3.294",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Hom. (Allen 1920; Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MTUPQA3P",
+            "formattedCitation": "<div class=\"csl-entry\">Homer. <i>Homeri Opera</i>. Edited by Thomas W Allen. Editio altera. 5 vols. Oxonii; New York: E Typographeo Clarendoniano; Oxford University Press, 1920. http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0012.tlg001.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:2.615-2.652",
+            "citationDetail": "Il. 2.646",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "Hom. (Allen 1920; Perseus)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MTUPQA3P",
+            "formattedCitation": "<div class=\"csl-entry\">Homer. <i>Homeri Opera</i>. Edited by Thomas W Allen. Editio altera. 5 vols. Oxonii; New York: E Typographeo Clarendoniano; Oxford University Press, 1920. http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0012.tlg001.</div>",
+            "otherIdentifier": " ",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.trismegistos.org/place/719",
+            "citationDetail": "GEO ID 719: Gortyn (Hagioi Deka)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "TM",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.wikidata.org/wiki/Q1136193",
+            "citationDetail": "Gortyn (Q1136193)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "Wikidata",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.geonames.org/261975/gortys.html",
+            "citationDetail": "261975: Gortys",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "GeoNames",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. <i>GeoNames</i>, 2005. https://www.geonames.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://topostext.org/place/351249UGor",
+            "citationDetail": "Gortyna (Irakleio)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ToposText",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "http://atlantides.org/bibliography/",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://darmc.harvard.edu/",
+            "citationDetail": "3522",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "DARMC",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://chronique.efa.gr/?kroute=topo_public&id=38279",
+            "citationDetail": "Toponyme 38279: Gortyn",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "CFL/AGO",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9KVQ7A64",
+            "formattedCitation": "<div class=\"csl-entry\">Veronique Chankowski, Amélie Perrier, Catherine Bouras, Sabine Fourrier, John Bennet, Michaeol Loy, Kostis Christakis, L. Mulot, and G. Bejjaji. <i>Chronique Des Fouilles En Ligne = Archaeology in Greece Online</i>. Athens: Ecole française d’Athènes and British School at Athens, 2018. https://chronique.efa.gr/?kroute=homepage.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://resource.manto.unh.edu/8254154",
+            "citationDetail": "8254154: Gortyna (Crete)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "MANTO",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SLCUI2TB",
+            "formattedCitation": "<div class=\"csl-entry\">Hawes, Greta, and Scott Smith. <i>MANTO</i>. Accessed February 17, 2023. https://www.manto-myth.org/manto.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://nomisma.org/id/gortyna",
+            "citationDetail": "Gortyn",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "nomisma.org",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N5BAUNTN",
+            "formattedCitation": "<div class=\"csl-entry\">Meadows, Andrew, Sebastian Heath, and Ethan Gruber. <i>Nomisma.Org</i>. New York: American Numismatic Society, 2010. http://nomisma.org/.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://whgazetteer.org/places/7551934/detail",
+            "citationDetail": "7551934: Gortyn",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "WHG",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RHX229R6",
+            "formattedCitation": "<div class=\"csl-entry\">Mostern, Ruth, Alexandra Straub, Stephen Gadd, Karl Grossner, and David Ruvolo, eds. <i>World Historical Gazetteer: Linking Knowledge about the Past via Place</i>. Pittsburgh, PA: The World History Center at University of Pittsburgh, 2017. http://whgazetteer.org/.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://www.cambridge.org/us/talbert/talbertdatabase/TPPlace2070.html",
+            "citationDetail": "8B1 (Talbert 2070)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "shortTitle": "TP (Talbert: CUP)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "http://www.worldcat.org/oclc/6684340",
+            "citationDetail": "607-10 Cortina",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "shortTitle": "ItMiller",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q8X83VMV",
+            "formattedCitation": "<div class=\"csl-entry\">Miller, Konrad. <i>Itineraria romana: Römische Reisewege an der Hand der Tabula Peutingeriana</i>. Stuttgart: Strecker und Schröder, 1916. http://www.worldcat.org/oclc/6684340.</div>",
+            "otherIdentifier": "",
+            "type": "seeFurther"
+        },
+        {
+            "alternateURI": "",
+            "accessURI": "https://tp-online.ku.de/trefferanzeige_en.php?id=1165",
+            "citationDetail": "1165: Cortina",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "shortTitle": "KU TP Database (Rathmann)",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KDZ6Q72N",
+            "formattedCitation": "<div class=\"csl-entry\">Ingolstadt, Katholische Universität Eichstätt-. “Tabula Peutingeriana.” Datenbank tp-online. Accessed June 4, 2025. https://www.ku.de/ggf/geschichte/alte-geschichte/forschung/datenbank-tp-online.</div>",
+            "otherIdentifier": "",
+            "type": "citesAsRelated"
+        }
+    ],
+    "names": [
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Gortyna",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+                }
+            ],
+            "references": [],
+            "id": "gortyna",
+            "end": -550,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 60 C2 Gortyn(a)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-09-22T19:19:44Z",
+            "uri": "https://pleiades.stoa.org/places/589796/gortyna",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Bennet"
+                },
+                {
+                    "username": null,
+                    "name": "G. Reger"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:48:19Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:53:23Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:53:12Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:09:43Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-09-22T20:04:00Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:58:16Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:19:44Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Gortyn",
+            "attestations": [
+                {
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+                }
+            ],
+            "references": [],
+            "id": "gortyn",
+            "end": -550,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 60 C2 Gortyn(a)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -750,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-09-22T19:19:44Z",
+            "uri": "https://pleiades.stoa.org/places/589796/gortyn",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Bennet"
+                },
+                {
+                    "username": null,
+                    "name": "G. Reger"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:48:19Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:54:16Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:54:12Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:09:44Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-09-22T20:04:00Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:58:16Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:19:44Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Ellotis",
+            "attestations": [],
+            "references": [],
+            "id": "ellotis",
+            "end": null,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 60 C2 Gortyn(a)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": null,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-09-22T19:19:44Z",
+            "uri": "https://pleiades.stoa.org/places/589796/ellotis",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Bennet"
+                },
+                {
+                    "username": null,
+                    "name": "G. Reger"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:48:19Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:55:03Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:54:59Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:09:44Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-09-22T20:04:00Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:58:16Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:19:45Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Kremnia",
+            "attestations": [],
+            "references": [],
+            "id": "kremnia",
+            "end": null,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 60 C2 Gortyn(a)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": null,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-09-22T19:19:45Z",
+            "uri": "https://pleiades.stoa.org/places/589796/kremnia",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Bennet"
+                },
+                {
+                    "username": null,
+                    "name": "G. Reger"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:48:19Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:55:23Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:55:18Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:09:44Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-09-22T20:04:00Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:58:16Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:19:45Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Larissa",
+            "attestations": [],
+            "references": [],
+            "id": "larissa",
+            "end": null,
+            "contributors": [
+                {
+                    "username": null,
+                    "name": "R. Talbert"
+                },
+                {
+                    "username": null,
+                    "name": "T. Elliott"
+                },
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 60 C2 Gortyn(a)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": null,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "",
+            "created": "2010-09-22T19:19:45Z",
+            "uri": "https://pleiades.stoa.org/places/589796/larissa",
+            "creators": [
+                {
+                    "username": null,
+                    "name": "J. Bennet"
+                },
+                {
+                    "username": null,
+                    "name": "G. Reger"
+                }
+            ],
+            "attested": "",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:48:19Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:55:38Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:55:34Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:09:44Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2010-09-22T20:04:00Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:58:16Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "sgillies",
+                    "modified": "2010-09-22T19:19:45Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Gortyna",
+            "attestations": [
+                {
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book%3D10:chapter%3D4:section%3D7",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "",
+                    "bibliographicURI": "",
+                    "formattedCitation": "Strab. 10.4.7",
+                    "otherIdentifier": " ",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "gortus",
+            "end": 300,
+            "contributors": [
+                {
+                    "username": "sgillies",
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies"
+                },
+                {
+                    "username": "thomase",
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase"
+                }
+            ],
+            "provenance": "Barrington Atlas: BAtlas 60 C2 Gortyn(a)",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": -30,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "grc",
+            "created": "2011-01-27T08:44:39Z",
+            "uri": "https://pleiades.stoa.org/places/589796/gortus",
+            "creators": [
+                {
+                    "username": "scosta",
+                    "homepage": null,
+                    "name": "Stefano Costa",
+                    "uri": "https://pleiades.stoa.org/author/scosta"
+                }
+            ],
+            "attested": "Γόρτυνα",
+            "@type": "Name",
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modifiedBy": "jbecker",
+                    "modified": "2014-07-21T17:30:29Z"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modifiedBy": "admin",
+                    "modified": "2012-02-15T06:48:20Z"
+                },
+                {
+                    "comment": "fixed transliteration",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-12-19T17:48:37Z"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-12-17T19:17:00Z"
+                },
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:56:27Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T18:56:04Z"
+                },
+                {
+                    "comment": "added accent and reference citation",
+                    "modifiedBy": "thomase",
+                    "modified": "2011-03-01T14:11:24Z"
+                },
+                {
+                    "comment": "",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:45:32Z"
+                },
+                {
+                    "comment": "",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:44:41Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "scosta",
+                    "modified": "2011-01-27T08:44:40Z"
+                }
+            ]
+        },
+        {
+            "nameType": "geographic",
+            "transcriptionAccuracy": "accurate",
+            "associationCertainty": "certain",
+            "romanized": "Cortin[.]",
+            "attestations": [
+                {
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+                }
+            ],
+            "references": [
+                {
+                    "alternateURI": "",
+                    "accessURI": "https://www.cambridge.org/us/talbert/talbertdatabase/TPPlace2070.html",
+                    "citationDetail": "8B1 (Talbert 2070)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "shortTitle": "TP (Talbert: CUP)",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. “Database: Peutinger Map Names and Features, with Commentary and User’s Guide.” In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+                    "otherIdentifier": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "id": "cortin",
+            "end": 640,
+            "contributors": [],
+            "provenance": "Pleiades",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "start": 300,
+            "details": "",
+            "review_state": "published",
+            "description": "",
+            "transcriptionCompleteness": "complete",
+            "language": "la",
+            "created": "2025-12-14T03:05:24Z",
+            "uri": "https://pleiades.stoa.org/places/589796/cortin",
+            "creators": [
+                {
+                    "username": "jbecker",
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker"
+                }
+            ],
+            "attested": "Cortin[.]",
+            "@type": "Name",
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modifiedBy": "thomase",
+                    "modified": "2026-02-06T17:53:13Z"
+                },
+                {
+                    "action": "Submit for review",
+                    "modifiedBy": "jbecker",
+                    "modified": "2025-12-14T03:05:29Z"
+                },
+                {
+                    "comment": "TP name TP reference",
+                    "modifiedBy": "jbecker",
+                    "modified": "2025-12-14T03:05:25Z"
+                },
+                {
+                    "action": "Create",
+                    "modifiedBy": "jbecker",
+                    "modified": "2025-12-14T03:05:24Z"
+                }
+            ]
+        }
+    ],
+    "id": "589796",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=1",
+        "dare:feature=major settlement"
+    ],
+    "title": "Gortyn(a)",
+    "provenance": "Barrington Atlas: BAtlas 60 C2 Gortyn(a)",
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/urban",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "details": "<p>Gortyna was inhabited continuously from the 8th century BC to the 9th century AD, and it is perhaps most famous for its law code dating from the 5th century BC. At the beginning of the 3rd century AD, the urban settlement underwent a major restructuring, with the building of an aqueduct 15 km long. The water supply system was renewed in the 6th century when the city was the seat of the Bishopric of Crete. The city was allegedly abandoned in the 9th century at the time of the Arab conquest of Crete, but it was already in decline following the misfortunes of the Byzantine sea supremacy and a series of major earthquakes. The site of ancient Gortyna is currently excavated by a joint team from the Universities of Bologna, Rome “La Sapienza“, Macerata, Palermo, Siena, Padova, Milano, coordinated by the Italian Archaeological School at Athens.</p>",
+    "@context": {
+        "snippet": "dcterms:abstract",
+        "rights": "dcterms:rights",
+        "description": "dcterms:description",
+        "title": "dcterms:title",
+        "dcterms": "http://purl.org/dc/terms/",
+        "subject": "dcterms:subject",
+        "uri": "@id",
+        "created": "dcterms:created"
+    },
+    "review_state": "published",
+    "type": "FeatureCollection",
+    "description": "The Roman capital of Creta et Cyrenaica province, then Creta, and later seat of the Archbishop of Crete, Gortyna was a thriving community from the Geometric period to the Middle Byzantine period. The first traces of urban settlement date from the Archaic period. The ancient Greek law code known as the \"Gortyn Code\" was discovered there in 1884.",
+    "reprPoint": [
+        24.946943,
+        35.062107
+    ],
+    "placeTypes": [
+        "urban",
+        "settlement"
+    ],
+    "bbox": [
+        24.946943,
+        35.062107,
+        24.946943,
+        35.062107
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/981517",
+        "https://pleiades.stoa.org/places/589748",
+        "https://pleiades.stoa.org/places/590412",
+        "https://pleiades.stoa.org/places/481346137",
+        "https://pleiades.stoa.org/places/226009789",
+        "https://pleiades.stoa.org/places/177278517",
+        "https://pleiades.stoa.org/places/973706432"
+    ],
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "created": "2025-09-19T10:15:16Z",
+    "uri": "https://pleiades.stoa.org/places/589796",
+    "creators": [
+        {
+            "username": null,
+            "name": "J. Bennet"
+        },
+        {
+            "username": null,
+            "name": "G. Reger"
+        }
+    ],
+    "@type": "Place",
+    "history": [
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2025-12-14T20:12:33Z"
+        },
+        {
+            "comment": "update references",
+            "modifiedBy": "jbecker",
+            "modified": "2025-12-14T03:04:12Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "thomase",
+            "modified": "2025-09-19T10:26:13Z"
+        },
+        {
+            "comment": "added MANTO reference provided by the MANTO team; added Nomisma reference provided by the Nomisma team; added WHG reference provided by the WHG team",
+            "modifiedBy": "thomase",
+            "modified": "2025-09-19T10:23:18Z"
+        },
+        {
+            "comment": "added Chronique reference provided by cbouras",
+            "modifiedBy": "thomase",
+            "modified": "2023-08-23T22:23:24Z"
+        },
+        {
+            "comment": "cleaned refernce",
+            "modifiedBy": "thomase",
+            "modified": "2022-05-12T20:43:29Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2021-05-05T00:28:30Z"
+        },
+        {
+            "comment": "updates",
+            "modifiedBy": "jbecker",
+            "modified": "2021-05-05T00:03:26Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "jbecker",
+            "modified": "2018-06-08T17:16:34Z"
+        },
+        {
+            "comment": "darmc",
+            "modifiedBy": "jbecker",
+            "modified": "2018-06-08T17:16:10Z"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modifiedBy": "admin",
+            "modified": "2018-06-08T00:50:41Z"
+        },
+        {
+            "comment": "TM GEO ID 719",
+            "modifiedBy": "jbecker",
+            "modified": "2017-11-20T03:04:59Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2014-07-21T17:32:03Z"
+        },
+        {
+            "comment": "added reference",
+            "modifiedBy": "jbecker",
+            "modified": "2014-07-21T17:29:12Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2014-07-16T16:50:20Z"
+        },
+        {
+            "comment": "Edited",
+            "modifiedBy": "thomase",
+            "modified": "2014-07-16T16:49:49Z"
+        },
+        {
+            "comment": "slightly reworded the description, removing unsourced statements copied from Wikipedia",
+            "modifiedBy": "scosta",
+            "modified": "2014-07-16T16:34:21Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "scosta",
+            "modified": "2014-04-14T20:11:09Z"
+        },
+        {
+            "comment": "retract description copied from Wikipedia and substitute with more correct info",
+            "modifiedBy": "scosta",
+            "modified": "2014-04-14T20:10:49Z"
+        },
+        {
+            "action": "Retract",
+            "modifiedBy": "scosta",
+            "modified": "2014-04-14T20:07:11Z"
+        },
+        {
+            "comment": "added connection",
+            "modifiedBy": "jbecker",
+            "modified": "2013-02-09T17:28:29Z"
+        },
+        {
+            "comment": "edited description; added references",
+            "modifiedBy": "jbecker",
+            "modified": "2013-02-09T17:27:34Z"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-23T19:34:09Z"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modifiedBy": "sgillies",
+            "modified": "2012-10-20T20:31:23Z"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modifiedBy": "admin",
+            "modified": "2012-02-15T06:48:17Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-10T01:54:40Z"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modifiedBy": "sgillies",
+            "modified": "2011-03-09T18:59:52Z"
+        },
+        {
+            "comment": "added scosta",
+            "modifiedBy": "thomase",
+            "modified": "2011-03-01T19:18:14Z"
+        },
+        {
+            "comment": "added Greek orthography for one name, more details, place type, coordinates for praetorium",
+            "modifiedBy": "thomase",
+            "modified": "2011-03-01T14:17:11Z"
+        },
+        {
+            "comment": "Baseline created",
+            "modifiedBy": "scosta",
+            "modified": "2011-01-27T08:09:40Z"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modifiedBy": "sgillies",
+            "modified": "2011-01-14T20:33:49Z"
+        },
+        {
+            "action": "Publish externally",
+            "modifiedBy": "thomase",
+            "modified": "2010-09-22T20:04:00Z"
+        },
+        {
+            "action": "Submit for review",
+            "modifiedBy": "sgillies",
+            "modified": "2010-09-22T19:58:16Z"
+        },
+        {
+            "action": "Create",
+            "modifiedBy": "sgillies",
+            "modified": "2010-09-22T19:19:44Z"
+        }
+    ]
+}
