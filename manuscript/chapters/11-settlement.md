@@ -76,26 +76,26 @@
 
 Урегулирования сделали первенство признанным и управляемым, сохранив одновременно его персональный характер. В этом состояли их сила и ограничение. Знакомые институты могли действовать вокруг победителя, не требуя постоянного повторения гражданской войны; но передать другому человеку весь накопленный авторитет простым завещанием было невозможно. Кули поэтому предлагает учитывать переход от конституционных решений к восприятию особой эпохи одного человека. Смерть Августа в 14 г. н. э. стала ещё одной проверкой устройства: переживёт ли руководство носителя имени и заслуг. Ответ зависит от организации армии, финансов и правящей семьи, к которым мы теперь переходим.[^ch11n23]
 
-[^ch11n01]: Alison E. Cooley, “From the Augustan Principate to the Invention of the Age of Augustus,” *Journal of Roman Studies* 109 (2019):71–87, DOI:10.1017/S0075435819000674, здесь и далее авторская принятая версия WRAP, с.1–4; John Rich, “Making the Emergency permanent: auctoritas, potestas and the evolution of the principate of Augustus,” в *Des réformes augustéennes*, Collection de l’École française de Rome458 (Rome: École française de Rome,2012),37–42.
-[^ch11n02]: Dio53.1.1–2;53.2.5–7. Перевод Earnest Cary, Loeb, на LacusCurtius. Дион пишет через два с лишним столетия после событий.
-[^ch11n03]: RG34.1; Rich, “Making the Emergency permanent,”53–55. Различать установленную датировку монеты и реконструкцию процедур выборов.
-[^ch11n04]: RG8.1–2; Suet.Aug.35.1–2; Rich, “Making the Emergency permanent,”48–49. Светоний, перевод J.C.Rolfe, Loeb, LacusCurtius.
-[^ch11n05]: Vell.2.89.3–6, перевод Frederick W.Shipley, Loeb, LacusCurtius; Rich, “Making the Emergency permanent,”49.
-[^ch11n06]: Dio53.3–16; Rich, “Making the Emergency permanent,”53–54,59. Речь53.3–10 — авторское построение Диона.
-[^ch11n07]: Dio53.12–15; Rich, “Making the Emergency permanent,”55–58, особенно56 и прим.54.
-[^ch11n08]: Dio53.13.1; Rich, “Making the Emergency permanent,”56–58.
-[^ch11n09]: RG34.2; Dio53.16.4–8; Rich, “Making the Emergency permanent,”49–50,59.
-[^ch11n10]: Cooley, “From the Augustan Principate,” авторская версия,5–13. Princeps senatus: RG7.2; о различии значений Rich,38, прим.5.
-[^ch11n11]: Dio53.32.2–4; Rich, “Making the Emergency permanent,”41.
-[^ch11n12]: Dio53.30.1–2; Suet.Aug.28.1. Отождествление личного кольца с правом наследовать государственную власть является интерпретацией.
-[^ch11n13]: Dio53.32.5–6; RG4.4;10.1. Август не занимал обычной ежегодной должности плебейского трибуна.
-[^ch11n14]: Dio53.32.5–6; Rich, “Making the Emergency permanent,”87. Позднее обобщение Dio53.17 не подменяет содержание актов23 до н.э.
-[^ch11n15]: Dio54.3.2–8; Suet.Aug.19.1. Хронология заговора остаётся спорной; связный рассказ Диона не решает вопроса о дате всех упомянутых процедур.
-[^ch11n16]: Dio54.1.2–5; RG5.1–3. Самоотчёт не является независимой оценкой эффективности помощи.
-[^ch11n17]: Dio54.6.2–6. Слова Мецената переданы как традиционный рассказ.
-[^ch11n18]: Dio54.10.5; Rich, “Making the Emergency permanent,”87. Здесь не предполагается наличие сохранившегося полного текста закона о полномочиях19 до н.э.
-[^ch11n19]: Dio54.12.4–5; RG6.2. Подробности семейной организации рассматриваются в главе14.
+[^ch11n01]: Alison E. Cooley, “From the Augustan Principate to the Invention of the Age of Augustus,” *Journal of Roman Studies* 109 (2019): 71–87, https://doi.org/10.1017/S0075435819000674, здесь и далее авторская принятая версия WRAP, с.1–4; John Rich, “Making the Emergency permanent: auctoritas, potestas and the evolution of the principate of Augustus,” в *Des réformes augustéennes*, Collection de l’École française de Rome458 (Rome: École française de Rome, 2012), 37–42.
+[^ch11n02]: Dio 53.1.1–2; 53.2.5–7. Перевод Earnest Cary, Loeb, на LacusCurtius. Дион пишет через два с лишним столетия после событий.
+[^ch11n03]: RG 34.1; Rich, “Making the Emergency permanent,”53–55. Различать установленную датировку монеты и реконструкцию процедур выборов.
+[^ch11n04]: RG 8.1–2; Suet. Aug. 35.1–2; Rich, “Making the Emergency permanent,”48–49. Светоний, перевод J.C.Rolfe, Loeb, LacusCurtius.
+[^ch11n05]: Vell. 2.89.3–6, перевод Frederick W.Shipley, Loeb, LacusCurtius; Rich, “Making the Emergency permanent,”49.
+[^ch11n06]: Dio 53.3–16; Rich, “Making the Emergency permanent,”53–54,59. Речь53.3–10 — авторское построение Диона.
+[^ch11n07]: Dio 53.12–15; Rich, “Making the Emergency permanent,”55–58, особенно56 и прим.54.
+[^ch11n08]: Dio 53.13.1; Rich, “Making the Emergency permanent,”56–58.
+[^ch11n09]: RG 34.2; Dio 53.16.4–8; Rich, “Making the Emergency permanent,”49–50,59.
+[^ch11n10]: Cooley, “From the Augustan Principate,” авторская версия, 5–13. Princeps senatus: RG 7.2; о различии значений Rich, 38, прим.5.
+[^ch11n11]: Dio 53.32.2–4; Rich, “Making the Emergency permanent,”41.
+[^ch11n12]: Dio 53.30.1–2; Suet. Aug. 28.1. Отождествление личного кольца с правом наследовать государственную власть является интерпретацией.
+[^ch11n13]: Dio 53.32.5–6; RG 4.4; 10.1. Август не занимал обычной ежегодной должности плебейского трибуна.
+[^ch11n14]: Dio 53.32.5–6; Rich, “Making the Emergency permanent,”87. Позднее обобщение Dio 53.17 не подменяет содержание актов23 до н.э.
+[^ch11n15]: Dio 54.3.2–8; Suet. Aug. 19.1. Хронология заговора остаётся спорной; связный рассказ Диона не решает вопроса о дате всех упомянутых процедур.
+[^ch11n16]: Dio 54.1.2–5; RG 5.1–3. Самоотчёт не является независимой оценкой эффективности помощи.
+[^ch11n17]: Dio 54.6.2–6. Слова Мецената переданы как традиционный рассказ.
+[^ch11n18]: Dio 54.10.5; Rich, “Making the Emergency permanent,”87. Здесь не предполагается наличие сохранившегося полного текста закона о полномочиях19 до н.э.
+[^ch11n19]: Dio 54.12.4–5; RG 6.2. Подробности семейной организации рассматриваются в главе14.
 [^ch11n20]: Rich, “Making the Emergency permanent,”85–87. Последовательность продлений — его реконструкция по античной традиции; её причинное объяснение требует отделения от самих дат.
-[^ch11n21]: Reinhard Wolters, “Gab es eine Finanzkrise in den späten Jahren des Augustus? Münzprägung, Soldaten und Finanzströme im frühen Prinzipat,” *Chiron*51 (2021):167–210, здесь188–197,202–203, DOI:10.34780/cdj9-ej57.
-[^ch11n22]: RG34.1–3; Rich, “Making the Emergency permanent,”39–41 и прим.6 на40. В издании Shipley1924 стоят старые восстановления; современные чтения приводятся по Rich, а не приписываются Shipley.
-[^ch11n23]: Cooley, “From the Augustan Principate,” авторская версия,22–23; Frédéric Hurlet, “Devenir un dieu. La mort d’Auguste et la naissance de la monarchie impériale,” *Studia Historica. Historia Antigua*32 (2014):61–75, здесь75.
+[^ch11n21]: Reinhard Wolters, “Gab es eine Finanzkrise in den späten Jahren des Augustus? Münzprägung, Soldaten und Finanzströme im frühen Prinzipat,” *Chiron* 51 (2021): 167–210, здесь188–197,202–203, https://doi.org/10.34780/cdj9-ej57.
+[^ch11n22]: RG 34.1–3; Rich, “Making the Emergency permanent,”39–41 и прим.6 на40. В издании Shipley1924 стоят старые восстановления; современные чтения приводятся по Rich, а не приписываются Shipley.
+[^ch11n23]: Cooley, “From the Augustan Principate,” авторская версия, 22–23; Frédéric Hurlet, “Devenir un dieu. La mort d’Auguste et la naissance de la monarchie impériale,” *Studia Historica. Historia Antigua* 32 (2014): 61–75, здесь75.

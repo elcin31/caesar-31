@@ -88,36 +88,36 @@
 
 Наконец, Дион объясняет диктатуру в категориях позднейшего единовластия. Джанпаоло Урсо показывает, что это часть сложной авторской периодизации: Цезарь у Диона предвосхищает императорскую монархию, но её устойчивое установление и конец Республики не совпадают в одной точке. Прочитать эту схему как прямое описание самосознания участников 44 г. означало бы принять исход за причину. Реальные достижения диктатуры сочетались с неурегулированностью доступа к власти. Убийство стало одним из возможных ответов на это сочетание; ни полезность реформ, ни расширение почестей не делали его неизбежным.[^ch06-27]
 
-[^ch06-01]: Caes.BC3.1–2;Cass.Dio42.20.3,43.14.4;Cic.Phil.2.87;Kit Morrell,“Enabling Laws,Rule of Law,and the Transformation of the Roman Republic,”in *How Republics Die:Creeping Authoritarianism in Ancient Rome and Beyond*(Berlin:De Gruyter,2025),200–202.
-[^ch06-02]: Cass.Dio41.36.1–4;Caes.BC3.1–2.
-[^ch06-03]: Morrell,“Enabling Laws,”212–216. Речь об интерпретации возможной стратегии,а не о доказанных намерениях всех голосовавших.
-[^ch06-04]: Morrell,“Enabling Laws,”201–202,особенно прим.50–51. Позиция Robert Morstein-Marx2021 в данном споре приводится по Моррелл;прямое чтение соответствующих страниц не заявляется.
-[^ch06-05]: Plut.Caes.57.1–6.
-[^ch06-06]: Caes.BC3.1.
-[^ch06-07]: Suet.Iul.42.2.
-[^ch06-08]: Caes.BC3.20–22.
-[^ch06-09]: Suet.Iul.38.2.
-[^ch06-10]: Suet.Iul.37–39;Cass.Dio43.22–24.
-[^ch06-11]: Suet.Iul.69–70;Cass.Dio43.24.1–3. Надёжность отдельной сцены с обращением«граждане»не равна надёжности всей биографической типизации.
-[^ch06-12]: Suet.Iul.38.1.
-[^ch06-13]: Suet.Iul.42.1;Plut.Caes.57.8.
-[^ch06-14]: Cass.Dio41.36.3;Suet.Iul.42.1. Точная правовая история каждой территориальной группы требует отдельного исследования;не предполагается единый акт для всей державы.
-[^ch06-15]: Suet.Iul.41.1–2,76.3.
-[^ch06-16]: Suet.Iul.80.2.
-[^ch06-17]: Suet.Iul.41.3. Число хлебополучателей не тождественно числу населения Рима.
-[^ch06-18]: Suet.Iul.40;Plut.Caes.59;Cass.Dio43.26. Дальнейшие ошибки применения високосного правила не превращаются здесь в свойство первоначального проекта.
-[^ch06-19]: Plut.Caes.59.6.
-[^ch06-20]: Suet.Iul.44.1–4.
-[^ch06-21]: Suet.Iul.44.3;Plut.Caes.58.4–10. Плутархов дальний маршрут не принимается за сохранившийся операционный план.
-[^ch06-22]: Cic.Marcell.23–32,перевод N.H.Watts(1931),Attalus;ср.1–4 об обстоятельствах возвращения Марцелла.
-[^ch06-23]: Suet.Iul.76.2–3;Plut.Caes.58.1–3.
-[^ch06-24]: Suet.Iul.41.2;Morrell,“Enabling Laws,”215–216.
-[^ch06-25]: Suet.Iul.76.1;Plut.Caes.57.2–3.
-[^ch06-26]: Suet.Iul.78–79;Cic.Phil.2.84–87;Ingo Gildenhard,*Cicero,Philippic2,44–50,78–92,100–119:Latin Text,Study Aids with Vocabulary,and Commentary*(Cambridge:Open Book Publishers,2018),267–269.
-[^ch06-27]: Gianpaolo Urso,“‘Ritorno alla monarchia’,tra Cesare e Augusto:le origini del principato in Cassio Dione,”in *Cassius Dio and the Principate*(Venice:Edizioni Ca’Foscari,2020),23–26.
+[^ch06-01]: Caes. BC 3.1–2; Cass. Dio 42.20.3,43.14.4; Cic. Phil. 2.87; Kit Morrell, “Enabling Laws, Rule of Law, and the Transformation of the Roman Republic,”in *How Republics Die: Creeping Authoritarianism in Ancient Rome and Beyond*(Berlin: De Gruyter, 2025), 200–202.
+[^ch06-02]: Cass. Dio 41.36.1–4; Caes. BC 3.1–2.
+[^ch06-03]: Morrell, “Enabling Laws,”212–216. Речь об интерпретации возможной стратегии, а не о доказанных намерениях всех голосовавших.
+[^ch06-04]: Morrell, “Enabling Laws,”201–202, особенно прим.50–51. Позиция Robert Morstein-Marx2021 в данном споре приводится по Моррелл; прямое чтение соответствующих страниц не заявляется.
+[^ch06-05]: Plut. Caes. 57.1–6.
+[^ch06-06]: Caes. BC 3.1.
+[^ch06-07]: Suet. Iul. 42.2.
+[^ch06-08]: Caes. BC 3.20–22.
+[^ch06-09]: Suet. Iul. 38.2.
+[^ch06-10]: Suet. Iul. 37–39; Cass. Dio 43.22–24.
+[^ch06-11]: Suet. Iul. 69–70; Cass. Dio 43.24.1–3. Надёжность отдельной сцены с обращением«граждане»не равна надёжности всей биографической типизации.
+[^ch06-12]: Suet. Iul. 38.1.
+[^ch06-13]: Suet. Iul. 42.1; Plut. Caes. 57.8.
+[^ch06-14]: Cass. Dio 41.36.3; Suet. Iul. 42.1. Точная правовая история каждой территориальной группы требует отдельного исследования; не предполагается единый акт для всей державы.
+[^ch06-15]: Suet. Iul. 41.1–2,76.3.
+[^ch06-16]: Suet. Iul. 80.2.
+[^ch06-17]: Suet. Iul. 41.3. Число хлебополучателей не тождественно числу населения Рима.
+[^ch06-18]: Suet. Iul. 40; Plut. Caes. 59; Cass. Dio 43.26. Дальнейшие ошибки применения високосного правила не превращаются здесь в свойство первоначального проекта.
+[^ch06-19]: Plut. Caes. 59.6.
+[^ch06-20]: Suet. Iul. 44.1–4.
+[^ch06-21]: Suet. Iul. 44.3; Plut. Caes. 58.4–10. Плутархов дальний маршрут не принимается за сохранившийся операционный план.
+[^ch06-22]: Cic. Marcell.23–32, перевод N.H.Watts(1931), Attalus; ср.1–4 об обстоятельствах возвращения Марцелла.
+[^ch06-23]: Suet. Iul. 76.2–3; Plut. Caes. 58.1–3.
+[^ch06-24]: Suet. Iul. 41.2; Morrell, “Enabling Laws,”215–216.
+[^ch06-25]: Suet. Iul. 76.1; Plut. Caes. 57.2–3.
+[^ch06-26]: Suet. Iul. 78–79; Cic. Phil. 2.84–87; Ingo Gildenhard, *Cicero, Philippic2,44–50,78–92,100–119: Latin Text, Study Aids with Vocabulary, and Commentary*(Cambridge: Open Book Publishers, 2018), 267–269.
+[^ch06-27]: Gianpaolo Urso, “‘Ritorno alla monarchia’, tra Cesare e Augusto: le origini del principato in Cassio Dione,”in *Cassius Dio and the Principate*(Venice: Edizioni Ca’Foscari, 2020), 23–26.
 
-[^ch06-28]: Cass.Dio43.39.1–5.
-[^ch06-29]: Suet.Iul.42.1.
-[^ch06-30]: Cass.Dio43.25.3. Авторская мотивировка ограничений отделена от сообщения о мере.
-[^ch06-31]: Suet.Iul.41.2,42.3,43.1;Cass.Dio43.25.1.
-[^ch06-32]: Suet.Iul.79.1–2;Plut.Caes.61.8–10;ср.Caes.BC1.5–7.
+[^ch06-28]: Cass. Dio 43.39.1–5.
+[^ch06-29]: Suet. Iul. 42.1.
+[^ch06-30]: Cass. Dio 43.25.3. Авторская мотивировка ограничений отделена от сообщения о мере.
+[^ch06-31]: Suet. Iul. 41.2,42.3,43.1; Cass. Dio 43.25.1.
+[^ch06-32]: Suet. Iul. 79.1–2; Plut. Caes. 61.8–10; ср.Caes. BC 1.5–7.

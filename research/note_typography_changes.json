@@ -1,0 +1,925 @@
+{
+  "scope": "Footnote punctuation/abbreviation spacing and canonical DOI links; numeric citation streams and note IDs preserved",
+  "changes": [
+    {
+      "file": "manuscript/introduction.md",
+      "note": "[^in17]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/introduction.md",
+      "note": "[^in18]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-01]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-05]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-08]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-09]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-10]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-14]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-15]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-16]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-17]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-18]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-19]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-20]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-21]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-22]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-23]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-24]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-25]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-26]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-27]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-28]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-29]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "note": "[^ch05-30]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-01]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-05]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-08]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-09]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-10]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-14]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-15]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-16]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-17]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-18]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-19]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-20]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-21]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-22]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-23]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-24]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-25]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-26]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-27]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-28]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-29]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-30]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-31]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "note": "[^ch06-32]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n01]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n05]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n08]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n09]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n10]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n14]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n15]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n16]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n17]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n18]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n19]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n21]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n22]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "note": "[^ch11n23]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n01]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n05]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n08]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n10]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n16]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n17]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n18]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n19]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n20]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n21]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n22]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n23]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "note": "[^ch12n24]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n09]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n10]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n14]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n15]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n17]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n18]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n19]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n20]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n21]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n23]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n24]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n25]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n26]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "note": "[^ch13n27]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n01]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n05]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n08]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n09]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n14]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n15]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n16]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n17]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n18]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n19]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n20]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n21]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n22]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n23]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n24]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n25]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "note": "[^ch14n26]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-01]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-08]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-09]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-10]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-14]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "note": "[^ch15-15]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-01]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-03]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-04]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-05]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-06]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-07]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-08]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-09]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-10]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-11]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-12]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-13]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "note": "[^ch16-14]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/conclusion.md",
+      "note": "[^conc-02]:",
+      "numeric_sequence_unchanged": true
+    },
+    {
+      "file": "manuscript/conclusion.md",
+      "note": "[^conc-03]:",
+      "numeric_sequence_unchanged": true
+    }
+  ]
+}

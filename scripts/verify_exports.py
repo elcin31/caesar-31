@@ -113,6 +113,12 @@ def main():
                 if expected_label:
                     text_node=point.find('{http://www.daisy.org/z3986/2005/ncx/}navLabel/{http://www.daisy.org/z3986/2005/ncx/}text')
                     require(text_node is not None and text_node.text==expected_label,'NCX generated navigation label is not Russian')
+        toc_nodes=[a for section in nav.findall('.//x:nav',NS) if section.get(epub_type)=='toc' for a in section.findall('.//x:a',NS)]
+        chapter_titles=[h for h in headings if h.startswith('Глава ')]
+        toc_labels=[normalized(''.join(a.itertext())) for a in toc_nodes]
+        require(all(normalized(h) in toc_labels for h in chapter_titles),'EPUB TOC is missing a chapter')
+        if len(chapter_titles)==16:
+            require(sum(label.startswith('Часть ') for label in toc_labels)==5,'EPUB TOC must have five parts')
         footrefs=0; backlinks=0
         combined=' '.join(' '.join(tree.itertext()) for tree in pages.values())
         require(all(normalized(h) in normalized(combined) for h in headings),'EPUB missing a source heading')
@@ -120,7 +126,11 @@ def main():
             require(tree.get('lang')=='ru-RU' and tree.get('{http://www.w3.org/XML/1998/namespace}lang')=='ru-RU','EPUB XHTML Russian language missing: '+n)
             for el in tree.iter():
                 href=el.get('href') or el.get('src') or el.get('{http://www.w3.org/1999/xlink}href')
-                if not href or urllib.parse.urlsplit(href).scheme: continue
+                if not href: continue
+                scheme=urllib.parse.urlsplit(href).scheme
+                if scheme:
+                    require(scheme in {'http','https','mailto','ftp','ftps','data','urn'}, 'Unregistered external URI scheme: '+href)
+                    continue
                 bits=urllib.parse.urlsplit(href)
                 target=posixpath.normpath(posixpath.join(posixpath.dirname(n),urllib.parse.unquote(bits.path))) if bits.path else n
                 require(target in z.namelist(),f'Broken EPUB resource: {n} -> {href}')
@@ -163,7 +173,10 @@ def main():
         r=subprocess.run(['java','-jar',str(jar),str(epub)],capture_output=True,text=True)
         (DIST/'epubcheck.log').write_text(r.stdout+'\n'+r.stderr,encoding='utf-8')
         require(r.returncode==0,'EPUBCheck failed; see '+relative(DIST/'epubcheck.log'))
-        result['epubcheck']={'status':'pass','log':relative(DIST/'epubcheck.log')}
+        counts=re.search(r'Messages:\s*(\d+) fatals / (\d+) errors / (\d+) warnings',r.stdout+'\n'+r.stderr)
+        require(counts is not None,'EPUBCheck did not report counts')
+        fatals,errors,warnings=map(int,counts.groups())
+        result['epubcheck']={'status':'pass' if warnings==0 else 'pass_with_warnings','fatals':fatals,'errors':errors,'warnings':warnings,'log':relative(DIST/'epubcheck.log')}
     else: result['epubcheck']={'status':'not_run','reason':'Pass --epubcheck-jar /path/to/epubcheck.jar'}
     result['source_heading_count']=len(headings)
     result['expected_note_occurrences']=expected_notes
