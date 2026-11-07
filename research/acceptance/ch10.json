@@ -1,0 +1,25 @@
+{
+  "accepted_utc": "2026-11-07T04:46:39.469132+00:00",
+  "chapter": 10,
+  "source_draft": "research/drafts/10-actium.md",
+  "reviewed_draft_sha256": "8f0429e155d54bf68e8214f5aa7d4c0fdc17d72f795ceec1282967f46cfc31cf",
+  "manuscript": "manuscript/chapters/10-actium.md",
+  "manuscript_sha256": "387ecb320d35f2f534aba3e6a40bf056b42c0134731af6c11f6570a01e11d4fb",
+  "independent_internal_report": "research/reviews/ch10_independent.md",
+  "review_report_sha256": "1fe8c1e50456221dc0ecfbf75aa3cb2c2cf18bf7205d13d7db4278b2338a707c",
+  "prior_git_commit": "0d37193b97bddaeb709c84f91f250da6d7a0926c",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "Война ставила под вопрос не только размер личной доли, но и того, кто вправе признать решения партнёра обязательными.",
+      "new": "Спор шёл о размере личной доли и о том, кто вправе признавать решения партнёра обязательными.",
+      "occurrences": 1
+    },
+    {
+      "old": "решающим было не только уничтожение кораблей, но и утрата доверия",
+      "new": "решающими были уничтожение кораблей и утрата доверия",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

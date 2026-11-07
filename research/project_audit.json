@@ -130,6 +130,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/10-actium.md",
+      "sha256": "387ecb320d35f2f534aba3e6a40bf056b42c0134731af6c11f6570a01e11d4fb",
+      "russian_body_words": 2843,
+      "whitespace_body_words": 2873,
+      "footnote_definitions": 29,
+      "footnote_occurrences": 29,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -159,7 +172,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 28969,
-  "total_footnote_occurrences": 325,
+  "total_russian_body_words": 31812,
+  "total_footnote_occurrences": 354,
   "status": "pass"
 }
