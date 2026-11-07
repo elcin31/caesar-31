@@ -35,6 +35,8 @@ def main():
     drafts = []
     for path in sorted((ROOT / 'research/drafts').glob('*.md')):
         number = path.name.split('-', 1)[0]
+        if number == '17' and conclusion.exists():
+            continue
         if not list((ROOT / 'manuscript/chapters').glob(number + '-*.md')):
             drafts.append((path, count(path)))
     draft_table = '\n'.join(f'| {p.name} | {n} | ещё не включён в основную рукопись |' for p,n in drafts)

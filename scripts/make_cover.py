@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """Original typographic cover; no historical object or portrait is represented."""
 from pathlib import Path
+import argparse
 from PIL import Image, ImageDraw, ImageFont
 from xml.sax.saxutils import escape
 ROOT = Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser()
+parser.add_argument('--edition',default='ИССЛЕДОВАТЕЛЬСКОЕ ИЗДАНИЕ')
+args=parser.parse_args()
 W,H=1600,2400
 BG='#142027'; GOLD='#cbb787'; IVORY='#f0eadc'
 regular='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'
@@ -17,7 +21,7 @@ lines=[
  ('и рождение Римской империи',800,1400,52,IVORY,False),
  ('От кризиса Республики',800,1660,48,GOLD,False),
  ('к установлению принципата',800,1737,48,GOLD,False),
- ('ИССЛЕДОВАТЕЛЬСКАЯ ВЕРСИЯ 0.1',800,2070,32,GOLD,False),
+ (args.edition,800,2070,32,GOLD,False),
  ('2026',800,2140,35,GOLD,False),
 ]
 im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)

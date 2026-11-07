@@ -3,11 +3,11 @@
   "files": [
     {
       "path": "manuscript/introduction.md",
-      "sha256": "a7557fe62735dd58f18614910cd1b7734ffcc168f60c38abf5d0d5a484b756d5",
-      "russian_body_words": 2144,
-      "whitespace_body_words": 2202,
-      "footnote_definitions": 16,
-      "footnote_occurrences": 16,
+      "sha256": "7401074b56b218d9fec91f07ca39f73eb801d9485708e4bd33e0b25f18b620f6",
+      "russian_body_words": 2326,
+      "whitespace_body_words": 2384,
+      "footnote_definitions": 18,
+      "footnote_occurrences": 18,
       "undefined": [],
       "unused": [],
       "duplicate_definitions": [],
@@ -211,7 +211,7 @@
     },
     {
       "path": "manuscript/chapters/16-republic-empire.md",
-      "sha256": "6041d368b03867e1577c7481c2448cbdcff5e1a0bf3fa2521d1f970a2bdbd402",
+      "sha256": "8d18374f888fb7271c18c2ef5dae7dc55e50b4a03eb81832a8f143c2950f86c8",
       "russian_body_words": 2245,
       "whitespace_body_words": 2273,
       "footnote_definitions": 16,
@@ -263,7 +263,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 48655,
-  "total_footnote_occurrences": 491,
+  "total_russian_body_words": 48837,
+  "total_footnote_occurrences": 493,
   "status": "pass"
 }

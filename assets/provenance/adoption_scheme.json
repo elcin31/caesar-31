@@ -1,0 +1,22 @@
+{
+  "type": "Modern authorial reconstruction, 2026, created with AI assistance",
+  "scope": "Selected adoptions in the house of Augustus; not biological genealogy or automatic transmission of office",
+  "sources": [
+    "Suet.Aug.64.1;65.1",
+    "Suet.Tib.15.2",
+    "Dio54.18.1--2",
+    "Vell.2.103--104"
+  ],
+  "editions": "Suetonius/Rolfe1913;Dio/Cary1917;Velleius/Shipley1924, electronic LacusCurtius reproductions; loci also checked in chapter14",
+  "rights": "Original project graphic; no external image used; DejaVu font outlines used under its embedding permission",
+  "files": [
+    {
+      "path": "assets/augustan_adoptions.svg",
+      "sha256": "749e2e55d8ab1a74878ad63cbea1bc6ca5688bd5b0e977ab149867ce9d250bbd"
+    },
+    {
+      "path": "assets/augustan_adoptions.png",
+      "sha256": "d8e0b24a325c742aa4baf0be31e2cb27eda29664f576e26605b2829174671ba9"
+    }
+  ]
+}

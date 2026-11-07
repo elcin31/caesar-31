@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400">
+<rect width="1600" height="2400" fill="#142027"/>
+<rect x="95" y="95" width="1410" height="2210" fill="none" stroke="#cbb787" stroke-width="3"/>
+<rect x="112" y="112" width="1376" height="2176" fill="none" stroke="#cbb787"/>
+<path d="M590 1190H1010" stroke="#cbb787" stroke-width="3"/>
+<text x="800" y="360" fill="#cbb787" font-family="DejaVu Serif" font-weight="normal" font-size="41" text-anchor="middle" dominant-baseline="middle">CAESAR &amp; AUGUSTUS</text>
+<text x="800" y="700" fill="#f0eadc" font-family="DejaVu Serif" font-weight="bold" font-size="99" text-anchor="middle" dominant-baseline="middle">ЮЛИЙ ЦЕЗАРЬ</text>
+<text x="800" y="845" fill="#f0eadc" font-family="DejaVu Serif" font-weight="bold" font-size="89" text-anchor="middle" dominant-baseline="middle">И ОКТАВИАН</text>
+<text x="800" y="990" fill="#f0eadc" font-family="DejaVu Serif" font-weight="bold" font-size="113" text-anchor="middle" dominant-baseline="middle">АВГУСТ</text>
+<text x="800" y="1320" fill="#f0eadc" font-family="DejaVu Serif" font-weight="normal" font-size="52" text-anchor="middle" dominant-baseline="middle">Две политические биографии</text>
+<text x="800" y="1400" fill="#f0eadc" font-family="DejaVu Serif" font-weight="normal" font-size="52" text-anchor="middle" dominant-baseline="middle">и рождение Римской империи</text>
+<text x="800" y="1660" fill="#cbb787" font-family="DejaVu Serif" font-weight="normal" font-size="48" text-anchor="middle" dominant-baseline="middle">От кризиса Республики</text>
+<text x="800" y="1737" fill="#cbb787" font-family="DejaVu Serif" font-weight="normal" font-size="48" text-anchor="middle" dominant-baseline="middle">к установлению принципата</text>
+<text x="800" y="2070" fill="#cbb787" font-family="DejaVu Serif" font-weight="normal" font-size="32" text-anchor="middle" dominant-baseline="middle">ИССЛЕДОВАТЕЛЬСКАЯ ВЕРСИЯ 0.1</text>
+<text x="800" y="2140" fill="#cbb787" font-family="DejaVu Serif" font-weight="normal" font-size="35" text-anchor="middle" dominant-baseline="middle">2026</text>
+</svg>
