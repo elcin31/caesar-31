@@ -1,0 +1,212 @@
+{
+  "release": "0.3",
+  "final": false,
+  "stem": "Caesar_Augustus_v0.3",
+  "output_dir": "dist/v0.3",
+  "localized_epub_labels": [
+    {
+      "file": "EPUB/content.opf",
+      "label": "Содержание"
+    },
+    {
+      "file": "EPUB/content.opf",
+      "label": "Обложка"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Титульный лист"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Обложка"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Содержание"
+    }
+  ],
+  "cover_preserved_sha256": "64c73d03c2e0cf10cba66f35fd0bc814109c605470dd9fdd6143e0009611d55d",
+  "built_utc": "2026-11-07T05:24:05.905720+00:00",
+  "inputs": [
+    {
+      "path": "manuscript/introduction.md",
+      "sha256": "140052ef99379868e0f2d4b02d363c6a43b97dc81ec9e9763a030824e68e9153"
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "sha256": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245"
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "sha256": "26d6f941d6404c708c1ef2dde14f6ba12b651bbcaa5197e14908860fd8a30302"
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "sha256": "b32911773850bd13d438f517242d7c5bc6ea6da73a406d3cc4e8d993ceb33160"
+    },
+    {
+      "path": "manuscript/chapters/04-gaul.md",
+      "sha256": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e"
+    },
+    {
+      "path": "manuscript/chapters/05-civil-war.md",
+      "sha256": "1e1f98fcf11c4c5eec11d7de1d61bd20f7477918c4e0d1c535e08d980cd1028c"
+    },
+    {
+      "path": "manuscript/chapters/06-dictatorship.md",
+      "sha256": "78200402eed81a3be8a2b4064b43547bd7bc5621d400d7aa57ef4561251de47d"
+    },
+    {
+      "path": "manuscript/chapters/07-ides.md",
+      "sha256": "346b80091eeaf97f747b307f48e30443da6bf5583ef63236ed980918df979fae"
+    },
+    {
+      "path": "manuscript/chapters/08-octavius.md",
+      "sha256": "fe248b6104af965d1a4310bbbe47371da171d4a114b1d979884391275c43ea40"
+    },
+    {
+      "path": "manuscript/chapters/09-triumvirate.md",
+      "sha256": "164e1927411f6dbd1879d72e75e247a1e460fe28fdd22e5e65ede77dc0bbcbce"
+    },
+    {
+      "path": "manuscript/chapters/10-actium.md",
+      "sha256": "387ecb320d35f2f534aba3e6a40bf056b42c0134731af6c11f6570a01e11d4fb"
+    },
+    {
+      "path": "manuscript/chapters/11-settlement.md",
+      "sha256": "acd054a08885edfca418cf8ff63d5decc85e1a8fd1f92590d6b010c1e3002df1"
+    },
+    {
+      "path": "manuscript/chapters/12-government.md",
+      "sha256": "5591137bb1e025c3e855330b2ef59d7f301f1fff7d141d4001591cf5a6a391ea"
+    },
+    {
+      "path": "manuscript/chapters/13-religion-culture.md",
+      "sha256": "85900d8265c08a9bd8e400f0ee9ee230e595262712a64faa64873dfa0e278aec"
+    },
+    {
+      "path": "manuscript/chapters/14-dynasty-succession.md",
+      "sha256": "1423d2c5ef8d5142c7de935e3a555fb2fc2c64a8298ce423c6aa693325b6dd7c"
+    },
+    {
+      "path": "manuscript/chapters/15-comparison.md",
+      "sha256": "843c27c69ecac528a78ee00e09c2099cb5441ccaa3f23ff571bb98bb42c3de7b"
+    },
+    {
+      "path": "manuscript/chapters/16-republic-empire.md",
+      "sha256": "ae31c490b345b7b18714c34ecd1692ff185dfc3d83651fe0cf4d69f1c2390651"
+    },
+    {
+      "path": "manuscript/conclusion.md",
+      "sha256": "72ba6d7c1d788f946891ce7d83c8a5c262fa69cff45d63ad965aa7f0b8ff07db"
+    },
+    {
+      "path": "manuscript/appendices.md",
+      "sha256": "657ac6737d6392f1ef6424006817b0829b1817b3e4685fd6794fb9325405b355"
+    },
+    {
+      "path": "manuscript/bibliography.md",
+      "sha256": "f8e26093dc92dbde74c6eee995098f1093dace15ff5af72870e84e545ee601a9"
+    }
+  ],
+  "resources": [
+    {
+      "path": "assets/augustan_adoptions.png",
+      "sha256": "d8e0b24a325c742aa4baf0be31e2cb27eda29664f576e26605b2829174671ba9"
+    },
+    {
+      "path": "assets/cover.png",
+      "sha256": "64c73d03c2e0cf10cba66f35fd0bc814109c605470dd9fdd6143e0009611d55d"
+    },
+    {
+      "path": "assets/epub.css",
+      "sha256": "8940237f057ccc41e4da27abe0b20853989c656e9cfb8f7516a9b7840322ce1a"
+    },
+    {
+      "path": "assets/genealogy.png",
+      "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4"
+    },
+    {
+      "path": "assets/images/met_248037.jpg",
+      "sha256": "87b78cfde5e0e35b17f400bd7271abbfaccfd4bd0a5143b7a7d7707807965ce7"
+    },
+    {
+      "path": "assets/images/met_248119.jpg",
+      "sha256": "baa7f252a229f97157e0da8b95a806dd9d3cfe38722c1562c8e98d30caa91f45"
+    },
+    {
+      "path": "assets/maps/map_01_gaul_58_52.png",
+      "sha256": "135e69c0053c5b78d17a0e8bd1c211db15f5838c3650b905fb0b22a275e3e94a"
+    },
+    {
+      "path": "assets/maps/map_02_civil_wars_49_30.png",
+      "sha256": "94ab1303654647315518a528e1139e124bf30163464181c24ef76a3fa8700413"
+    },
+    {
+      "path": "assets/maps/map_03_administration_27.png",
+      "sha256": "6466060b006adc48b8145342416382b786449875f33ffb2dcf6ef836747aff28"
+    },
+    {
+      "path": "manuscript/metadata.yaml",
+      "sha256": "39ba2daf1873f17c3731b2d373c6160bd69a882459335a766e41693d73637a49"
+    },
+    {
+      "path": "scripts/book_structure.lua",
+      "sha256": "0f4db4803bd2cc9451770dd6a8e6c0c4163bed367c01eb7c6b339b60d1618cc1"
+    },
+    {
+      "path": "scripts/build.py",
+      "sha256": "cca628a5b0bdc48c78960a42eb336a94d94e545d44f1e665dcb2c0a260f106e4"
+    },
+    {
+      "path": "scripts/epub_localization.py",
+      "sha256": "0115c0363c5dc1b9a9a244cd2c7334ec0814abb5ce76528834e6392b35a92ee3"
+    },
+    {
+      "path": "scripts/publication_config.py",
+      "sha256": "91d16dba23c351064c661ecbbe4a122459bc8177657afe344192e202d251ad34"
+    },
+    {
+      "path": "scripts/tex-support/LPPL-1.3c.txt",
+      "sha256": "c1ae6e179a6d28bbd5c483fbacc744acc75e922d598281dc3390aab26126e163"
+    },
+    {
+      "path": "scripts/tex-support/README.md",
+      "sha256": "b40dc34d6b724a6d279ca7a87c29278522ea384161c77e50fd03c4c64eed31a0"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/config/language.dat",
+      "sha256": "7ce8d6f23efd153219bafa8d742d2987ea3c8c50cd9dadfedf124ccf76a2c969"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/hyph-ru.tex",
+      "sha256": "ce988fcc66e5e29d7474df5ab5b489d3f52a50ebccf570997f992d84221b922a"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/loadhyph-ru.tex",
+      "sha256": "8d59a50b003ef646b4a38645802a7e4db55bb8f84e2f85a5a118c7049d186fe9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "dist/v0.3/Caesar_Augustus_v0.3.docx",
+      "bytes": 4202233,
+      "sha256": "59c13ae39ec3680e6de26b936e908cacb538e4944661959791164d7aec03068e"
+    },
+    {
+      "path": "dist/v0.3/Caesar_Augustus_v0.3.epub",
+      "bytes": 4296730,
+      "sha256": "c2cbedd1b5078f1092bfd451869c723bb18f2c661413516c2ff644806b274a8e"
+    },
+    {
+      "path": "dist/v0.3/Caesar_Augustus_v0.3.pdf",
+      "bytes": 4723468,
+      "sha256": "1c4c9fe4c730e7abda3bade937496a9f1884e7f6bfbc5ff8b7d767db1b561a31"
+    }
+  ],
+  "versions": {
+    "pandoc": "pandoc 3.1.11.1",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)"
+  },
+  "warnings": "\n\n"
+}

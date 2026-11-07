@@ -1,0 +1,170 @@
+{
+  "recorded_utc": "2026-11-07T05:30:25.292403+00:00",
+  "chapters": {
+    "01": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/review_log.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "02": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch02_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "03": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch03_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "04": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch04_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "05": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch05_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "06": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch06_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "07": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch07_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "08": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch08_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "09": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch09_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "10": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch10_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "11": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch11_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "12": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch12_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "13": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch13_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "14": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch14_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "15": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch15_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    },
+    "16": {
+      "historical": "pass",
+      "scientific": "pass",
+      "style": "pass",
+      "evidence": "research/reviews/ch16_independent.md",
+      "qualification": "Internal research review; external professional peer review not claimed"
+    }
+  },
+  "full_review_passes": {
+    "historical": "pass",
+    "sources": "pass",
+    "historiography": "pass",
+    "argument": "pass",
+    "style": "pass",
+    "editorial": "pass",
+    "technical": "pass"
+  },
+  "unresolved_critical_issues": [],
+  "manuscript_sha256": {
+    "manuscript/introduction.md": "140052ef99379868e0f2d4b02d363c6a43b97dc81ec9e9763a030824e68e9153",
+    "manuscript/chapters/01-republic.md": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245",
+    "manuscript/chapters/02-origins.md": "26d6f941d6404c708c1ef2dde14f6ba12b651bbcaa5197e14908860fd8a30302",
+    "manuscript/chapters/03-career.md": "b32911773850bd13d438f517242d7c5bc6ea6da73a406d3cc4e8d993ceb33160",
+    "manuscript/chapters/04-gaul.md": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e",
+    "manuscript/chapters/05-civil-war.md": "1e1f98fcf11c4c5eec11d7de1d61bd20f7477918c4e0d1c535e08d980cd1028c",
+    "manuscript/chapters/06-dictatorship.md": "78200402eed81a3be8a2b4064b43547bd7bc5621d400d7aa57ef4561251de47d",
+    "manuscript/chapters/07-ides.md": "346b80091eeaf97f747b307f48e30443da6bf5583ef63236ed980918df979fae",
+    "manuscript/chapters/08-octavius.md": "fe248b6104af965d1a4310bbbe47371da171d4a114b1d979884391275c43ea40",
+    "manuscript/chapters/09-triumvirate.md": "164e1927411f6dbd1879d72e75e247a1e460fe28fdd22e5e65ede77dc0bbcbce",
+    "manuscript/chapters/10-actium.md": "387ecb320d35f2f534aba3e6a40bf056b42c0134731af6c11f6570a01e11d4fb",
+    "manuscript/chapters/11-settlement.md": "acd054a08885edfca418cf8ff63d5decc85e1a8fd1f92590d6b010c1e3002df1",
+    "manuscript/chapters/12-government.md": "5591137bb1e025c3e855330b2ef59d7f301f1fff7d141d4001591cf5a6a391ea",
+    "manuscript/chapters/13-religion-culture.md": "85900d8265c08a9bd8e400f0ee9ee230e595262712a64faa64873dfa0e278aec",
+    "manuscript/chapters/14-dynasty-succession.md": "1423d2c5ef8d5142c7de935e3a555fb2fc2c64a8298ce423c6aa693325b6dd7c",
+    "manuscript/chapters/15-comparison.md": "843c27c69ecac528a78ee00e09c2099cb5441ccaa3f23ff571bb98bb42c3de7b",
+    "manuscript/chapters/16-republic-empire.md": "ae31c490b345b7b18714c34ecd1692ff185dfc3d83651fe0cf4d69f1c2390651",
+    "manuscript/conclusion.md": "72ba6d7c1d788f946891ce7d83c8a5c262fa69cff45d63ad965aa7f0b8ff07db",
+    "manuscript/appendices.md": "657ac6737d6392f1ef6424006817b0829b1817b3e4685fd6794fb9325405b355",
+    "manuscript/bibliography.md": "f8e26093dc92dbde74c6eee995098f1093dace15ff5af72870e84e545ee601a9"
+  },
+  "full_review_evidence": [
+    "research/reviews/full_transition_crosscheck.md",
+    "research/reviews/final_additions_check.md",
+    "research/bibliography_verification_v03.md",
+    "research/full_manuscript_audit.json",
+    "research/review_log.md",
+    "dist/v0.3/validation.json"
+  ],
+  "proof_validation_sha256": "48e6c3f130e6198db7667fcc39cf991de6a782458c19f74161c825bf17c09f09",
+  "proof_build_manifest_sha256": "a6935f9f99a80f144a53aebe4ae5ea45a0d1cc36824a1f1b45124808eadea19f",
+  "russian_body_words": 48837,
+  "bibliography_records": 73,
+  "used_bibliographic_records": 65,
+  "metadata_only_reading_program": 8,
+  "limitations": [
+    "No external professional peer review",
+    "Selected modern pages and publisher excerpts; eight META records are reading program only",
+    "Ancient textual criticism and numerical reconstructions are selective, not exhaustive",
+    "Selective chapter index and schematic maps; not a full territorial atlas",
+    "Word and Apple Books interactive rendering not directly tested; containers, XML, links, EPUBCheck and PDF proof inspected"
+  ]
+}
