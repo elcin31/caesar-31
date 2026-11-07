@@ -1,0 +1,25 @@
+{
+  "accepted_utc": "2026-11-07T04:45:14.781354+00:00",
+  "chapter": 7,
+  "source_draft": "research/drafts/07-ides.md",
+  "reviewed_draft_sha256": "25b4bdd0955929c31bd57afdc47914733f97c0444f58bb856b41cb2b15c5030a",
+  "manuscript": "manuscript/chapters/07-ides.md",
+  "manuscript_sha256": "346b80091eeaf97f747b307f48e30443da6bf5583ef63236ed980918df979fae",
+  "independent_internal_report": "research/reviews/ch07_independent.md",
+  "review_report_sha256": "4d9b2405f16b7c18f4173aa532e8f5a1baa612a95abc41d5d2b39ed81672dcee",
+  "prior_git_commit": "263262945762a6909c558832ed8b2694e731284f",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "Согласие обеспечивалось не только словами.",
+      "new": "Согласие подкреплялось конкретными гарантиями.",
+      "occurrences": 1
+    },
+    {
+      "old": "множество неодинаковых дел, а не только правильно назвать смерть диктатора",
+      "new": "множество неодинаковых дел; одной оценки смерти диктатора для этого было недостаточно",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

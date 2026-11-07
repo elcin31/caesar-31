@@ -91,6 +91,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/07-ides.md",
+      "sha256": "346b80091eeaf97f747b307f48e30443da6bf5583ef63236ed980918df979fae",
+      "russian_body_words": 2866,
+      "whitespace_body_words": 2888,
+      "footnote_definitions": 34,
+      "footnote_occurrences": 39,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -120,7 +133,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 20487,
-  "total_footnote_occurrences": 221,
+  "total_russian_body_words": 23353,
+  "total_footnote_occurrences": 260,
   "status": "pass"
 }
