@@ -117,6 +117,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/09-triumvirate.md",
+      "sha256": "164e1927411f6dbd1879d72e75e247a1e460fe28fdd22e5e65ede77dc0bbcbce",
+      "russian_body_words": 2812,
+      "whitespace_body_words": 2843,
+      "footnote_definitions": 29,
+      "footnote_occurrences": 34,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -146,7 +159,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 26157,
-  "total_footnote_occurrences": 291,
+  "total_russian_body_words": 28969,
+  "total_footnote_occurrences": 325,
   "status": "pass"
 }

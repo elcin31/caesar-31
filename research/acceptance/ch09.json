@@ -1,0 +1,35 @@
+{
+  "accepted_utc": "2026-11-07T04:46:36.458449+00:00",
+  "chapter": 9,
+  "source_draft": "research/drafts/09-triumvirate.md",
+  "reviewed_draft_sha256": "6b6ac1eca3dff55ac63ead4b87bfa4be9c2d5bf769caad6d4fb87207cbb9fb24",
+  "manuscript": "manuscript/chapters/09-triumvirate.md",
+  "manuscript_sha256": "164e1927411f6dbd1879d72e75e247a1e460fe28fdd22e5e65ede77dc0bbcbce",
+  "independent_internal_report": "research/reviews/ch09_independent.md",
+  "review_report_sha256": "1dbb2393e2cdfad0fec6717f52792869114e11e840b0fc595ee6057ce97895b1",
+  "prior_git_commit": "a2c8ddd933deca652ac8d20cdacd269e0922fce4",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "Человек должен был опасаться не только собственного имени среди осуждённых, но и решения оказать услугу родственнику, хозяину или другу.",
+      "new": "Помощь родственнику, хозяину или другу могла поставить жизнь человека под угрозу наряду с попаданием его собственного имени в список.",
+      "occurrences": 1
+    },
+    {
+      "old": "Насилие меняло не только число живых противников, но и условия, при которых",
+      "new": "Насилие сокращало число живых противников и меняло условия, при которых",
+      "occurrences": 1
+    },
+    {
+      "old": "способности сохранять войско на месте, а не только от красноречия полководцев",
+      "new": "способности сохранять войско на месте; красноречие полководцев не могло заменить этих условий",
+      "occurrences": 1
+    },
+    {
+      "old": "Конфискация была не только строкой конституционной истории или способом расширения «партии Августа». Она затрагивала",
+      "new": "Конфискация затрагивала",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}
