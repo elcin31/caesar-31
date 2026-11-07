@@ -1,0 +1,66 @@
+{
+  "checked_utc": "2026-11-07T04:49:36.313567+00:00",
+  "records": [
+    {
+      "key": "pinapolo2019",
+      "source_url": "https://zaguan.unizar.es/record/97304/files/texto_completo.pdf",
+      "consulted_file_sha256": "74df99fb7a66d1728a542a2de01b51233f5b75f31779cb952234456ce176a678",
+      "title": "Idea y práctica de la democracia en la Roma republicana",
+      "author": "Francisco Pina Polo",
+      "year": "2019",
+      "doi": "10.5209/geri.65979",
+      "status": "publisher_metadata_match",
+      "scope": "Title/copyright or journal first-page metadata directly inspected; specific supporting pages checked in chapter dossiers",
+      "reason": "Crossref rate limit; publisher PDF used"
+    },
+    {
+      "key": "gildenhard2018",
+      "source_url": "https://www.openbookpublishers.com/books/10.11647/obp.0156",
+      "consulted_file_sha256": "97cee10925fbe63c7e258dc14e0e5e189d257479abeaa93b4d43230a34e17d00",
+      "title": "Cicero, Philippic 2, 44–50, 78–92, 100–119: Latin Text, Study Aids with Vocabulary, and Commentary",
+      "author": "Ingo Gildenhard",
+      "year": "2018",
+      "doi": "10.11647/OBP.0156",
+      "status": "publisher_metadata_match",
+      "scope": "Title/copyright or journal first-page metadata directly inspected; specific supporting pages checked in chapter dossiers",
+      "reason": "Crossref rate limit; publisher PDF used"
+    },
+    {
+      "key": "lange2013triumph",
+      "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/090D282C774E8F5C2870545BB28B91D7/S0068246213000056a.pdf/triumph_and_civil_war_in_the_late_republic.pdf",
+      "consulted_file_sha256": "e7af069891caabc2cecfac3207a56ad5c345b5b02d136d2846e8f8a8a3c6da2d",
+      "title": "Triumph and civil war in the late Republic",
+      "author": "Carsten Hjort Lange",
+      "year": "2013",
+      "doi": "10.1017/S0068246213000056",
+      "status": "publisher_metadata_match",
+      "scope": "Title/copyright or journal first-page metadata directly inspected; specific supporting pages checked in chapter dossiers",
+      "reason": "Crossref rate limit; publisher PDF used"
+    },
+    {
+      "key": "adamik2015",
+      "source_url": "https://real.mtak.hu/44342/1/068.2015.55.1-4.18.pdf",
+      "consulted_file_sha256": "7a74c8e46e1419910964626a4e5376da70159fcf86d763b17993e5408c79abef",
+      "title": "Religion in Suetonius’ Life of Augustus",
+      "author": "Tamás Adamik",
+      "year": "2015",
+      "doi": "10.1556/068.2015.55.1-4.18",
+      "status": "publisher_metadata_match",
+      "scope": "Title/copyright or journal first-page metadata directly inspected; specific supporting pages checked in chapter dossiers",
+      "reason": "Crossref rate limit; publisher PDF used"
+    },
+    {
+      "key": "wolters2021",
+      "source_url": "https://publications.dainst.org/journals/chiron/article/view/3766/7323",
+      "consulted_file_sha256": "d20bd21a982bcfdc3cdd6e016add2623bd3c5506f0d27cbda8e65ed85b077e9c",
+      "title": "Gab es eine Finanzkrise in den späten Jahren des Augustus? Münzprägung, Soldaten und Finanzströme im frühen Prinzipat",
+      "author": "Reinhard Wolters",
+      "year": "2021",
+      "doi": "10.34780/cdj9-ej57",
+      "status": "publisher_metadata_match",
+      "scope": "Title/copyright or journal first-page metadata directly inspected; specific supporting pages checked in chapter dossiers",
+      "reason": "DataCite primary title shortened; author/year/DOI match and full title confirmed in journal PDF"
+    }
+  ],
+  "note": "Full external PDFs not redistributed."
+}

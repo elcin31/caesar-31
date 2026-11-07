@@ -1,0 +1,399 @@
+{
+  "checked_utc": "2026-11-07T04:45:26.553529+00:00",
+  "references_sha256": "d78efa4593e2bf2cb2ec577968f769d04d480ba6f2d636c5d9da628566edcf7a",
+  "scope": "DOI identity/title/first-author/year, not page support or full-text reading",
+  "records": [
+    {
+      "key": "millar1984",
+      "doi": "10.2307/299003",
+      "expected_title": "The Political Character of the Classical Roman Republic, 200–151 B.C.",
+      "expected_author": "Millar, Fergus",
+      "expected_year": "1984",
+      "registry": "Crossref",
+      "registry_title": "The Political Character of the Classical Roman Republic, 200–151 B.C.",
+      "registry_authors": [
+        "Millar"
+      ],
+      "registry_years": [
+        1984,
+        2012
+      ],
+      "registry_page": "1-19",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "wallacehadrill1982",
+      "doi": "10.2307/299114",
+      "expected_title": "Civilis Princeps: Between Citizen and King",
+      "expected_author": "Wallace-Hadrill, Andrew",
+      "expected_year": "1982",
+      "registry": "Crossref",
+      "registry_title": "Civilis Princeps: Between Citizen and King",
+      "registry_authors": [
+        "Wallace-Hadrill"
+      ],
+      "registry_years": [
+        1982,
+        2012
+      ],
+      "registry_page": "32-48",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "cooley2019",
+      "doi": "10.1017/S0075435819000674",
+      "expected_title": "From the Augustan Principate to the Invention of the Age of Augustus",
+      "expected_author": "Cooley, Alison E.",
+      "expected_year": "2019",
+      "registry": "Crossref",
+      "registry_title": "From the Augustan Principate to the Invention of the Age of Augustus",
+      "registry_authors": [
+        "Cooley"
+      ],
+      "registry_years": [
+        2019
+      ],
+      "registry_page": "71-87",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "pinapolo2019",
+      "doi": "10.5209/geri.65979",
+      "expected_title": "Idea y práctica de la democracia en la Roma republicana",
+      "expected_author": "Pina Polo, Francisco",
+      "expected_year": "2019",
+      "status": "registry_unavailable",
+      "errors": [
+        {
+          "registry": "Crossref",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "registry": "DataCite",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "key": "morsteinrosenstein2006",
+      "doi": "10.1002/9780470996980.ch29",
+      "expected_title": "The Transformation of the Republic",
+      "expected_author": "Morstein-Marx, Robert and Rosenstein, Nathan",
+      "expected_year": "2006",
+      "registry": "Crossref",
+      "registry_title": "The Transformation of the Republic",
+      "registry_authors": [
+        "Morstein‐Marx",
+        "Rosenstein"
+      ],
+      "registry_years": [
+        2006,
+        2007
+      ],
+      "registry_page": "625-637",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "mouritsen2001",
+      "doi": "10.1017/CBO9780511482885",
+      "expected_title": "Plebs and Politics in the Late Roman Republic",
+      "expected_author": "Mouritsen, Henrik",
+      "expected_year": "2001",
+      "registry": "Crossref",
+      "registry_title": "<i>Plebs</i> and Politics in the Late Roman Republic",
+      "registry_authors": [
+        "Mouritsen"
+      ],
+      "registry_years": [
+        2001,
+        2009
+      ],
+      "registry_page": null,
+      "registry_updates": [],
+      "title_similarity": 0.9744,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "morsteinmarx1998",
+      "doi": "10.2307/25011085",
+      "expected_title": "Publicity, Popularity and Patronage in the Commentariolum Petitionis",
+      "expected_author": "Morstein-Marx, Robert",
+      "expected_year": "1998",
+      "registry": "Crossref",
+      "registry_title": "Publicity, Popularity and Patronage in the \"Commentariolum Petitionis\"",
+      "registry_authors": [
+        "Morstein-Marx"
+      ],
+      "registry_years": [
+        1998
+      ],
+      "registry_page": "259-288",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "badian2009",
+      "doi": "10.1002/9781444308440.ch2",
+      "expected_title": "From the Iulii to Caesar",
+      "expected_author": "Badian, Ernst",
+      "expected_year": "2009",
+      "registry": "Crossref",
+      "registry_title": "From the Iulii to Caesar",
+      "registry_authors": [
+        "Badian"
+      ],
+      "registry_years": [
+        2009
+      ],
+      "registry_page": "9-22",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "morsteinmarx2021",
+      "doi": "10.1017/9781108943260",
+      "expected_title": "Julius Caesar and the Roman People",
+      "expected_author": "Morstein-Marx, Robert",
+      "expected_year": "2021",
+      "registry": "Crossref",
+      "registry_title": "Julius Caesar and the Roman People",
+      "registry_authors": [
+        "Morstein-Marx"
+      ],
+      "registry_years": [
+        2021
+      ],
+      "registry_page": null,
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "ladon2021",
+      "doi": "10.31261/WSN.2021.21.01",
+      "expected_title": "Geneza i okoliczności konfliktu G. Juliusza Cezara z L. Korneliuszem Sullą",
+      "expected_author": "Ładoń, Tomasz",
+      "expected_year": "2021",
+      "registry": "Crossref",
+      "registry_title": "Geneza i okoliczności konfliktu G. Juliusza Cezara z L. Korneliuszem Sullą",
+      "registry_authors": [
+        "Ładoń"
+      ],
+      "registry_years": [
+        2021
+      ],
+      "registry_page": "7-22",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "liougille1999",
+      "doi": "10.3406/rea.1999.4776",
+      "expected_title": "César, flamen Dialis destinatus",
+      "expected_author": "Liou-Gille, Bernadette",
+      "expected_year": "1999",
+      "registry": "Crossref",
+      "registry_title": "César, \"flamen Dialis destinatus\"",
+      "registry_authors": [
+        "Liou-Gille"
+      ],
+      "registry_years": [
+        1999
+      ],
+      "registry_page": "433-459",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "gruen2009politician",
+      "doi": "10.1002/9781444308440.ch3",
+      "expected_title": "Caesar as a Politician",
+      "expected_author": "Gruen, Erich S.",
+      "expected_year": "2009",
+      "registry": "Crossref",
+      "registry_title": "Caesar as a Politician",
+      "registry_authors": [
+        "Gruen"
+      ],
+      "registry_years": [
+        2009
+      ],
+      "registry_page": "23-36",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "morrell2025",
+      "doi": "10.1515/9783111705446-007",
+      "expected_title": "Enabling Laws, Rule of Law, and the Transformation of the Roman Republic",
+      "expected_author": "Morrell, Kit",
+      "expected_year": "2025",
+      "registry": "Crossref",
+      "registry_title": "Enabling Laws, Rule of Law, and the Transformation of the Roman Republic",
+      "registry_authors": [
+        "Morrell"
+      ],
+      "registry_years": [
+        2025
+      ],
+      "registry_page": "195-226",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "urso2020",
+      "doi": "10.30687/978-88-6969-472-1/001",
+      "expected_title": "‘Ritorno alla monarchia’, tra Cesare e Augusto: le origini del principato in Cassio Dione",
+      "expected_author": "Urso, Gianpaolo",
+      "expected_year": "2020",
+      "registry": "Crossref",
+      "registry_title": "‘Ritorno alla monarchia’, tra Cesare e Augusto: le origini del principato in Cassio Dione",
+      "registry_authors": [
+        "Urso"
+      ],
+      "registry_years": [
+        2020
+      ],
+      "registry_page": null,
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    },
+    {
+      "key": "gildenhard2018",
+      "doi": "10.11647/OBP.0156",
+      "expected_title": "Cicero, Philippic 2, 44–50, 78–92, 100–119: Latin Text, Study Aids with Vocabulary, and Commentary",
+      "expected_author": "Gildenhard, Ingo",
+      "expected_year": "2018",
+      "status": "registry_unavailable",
+      "errors": [
+        {
+          "registry": "Crossref",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "registry": "DataCite",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "key": "lange2013triumph",
+      "doi": "10.1017/S0068246213000056",
+      "expected_title": "Triumph and civil war in the late Republic",
+      "expected_author": "Lange, Carsten Hjort",
+      "expected_year": "2013",
+      "status": "registry_unavailable",
+      "errors": [
+        {
+          "registry": "Crossref",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "registry": "DataCite",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "key": "wolters2021",
+      "doi": "10.34780/cdj9-ej57",
+      "expected_title": "Gab es eine Finanzkrise in den späten Jahren des Augustus? Münzprägung, Soldaten und Finanzströme im frühen Prinzipat",
+      "expected_author": "Wolters, Reinhard",
+      "expected_year": "2021",
+      "registry": "DataCite",
+      "registry_title": "Gab es eine Finanzkrise in den späten Jahren des Augustus?",
+      "registry_authors": [
+        "Wolters"
+      ],
+      "registry_years": [
+        2021
+      ],
+      "registry_page": null,
+      "registry_updates": [],
+      "title_similarity": 0.6531,
+      "author_match": true,
+      "year_match": true,
+      "status": "manual_review"
+    },
+    {
+      "key": "adamik2015",
+      "doi": "10.1556/068.2015.55.1-4.18",
+      "expected_title": "Religion in Suetonius’ Life of Augustus",
+      "expected_author": "Adamik, Tamás",
+      "expected_year": "2015",
+      "status": "registry_unavailable",
+      "errors": [
+        {
+          "registry": "Crossref",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "registry": "DataCite",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "key": "scheid2015",
+      "doi": "10.3406/bsnaf.2015.11984",
+      "expected_title": "Res gestae divi Augusti, 9,1: les jeux pour le salut d’Auguste",
+      "expected_author": "Scheid, John",
+      "expected_year": "2015",
+      "registry": "Crossref",
+      "registry_title": "Res gestae divi Augusti, 9,1: les jeux pour le salut d’Auguste",
+      "registry_authors": [
+        "Scheid"
+      ],
+      "registry_years": [
+        2015
+      ],
+      "registry_page": "92-95",
+      "registry_updates": [],
+      "title_similarity": 1.0,
+      "author_match": true,
+      "year_match": true,
+      "status": "match"
+    }
+  ]
+}

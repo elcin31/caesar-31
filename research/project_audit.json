@@ -221,6 +221,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/conclusion.md",
+      "sha256": "ad3a533bef96704cc949e0fa6ac9f62c920f3a58e1041bb8ae555ec0de138e7a",
+      "russian_body_words": 1024,
+      "whitespace_body_words": 1032,
+      "footnote_definitions": 3,
+      "footnote_occurrences": 3,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -250,7 +263,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 47631,
-  "total_footnote_occurrences": 488,
+  "total_russian_body_words": 48655,
+  "total_footnote_occurrences": 491,
   "status": "pass"
 }
