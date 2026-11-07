@@ -1,0 +1,30 @@
+{
+  "accepted_utc": "2026-11-07T04:47:47.070927+00:00",
+  "chapter": 14,
+  "source_draft": "research/drafts/14-dynasty-succession.md",
+  "reviewed_draft_sha256": "63a45d3ea5aabbc5d5232e343866e58ebbda5fe950bb6ae713b654e6b8d19231",
+  "manuscript": "manuscript/chapters/14-dynasty-succession.md",
+  "manuscript_sha256": "99ba78eaa3576b0550c75c117da9706a13a33c91da5ea3ac2173adbe6cee75c7",
+  "independent_internal_report": "research/reviews/ch14_independent.md",
+  "review_report_sha256": "fd0586e669298baf13349d7fc7ddc2f915ca6e01dad78033206c936a814e9658",
+  "prior_git_commit": "ead7f08180e12da9bfdfdf7e3942751942ed499c",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "будущее Тиберия зависело не только от того, что он был сыном Ливии: ему предстояло",
+      "new": "положение сына Ливии само по себе не определяло будущего Тиберия: ему предстояло",
+      "occurrences": 1
+    },
+    {
+      "old": "Накануне перехода Тиберий располагал не только ожиданием будущего.",
+      "new": "К моменту перехода ожидания Тиберия уже подкреплялись полномочиями.",
+      "occurrences": 1
+    },
+    {
+      "old": "Значит, подготовленный преемник получал не только послушание и благодарность. Он наследовал споры",
+      "new": "Подготовленный преемник наследовал споры",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

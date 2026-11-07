@@ -182,6 +182,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/14-dynasty-succession.md",
+      "sha256": "99ba78eaa3576b0550c75c117da9706a13a33c91da5ea3ac2173adbe6cee75c7",
+      "russian_body_words": 2504,
+      "whitespace_body_words": 2529,
+      "footnote_definitions": 26,
+      "footnote_occurrences": 26,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -211,7 +224,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 40268,
-  "total_footnote_occurrences": 430,
+  "total_russian_body_words": 42772,
+  "total_footnote_occurrences": 456,
   "status": "pass"
 }
