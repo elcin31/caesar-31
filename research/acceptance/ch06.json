@@ -1,0 +1,30 @@
+{
+  "accepted_utc": "2026-11-07T04:44:59.694674+00:00",
+  "chapter": 6,
+  "source_draft": "research/drafts/06-dictatorship.md",
+  "reviewed_draft_sha256": "0c5d2f9f7087fb456c6c07bcb41ffe87cced96c19eefce2bd67721a8cdb673ed",
+  "manuscript": "manuscript/chapters/06-dictatorship.md",
+  "manuscript_sha256": "91e7b4a77b8d04d5ad84b011d7a8930366ccc1d663836a1b1631b330339fd790",
+  "independent_internal_report": "research/reviews/ch06_independent.md",
+  "review_report_sha256": "49fd7a873f60629983d398084d5519e4b2e97abbb9551c6bdaa3b46c599a4b7e",
+  "prior_git_commit": "67d02d43ce2b39bb5ac3321bd002b45f3488778d",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "Для Цезаря проблема заключалась не только в расширении поддержки. Следовало объяснить",
+      "new": "Расширение поддержки требовало объяснить",
+      "occurrences": 1
+    },
+    {
+      "old": "практические условия разрешения споров, а не только символы режима",
+      "new": "практические условия разрешения споров, выходя за пределы символического оформления режима",
+      "occurrences": 1
+    },
+    {
+      "old": "значение имело не только обладание должностью, но и возможность",
+      "new": "значение имели обладание должностью и возможность",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

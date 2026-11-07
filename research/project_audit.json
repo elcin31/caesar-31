@@ -78,6 +78,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/06-dictatorship.md",
+      "sha256": "91e7b4a77b8d04d5ad84b011d7a8930366ccc1d663836a1b1631b330339fd790",
+      "russian_body_words": 2860,
+      "whitespace_body_words": 2888,
+      "footnote_definitions": 32,
+      "footnote_occurrences": 33,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -107,7 +120,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 17627,
-  "total_footnote_occurrences": 188,
+  "total_russian_body_words": 20487,
+  "total_footnote_occurrences": 221,
   "status": "pass"
 }
