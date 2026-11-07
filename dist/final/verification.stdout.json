@@ -1,0 +1,66 @@
+{
+  "release": "1.0",
+  "final": true,
+  "output_dir": "dist/final",
+  "build_manifest_sha256": "85491a4ac6fb209de07abb0268e0efd0f7e7c037255c55e6b02fb1eaf4a92a3c",
+  "docx": {
+    "crc": "pass",
+    "xml_parts_parsed": 18,
+    "footnote_references": 495,
+    "footnote_resolution": "pass",
+    "toc_field": "pass",
+    "toc_heading": "Содержание",
+    "language": "ru-RU",
+    "cyrillic": "pass",
+    "image_resources": 7
+  },
+  "epub": {
+    "crc": "pass",
+    "xml_parts_parsed": 33,
+    "manifest_resources": "pass",
+    "version": "3.0",
+    "language": "ru-RU",
+    "xhtml_languages": "ru-RU",
+    "localized_navigation": "pass",
+    "landmark_labels": {
+      "titlepage": "Титульный лист",
+      "cover": "Обложка",
+      "toc": "Содержание"
+    },
+    "opf_guide_labels": "pass",
+    "ncx_generated_labels": "pass",
+    "cover_preserved": "pass",
+    "xhtml_files": 29,
+    "internal_links": "pass",
+    "footnote_references": 495,
+    "footnote_backlinks": 495,
+    "image_resources": 8
+  },
+  "pdf": {
+    "pages": 336,
+    "cyrillic_extraction": "pass",
+    "text_characters": 528483,
+    "embedded_fonts": "pass",
+    "font_count": 4,
+    "page_bounds": "pass"
+  },
+  "epubcheck": {
+    "status": "pass",
+    "fatals": 0,
+    "errors": 0,
+    "warnings": 0,
+    "log": "dist/final/epubcheck.log"
+  },
+  "source_heading_count": 20,
+  "expected_note_occurrences": 495,
+  "manuscript_image_sources": [
+    "assets/augustan_adoptions.png",
+    "assets/genealogy.png",
+    "assets/images/met_248037.jpg",
+    "assets/images/met_248119.jpg",
+    "assets/maps/map_01_gaul_58_52.png",
+    "assets/maps/map_02_civil_wars_49_30.png",
+    "assets/maps/map_03_administration_27.png"
+  ],
+  "visual_proofreading": "Separate PDF page inspection and reader testing required; structural checks do not certify Apple Books rendering."
+}

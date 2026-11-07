@@ -19,6 +19,9 @@ def count(path):
 def main():
     progress = json.loads((ROOT / 'research/progress.json').read_text())
     version = progress['version']
+    final = progress.get('final', False)
+    completed = progress.get('completion_state') == 'final_verified'
+    release_dir = ROOT / 'dist' / ('final' if final else f'v{version}')
     rows = []
     total = count(ROOT / 'manuscript/introduction.md')
     reviewed = 0
@@ -41,10 +44,11 @@ def main():
             drafts.append((path, count(path)))
     draft_table = '\n'.join(f'| {p.name} | {n} | ещё не включён в основную рукопись |' for p,n in drafts)
     bibliography = len(re.findall(r'^@\w+\s*\{', (ROOT / 'references.bib').read_text(), re.M))
-    validation_file = ROOT / 'dist' / f'v{version}' / 'validation.json'
+    validation_file = release_dir / 'validation.json'
     if validation_file.exists():
         v = json.loads(validation_file.read_text())
-        exports = f"Версия v{version}: DOCX/EPUB/PDF фактически собраны; PDF {v.get('pdf', {}).get('pages', '?')} страниц; EPUBCheck: {v.get('epubcheck', {}).get('status', 'не выполнен')}. Подробности и SHA-256 — в dist/v{version}/validation.json и build_manifest.json."
+        location = release_dir.relative_to(ROOT)
+        exports = f"Версия v{version}: DOCX/EPUB/PDF фактически собраны; PDF {v.get('pdf', {}).get('pages', '?')} страниц; EPUBCheck: {v.get('epubcheck', {}).get('status', 'не выполнен')}. Подробности и SHA-256 — в {location}/validation.json и build_manifest.json."
         manifest_file = validation_file.parent / 'build_manifest.json'
         if manifest_file.exists():
             manifest = json.loads(manifest_file.read_text())
@@ -53,12 +57,28 @@ def main():
             stale = current_files != old_files or any(not (ROOT/x['path']).exists() or hashlib.sha256((ROOT/x['path']).read_bytes()).hexdigest() != x['sha256'] for x in manifest['inputs'])
             if stale:
                 exports += ' Эта сборка относится к прежней контрольной точке: текущая рукопись уже расширена и требует новой сборки после завершения части. Наличие прежних файлов не означает экспорта новых глав.'
+            if completed and stale:
+                raise SystemExit('Final status cannot describe stale manuscript exports')
+        if completed and (reviewed != 16 or not conclusion_words or v.get('epubcheck', {}).get('status') != 'pass'):
+            raise SystemExit('Final status requires 16 reviewed chapters, conclusion, and EPUBCheck pass')
+        package = release_dir / 'package_manifest.json'
+        if package.exists():
+            data = json.loads(package.read_text())
+            archive = ROOT / data['archive']['path']
+            if archive.is_file() and hashlib.sha256(archive.read_bytes()).hexdigest() == data['archive']['sha256']:
+                exports += f" Архив {data['archive']['path']} фактически создан, CRC и контрольные суммы его файлов проверены; SHA-256 опубликована в archive.sha256."
     else:
+        if completed:
+            raise SystemExit('Final status requires actual export validation')
         exports = f'Читательские файлы v{version} ещё не собраны; предыдущие версии сохранены в dist.'
+    completion_note = ('Полная исследовательская версия завершена и прошла внутренние проверки. Внешняя профессиональная рецензия не проводилась.'
+                       if completed else 'Монография в работе; незавершённая версия не является FINAL.')
+    workflow_note = ('Основные исследовательские и издательские этапы завершены. Дальнейшие изменения выпускать отдельной версией по конкретным замечаниям или новым проверенным материалам; перед правкой сохранять источники и контрольную точку. Работа после завершения сессии не обещается.'
+                     if completed else 'После каждого законченного исследовательского цикла обновить реестры, выполнить внутреннюю проверку, сохранить отдельный Git-коммит и перейти к следующей главе. Не повторять завершённый материал и не запрашивать согласование обычного этапа. Работа после завершения текущей сессии не обещается.')
     repository_note = f"Канонический репозиторий: https://github.com/{progress['repository']}; ветка {progress.get('branch', 'main')}. Состояние миграции: {progress.get('migration_status', 'см. research/migration/')}." if progress.get('repository') else 'Удалённый репозиторий ещё не подключён.'
     text = f'''# Состояние CAESAR & AUGUSTUS — v{version}
 
-Обновлено: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}. Монография в работе; незавершённая версия не является FINAL.
+Обновлено: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}. {completion_note}
 
 {repository_note}
 
@@ -86,7 +106,7 @@ def main():
 
 ## Научный аппарат и проверка
 
-Примечания — Chicago Notes and Bibliography; античные книги/разделы сверяются с конкретными электронными изданиями, современные страницы — только с непосредственно доступными фрагментами. Реестры: sources/primary_sources.md, sources/secondary_sources.md, research/claim_ledger.md. Новые главы временно имеют отдельные additions/claims/review-фрагменты до центральной интеграции.
+Примечания — Chicago Notes and Bibliography; античные книги/разделы сверяются с конкретными электронными изданиями, современные страницы — только с непосредственно доступными фрагментами. Реестры: sources/primary_sources.md, sources/secondary_sources.md, research/claim_ledger.md. Центральная база согласована с главами; отдельные additions/claims/review-фрагменты сохранены как история проверки.
 
 Установлены17 исследовательских навыков, имена уникальны; проверки файлов — research/project_audit.json. Внутренние проверки с ИИ не заменяют внешней профессиональной рецензии. Влияние современных исследований раскрывается в аргументации и заметках; META/частичное чтение не выдаётся за полную книгу.
 
@@ -102,10 +122,10 @@ def main():
 
 {progress['next_action']}
 
-После каждого законченного исследовательского цикла обновить реестры, выполнить внутреннюю проверку, сохранить отдельный Git-коммит и перейти к следующей главе. Не повторять завершённый материал и не запрашивать согласование обычного этапа. Работа после завершения текущей сессии не обещается.
+{workflow_note}
 '''
     (ROOT / 'PROJECT_STATUS.md').write_text(text)
-    (ROOT / 'NEXT_ACTION.md').write_text('# Следующее действие\n\n' + progress['next_action'] + '\n\nПоследняя записанная содержательная контрольная точка: `' + progress['last_content_checkpoint'] + '`. До правки читать PROJECT_STATUS.md, AGENTS.md, источниковые заметки и review_log.md. Если черновики следующей главы находятся в /tmp, проверить их наличие; отсутствие временного файла не отменяет сохранённых источниковых заметок.\n')
+    (ROOT / 'NEXT_ACTION.md').write_text('# Следующее действие\n\n' + progress['next_action'] + '\n\nПоследняя записанная содержательная контрольная точка: `' + progress['last_content_checkpoint'] + '`. До правки читать PROJECT_STATUS.md, AGENTS.md, источниковые заметки и review_log.md. Не начинать исследование заново и не повторять завершённые главы.\n')
     print(f'v{version}: {reviewed}/16 reviewed; {total} Russian body words; {bibliography} bibliography records')
 
 

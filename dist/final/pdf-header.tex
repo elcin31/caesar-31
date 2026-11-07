@@ -1,0 +1,17 @@
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\fontsize{18}{22}\selectfont\bfseries\raggedright}{}{0pt}{}
+\titlespacing*{\chapter}{0pt}{12pt}{24pt}
+\usepackage{float}
+\floatplacement{figure}{H}
+\babelhyphenation[russian]{Cor-re-spon-dence}
+\makeatletter
+\AtBeginDocument{\let\caesar@author\@author\def\@author{\normalsize\caesar@author}}
+\makeatother
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small Цезарь и Август}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{16pt}
+\renewcommand{\headrulewidth}{0.2pt}
+\setlength{\emergencystretch}{3em}

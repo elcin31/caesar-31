@@ -1,0 +1,25 @@
+{
+  "inspected_utc": "2026-11-07T05:35:41.878111+00:00",
+  "pdf_sha256": "e17749aeeca7998c0cef8d4c12c944fb2a4b2bbe991d620a6a74d0fa556a663e",
+  "pages": 336,
+  "actual_visual_inspections": [
+    {
+      "physical_page": 1,
+      "content": "Full title, subtitle, author/project attribution, publication year; no clipping"
+    },
+    {
+      "physical_page": 305,
+      "content": "Gaul map, legend, scale, caveats and caption fit page"
+    },
+    {
+      "physical_page": 311,
+      "content": "Augustan adoptions, dates and distinction between kinship and office; legible layout"
+    },
+    {
+      "physical_page": 326,
+      "content": "AI editorial notice and limits of source corpus, maps and index; legible Cyrillic"
+    }
+  ],
+  "status": "pass",
+  "qualification": "Selected actual PDF pages rendered and inspected; direct Word/Apple Books application testing not performed."
+}

@@ -8,7 +8,7 @@ import zipfile
 from publication_config import ROOT, add_release_arguments, release_from_args, relative
 
 TOP = {'README.md', 'AGENTS.md', 'PROJECT_STATUS.md', 'NEXT_ACTION.md', 'references.bib', '.gitignore',
-       'Bibliography.md', 'Research_Methodology.md', 'Editorial_Report.md'}
+       'Bibliography.md', 'Research_Methodology.md', 'Editorial_Report.md', 'requirements.txt'}
 DIRS = {'.agents', 'research', 'sources', 'manuscript', 'assets', 'scripts'}
 NO_REDISTRIBUTION = {'paper-deep-research', 'paper-reviewer-check'}
 
