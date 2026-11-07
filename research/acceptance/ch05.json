@@ -1,0 +1,20 @@
+{
+  "accepted_utc": "2026-11-07T04:44:42.863348+00:00",
+  "chapter": 5,
+  "source_draft": "research/drafts/05-civil-war.md",
+  "reviewed_draft_sha256": "f6aede658e0d8280b266ba666e30f64807f35710f7465f9d5f603ca42970d86a",
+  "manuscript": "manuscript/chapters/05-civil-war.md",
+  "manuscript_sha256": "195bd2a9f94f4429b55f9b9541bf2420843631bf33a022ffd28dd80df60a692a",
+  "independent_internal_report": "research/reviews/ch05_independent.md",
+  "review_report_sha256": "ca2fb7232bf825574f5e8a61212bd795b30f9ed3f4893aa6c81e8330accaa71d",
+  "prior_git_commit": "5cc8322f4d52e0bf059c099836703d70759cb108",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "спорили не только о размере уступок, но и о том, кто",
+      "new": "спорили о размере уступок и о том, кто",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

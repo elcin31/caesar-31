@@ -65,6 +65,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/05-civil-war.md",
+      "sha256": "195bd2a9f94f4429b55f9b9541bf2420843631bf33a022ffd28dd80df60a692a",
+      "russian_body_words": 2803,
+      "whitespace_body_words": 2824,
+      "footnote_definitions": 30,
+      "footnote_occurrences": 30,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -94,7 +107,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 14824,
-  "total_footnote_occurrences": 158,
+  "total_russian_body_words": 17627,
+  "total_footnote_occurrences": 188,
   "status": "pass"
 }
