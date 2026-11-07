@@ -24,7 +24,10 @@ def selected(path, dist):
         return False
     if parts[0] not in TOP | DIRS and not path.is_relative_to(dist):
         return False
-    if '__pycache__' in parts or path.suffix in {'.pyc', '.zip'}:
+    if '__pycache__' in parts or path.suffix == '.pyc':
+        return False
+    # This public-domain geographic source is required by the offline map builder.
+    if path.suffix == '.zip' and rel.as_posix() != 'assets/maps/data/natural_earth_50m_land.zip':
         return False
     if parts[0] == '.agents' and len(parts) > 2 and parts[2] in NO_REDISTRIBUTION:
         return False

@@ -1,0 +1,35 @@
+{
+  "method": "Project audit regex; Russian letter tokens; headings included; footnotes excluded",
+  "files": [
+    {
+      "path": "research/drafts/08-octavius.md",
+      "russian_body_words": 2806,
+      "subheads": 5,
+      "notes": 24,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "sha256": "06ea5ba46ba6b5fb68c928bcc2e98d3777395cb38d77a8f183c1085947b8626f"
+    },
+    {
+      "path": "research/drafts/09-triumvirate.md",
+      "russian_body_words": 2825,
+      "subheads": 5,
+      "notes": 29,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "sha256": "b819fcc1ce2123f4d2ba3e1e3b561ef68f539c953ba99880c32f5b0164e42f62"
+    },
+    {
+      "path": "research/drafts/10-actium.md",
+      "russian_body_words": 2849,
+      "subheads": 5,
+      "notes": 29,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "sha256": "a67c1e0d9426b65436e33386b4cbb74a5fd4db494adb4bcf929da7476d56c447"
+    }
+  ]
+}

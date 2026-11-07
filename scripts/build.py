@@ -82,7 +82,7 @@ def finish_docx(path):
     doc=Document(path)
     # A page break before TOC keeps the title block on its own page.
     for p in doc.paragraphs:
-        if p.text.strip() in ('Содержание','Оглавление','Table of Contents','Contents'):
+        if p.text.strip() in ('Содержание','Оглавление','Table of Contents','Contents') or p.style.name == 'Heading 2':
             p.paragraph_format.page_break_before=True
     for p in doc.paragraphs:
         if p.style.name in ('Title','Subtitle','Author','Date'):
@@ -100,7 +100,7 @@ def main():
     if not inputs: raise SystemExit('No non-empty manuscript files found.')
     reference=DIST/'reference.docx'; reference_docx(reference,release)
     identifier='urn:uuid:'+str(uuid.uuid5(uuid.NAMESPACE_URL,'caesar-augustus/research/'+('final' if a.final else release.version)))
-    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','-M','toc-title=Содержание','-M','lang=ru-RU','-M','date='+datetime.now(timezone.utc).date().isoformat(),'-M','description='+release.label+'. Академическая монография'+('.' if a.final else ' в процессе подготовки.'),'-M','identifier='+identifier,'--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
+    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','--lua-filter',ROOT/'scripts/book_structure.lua','-M','toc-title=Содержание','-M','lang=ru-RU','-M','date='+datetime.now(timezone.utc).date().isoformat(),'-M','description='+release.label+'. Академическая монография'+('.' if a.final else ' в процессе подготовки.'),'-M','identifier='+identifier,'--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
     outputs=[]; logs=[]
     def build(extra,out,env=None):
         r=run(common+extra+['-o',out],env=env); logs.append(r.stderr)
@@ -108,7 +108,7 @@ def main():
     docx=DIST/f'{STEM}.docx'
     build(['--reference-doc',reference],docx); finish_docx(docx)
     epub=DIST/f'{STEM}.epub'
-    build(['--to=epub3','--epub-cover-image',ROOT/'assets/cover.png','--css',ROOT/'assets/epub.css','--split-level=1'],epub)
+    build(['--to=epub3','--epub-cover-image',ROOT/'assets/cover.png','--css',ROOT/'assets/epub.css','--split-level=2'],epub)
     localized_labels=localize_epub(epub)
     if not a.no_pdf:
         tex_header=DIST/'pdf-header.tex'
@@ -130,8 +130,8 @@ def main():
 \renewcommand{\headrulewidth}{0.2pt}
 \setlength{\emergencystretch}{3em}
 ''',encoding='utf-8')
-        build(['--pdf-engine=xelatex','-V','documentclass=book','-V','classoption=oneside,openany','-V','papersize=a5','-V','geometry:inner=20mm,outer=17mm,top=21mm,bottom=22mm','-V','fontsize=10pt','-V','mainfont=DejaVu Serif','-V','sansfont=DejaVu Sans','-V','monofont=DejaVu Sans Mono','-V','linestretch=1.08','-V','colorlinks=true','-V','linkcolor=black','-V','urlcolor=black','--include-in-header',tex_header],DIST/f'{STEM}.pdf',env=russian_tex_environment(DIST))
-    resources={ROOT/'manuscript/metadata.yaml',ROOT/'assets/epub.css',ROOT/'assets/cover.png',Path(__file__).resolve(),ROOT/'scripts/epub_localization.py',ROOT/'scripts/publication_config.py'}
+        build(['--pdf-engine=xelatex','--toc-depth=0','--top-level-division=part','-V','documentclass=book','-V','classoption=oneside,openany','-V','papersize=a5','-V','geometry:inner=20mm,outer=17mm,top=21mm,bottom=22mm','-V','fontsize=10pt','-V','mainfont=DejaVu Serif','-V','sansfont=DejaVu Sans','-V','monofont=DejaVu Sans Mono','-V','linestretch=1.08','-V','colorlinks=true','-V','linkcolor=black','-V','urlcolor=black','--include-in-header',tex_header],DIST/f'{STEM}.pdf',env=russian_tex_environment(DIST))
+    resources={ROOT/'manuscript/metadata.yaml',ROOT/'assets/epub.css',ROOT/'assets/cover.png',Path(__file__).resolve(),ROOT/'scripts/epub_localization.py',ROOT/'scripts/publication_config.py',ROOT/'scripts/book_structure.lua'}
     for p in inputs:
         resources.update(ROOT/image for image in re.findall(r'!\[[^\]]*\]\(([^)]+)\)',p.read_text(encoding='utf-8')))
     resources.update(p for p in (ROOT/'scripts/tex-support').rglob('*') if p.is_file())

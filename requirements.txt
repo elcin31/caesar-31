@@ -1,0 +1,4 @@
+# Tested build dependencies; system tools are listed in README.md.
+python-docx==1.2.0
+Pillow==13.0.0
+matplotlib==3.10.8
