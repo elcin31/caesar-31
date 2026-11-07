@@ -1,0 +1,40 @@
+{
+  "accepted_utc": "2026-11-07T04:47:43.653632+00:00",
+  "chapter": 13,
+  "source_draft": "research/drafts/13-religion-culture.md",
+  "reviewed_draft_sha256": "e4d08e402a5d1a1e8909f73e038422fa3f0557d005f931b7621b1293c02ebcee",
+  "manuscript": "manuscript/chapters/13-religion-culture.md",
+  "manuscript_sha256": "8f0b1f9765cae53dbd5e13ab6b521276507e2a04613ce11d87df17b19101c03d",
+  "independent_internal_report": "research/reviews/ch13_independent.md",
+  "review_report_sha256": "61bce0dde094b19cacf3e178f97ca3184b2ca9dfd252e21796a8a7ce2e421246",
+  "prior_git_commit": "d42c4e6ead99af437c57514be802cc3eb2b49a6d",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "Религиозное восстановление предполагало не только здания: требовались",
+      "new": "Одних зданий для восстановления религиозной жизни было недостаточно: требовались",
+      "occurrences": 1
+    },
+    {
+      "old": "Значение имел не только первоначальный памятник. Возобновляемое действие",
+      "new": "Действие памятника продолжалось в возобновляемом обряде. Он",
+      "occurrences": 1
+    },
+    {
+      "old": "последующими участниками, а не только намерением заказчика",
+      "new": "последующими участниками, чья деятельность выходила за пределы первоначального замысла заказчика",
+      "occurrences": 1
+    },
+    {
+      "old": "В ней действовали не только похвалы принцепсу: само чтение прошлого",
+      "new": "Наряду с похвалами принцепсу само чтение прошлого",
+      "occurrences": 1
+    },
+    {
+      "old": "Значение имел престиж высказывающегося, а не только количество благоприятных упоминаний",
+      "new": "Авторитет высказывающегося придавал похвале вес, который не измерялся количеством благоприятных упоминаний",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

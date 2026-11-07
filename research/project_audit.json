@@ -169,6 +169,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/13-religion-culture.md",
+      "sha256": "8f0b1f9765cae53dbd5e13ab6b521276507e2a04613ce11d87df17b19101c03d",
+      "russian_body_words": 2833,
+      "whitespace_body_words": 2853,
+      "footnote_definitions": 27,
+      "footnote_occurrences": 28,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -198,7 +211,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 37435,
-  "total_footnote_occurrences": 402,
+  "total_russian_body_words": 40268,
+  "total_footnote_occurrences": 430,
   "status": "pass"
 }
