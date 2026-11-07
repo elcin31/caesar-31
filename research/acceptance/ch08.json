@@ -1,0 +1,25 @@
+{
+  "accepted_utc": "2026-11-07T04:46:33.250735+00:00",
+  "chapter": 8,
+  "source_draft": "research/drafts/08-octavius.md",
+  "reviewed_draft_sha256": "cc1572ca9c5c639c7a49a8f4ed18441dd37ab54a69df9cceeda6c7dfa0bad16f",
+  "manuscript": "manuscript/chapters/08-octavius.md",
+  "manuscript_sha256": "fe248b6104af965d1a4310bbbe47371da171d4a114b1d979884391275c43ea40",
+  "independent_internal_report": "research/reviews/ch08_independent.md",
+  "review_report_sha256": "7b809e59f67b00f4f51e30cc2814dd437a80818ad21e747d637f882600317a00",
+  "prior_git_commit": "a7153dac5ec6425b1a1a1b3e2e4ae22ff36bf401",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [
+    {
+      "old": "действующее обязательство, а не только благородное происхождение",
+      "new": "действующее обязательство, выходящее за пределы славного происхождения",
+      "occurrences": 1
+    },
+    {
+      "old": "речь шла уже не только о повторном привлечении расселённых ветеранов",
+      "new": "к расселённым ветеранам теперь присоединялись действующие легионы",
+      "occurrences": 1
+    }
+  ],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

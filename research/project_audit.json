@@ -104,6 +104,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/08-octavius.md",
+      "sha256": "fe248b6104af965d1a4310bbbe47371da171d4a114b1d979884391275c43ea40",
+      "russian_body_words": 2804,
+      "whitespace_body_words": 2829,
+      "footnote_definitions": 24,
+      "footnote_occurrences": 31,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -133,7 +146,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 23353,
-  "total_footnote_occurrences": 260,
+  "total_russian_body_words": 26157,
+  "total_footnote_occurrences": 291,
   "status": "pass"
 }
