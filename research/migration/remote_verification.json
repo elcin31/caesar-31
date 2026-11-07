@@ -1,0 +1,242 @@
+{
+  "verified_utc": "2026-11-07T04:33:40.409696+00:00",
+  "repository": "elcin31/caesar-31",
+  "branch": "main",
+  "commit": "3678eed370d8af9f3ebe887faa34feed79c771ea",
+  "commit_url": "https://github.com/elcin31/caesar-31/commit/3678eed370d8af9f3ebe887faa34feed79c771ea",
+  "tree_sha": "37dab7ecd10418bdab31afae154a8d13cdf5e796",
+  "file_count": 428,
+  "every_remote_blob_matches_local_git_tree": true,
+  "actual_blob_download_sha256_checks": [
+    {
+      "path": "manuscript/appendices.md",
+      "bytes": 50881,
+      "sha256": "00f78ae02f19b4962c2128058d4fca34cefa375d28635a559b59c43708e122d0",
+      "git_blob_sha1": "3512e4cbf36569041c4cae52afa1ea1779aab7de"
+    },
+    {
+      "path": "manuscript/bibliography.md",
+      "bytes": 10718,
+      "sha256": "65ecdb34f010d4fce97d2bf56c8fe9819eeb3cfc88e40c5dcc9fb46bee117f14",
+      "git_blob_sha1": "a9cba8b8e2468fac470037a63c105c2e92340dcb"
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "bytes": 74810,
+      "sha256": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245",
+      "git_blob_sha1": "af6798095b34b3ce0260ff8b15a15f9b600bd600"
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "bytes": 52988,
+      "sha256": "fcf58cdb6c24971311ae6793ce4e45b839b24cb01c7f12ad71cad50db52ccae6",
+      "git_blob_sha1": "96d39e63406e0593aedb34892d875eb4ed139b80"
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "bytes": 52669,
+      "sha256": "396b3fc5d6f05224a2af87407f7c9c8a19a0cd3ffcfdf747a52218f34d196c0e",
+      "git_blob_sha1": "fcf3cf5f44d23a138cebcf34665979873dd193fa"
+    },
+    {
+      "path": "manuscript/introduction.md",
+      "bytes": 40477,
+      "sha256": "a7557fe62735dd58f18614910cd1b7734ffcc168f60c38abf5d0d5a484b756d5",
+      "git_blob_sha1": "e4c8ab9dd993d35f6cce3ec0365f770db82a861f"
+    },
+    {
+      "path": "manuscript/metadata.yaml",
+      "bytes": 1113,
+      "sha256": "e8c4cc791cc1ce8183e43e8635ac7ad978aa0c0e6bcace5f6fdf1ef027aa1ccd",
+      "git_blob_sha1": "2bc6f40ad7706c878fb318b78269ebc773fd82fd"
+    },
+    {
+      "path": "research/drafts/03-career.md",
+      "bytes": 52669,
+      "sha256": "396b3fc5d6f05224a2af87407f7c9c8a19a0cd3ffcfdf747a52218f34d196c0e",
+      "git_blob_sha1": "fcf3cf5f44d23a138cebcf34665979873dd193fa"
+    },
+    {
+      "path": "research/drafts/04-gaul.md",
+      "bytes": 48309,
+      "sha256": "5cad9bca0ecf0b28884e7ddb313f17ccd36ebd40702b5f14f68b9a8f58e2ef0b",
+      "git_blob_sha1": "376edb8270094598085490104ba3f44fe57b5c4f"
+    },
+    {
+      "path": "research/drafts/05-civil-war.md",
+      "bytes": 45833,
+      "sha256": "f6aede658e0d8280b266ba666e30f64807f35710f7465f9d5f603ca42970d86a",
+      "git_blob_sha1": "e7b20e5d6071aa10dd7a01866a93227b3c3a2bb5"
+    },
+    {
+      "path": "research/drafts/06-dictatorship.md",
+      "bytes": 47046,
+      "sha256": "0c5d2f9f7087fb456c6c07bcb41ffe87cced96c19eefce2bd67721a8cdb673ed",
+      "git_blob_sha1": "b1d978d59a9f4ba7aa2c3fdfc3b2d786af7b440c"
+    },
+    {
+      "path": "research/drafts/07-ides.md",
+      "bytes": 51379,
+      "sha256": "25b4bdd0955929c31bd57afdc47914733f97c0444f58bb856b41cb2b15c5030a",
+      "git_blob_sha1": "4a458b858fcfb464fd8140b33d223bb1b4310be4"
+    },
+    {
+      "path": "research/drafts/08-octavius.md",
+      "bytes": 47873,
+      "sha256": "06ea5ba46ba6b5fb68c928bcc2e98d3777395cb38d77a8f183c1085947b8626f",
+      "git_blob_sha1": "054a5597a9294fadf396218a081458552b947183"
+    },
+    {
+      "path": "research/drafts/09-triumvirate.md",
+      "bytes": 49488,
+      "sha256": "6b6ac1eca3dff55ac63ead4b87bfa4be9c2d5bf769caad6d4fb87207cbb9fb24",
+      "git_blob_sha1": "82618b57e5312ec6d99ef2490fb3aa01b427af22"
+    },
+    {
+      "path": "research/drafts/10-actium.md",
+      "bytes": 50352,
+      "sha256": "8f0429e155d54bf68e8214f5aa7d4c0fdc17d72f795ceec1282967f46cfc31cf",
+      "git_blob_sha1": "adba42683c4b0d318044517a5035bc0f6a6716b8"
+    },
+    {
+      "path": "research/drafts/11-settlement.md",
+      "bytes": 47207,
+      "sha256": "44ac1027cb14e6cf33bae7bae0bd546c40a4a39947a9c1f01a8981227fb44daa",
+      "git_blob_sha1": "8be8c33dad1af2e6ec73cef5741cd15dd2e868ec"
+    },
+    {
+      "path": "research/drafts/12-government.md",
+      "bytes": 48449,
+      "sha256": "751ad058c43796e00c7f0c86234c9c797317a133fa23d93cce150b76378048b4",
+      "git_blob_sha1": "74c36f72986e709ceaa3919b1509120de3137245"
+    },
+    {
+      "path": "research/drafts/13-religion-culture.md",
+      "bytes": 49866,
+      "sha256": "e4d08e402a5d1a1e8909f73e038422fa3f0557d005f931b7621b1293c02ebcee",
+      "git_blob_sha1": "47402d98ad0b0b5c0717dc68c47500c679ac2c8d"
+    },
+    {
+      "path": "research/drafts/14-dynasty-succession.md",
+      "bytes": 43626,
+      "sha256": "63a45d3ea5aabbc5d5232e343866e58ebbda5fe950bb6ae713b654e6b8d19231",
+      "git_blob_sha1": "b942b327e34c5d5dd25d278ef20e5a2c35d8dcbd"
+    },
+    {
+      "path": "research/drafts/15-comparison.md",
+      "bytes": 44391,
+      "sha256": "02b277a3d8c5e111986113142bc86172298ddf9b5f240569b18f3f1606eadfd7",
+      "git_blob_sha1": "fcf193f8051a9814ef14b81fd086fb929a934e8a"
+    },
+    {
+      "path": "research/drafts/16-republic-empire.md",
+      "bytes": 39393,
+      "sha256": "86941d8bee0445edf132f53a859d7db801aa30c733461970f91795deb879eac1",
+      "git_blob_sha1": "f92280a9af679c04291dcc9d33a00d782ebcf66b"
+    },
+    {
+      "path": "research/drafts/17-conclusion.md",
+      "bytes": 16507,
+      "sha256": "4eeea0e09a037d953fefd300fc8cdc9c32da893a349d4b25bf3b1dad2cbba8cf",
+      "git_blob_sha1": "0fcfd23d9e3cd166fadbb959932df0350cecb79c"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 14022,
+      "sha256": "a23734dc7ce37926ba90e24270b2abdeaf93594ea4580e4c19e9e34211fec9ef",
+      "git_blob_sha1": "e377ab8696a866caad938c66a012a78dd44b4310"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 10264,
+      "sha256": "c98660b5be3821374217cdb887df5e2b3aeff8082e7d0b4b76a0f39b009b0d9d",
+      "git_blob_sha1": "ca52809a95551c74ed9cb57a32ab7f0fc5830f74"
+    },
+    {
+      "path": "NEXT_ACTION.md",
+      "bytes": 1433,
+      "sha256": "dc22d81dcc8f75315c388a4d15c64941717e2e2c3de5f9695fe4d8d46d2d9529",
+      "git_blob_sha1": "89c00fd370c4f1fddd994338f535bf457f698b9f"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 17577,
+      "sha256": "82479ddd6a3b7fef61e0f4682447ad0cf988cd7e426ea8ddca9fdf838ebb03b9",
+      "git_blob_sha1": "d85efb4cecc044affbe527dcd85f01af0bbab8b3"
+    },
+    {
+      "path": "sources/primary_sources.md",
+      "bytes": 19220,
+      "sha256": "c96f9760b1fcc03abb6d295786b8ca0c4a12e074e2de191d1e698fa2664cc9d6",
+      "git_blob_sha1": "c43eef91259f800ae4bf49db86485ebeed9c6c08"
+    },
+    {
+      "path": "sources/secondary_sources.md",
+      "bytes": 11026,
+      "sha256": "3c1966cdb2361e4b2e3c86aa0e23a37d50682ac329c5324af4f504012a9f3a2a",
+      "git_blob_sha1": "e744c0f3f7909ed34d31dce7361616ef869d8853"
+    },
+    {
+      "path": "research/source_notes/chapter04_sources.md",
+      "bytes": 19336,
+      "sha256": "61644a67dbb88a3c0f165d38d4358aa30bc220ab58a7ee1d99dd23f639d708c6",
+      "git_blob_sha1": "ebabcdfd1b0c33cb3ae77faac26ab29720a4edc4"
+    },
+    {
+      "path": "assets/cover.png",
+      "bytes": 99617,
+      "sha256": "0fa2cc74f94dfb4d576a80a5f80b826d7cf71588714a2f8100d466967e186168",
+      "git_blob_sha1": "285ca572bd0001194f60b9b0ab47d2a90e69074b"
+    },
+    {
+      "path": "assets/genealogy.png",
+      "bytes": 150503,
+      "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4",
+      "git_blob_sha1": "ef6428ae1d1444eeba6e216502f8ec25fee599cd"
+    },
+    {
+      "path": "assets/images/met_248037.jpg",
+      "bytes": 1126292,
+      "sha256": "87b78cfde5e0e35b17f400bd7271abbfaccfd4bd0a5143b7a7d7707807965ce7",
+      "git_blob_sha1": "3679cdb11992e3e36f8940224fdc63cdc64b88a7"
+    },
+    {
+      "path": "assets/images/met_248119.jpg",
+      "bytes": 1374427,
+      "sha256": "baa7f252a229f97157e0da8b95a806dd9d3cfe38722c1562c8e98d30caa91f45",
+      "git_blob_sha1": "d21aa0af916a0b393448df7bc3cbeb7ccfbd2429"
+    },
+    {
+      "path": "assets/maps/map_03_administration_27.png",
+      "bytes": 463148,
+      "sha256": "6466060b006adc48b8145342416382b786449875f33ffb2dcf6ef836747aff28",
+      "git_blob_sha1": "4919f749c8502c1a0f7363b3fc05664c7ab735c7"
+    },
+    {
+      "path": "dist/v0.2/Caesar_Augustus_v0.2.docx",
+      "bytes": 347182,
+      "sha256": "d959f8beaea1186caf1cf275e737b36d643ed39c594ab03e6f452854fb4aa3b2",
+      "git_blob_sha1": "305ec4371b11dd8e5b9e9804afbdc3bfa7eb06c9"
+    },
+    {
+      "path": "dist/v0.2/Caesar_Augustus_v0.2.epub",
+      "bytes": 412884,
+      "sha256": "490020b94b7b8b2e9f27b05d7afbabd3a2d19cadbc4a41fe9894b89f686d5fa4",
+      "git_blob_sha1": "9065c34118f47ec74334e2d48c3d660aa702d194"
+    },
+    {
+      "path": "dist/v0.2/Caesar_Augustus_v0.2.pdf",
+      "bytes": 438325,
+      "sha256": "fe9deddd4f0c397372ee798d043eebe327b5892bf0106fe0eaaca7211fea97f9",
+      "git_blob_sha1": "928f533295cc86b97d41263dd98634946e60bb93"
+    },
+    {
+      "path": "dist/v0.2/Caesar_Augustus_Research_v0.2.zip",
+      "bytes": 2441433,
+      "sha256": "dd2224238b45ce2ae19e8406a7dc92caf8e29791be19de4b26180e91172e433d",
+      "git_blob_sha1": "17718368c869900849d3b6712c45ed92b6b1b0e9"
+    }
+  ],
+  "status": "pass",
+  "method": "GitHub REST branch/commit/recursive tree compared with every local committed blob; selected source and binary blobs independently downloaded and SHA256-compared. No second working repository created."
+}
