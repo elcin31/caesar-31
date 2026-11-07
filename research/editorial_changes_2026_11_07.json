@@ -1,0 +1,50 @@
+[
+  {
+    "path": "manuscript/chapters/02-origins.md",
+    "changes": [
+      {
+        "old": "*Рабочая исследовательская редакция.*",
+        "new": "",
+        "reason": "Chapter reviewed and integrated; release status is documented globally"
+      }
+    ],
+    "sha256": "26d6f941d6404c708c1ef2dde14f6ba12b651bbcaa5197e14908860fd8a30302"
+  },
+  {
+    "path": "manuscript/chapters/03-career.md",
+    "changes": [
+      {
+        "old": "не только победу в бою, но и восстановление управляемых отношений в провинции",
+        "new": "победу в бою и восстановление управляемых отношений в провинции",
+        "occurrences": 1
+      },
+      {
+        "old": "Это известно не только из поздних историй:",
+        "new": "Это подтверждается современной перепиской:",
+        "occurrences": 1
+      },
+      {
+        "old": "*Рабочая исследовательская редакция.*",
+        "new": "",
+        "reason": "Chapter reviewed and integrated; release status is documented globally"
+      }
+    ],
+    "sha256": "b32911773850bd13d438f517242d7c5bc6ea6da73a406d3cc4e8d993ceb33160"
+  },
+  {
+    "path": "manuscript/chapters/04-gaul.md",
+    "changes": [
+      {
+        "old": "поддержать одну сторону не только словами",
+        "new": "оказать одной стороне материальную поддержку",
+        "occurrences": 1
+      },
+      {
+        "old": "*Рабочая исследовательская редакция.*",
+        "new": "",
+        "reason": "Chapter reviewed and integrated; release status is documented globally"
+      }
+    ],
+    "sha256": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e"
+  }
+]

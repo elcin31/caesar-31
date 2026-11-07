@@ -1,0 +1,13 @@
+{
+  "accepted_utc": "2026-11-07T04:41:33.353669+00:00",
+  "chapter": 4,
+  "source_draft": "research/drafts/04-gaul.md",
+  "reviewed_draft_sha256": "5cad9bca0ecf0b28884e7ddb313f17ccd36ebd40702b5f14f68b9a8f58e2ef0b",
+  "manuscript": "manuscript/chapters/04-gaul.md",
+  "manuscript_sha256": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e",
+  "independent_internal_report": "research/reviews/ch04_independent.md",
+  "review_report_sha256": "61694d104b1c0464ed1c0aff32f7ed2f0c08f9beaf494a1c750fb8ebda2de39e",
+  "prior_git_commit": "10ff76e40743002ba4301054ccc7b7aaa1fd5938",
+  "editorial_difference": "Stable anchor retained; provisional editorial label removed and one stock construction rewritten. Dates, citations and argument unchanged; see editorial_changes_2026_11_07.json.",
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

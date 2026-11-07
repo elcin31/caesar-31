@@ -29,9 +29,9 @@
     },
     {
       "path": "manuscript/chapters/02-origins.md",
-      "sha256": "fcf58cdb6c24971311ae6793ce4e45b839b24cb01c7f12ad71cad50db52ccae6",
-      "russian_body_words": 2916,
-      "whitespace_body_words": 2939,
+      "sha256": "26d6f941d6404c708c1ef2dde14f6ba12b651bbcaa5197e14908860fd8a30302",
+      "russian_body_words": 2913,
+      "whitespace_body_words": 2936,
       "footnote_definitions": 29,
       "footnote_occurrences": 29,
       "undefined": [],
@@ -42,25 +42,34 @@
     },
     {
       "path": "manuscript/chapters/03-career.md",
-      "sha256": "396b3fc5d6f05224a2af87407f7c9c8a19a0cd3ffcfdf747a52218f34d196c0e",
-      "russian_body_words": 2929,
-      "whitespace_body_words": 2956,
+      "sha256": "b32911773850bd13d438f517242d7c5bc6ea6da73a406d3cc4e8d993ceb33160",
+      "russian_body_words": 2920,
+      "whitespace_body_words": 2947,
       "footnote_definitions": 33,
       "footnote_occurrences": 33,
       "undefined": [],
       "unused": [],
       "duplicate_definitions": [],
-      "banned_phrase_hits": [
-        "не только"
-      ],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/04-gaul.md",
+      "sha256": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e",
+      "russian_body_words": 2832,
+      "whitespace_body_words": 2856,
+      "footnote_definitions": 30,
+      "footnote_occurrences": 37,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
       "hidden_characters": []
     }
   ],
-  "errors": [
-    "manuscript/chapters/03-career.md"
-  ],
+  "errors": [],
   "cross_file_duplicate_footnotes": [],
-  "bibliographic_entries": 42,
+  "bibliographic_entries": 73,
   "duplicate_bibliographic_keys": [],
   "installed_skill_names": [
     "academic-humanizer",
@@ -85,7 +94,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 12004,
-  "total_footnote_occurrences": 121,
-  "status": "fail"
+  "total_russian_body_words": 14824,
+  "total_footnote_occurrences": 158,
+  "status": "pass"
 }
