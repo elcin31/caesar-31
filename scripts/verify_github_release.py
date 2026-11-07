@@ -7,8 +7,8 @@ documentation commit. Original migration reports remain unchanged.
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import quote
 import argparse
+import base64
 import hashlib
 import json
 import subprocess
@@ -70,8 +70,12 @@ def main():
                  'dist/final/Caesar_Augustus.pdf', 'dist/final/Caesar_Augustus_FINAL.zip']
 
     def download_check(path):
-        endpoint = 'repos/' + REPOSITORY + '/contents/' + quote(path, safe='/') + '?ref=' + head
-        data = command(['gh', 'api', endpoint, '-H', 'Accept: application/vnd.github.raw+json'])
+        # JSON/base64 avoids binary decoding failures in some CLI/proxy raw
+        # transports. GitHub's blob endpoint supports these sub-100MB files.
+        value = api('git/blobs/' + local[path])
+        if value.get('encoding') != 'base64':
+            raise ValueError('Unexpected GitHub blob encoding: ' + path)
+        data = base64.b64decode(value['content'])
         expected = (ROOT / path).read_bytes()
         if digest(data) != digest(expected):
             raise ValueError('Actual downloaded bytes differ: ' + path)
@@ -86,7 +90,7 @@ def main():
         'tree_sha': commit['tree']['sha'], 'file_count': len(local),
         'all_remote_git_blobs_match': True, 'both_original_histories_preserved': True,
         'actual_download_sha256_checks': checks,
-        'method': 'GitHub REST branch/commit/recursive tree and raw content downloads at immutable commit; all local committed blobs compared; final ZIP and three reading editions downloaded and SHA-256 checked.',
+        'method': 'GitHub REST branch/commit/recursive tree and base64 blob downloads selected by immutable tree; all local committed blobs compared; final ZIP and three reading editions downloaded, decoded and SHA-256 checked.',
         'qualification': 'This report records the checked release commit; it is subsequently saved in a separate documentation commit to avoid self-referential hashes.'
     }
     output = args.output if args.output.is_absolute() else ROOT / args.output

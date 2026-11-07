@@ -1811,8 +1811,8 @@
     },
     {
       "path": "research/review_log.md",
-      "bytes": 35481,
-      "sha256": "e6af91ff4ba345d832a69a7670a9b30e6476a425c36c2d1d61083b619db6a182"
+      "bytes": 36414,
+      "sha256": "6134077217b20860d4b5ac71f2536d6117174b0f39eb69b2a3f2af25832d5787"
     },
     {
       "path": "research/reviews/ch02_independent.md",
@@ -2276,8 +2276,8 @@
     },
     {
       "path": "scripts/verify_github_release.py",
-      "bytes": 4905,
-      "sha256": "6a0e3dedb8687ca816d6e93229961d445ce05d19b59d65a81da9a57a23b006fe"
+      "bytes": 5080,
+      "sha256": "a2f8e00c056a74c4202e78e846930c903b46ba4e69236ccfa4b04cbc1539016c"
     },
     {
       "path": "sources/additions_ch01.bib",
@@ -2381,8 +2381,8 @@
   ],
   "archive": {
     "path": "dist/final/Caesar_Augustus_FINAL.zip",
-    "bytes": 33251732,
-    "sha256": "24a3093d5007d16562b36eb35bc818f4b9267f656626474d98418b602cdf4e74",
+    "bytes": 33252105,
+    "sha256": "0720e987fb04fca9dae6051cc19a099a5a764b639ee9e181ea901303ab487bc8",
     "crc": "pass",
     "file_hashes": "pass"
   }
