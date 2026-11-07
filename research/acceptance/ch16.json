@@ -1,0 +1,14 @@
+{
+  "accepted_utc": "2026-11-07T04:49:38.197713+00:00",
+  "chapter": 16,
+  "source_draft": "research/drafts/16-republic-empire.md",
+  "reviewed_draft_sha256": "86941d8bee0445edf132f53a859d7db801aa30c733461970f91795deb879eac1",
+  "manuscript": "manuscript/chapters/16-republic-empire.md",
+  "manuscript_sha256": "6041d368b03867e1577c7481c2448cbdcff5e1a0bf3fa2521d1f970a2bdbd402",
+  "independent_internal_report": "research/reviews/ch16_independent.md",
+  "review_report_sha256": "247bcf7e2b5428f594a762bf47f98a8f331e75977c1206cfe7b3e38a3bf54829",
+  "prior_git_commit": "d5b06108b7a940418c9f61bddc12f069df270c7e",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}

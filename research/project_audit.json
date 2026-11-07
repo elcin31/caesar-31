@@ -208,6 +208,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/16-republic-empire.md",
+      "sha256": "6041d368b03867e1577c7481c2448cbdcff5e1a0bf3fa2521d1f970a2bdbd402",
+      "russian_body_words": 2245,
+      "whitespace_body_words": 2273,
+      "footnote_definitions": 16,
+      "footnote_occurrences": 16,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -237,7 +250,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 45386,
-  "total_footnote_occurrences": 472,
+  "total_russian_body_words": 47631,
+  "total_footnote_occurrences": 488,
   "status": "pass"
 }
