@@ -1,0 +1,14 @@
+{
+  "accepted_utc": "2026-11-07T04:49:34.961925+00:00",
+  "chapter": 15,
+  "source_draft": "research/drafts/15-comparison.md",
+  "reviewed_draft_sha256": "02b277a3d8c5e111986113142bc86172298ddf9b5f240569b18f3f1606eadfd7",
+  "manuscript": "manuscript/chapters/15-comparison.md",
+  "manuscript_sha256": "6829ee472935200f37f7e0930532821ad92db52e79acae7ad561489ebf8af82b",
+  "independent_internal_report": "research/reviews/ch15_independent.md",
+  "review_report_sha256": "eb23a0fb0fe0c36b93d0064f224022c64b1d4a57c76d409a88076d8f14f1f4c4",
+  "prior_git_commit": "258c39a3c0d72f8cd74c5210f129beead49d5d84",
+  "editorial_difference": "Stable chapter anchor added when absent; recorded stylistic edits without changes to dates/citations",
+  "editorial_changes": [],
+  "scope": "Internal research acceptance; no external professional peer review claimed"
+}
