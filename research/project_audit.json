@@ -143,6 +143,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/11-settlement.md",
+      "sha256": "39ce10d214a35bb5d95a5ea81c1240d3c803e15674552c5095af0a22c5f05b36",
+      "russian_body_words": 2822,
+      "whitespace_body_words": 2879,
+      "footnote_definitions": 23,
+      "footnote_occurrences": 23,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -172,7 +185,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 31812,
-  "total_footnote_occurrences": 354,
+  "total_russian_body_words": 34634,
+  "total_footnote_occurrences": 377,
   "status": "pass"
 }
