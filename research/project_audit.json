@@ -156,6 +156,19 @@
       "duplicate_definitions": [],
       "banned_phrase_hits": [],
       "hidden_characters": []
+    },
+    {
+      "path": "manuscript/chapters/12-government.md",
+      "sha256": "a972061423377b856680c78d7ae60ac270880b626ca5a539049958cf8c13eae4",
+      "russian_body_words": 2801,
+      "whitespace_body_words": 2817,
+      "footnote_definitions": 24,
+      "footnote_occurrences": 25,
+      "undefined": [],
+      "unused": [],
+      "duplicate_definitions": [],
+      "banned_phrase_hits": [],
+      "hidden_characters": []
     }
   ],
   "errors": [],
@@ -185,7 +198,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 34634,
-  "total_footnote_occurrences": 377,
+  "total_russian_body_words": 37435,
+  "total_footnote_occurrences": 402,
   "status": "pass"
 }
