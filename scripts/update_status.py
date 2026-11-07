@@ -76,6 +76,11 @@ def main():
     workflow_note = ('Основные исследовательские и издательские этапы завершены. Дальнейшие изменения выпускать отдельной версией по конкретным замечаниям или новым проверенным материалам; перед правкой сохранять источники и контрольную точку. Работа после завершения сессии не обещается.'
                      if completed else 'После каждого законченного исследовательского цикла обновить реестры, выполнить внутреннюю проверку, сохранить отдельный Git-коммит и перейти к следующей главе. Не повторять завершённый материал и не запрашивать согласование обычного этапа. Работа после завершения текущей сессии не обещается.')
     repository_note = f"Канонический репозиторий: https://github.com/{progress['repository']}; ветка {progress.get('branch', 'main')}. Состояние миграции: {progress.get('migration_status', 'см. research/migration/')}." if progress.get('repository') else 'Удалённый репозиторий ещё не подключён.'
+    remote_report = ROOT / 'research/github_final_verification.json'
+    if remote_report.exists():
+        remote = json.loads(remote_report.read_text())
+        if remote.get('status') == 'pass':
+            repository_note += f"\n\nПоследняя проверенная удалённая контрольная точка выпуска: `{remote['commit']}`; все {remote['file_count']} файлов Git-дерева совпали, {len(remote['actual_download_sha256_checks'])} файлов фактически скачаны и сверены по SHA-256, включая ZIP и три читательских формата. Отчёт — research/github_final_verification.json. Отчёт и служебное описание сохраняются следующим коммитом, поэтому их собственные хеши не входят в эту контрольную точку."
     text = f'''# Состояние CAESAR & AUGUSTUS — v{version}
 
 Обновлено: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}. {completion_note}

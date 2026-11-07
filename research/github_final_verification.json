@@ -1,0 +1,256 @@
+{
+  "verified_utc": "2026-11-07T05:38:46.843575+00:00",
+  "status": "pass",
+  "repository": "elcin31/caesar-31",
+  "branch": "main",
+  "commit": "b3b380025f3f0f189a841db90d3584c804b5313f",
+  "commit_url": "https://github.com/elcin31/caesar-31/commit/b3b380025f3f0f189a841db90d3584c804b5313f",
+  "tree_sha": "900cf47310f8a35bef6750074f3da0b3174ba016",
+  "file_count": 527,
+  "all_remote_git_blobs_match": true,
+  "both_original_histories_preserved": true,
+  "actual_download_sha256_checks": [
+    {
+      "path": "manuscript/appendices.md",
+      "bytes": 54034,
+      "sha256": "657ac6737d6392f1ef6424006817b0829b1817b3e4685fd6794fb9325405b355",
+      "git_blob_sha1": "b11488856195d24babe0ca336ad782278d3ca4df"
+    },
+    {
+      "path": "manuscript/bibliography.md",
+      "bytes": 15565,
+      "sha256": "f8e26093dc92dbde74c6eee995098f1093dace15ff5af72870e84e545ee601a9",
+      "git_blob_sha1": "f27b5c42346cfba0a33debc8d3a03e68da8d479b"
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "bytes": 74810,
+      "sha256": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245",
+      "git_blob_sha1": "af6798095b34b3ce0260ff8b15a15f9b600bd600"
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "bytes": 52917,
+      "sha256": "26d6f941d6404c708c1ef2dde14f6ba12b651bbcaa5197e14908860fd8a30302",
+      "git_blob_sha1": "4721e0b286a5386925dfc6570f98786c753f0591"
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "bytes": 52577,
+      "sha256": "b32911773850bd13d438f517242d7c5bc6ea6da73a406d3cc4e8d993ceb33160",
+      "git_blob_sha1": "b13ff6637914b13c3d25b45715723e9e32ed924a"
+    },
+    {
+      "path": "manuscript/chapters/04-gaul.md",
+      "bytes": 48245,
+      "sha256": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e",
+      "git_blob_sha1": "2856aa60a9ac68ac514093916a23f9e7f40f57c2"
+    },
+    {
+      "path": "manuscript/chapters/05-civil-war.md",
+      "bytes": 45928,
+      "sha256": "1e1f98fcf11c4c5eec11d7de1d61bd20f7477918c4e0d1c535e08d980cd1028c",
+      "git_blob_sha1": "c8391ce427f6a029e92e5a7877539c56d05bdd5a"
+    },
+    {
+      "path": "manuscript/chapters/06-dictatorship.md",
+      "bytes": 47134,
+      "sha256": "78200402eed81a3be8a2b4064b43547bd7bc5621d400d7aa57ef4561251de47d",
+      "git_blob_sha1": "deafa479190b199cad4bc23101c45a562826553b"
+    },
+    {
+      "path": "manuscript/chapters/07-ides.md",
+      "bytes": 51417,
+      "sha256": "346b80091eeaf97f747b307f48e30443da6bf5583ef63236ed980918df979fae",
+      "git_blob_sha1": "8242b70b812140dc4e3c6a6f6e9975406cc40750"
+    },
+    {
+      "path": "manuscript/chapters/08-octavius.md",
+      "bytes": 47915,
+      "sha256": "fe248b6104af965d1a4310bbbe47371da171d4a114b1d979884391275c43ea40",
+      "git_blob_sha1": "05364b6d067a36ad4c512c8bf8926c2edea8bfab"
+    },
+    {
+      "path": "manuscript/chapters/09-triumvirate.md",
+      "bytes": 49344,
+      "sha256": "164e1927411f6dbd1879d72e75e247a1e460fe28fdd22e5e65ede77dc0bbcbce",
+      "git_blob_sha1": "11eefe29c669ef821a2029fd9660939aa4db8009"
+    },
+    {
+      "path": "manuscript/chapters/10-actium.md",
+      "bytes": 50294,
+      "sha256": "387ecb320d35f2f534aba3e6a40bf056b42c0134731af6c11f6570a01e11d4fb",
+      "git_blob_sha1": "9b1763618a8dfa691dedd82f969fa7d5b7a45678"
+    },
+    {
+      "path": "manuscript/chapters/11-settlement.md",
+      "bytes": 47311,
+      "sha256": "acd054a08885edfca418cf8ff63d5decc85e1a8fd1f92590d6b010c1e3002df1",
+      "git_blob_sha1": "bf5dd598f9154a04d3130204001ed6e34ce4dc3b"
+    },
+    {
+      "path": "manuscript/chapters/12-government.md",
+      "bytes": 48339,
+      "sha256": "5591137bb1e025c3e855330b2ef59d7f301f1fff7d141d4001591cf5a6a391ea",
+      "git_blob_sha1": "06335cf502839de05396f4bde008f70023971d2d"
+    },
+    {
+      "path": "manuscript/chapters/13-religion-culture.md",
+      "bytes": 49998,
+      "sha256": "85900d8265c08a9bd8e400f0ee9ee230e595262712a64faa64873dfa0e278aec",
+      "git_blob_sha1": "21b8828c86e6281e1bfd969c9a24a81e05033935"
+    },
+    {
+      "path": "manuscript/chapters/14-dynasty-succession.md",
+      "bytes": 43623,
+      "sha256": "1423d2c5ef8d5142c7de935e3a555fb2fc2c64a8298ce423c6aa693325b6dd7c",
+      "git_blob_sha1": "ff5c53bc4452db978f171806cea11c950fb9393b"
+    },
+    {
+      "path": "manuscript/chapters/15-comparison.md",
+      "bytes": 44493,
+      "sha256": "843c27c69ecac528a78ee00e09c2099cb5441ccaa3f23ff571bb98bb42c3de7b",
+      "git_blob_sha1": "1b3d12feb35fd71c5d1ab4b6eaaa2d03bab3abe6"
+    },
+    {
+      "path": "manuscript/chapters/16-republic-empire.md",
+      "bytes": 39447,
+      "sha256": "ae31c490b345b7b18714c34ecd1692ff185dfc3d83651fe0cf4d69f1c2390651",
+      "git_blob_sha1": "75dab70a5fb005a66eddbd036855fdb63d7b985e"
+    },
+    {
+      "path": "manuscript/conclusion.md",
+      "bytes": 16524,
+      "sha256": "72ba6d7c1d788f946891ce7d83c8a5c262fa69cff45d63ad965aa7f0b8ff07db",
+      "git_blob_sha1": "e7d36b8fd5c28f84278b43be2a9c31c6b32759fd"
+    },
+    {
+      "path": "manuscript/introduction.md",
+      "bytes": 44991,
+      "sha256": "140052ef99379868e0f2d4b02d363c6a43b97dc81ec9e9763a030824e68e9153",
+      "git_blob_sha1": "e03894427ddf923131f043f18028f44de0452e10"
+    },
+    {
+      "path": "manuscript/metadata.yaml",
+      "bytes": 1113,
+      "sha256": "39ba2daf1873f17c3731b2d373c6160bd69a882459335a766e41693d73637a49",
+      "git_blob_sha1": "315c86f7a6b5216e155c90341da50f501d90850b"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 14022,
+      "sha256": "a23734dc7ce37926ba90e24270b2abdeaf93594ea4580e4c19e9e34211fec9ef",
+      "git_blob_sha1": "e377ab8696a866caad938c66a012a78dd44b4310"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 10487,
+      "sha256": "b20a4a820cbc55907e3de982b6707510e121f89b62f315c97dd3d5a6407fbe8c",
+      "git_blob_sha1": "87ae8fd51934b85bdffbde0a50a4125d1876a5b8"
+    },
+    {
+      "path": "NEXT_ACTION.md",
+      "bytes": 1488,
+      "sha256": "d3dec989b950b3dc376127a474a46ab1ba3c7a04cef6bd1a15227de820b85d9c",
+      "git_blob_sha1": "dd6c1ce8497e3b2b9837ae2bfc1b11f1edd6b3aa"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 31976,
+      "sha256": "d78efa4593e2bf2cb2ec577968f769d04d480ba6f2d636c5d9da628566edcf7a",
+      "git_blob_sha1": "049a84cb92f53be1ceb473ce887097fe68baf1f5"
+    },
+    {
+      "path": "Bibliography.md",
+      "bytes": 15565,
+      "sha256": "f8e26093dc92dbde74c6eee995098f1093dace15ff5af72870e84e545ee601a9",
+      "git_blob_sha1": "f27b5c42346cfba0a33debc8d3a03e68da8d479b"
+    },
+    {
+      "path": "Research_Methodology.md",
+      "bytes": 14528,
+      "sha256": "748f30eabc4375a2b294ed917e805dbaf4fb1eb50e21654b30149f570dea3636",
+      "git_blob_sha1": "9c7b38bb1aef5aabf37e8240ab8e0f8f3ba21615"
+    },
+    {
+      "path": "Editorial_Report.md",
+      "bytes": 12704,
+      "sha256": "88e993c77bc3cef17072b3d150dbb24d9fb9baff622f8998f923f29dcb7e22ff",
+      "git_blob_sha1": "a9890a0e36d5d5969227f7b4baa35b7c730b9a52"
+    },
+    {
+      "path": "sources/primary_sources.md",
+      "bytes": 20466,
+      "sha256": "441a43fea95f634e7d4b56e4c78a98bf6b863433bb0c935471e6edb797729858",
+      "git_blob_sha1": "e5ca00d3ed9e33cf976b91a764fd0c94c2348f8c"
+    },
+    {
+      "path": "sources/secondary_sources.md",
+      "bytes": 12693,
+      "sha256": "baa42bf86968ef38b71ba78bdf461e799a3fd9d4e3b52a4d2aa63415111aedec",
+      "git_blob_sha1": "f1451f8e16424955c12ce94f1598a350feb3c3e2"
+    },
+    {
+      "path": "assets/cover.png",
+      "bytes": 98726,
+      "sha256": "64c73d03c2e0cf10cba66f35fd0bc814109c605470dd9fdd6143e0009611d55d",
+      "git_blob_sha1": "8c16d8f6dd9465aa9e3880a38b74085f40c56be2"
+    },
+    {
+      "path": "assets/augustan_adoptions.png",
+      "bytes": 125776,
+      "sha256": "d8e0b24a325c742aa4baf0be31e2cb27eda29664f576e26605b2829174671ba9",
+      "git_blob_sha1": "1876b24061bb04ba8879e3e5694daed9ab14ecf3"
+    },
+    {
+      "path": "dist/final/validation.json",
+      "bytes": 1871,
+      "sha256": "84b12e8b986deb532d338c8359591454aaf0f7dc7566a77d756f713232cff006",
+      "git_blob_sha1": "d7edf88b2785a010d611e1cc7087a03113da9bf2"
+    },
+    {
+      "path": "dist/final/build_manifest.json",
+      "bytes": 7122,
+      "sha256": "85491a4ac6fb209de07abb0268e0efd0f7e7c037255c55e6b02fb1eaf4a92a3c",
+      "git_blob_sha1": "65e88eaf9d1c1dbb66a6b5bddb70a207c422d42f"
+    },
+    {
+      "path": "dist/final/package_manifest.json",
+      "bytes": 84148,
+      "sha256": "b9e4048a493b8867735387d3f9ef33f41ae589fe12f957945051c23d2e5043a7",
+      "git_blob_sha1": "cabe0161acc09ce04e9671b4e4c702b3be419db4"
+    },
+    {
+      "path": "dist/final/archive.sha256",
+      "bytes": 92,
+      "sha256": "ab94eb823d4512a64d1fe56be35d4179ca93b031715d1c73df38faee989b5618",
+      "git_blob_sha1": "077ff005792e1cde2ed22c1feb1d9a73d8e27142"
+    },
+    {
+      "path": "dist/final/Caesar_Augustus.docx",
+      "bytes": 4202236,
+      "sha256": "bd5b14c2494b84b918abe3de208fe5774a4f4ca6e63b36533279f01e50855b35",
+      "git_blob_sha1": "dc4da689d279518b5141404371f4c878d8cb9300"
+    },
+    {
+      "path": "dist/final/Caesar_Augustus.epub",
+      "bytes": 4296722,
+      "sha256": "72691711898bf7579365d588c76af6f46be114addfb9bfbdd7da8a42419e1b9b",
+      "git_blob_sha1": "acb09954baec197f37fb6b742ad2da4831fb456b"
+    },
+    {
+      "path": "dist/final/Caesar_Augustus.pdf",
+      "bytes": 4723468,
+      "sha256": "e17749aeeca7998c0cef8d4c12c944fb2a4b2bbe991d620a6a74d0fa556a663e",
+      "git_blob_sha1": "0df0d8e26d05cab9d16b6028042ce7f1f9406a04"
+    },
+    {
+      "path": "dist/final/Caesar_Augustus_FINAL.zip",
+      "bytes": 33252105,
+      "sha256": "0720e987fb04fca9dae6051cc19a099a5a764b639ee9e181ea901303ab487bc8",
+      "git_blob_sha1": "5c3ab97dee9dac4eeec0aa4995e261efb54c0095"
+    }
+  ],
+  "method": "GitHub REST branch/commit/recursive tree and base64 blob downloads selected by immutable tree; all local committed blobs compared; final ZIP and three reading editions downloaded, decoded and SHA-256 checked.",
+  "qualification": "This report records the checked release commit; it is subsequently saved in a separate documentation commit to avoid self-referential hashes."
+}
