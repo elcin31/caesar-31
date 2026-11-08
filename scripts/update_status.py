@@ -21,7 +21,7 @@ def main():
     progress = json.loads((ROOT / 'research/progress.json').read_text())
     version = progress['version']
     final = progress.get('final', False)
-    completed = progress.get('completion_state') == 'final_verified'
+    completed = progress.get('completion_state') in {'final_verified', 'illustrated_verified'}
     release_dir = ROOT / 'dist' / ('final' if final else f'v{version}')
     rows = []
     total = count(ROOT / 'manuscript/introduction.md')
@@ -76,13 +76,19 @@ def main():
                        if completed else 'Монография в работе; незавершённая версия не является FINAL.')
     if progress.get('illustrations'):
         counts = progress['illustrations']
-        completion_note = ('Научный текст версии 1.0 завершён; иллюстрированная научно-редакторская версия 1.1 в работе. '
+        state_note = ('Иллюстрированная научно-редакторская версия 1.1 завершена и проверена. ' if completed
+                      else 'Научный текст версии 1.0 завершён; иллюстрированная научно-редакторская версия 1.1 в работе. ')
+        completion_note = (state_note +
                            f'Из 34 новых изображений создано {counts["generated"]}, визуально принято '
                            f'{counts["visual_review"]}, встроено {counts["integrated"]}. '
                            'Прямая директива пользователя разрешает эту редакцию без ожидания внешней рецензии.')
     workflow_note = ('Основные исследовательские и издательские этапы завершены. Дальнейшие изменения выпускать отдельной версией по конкретным замечаниям или новым проверенным материалам; перед правкой сохранять источники и контрольную точку. Работа после завершения сессии не обещается.'
                      if completed else 'После каждого законченного исследовательского цикла обновить реестры, выполнить внутреннюю проверку, сохранить отдельный Git-коммит и перейти к следующей главе. Не повторять завершённый материал и не запрашивать согласование обычного этапа. Работа после завершения текущей сессии не обещается.')
     repository_note = f"Канонический репозиторий: https://github.com/{progress['repository']}; ветка {progress.get('branch', 'main')}. Состояние миграции: {progress.get('migration_status', 'см. research/migration/')}." if progress.get('repository') else 'Удалённый репозиторий ещё не подключён.'
+    if progress.get('illustrations'):
+        workflow_note = ('Сохранять выпуск 1.0. Новые изображения принимать после визуальной и исторической проверки, '
+                         'обновлять фактические количества и сохранять партии коммитами и push. '
+                         'Сборку 1.1 считать завершённой только после проверки всех трёх форматов и ZIP.')
     remote_report = ROOT / 'research/github_final_verification.json'
     if remote_report.exists():
         remote = json.loads(remote_report.read_text())

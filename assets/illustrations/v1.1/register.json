@@ -1,10 +1,10 @@
 {
   "version": "1.1",
-  "updated_utc": "2026-11-08T11:52:53.054000+00:00",
+  "updated_utc": "2026-11-08T11:57:10.874186+00:00",
   "required": 34,
-  "generated": 25,
-  "visual_review": 25,
-  "integrated": 25,
+  "generated": 34,
+  "visual_review": 31,
+  "integrated": 31,
   "type": "Современные художественные реконструкции, созданные с применением ИИ.",
   "rights": "Оригинальные генерации по заданиям проекта; не музейные изображения и не копии работ названного художника. Использование по условиям сервиса генерации; исключительные авторские права и статус CC0 не заявляются.",
   "originals": "Исходные PNG сохранены генератором в /workspace/generated_images; книжные JPEG имеют исходное разрешение, качество 92–94 и цветовую субдискретизацию 4:4:4.",
@@ -1044,10 +1044,33 @@
       "medium": "gouache with chalky whites",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: gouache with chalky whites. Rome in the 10s BCE, marble carvers in a dusty open workshop shaping a low-relief procession on an unfinished slab, a craftsman comparing a small clay model, assistants sweeping stone chips, diffuse daylight. Evoke Augustan public art without copying a particular surviving relief. No complete modern Ara Pacis museum enclosure, no power tools.",
       "caption": "Работа резчиков над публичным рельефом. Собирательный образ августовской художественной мастерской; конкретная мастерская Алтаря Мира не реконструируется. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-372db2fa-88b8-4b9e-a645-284af12c4675.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "ffd13618b7e0e6f22a6792164c03086581420e70b9dd6c6f2e3c834f785f2841",
+      "bytes": 708971,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch13n03",
+        "ch13n07",
+        "ch13n08",
+        "ch13n09",
+        "ch13n10",
+        "ch13n11",
+        "ch13n12"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены лица и руки резчиков, инструменты, рельеф, модель и фон. Крупных дефектов не выявлено.",
+        "historical": "Не копия определённого рельефа и не точная мастерская Ara Pacis; нет электроинструмента, современного музейного павильона и позднего костюма."
+      }
     },
     {
       "id": "ART-27",
@@ -1060,10 +1083,31 @@
       "medium": "warm watercolor with tempera highlights",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: warm watercolor with tempera highlights. Ordinary early Augustan Roman household, adult woman and older man placing a modest food offering near a small wall niche with tiny generic household deity figures, child watches from a respectful distance, terracotta oil lamp, painted plaster, morning household life. No Christian symbols, no imperial portrait worship, no identified surviving artifact.",
       "caption": "Домашний культ и повседневная жизнь. Сцена условна; предметы не копируют конкретный археологический комплекс и не доказывают единообразия практик. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-d748b951-8c81-4b9e-8d8a-817af7db7073.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "1ae65703426f4d2c963f8b45e8e15a0fda086f4af2f88ba1632df759be924bbb",
+      "bytes": 720222,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch13n17",
+        "ch13n18",
+        "ch13n19",
+        "ch13n20",
+        "ch13n21"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены лица, руки, посуда, лампа и ниша. Крупных дефектов не выявлено.",
+        "historical": "Фигурки и ниша условны; не устанавливается конкретное божество по вымышленному предмету. Нет христианских символов и императорского портрета как обязательного объекта домашнего культа."
+      }
     },
     {
       "id": "ART-28",
@@ -1076,10 +1120,30 @@
       "medium": "intimate tempera",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: intimate tempera. A restrained Augustan elite family gathering around a low dining arrangement in a shaded peristyle, older Augustus in plain toga, adult woman, two youths at different distances, domestic attendants discretely visible; quiet social hierarchy, no coronation, no medieval dining table, no Byzantine robes or crowns. Faces evocative not authenticated likenesses.",
       "caption": "Дом Августа: родство и политические ожидания. Собирательная сцена не изображает конкретную семейную встречу или формальный акт передачи власти. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-6d858c12-6978-4df7-bd36-9357da6c286f.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "4dc4c95bbe739cb57220593b09c83783373ab67c07b62e98167e1262b39bf05c",
+      "bytes": 749707,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch14n02",
+        "ch14n03",
+        "ch14n04",
+        "ch14n05"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены лица, руки, мебель, посуда и служители. Крупных дефектов не выявлено.",
+        "historical": "Семья собирательная: не называется точная дата, состав участников или династический акт; лица не аутентифицированные портреты."
+      }
     },
     {
       "id": "ART-29",
@@ -1092,10 +1156,31 @@
       "medium": "subdued oil painting",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: subdued oil painting. An empty modest elite Roman bedchamber near Nola in late summer 14 CE, low wooden couch with folded linen, half-open shutter, a small oil lamp extinguished, two adult attendants quietly in the distant doorway. No dead body, no poison, no assassin, no insinuation of a particular disputed cause of death; quiet natural afternoon light.",
       "caption": "Нола, 14 г. н. э.: художественный образ завершения правления. Комната и предметы условны; спорные рассказы о причине смерти не иллюстрируются. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-44f10e9d-2795-4693-b48c-b11e4c393849.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "55d1b8a51d9d4f923f2792fc608810ffb655b9f40523cbf02c91eaa528a8039e",
+      "bytes": 643225,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch14n17",
+        "ch14n18",
+        "ch14n19",
+        "ch14n20",
+        "ch14n21"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены ложе, ткани, освещение, настенная живопись и фигуры в дверях. Крупных дефектов не выявлено.",
+        "historical": "Пустая комната не изображает убийство или отравление; оформление не выдается за найденную спальню Августа в Ноле."
+      }
     },
     {
       "id": "ART-30",
@@ -1108,10 +1193,32 @@
       "medium": "charcoal underdrawing with muted oil colors",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: charcoal underdrawing with muted oil colors. Caesar in his mid-fifties inside an austere campaign tent in the 40s BCE, seated with a secretary and a messenger at a rough table, rolls, wax tablets and simple supply tokens, mail shirt partially covered by a cloak, no modern drawn battle map, no laurel crown or imperial throne. Focus on working relationships and decision under pressure.",
       "caption": "Походная власть Цезаря: командир, писец и посланец. Собирательная композиция показывает зависимость решения от людей и информации. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-ad0221f5-b267-42b7-bec4-e4d2e468129d.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "795b0a53eec1e795472c3fa16a8867ed2869a5fe0d664699a21d437b454016eb",
+      "bytes": 626428,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch15-07",
+        "ch15-08",
+        "ch15-09",
+        "ch15-14",
+        "ch15-15",
+        "ch15-16"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены все три фигуры, кисти рук, кольчуга, свитки и стол. Крупных дефектов не выявлено.",
+        "historical": "Сцена командования собирательная; нет современной штабной карты, печатных документов, императорской короны и сегментной брони."
+      }
     },
     {
       "id": "ART-31",
@@ -1124,10 +1231,28 @@
       "medium": "soft-edged tempera",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: soft-edged tempera. Mature Augustus in a plain ivory toga standing on the same floor level as two visiting civic delegates under a restrained portico, a secretary further back, one empty curule chair to the side; deference communicated by space and gesture. No kneeling, crown, throne, Christian or medieval symbolism; no authenticated portrait claim.",
       "caption": "Гражданская форма первенства: условный приём делегации Августом. Жесты и расстояния — художественные средства, а не доказательства личного характера. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-c3365127-399d-457d-8933-e459b9c832e1.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "ae5305d7f3be78ec0471f9096bca6512552ae2160455f6cc784755559f97ff18",
+      "bytes": 594976,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch15-10",
+        "ch15-11"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены фигуры делегатов и Августа, руки, одежда и кресло. Крупных дефектов не выявлено.",
+        "historical": "Гражданская форма приёма без поклонения; расположение фигур художественное, не психологическое доказательство или протокол приёма."
+      }
     },
     {
       "id": "ART-32",
@@ -1140,10 +1265,18 @@
       "medium": "pen ink with light watercolor",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: pen ink with light watercolor. Early first-century CE Italian municipal civic courtyard, local magistrate in toga listening to a petitioner with a clerk at a side desk, small group of townspeople and practical notice board with unreadable marks; architecture modest and provincial, no palace or imperial guard spectacle.",
       "caption": "Муниципальная процедура при новом политическом порядке. Собирательная сцена иллюстрирует продолжение местных учреждений; конкретное дело неизвестно. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
+      "status": "generated_pending_review",
+      "generated": true,
       "visual_review": false,
-      "integrated": false
+      "integrated": false,
+      "original": "/workspace/generated_images/exec-a933550f-3843-425e-967c-45456686d3b5.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "b153f19c3fe37d840b9337fc727a205d3cec438ded14bb5fa641b6c5416bc2ea",
+      "bytes": 878905,
+      "jpeg_quality": 92
     },
     {
       "id": "ART-33",
@@ -1156,10 +1289,18 @@
       "medium": "rich but muted oil painting",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: rich but muted oil painting. Augustan Mediterranean merchant harbor in late afternoon, workers of varied believable Mediterranean appearances carrying amphorae and folded textiles, female trader checking goods with a clerk, merchant sailing ship beyond a low quay, timber and rope, unequal work visibly acknowledged. No modern cranes, coins enlarged, stereotypes or imperial skyline.",
       "caption": "Гавань и обмен в державе Августа. Художественное соединение типичных занятий; торговый маршрут, происхождение и правовой статус фигур не определены. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
+      "status": "generated_pending_review",
+      "generated": true,
       "visual_review": false,
-      "integrated": false
+      "integrated": false,
+      "original": "/workspace/generated_images/exec-d6694326-71da-418a-b836-84977a17109a.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d88bf271ae3165a3b49e69a0aeea14306d9daa381af74a4bbfc0904b27858f2d",
+      "bytes": 747815,
+      "jpeg_quality": 92
     },
     {
       "id": "ART-34",
@@ -1172,10 +1313,18 @@
       "medium": "fine watercolor and opaque gouache",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: fine watercolor and opaque gouache. Painterly still life in an ancient Roman writing room: rolled papyrus, an open pair of wooden wax tablets, reed pens, bronze stylus, small inkpot and a few indistinct coins on a worn wooden table beside an oil lamp. No legible text, no invented named artifact, no modern book binding, spectacles or paper map. Raking side light and tactile materials.",
       "caption": "Носители письменных свидетельств: папирус, восковые таблички, перо и стилус. Современный художественный натюрморт; изображения не являются каталогом подлинных предметов. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
+      "status": "generated_pending_review",
+      "generated": true,
       "visual_review": false,
-      "integrated": false
+      "integrated": false,
+      "original": "/workspace/generated_images/exec-7fa49531-8edd-4ffb-ba32-f6f78b1d7975.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "9d2fe1da25c371cc683314da4376d35851bf897db3d1576fc75c7b3fe0123348",
+      "bytes": 732038,
+      "jpeg_quality": 92
     }
   ]
 }
