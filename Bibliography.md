@@ -4,6 +4,10 @@
 
 ## Античные источники: использованные электронные издания
 
+Anonymous. *Bellum Alexandrinum*. б. г. https://www.thelatinlibrary.com/caesar/alex.shtml.
+
+Anonymous. *Bellum Africum*. б. г. https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Caesar/African_War/E%2A.html.
+
 Appian. *Roman History: The Civil Wars*. Перевод Horace White. Т. 3. Loeb Classical Library, 1913. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html.
 
 Appian. *Roman History: The Civil Wars, Books III.27–V*. Перевод Horace White. Т. 4. Loeb Classical Library, 1913. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/4*.html.
@@ -96,6 +100,8 @@ De Blois, Lukas. “Caesar the General and Leader.” In *The Landmark Julius Ca
 
 Flower, Harriet I. *Roman Republics*. Princeton: Princeton University Press, 2010. https://search.worldcat.org/title/301798480.
 
+Gaertner, Jan-Felix. “The Non-Caesarian War Books.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 265–270. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
+
 Galinsky, Karl. *Augustus: Introduction to the Life of an Emperor*. Cambridge: Cambridge University Press, 2012. https://www.cambridge.org/core/books/augustus/ABB215770E511969424894DDC464AFB1.
 
 Gildenhard, Ingo. *Cicero, Philippic 2, 44–50, 78–92, 100–119: Latin Text, Study Aids with Vocabulary, and Commentary*. Cambridge: Open Book Publishers, 2018. https://doi.org/10.11647/OBP.0156.
@@ -139,6 +145,8 @@ Pietrini, Stefania. *La lex Iulia de pecuniis repetundis nell'interpretazione de
 Pina Polo, Francisco. “Idea y práctica de la democracia en la Roma republicana.” *Gerión. Revista de Historia Antigua* 37, no. 2 (2019): 379–397. https://doi.org/10.5209/geri.65979.
 
 Raaflaub, Kurt A. “The Conquest of Uxellodunum.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 288–293. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
+
+Raaflaub, Kurt A. “Alexandria.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 304–310. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
 
 Reddé, Michel. “Alésia. Du texte de César aux vestiges archéologiques.” In *Legiones, provincias, classes… Morceaux choisis*. Pessac: Ausonius Éditions, 2022. https://doi.org/10.46608/basic3.9782356134899.34.
 

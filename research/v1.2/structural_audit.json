@@ -50,10 +50,10 @@
     {
       "path": "manuscript/chapters/05-civil-war.md",
       "baseline_words": 2803,
-      "current_words": 2803,
-      "added_words": 0,
-      "footnotes": 30,
-      "sha256": "2be2208152eecfdfdcae098ea8fdf94b38cb851064820c577b4ddb7b20f753f2",
+      "current_words": 3808,
+      "added_words": 1005,
+      "footnotes": 42,
+      "sha256": "2f57d4938d7a5c09fc154c95f87eb467a3efa26a51a1a504a26ffc54ec44c47d",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 52522,
+  "current_words": 53527,
   "illustrations": {
     "referenced": 34,
     "unique": 34

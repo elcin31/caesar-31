@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-08T15:48:21.530208+00:00",
+  "updated_utc": "2026-11-08T15:56:33.243471+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -33,10 +33,11 @@
       "review": "research/v1.2/reviews/ch04_independent.md"
     },
     "05": {
-      "status": "pending_v12",
-      "words": 2803,
+      "status": "reviewed_v12",
+      "words": 3808,
       "baseline_words": 2803,
-      "sha256": "2be2208152eecfdfdcae098ea8fdf94b38cb851064820c577b4ddb7b20f753f2"
+      "sha256": "2f57d4938d7a5c09fc154c95f87eb467a3efa26a51a1a504a26ffc54ec44c47d",
+      "review": "research/v1.2/reviews/ch05_independent.md"
     },
     "06": {
       "status": "pending_v12",
@@ -105,8 +106,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 52522,
-  "bibliographic_entries": 85,
-  "next_action": "Глава 5: углубить ранее сжатую последовательность Александрийской, Понтийской и Африканской кампаний после Фарсала. Читать Bellum Alexandrinum и Bellum Africum как отдельные анонимные тексты, сверить современный анализ Raaflaub304–307 и Gaertner265–267 в официальном LandmarkPDF. Вставки5 пока не внесены; главы1–4 не повторять.",
+  "current_body_words": 53527,
+  "bibliographic_entries": 89,
+  "next_action": "Глава 6: изучить текущий текст и досье, углубить конкретные механизмы реформ и отличить реализованные меры от проектов. Отдельно проверить колонии/гражданство, должности/выборы, снабжение и календарь по первичным текстам и доступной современной работе; главы1–5 не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

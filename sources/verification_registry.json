@@ -1019,6 +1019,54 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL: title,143--146,149--151,153--154 directly read. Used for distinct criteria of expedition outcomes. Specific claims about indemnity55BCE,1000Roman losses, failure of Kentish attack, exact locations and initial intentions not adopted. Independent primary comparison in research/v1.2/ch04_research.md.",
       "addendum": ""
+    },
+    {
+      "key": "gaertner2017noncaesarian",
+      "title": "The Non-Caesarian War Books",
+      "author": "Gaertner, Jan-Felix",
+      "year": "2017",
+      "doi": null,
+      "url": "https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:265--267 directly read in official PDF revised January5,2018. Full collection not claimed read; not copied into repository.",
+      "addendum": ""
+    },
+    {
+      "key": "raaflaub2017alexandria",
+      "title": "Alexandria",
+      "author": "Raaflaub, Kurt A.",
+      "year": "2017",
+      "doi": null,
+      "url": "https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:304--307 directly read in official PDF revised January5,2018. Read discussion of hydrographical uncertainty; continuation308--310 not claimed read.",
+      "addendum": ""
+    },
+    {
+      "key": "anonymousalexandrinum",
+      "title": "Bellum Alexandrinum",
+      "author": "Anonymous",
+      "year": null,
+      "doi": null,
+      "url": "https://www.thelatinlibrary.com/caesar/alex.shtml",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Latin1--9,26--33,65--77 directly read. Printed basis of this electronic text not identified. Independent reviewer also compared LacusCurtius Latin transcription of Way1955,1--9,26--33,65--78. Critical apparatus not independently collated. Authorship not assumed Caesarian.",
+      "addendum": ""
+    },
+    {
+      "key": "anonymousafricum",
+      "title": "Bellum Africum",
+      "author": "Anonymous",
+      "year": null,
+      "doi": null,
+      "url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Caesar/African_War/E%2A.html",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Latin79--86 directly read in LacusCurtius transcription of Loeb1955. Author unknown; not attributed to Caesar or confidently to Hirtius. Exact legion roster and casualty totals not used.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."
