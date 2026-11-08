@@ -1,0 +1,33 @@
+{
+  "verified_utc": "2026-11-08T12:10:37.477806+00:00",
+  "status": "pass",
+  "repository": "elcin31/caesar-31",
+  "branch": "main",
+  "commit": "c6fbd5e91ee22350fe0fea440a14ab75e768fe3b",
+  "tree_sha": "4b4a40686eae75cc30e313c9baac6dd6f53e06e6",
+  "all_git_files_match": true,
+  "file_count": 599,
+  "actual_downloads": [
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.docx",
+      "bytes": 30511240,
+      "sha256": "781b5c65bdccbcafb2d8bd21de53df5af5819766ddbc57ad570d97131accfa53"
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.epub",
+      "bytes": 30593178,
+      "sha256": "29887873691765b37ffd19680e191cd15950680bd68ce92b48719f921bf53f6f"
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.pdf",
+      "bytes": 31039979,
+      "sha256": "c4a5eb8dc60013e16fac876d11b40ef2114dc217a5aea5a3745702feb53e4aa4"
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.zip",
+      "bytes": 92120678,
+      "sha256": "d88b695d5b569a279b0f31b89c34f0e7df21a1d358ff31741755ab14810ca813"
+    }
+  ],
+  "qualification": "Checks only the new 1.1 deliverables. This immutable checkpoint is recorded by a later documentation commit."
+}
