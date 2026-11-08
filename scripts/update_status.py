@@ -81,6 +81,18 @@ def main():
         remote = json.loads(remote_report.read_text())
         if remote.get('status') == 'pass':
             repository_note += f"\n\nПоследняя проверенная удалённая контрольная точка выпуска: `{remote['commit']}`; все {remote['file_count']} файлов Git-дерева совпали, {len(remote['actual_download_sha256_checks'])} файлов фактически скачаны и сверены по SHA-256, включая ZIP и три читательских формата. Отчёт — research/github_final_verification.json. Отчёт и служебное описание сохраняются следующим коммитом, поэтому их собственные хеши не входят в эту контрольную точку."
+    if progress.get('last_recovery'):
+        recovery = progress['last_recovery']
+        local = json.loads((ROOT / recovery['local_report']).read_text())
+        remote = json.loads((ROOT / recovery['remote_report']).read_text())
+        if local.get('status') != 'pass' or remote.get('status') != 'pass' or local['baseline_commit'] != remote['commit']:
+            raise SystemExit('Recovery status requires matching, successful local and remote reports')
+        repository_note += (f"\n\nВосстановление {recovery['date']}: проверен текущий на момент запуска main "
+                            f"`{remote['commit']}`; совпали {remote['file_count']} файлов Git-дерева и "
+                            f"SHA-256 {len(remote['actual_download_sha256_checks'])} скачанных файлов. "
+                            f"Локальная повторная проверка — {recovery['local_report']}; удалённая — "
+                            f"{recovery['remote_report']}. Рукопись и контрольные файлы выпуска 1.0 сохранены "
+                            f"побайтово; восстановление не является новой научной редакцией.")
     text = f'''# Состояние CAESAR & AUGUSTUS — v{version}
 
 Обновлено: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}. {completion_note}

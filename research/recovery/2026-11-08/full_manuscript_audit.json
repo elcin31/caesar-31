@@ -1,0 +1,137 @@
+{
+  "method": "Source-level diagnostic; not an automated fact check or external peer review",
+  "source_files": 20,
+  "chapter_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "russian_body_words": 48837,
+  "source_headings": [
+    {
+      "file": "manuscript/introduction.md",
+      "heading": "Введение"
+    },
+    {
+      "file": "manuscript/chapters/01-republic.md",
+      "heading": "Глава 1. Римская республика: институты, общество и кризисы позднереспубликанского периода {#ch01}"
+    },
+    {
+      "file": "manuscript/chapters/02-origins.md",
+      "heading": "Глава 2. Происхождение, семья и юность Гая Юлия Цезаря {#ch02}"
+    },
+    {
+      "file": "manuscript/chapters/03-career.md",
+      "heading": "Глава 3. Политическая карьера и создание союзов {#ch03}"
+    },
+    {
+      "file": "manuscript/chapters/04-gaul.md",
+      "heading": "Глава 4. Галльские кампании: война, ресурсы и военная лояльность {#ch04}"
+    },
+    {
+      "file": "manuscript/chapters/05-civil-war.md",
+      "heading": "Глава 5. Рубикон: распад политического компромисса и гражданская война {#ch05}"
+    },
+    {
+      "file": "manuscript/chapters/06-dictatorship.md",
+      "heading": "Глава 6. Цезарь как диктатор: реформы, личная власть и пределы легитимности {#ch06}"
+    },
+    {
+      "file": "manuscript/chapters/07-ides.md",
+      "heading": "Глава 7. Мартовские иды: убийство Цезаря и невозможность немедленного восстановления {#ch07}"
+    },
+    {
+      "file": "manuscript/chapters/08-octavius.md",
+      "heading": "Глава 8. Гай Октавий: юность, завещательное усыновление и начало политической карьеры {#ch08}"
+    },
+    {
+      "file": "manuscript/chapters/09-triumvirate.md",
+      "heading": "Глава 9. Второй триумвират: проскрипции, войны и борьба за власть {#ch09}"
+    },
+    {
+      "file": "manuscript/chapters/10-actium.md",
+      "heading": "Глава 10. От соперничества с Антонием к победе при Акции {#ch10}"
+    },
+    {
+      "file": "manuscript/chapters/11-settlement.md",
+      "heading": "Глава 11. От гражданской войны к новому политическому порядку {#ch11}"
+    },
+    {
+      "file": "manuscript/chapters/12-government.md",
+      "heading": "Глава 12. Сенат, армия, финансы и управление державой {#ch12}"
+    },
+    {
+      "file": "manuscript/chapters/13-religion-culture.md",
+      "heading": "Глава 13. Религия, культура и общественные основания первенства {#ch13}"
+    },
+    {
+      "file": "manuscript/chapters/14-dynasty-succession.md",
+      "heading": "Глава 14. Дом Августа, подготовка преемников и переход 14 года {#ch14}"
+    },
+    {
+      "file": "manuscript/chapters/15-comparison.md",
+      "heading": "Глава 15. Цезарь и Август: политическая стратегия, личность и государственные институты {#ch15}"
+    },
+    {
+      "file": "manuscript/chapters/16-republic-empire.md",
+      "heading": "Глава 16. Республика и Империя: преемственность, разрыв и историческое наследие {#ch16}"
+    },
+    {
+      "file": "manuscript/conclusion.md",
+      "heading": "Заключение. Два исхода и пределы сравнения {#conclusion}"
+    },
+    {
+      "file": "manuscript/appendices.md",
+      "heading": "Приложения {#appendices}"
+    },
+    {
+      "file": "manuscript/bibliography.md",
+      "heading": "Библиография"
+    }
+  ],
+  "footnote_definitions": 468,
+  "footnote_calls": 495,
+  "undefined_notes": [],
+  "unused_notes": [],
+  "duplicate_note_ids": [],
+  "verbatim_duplicate_long_paragraphs": [],
+  "mixed_script_tokens": [],
+  "unfinished_markers": [],
+  "zero_year_candidates": [],
+  "manuscript_sha256": {
+    "manuscript/introduction.md": "140052ef99379868e0f2d4b02d363c6a43b97dc81ec9e9763a030824e68e9153",
+    "manuscript/chapters/01-republic.md": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245",
+    "manuscript/chapters/02-origins.md": "26d6f941d6404c708c1ef2dde14f6ba12b651bbcaa5197e14908860fd8a30302",
+    "manuscript/chapters/03-career.md": "b32911773850bd13d438f517242d7c5bc6ea6da73a406d3cc4e8d993ceb33160",
+    "manuscript/chapters/04-gaul.md": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e",
+    "manuscript/chapters/05-civil-war.md": "1e1f98fcf11c4c5eec11d7de1d61bd20f7477918c4e0d1c535e08d980cd1028c",
+    "manuscript/chapters/06-dictatorship.md": "78200402eed81a3be8a2b4064b43547bd7bc5621d400d7aa57ef4561251de47d",
+    "manuscript/chapters/07-ides.md": "346b80091eeaf97f747b307f48e30443da6bf5583ef63236ed980918df979fae",
+    "manuscript/chapters/08-octavius.md": "fe248b6104af965d1a4310bbbe47371da171d4a114b1d979884391275c43ea40",
+    "manuscript/chapters/09-triumvirate.md": "164e1927411f6dbd1879d72e75e247a1e460fe28fdd22e5e65ede77dc0bbcbce",
+    "manuscript/chapters/10-actium.md": "387ecb320d35f2f534aba3e6a40bf056b42c0134731af6c11f6570a01e11d4fb",
+    "manuscript/chapters/11-settlement.md": "acd054a08885edfca418cf8ff63d5decc85e1a8fd1f92590d6b010c1e3002df1",
+    "manuscript/chapters/12-government.md": "5591137bb1e025c3e855330b2ef59d7f301f1fff7d141d4001591cf5a6a391ea",
+    "manuscript/chapters/13-religion-culture.md": "85900d8265c08a9bd8e400f0ee9ee230e595262712a64faa64873dfa0e278aec",
+    "manuscript/chapters/14-dynasty-succession.md": "1423d2c5ef8d5142c7de935e3a555fb2fc2c64a8298ce423c6aa693325b6dd7c",
+    "manuscript/chapters/15-comparison.md": "843c27c69ecac528a78ee00e09c2099cb5441ccaa3f23ff571bb98bb42c3de7b",
+    "manuscript/chapters/16-republic-empire.md": "ae31c490b345b7b18714c34ecd1692ff185dfc3d83651fe0cf4d69f1c2390651",
+    "manuscript/conclusion.md": "72ba6d7c1d788f946891ce7d83c8a5c262fa69cff45d63ad965aa7f0b8ff07db",
+    "manuscript/appendices.md": "657ac6737d6392f1ef6424006817b0829b1817b3e4685fd6794fb9325405b355",
+    "manuscript/bibliography.md": "f8e26093dc92dbde74c6eee995098f1093dace15ff5af72870e84e545ee601a9"
+  },
+  "structural_status": "pass"
+}
