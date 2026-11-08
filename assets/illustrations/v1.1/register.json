@@ -1,10 +1,10 @@
 {
   "version": "1.1",
-  "updated_utc": "2026-11-08T11:33:59.013001+00:00",
+  "updated_utc": "2026-11-08T11:38:22.977308+00:00",
   "required": 34,
-  "generated": 5,
-  "visual_review": 5,
-  "integrated": 5,
+  "generated": 9,
+  "visual_review": 9,
+  "integrated": 9,
   "type": "Современные художественные реконструкции, созданные с применением ИИ.",
   "rights": "Оригинальные генерации по заданиям проекта; не музейные изображения и не копии работ названного художника. Использование по условиям сервиса генерации; исключительные авторские права и статус CC0 не заявляются.",
   "originals": "Исходные PNG сохранены генератором в /workspace/generated_images; книжные JPEG имеют исходное разрешение, качество 94 и цветовую субдискретизацию 4:4:4.",
@@ -212,10 +212,30 @@
       "medium": "muted egg tempera",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: muted egg tempera. Three late Republican Roman political elites of different ages in a discreet colonnaded garden around 60 BCE, seated at unequal angles at a small low table, restrained gestures, listening and bargaining, papers rolled up. Evoke Caesar Pompey Crassus without claiming likeness or a documented meeting scene. No crowns, no uniform purple gowns.",
       "caption": "Согласование разных интересов: условная встреча римских политиков. Обстановка и жесты придуманы художником; союз не представлен как единый государственный орган. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-66c5827f-0c06-48da-a84e-a40a67f78bc7.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d2d5d51fd91aa5c87cbe759ad056d500b5bbb97bbff9893d81629a831142f261",
+      "bytes": 848628,
+      "supporting_note_ids": [
+        "ch03-18",
+        "ch03-19",
+        "ch03-20",
+        "ch03-21",
+        "ch03-21a"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "На листе партии просмотрены все три лица, кисти рук, одежда и свет. Крупных дефектов не выявлено.",
+        "historical": "Встреча собирательная: не устанавливаются дата, место или конкретные слова соглашения Цезаря, Помпея и Красса."
+      }
     },
     {
       "id": "ART-07",
@@ -228,10 +248,58 @@
       "medium": "brush ink with watercolor washes",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: brush ink with watercolor washes. A Republican public speaker seen from behind on a low rostra platform around 59 BCE addressing a compact restless audience, attentive and skeptical faces, daylight, simple stone portico and temple wall, occasional lictor carrying a bundle of rods without axe inside Rome. No legible inscriptions, no victory parade.",
       "caption": "Политический спор на Форуме. Условная сцена публичного выступления передаёт напряжение вокруг принятия законов; состав аудитории не документирован. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-073d7d5d-d590-4c56-82fe-d3fc65d523ba.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "359e1886af13f7f8cc79e805f2eaacccc4ba1731f087d3814407477bb96ef2f9",
+      "bytes": 980757,
+      "supporting_note_ids": [
+        "ch03-01",
+        "ch03-02",
+        "ch03-03",
+        "ch03-04",
+        "ch03-05",
+        "ch03-06",
+        "ch03-06a",
+        "ch03-07",
+        "ch03-08",
+        "ch03-09",
+        "ch03-10",
+        "ch03-10a",
+        "ch03-11",
+        "ch03-12",
+        "ch03-12a",
+        "ch03-13",
+        "ch03-14",
+        "ch03-15",
+        "ch03-16",
+        "ch03-16a",
+        "ch03-17",
+        "ch03-18",
+        "ch03-19",
+        "ch03-20",
+        "ch03-21",
+        "ch03-21a",
+        "ch03-22",
+        "ch03-23",
+        "ch03-24",
+        "ch03-24a",
+        "ch03-25",
+        "ch03-26",
+        "ch03-26a"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены фигура оратора, протянутая рука, лица слушателей и ликторы. Крупных дефектов не выявлено.",
+        "historical": "Фасции без отчётливо показанного топора; архитектура и аудитория условны, конкретная речь не атрибутируется."
+      }
     },
     {
       "id": "ART-08",
@@ -244,10 +312,31 @@
       "medium": "earthy gouache",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: earthy gouache. Roman campaigning army in Gaul in the 50s BCE, oblique view of practical tented camp at rainy morning; workers unload sacks of grain from mule carts, two legionaries wear mail shirts and simple Montefortino/Coolus type helmets, worn curved oval shields leaning nearby. No lorica segmentata, no medieval stirrups, no standardized red costumes.",
       "caption": "Лагерь в Галлии: доставка зерна и работа обозов. Реконструкция бытовой стороны похода; план конкретного лагеря не воспроизводится. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-9f9832be-0cbb-4bf0-9aff-686e97437cc0.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "73679528e9930e2fb1791c08ab448185308b024cbf412d677b2bef449b16acc4",
+      "bytes": 870094,
+      "supporting_note_ids": [
+        "ch04-07",
+        "ch04-08",
+        "ch04-09",
+        "ch04-10",
+        "ch04-11",
+        "ch04-12"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены фигуры погрузки, руки, колесо, мул, мешки и доспехи. Крупных дефектов не выявлено.",
+        "historical": "Кольчуги и простые шлемы, без сегментного доспеха; снабжение показано типовой сценой, без точного плана лагеря."
+      }
     },
     {
       "id": "ART-09",
@@ -260,10 +349,31 @@
       "medium": "atmospheric watercolor with dry brush",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: atmospheric watercolor with dry brush. Panoramic view of the siege landscape around an elevated Gallic oppidum in 52 BCE, Roman timber palisade and ditch in near foreground, another broken line of earthworks far away, tiny working figures. Ground-level painterly panorama, not a diagram or exact map; no castles, no concentric fantasy fortress, no fireballs.",
       "caption": "Осада укреплённого галльского поселения. Пейзаж навеян событиями 52 г. до н. э.; линии укреплений показаны без претензии на точный план Алезии. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-80d8c29d-13c8-4d98-8ceb-24357ccb22f2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "31cc0aee67cf90a94a304702623d3a3a2e2929f8a34da97cf962441f552dbfc8",
+      "bytes": 908038,
+      "supporting_note_ids": [
+        "ch04-19",
+        "ch04-20",
+        "ch04-21",
+        "ch04-22",
+        "ch04-23",
+        "ch04-24"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены передние фигуры, руки, палисад, ров и дальний план. Крупных дефектов не выявлено.",
+        "historical": "Нет средневековых замков; палисад и оппидум допустимы, расположение укреплений не названо точной археологической реконструкцией Алезии."
+      }
     },
     {
       "id": "ART-10",
