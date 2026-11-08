@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-08T16:05:55.324484+00:00",
+  "updated_utc": "2026-11-08T16:10:58.207111+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -47,10 +47,11 @@
       "review": "research/v1.2/reviews/ch06_independent.md"
     },
     "07": {
-      "status": "pending_v12",
-      "words": 2866,
+      "status": "reviewed_v12",
+      "words": 3533,
       "baseline_words": 2866,
-      "sha256": "c268c2aa1dc5babea92f099c914ec4e2cf9dd8b3d843e911e4ee82701f35a3ee"
+      "sha256": "230b586b9cc62edb040d024c8d223ab7e905ca4552facbafbecef7b9c1c2dbfa",
+      "review": "research/v1.2/reviews/ch07_independent.md"
     },
     "08": {
       "status": "pending_v12",
@@ -107,8 +108,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 54366,
-  "bibliographic_entries": 91,
-  "next_action": "Глава 7: завершить текущие вставки о карьерах заговорщиков, вариантах места, письмах Fam11.1/2 и споре о похоронах; рабочий текст сохранён для интеграции, отдельный проверяющий работает над ним. После проверки внести источники и реестры, commit/push. Главы1–6не повторять.",
+  "current_body_words": 55033,
+  "bibliographic_entries": 94,
+  "next_action": "Глава 8: углубить осень44 по Cic.Att16.8/9/15.3 и Phil3.3–8, различить набор, решение о маршруте, письменную речь и критерий союза вокруг Каски. Дополнительно прочитаны van derBlom2020,255–260 в официальномPDF; вставки ещё не интегрированы. После отдельной проверки обновить аппарат и выполнить commit/push. Главы1–7не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

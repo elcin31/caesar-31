@@ -68,10 +68,10 @@
     {
       "path": "manuscript/chapters/07-ides.md",
       "baseline_words": 2866,
-      "current_words": 2866,
-      "added_words": 0,
-      "footnotes": 34,
-      "sha256": "c268c2aa1dc5babea92f099c914ec4e2cf9dd8b3d843e911e4ee82701f35a3ee",
+      "current_words": 3533,
+      "added_words": 667,
+      "footnotes": 42,
+      "sha256": "230b586b9cc62edb040d024c8d223ab7e905ca4552facbafbecef7b9c1c2dbfa",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 54366,
+  "current_words": 55033,
   "illustrations": {
     "referenced": 34,
     "unique": 34

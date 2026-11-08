@@ -22,6 +22,8 @@ Caesar, Gaius Julius. *Civil Wars*. Перевод A. G. Peskett. Loeb Classical
 
 Caesar, Gaius Julius and Aulus Hirtius. *Commentarii de Bello Gallico*. Редактор T. Rice Holmes. Oxford: Clarendon Press, 1914. https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/master/data/phi0448/phi001/phi0448.phi001.perseus-lat2.xml.
 
+Cicero. *Epistulae ad familiares, Book11: selected correspondence of Decimus Brutus, Marcus Brutus and Cassius*. Перевод W. G. Williams. 1928. https://www.attalus.org/cicero/adfam11.html.
+
 Cicero, Marcus Tullius. *The Letters of Cicero: The Whole Extant Correspondence in Chronological Order*. Перевод Evelyn S. Shuckburgh. London: George Bell and Sons, 1908–1909. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0022%3Atext%3DA%3Abook%3D8%3Aletter%3D9.
 
 Cicero, Marcus Tullius. *In Catilinam IV*. Перевод H. E. D. Blakiston. 1894. https://www.attalus.org/cicero/catilina4.html.
@@ -168,6 +170,8 @@ van den Berg, Christopher S. “Minerva, Venus, and Cicero's Judgments on Caesar
 
 van der Blom, Henriette. “The Reception of Octavian’s Oratory and Public Communication in the Imperial Period.” In *The Triumviral Period: Civil War, Political Crisis and Socioeconomic Transformations*, edited by Francisco Pina Polo, 249–279. Zaragoza and Sevilla: Prensas de la Universidad de Zaragoza and Editorial Universidad de Sevilla, 2020. https://pure-oai.bham.ac.uk/ws/portalfiles/portal/99010522/Van_der_Blom_Octavian_s_oratory.pdf.
 
+Vekselius, Johan. *Weeping for the res publica: Tears in Roman Political Culture*. 2018. https://lup.lub.lu.se/record/b043bd37-a010-40a0-846a-77a379ddb8b9.
+
 Wolters, Reinhard. “Gab es eine Finanzkrise in den späten Jahren des Augustus? Münzprägung, Soldaten und Finanzströme im frühen Prinzipat.” *Chiron* 51 (2021): 167–210. https://doi.org/10.34780/cdj9-ej57.
 
 Ładoń, Tomasz. “Geneza i okoliczności konfliktu G. Juliusza Cezara z L. Korneliuszem Sullą.” *Wieki Stare i Nowe* 16, no. 21 (2021): 7–22. https://doi.org/10.31261/WSN.2021.21.01.
@@ -183,6 +187,8 @@ Goldsworthy, Adrian. *Augustus: First Emperor of Rome*. New Haven and London: Ya
 Gruen, Erich S. *The Last Generation of the Roman Republic*. Berkeley: University of California Press, 1974. https://openlibrary.org/books/OL5306262M/The_last_generation_of_the_Roman_Republic.
 
 Millar, Fergus. “The Political Character of the Classical Roman Republic, 200–151 B.C.” *The Journal of Roman Studies* 74 (1984): 1–19. https://doi.org/10.2307/299003.
+
+Sumi, Geoffrey S. *Ceremony and Power: Performing Politics in Rome between Republic and Empire*. Ann Arbor: University of Michigan Press, 2005. https://www.fulcrum.org/concern/monographs/0k225b911.
 
 Syme, Ronald. *The Roman Revolution*. Oxford: Clarendon Press, 1939. https://librarycatalog.sps.edu/bib/18647.
 
