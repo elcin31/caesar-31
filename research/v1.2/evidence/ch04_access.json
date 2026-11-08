@@ -1,0 +1,22 @@
+{
+  "objects": [
+    {
+      "url": "https://ressources.una-editions.fr/s/mAWRWd4qdxcBXCb/download",
+      "checked_utc": "2026-11-08T15:48:17.949839+00:00",
+      "sha256": "df8405f13980c3ee1e9c6288d251dce5540bf7a2f7e7ae83bcf416d4316fe451",
+      "bytes": 7305843,
+      "reading": "PARTIAL:PDF403–409; specifically406–409 used; HTML catalogue paginates differently",
+      "repository_copy": false
+    },
+    {
+      "url": "https://revistas.usal.es/uno/index.php/0213-2052/article/download/shha202240139157/28636",
+      "checked_utc": "2026-11-08T15:48:17.994228+00:00",
+      "sha256": "c0b2da629defe19bdfaeeee0e09727ec012d991d98a6c73a87556813a2733468",
+      "bytes": 152711,
+      "reading": "PARTIAL:title,143–146,149–151,153–154",
+      "repository_copy": false
+    }
+  ],
+  "primary_access": "BG3/4/5A/6A directly read via web; exact sections and URLs in notes",
+  "pagination_discrepancy": "Reddé HTML381–398/17p; linked PDF403–413/11p; cite actual PDF explicitly."
+}

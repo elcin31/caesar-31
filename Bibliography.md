@@ -130,6 +130,8 @@ Morstein-Marx, Robert and Nathan Rosenstein. “The Transformation of the Republ
 
 Mouritsen, Henrik. *Plebs and Politics in the Late Roman Republic*. Cambridge: Cambridge University Press, 2001. https://doi.org/10.1017/CBO9780511482885.
 
+Novillo López, Miguel Ángel. “Cayo Julio César en Britania: ¿Campañas de exploración o incursiones fracasadas?.” *Studia Historica. Historia Antigua* 40 (2022): 139–157. https://doi.org/10.14201/shha202240139157.
+
 Osgood, Josiah. *Caesar’s Legacy: Civil War and the Emergence of the Roman Empire*. Cambridge: Cambridge University Press, 2006. https://assets.cambridge.org/97805216/71774/excerpt/9780521671774_excerpt.pdf.
 
 Pietrini, Stefania. *La lex Iulia de pecuniis repetundis nell'interpretazione dei giuristi del principato*. Milano: LED, 2023. https://doi.org/10.7359/1247-2023-pietrini.
@@ -137,6 +139,8 @@ Pietrini, Stefania. *La lex Iulia de pecuniis repetundis nell'interpretazione de
 Pina Polo, Francisco. “Idea y práctica de la democracia en la Roma republicana.” *Gerión. Revista de Historia Antigua* 37, no. 2 (2019): 379–397. https://doi.org/10.5209/geri.65979.
 
 Raaflaub, Kurt A. “The Conquest of Uxellodunum.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 288–293. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
+
+Reddé, Michel. “Alésia. Du texte de César aux vestiges archéologiques.” In *Legiones, provincias, classes… Morceaux choisis*. Pessac: Ausonius Éditions, 2022. https://doi.org/10.46608/basic3.9782356134899.34.
 
 Rich, John. “Making the Emergency permanent: auctoritas, potestas and the evolution of the principate of Augustus.” In *Des réformes augustéennes*, 37–121. Rome: École française de Rome, 2012. https://www.persee.fr/doc/efr_0223-5099_2012_act_458_1_10423.
 

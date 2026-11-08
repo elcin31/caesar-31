@@ -41,10 +41,10 @@
     {
       "path": "manuscript/chapters/04-gaul.md",
       "baseline_words": 2832,
-      "current_words": 2832,
-      "added_words": 0,
-      "footnotes": 30,
-      "sha256": "ad07427b15896c6c71592fd841bba2c5f9b1b243a57f3e8a31825c8f342aaf52",
+      "current_words": 3691,
+      "added_words": 859,
+      "footnotes": 42,
+      "sha256": "bc7de5e6f3c0c7bdbe099b2a75fae8a10e50bb3b0b6603274e65c98ab8d82a84",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 51663,
+  "current_words": 52522,
   "illustrations": {
     "referenced": 34,
     "unique": 34

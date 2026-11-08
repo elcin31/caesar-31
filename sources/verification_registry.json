@@ -995,6 +995,30 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL:48.11.1pr--1,3,6,7pr--3,9 directly read in Latin at Roman Law Library, Université Grenoble Alpes; host identifies Mommsen and Krueger, Berlin1954. Compilation of533CE preserving imperial-era jurists, not the unaltered law of59BCE. Printed edition not independently inspected.",
       "addendum": ""
+    },
+    {
+      "key": "redde2022alesia",
+      "title": "Alésia. Du texte de César aux vestiges archéologiques",
+      "author": "Reddé, Michel",
+      "year": "2022",
+      "doi": "10.46608/basic3.9782356134899.34",
+      "url": "https://una-editions.fr/29-alesia-du-texte-de-cesar-aux-vestiges-archeologiques/",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: publisher-linked PDF is numbered403--413; read403--409, especially406--409. HTML catalogue instead gives381--398 and17pages; discrepancy retained, not silently reconciled. Chapter originally published2008,277--290, not independently inspected in original volume. Cited PDF: https://ressources.una-editions.fr/s/mAWRWd4qdxcBXCb/download .",
+      "addendum": ""
+    },
+    {
+      "key": "novillo2022britain",
+      "title": "Cayo Julio César en Britania: ¿Campañas de exploración o incursiones fracasadas?",
+      "author": "Novillo López, Miguel Ángel",
+      "year": "2022",
+      "doi": "10.14201/shha202240139157",
+      "url": "https://revistas.usal.es/uno/index.php/0213-2052/article/download/shha202240139157/28636",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: title,143--146,149--151,153--154 directly read. Used for distinct criteria of expedition outcomes. Specific claims about indemnity55BCE,1000Roman losses, failure of Kentish attack, exact locations and initial intentions not adopted. Independent primary comparison in research/v1.2/ch04_research.md.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."

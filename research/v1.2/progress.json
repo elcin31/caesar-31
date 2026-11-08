@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-08T13:10:06.707779+00:00",
+  "updated_utc": "2026-11-08T15:48:21.530208+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -26,10 +26,11 @@
       "review": "research/v1.2/reviews/ch03_independent.md"
     },
     "04": {
-      "status": "pending_v12",
-      "words": 2832,
+      "status": "reviewed_v12",
+      "words": 3691,
       "baseline_words": 2832,
-      "sha256": "ad07427b15896c6c71592fd841bba2c5f9b1b243a57f3e8a31825c8f342aaf52"
+      "sha256": "bc7de5e6f3c0c7bdbe099b2a75fae8a10e50bb3b0b6603274e65c98ab8d82a84",
+      "review": "research/v1.2/reviews/ch04_independent.md"
     },
     "05": {
       "status": "pending_v12",
@@ -104,8 +105,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 51663,
-  "bibliographic_entries": 83,
-  "next_action": "Глава 4, первая незавершённая: сохранить её действующую аргументацию о ресурсах и насилии; составить проверенную последовательность кампаний 58–51 гг. (особенно венеты 56, Рейн/Британия 55, Британия и зимний кризис 54, операции 53, продолжение войны 51). Читать соответствующие книги BG и отдельную восьмую книгу Гирция, затем доступные специальные исследования и археологические публикации по Алезии. Внести содержательные дополнения с локаторами, отдельно проверить, обновить реестры и commit/push. Главы 1–3 не повторять.",
+  "current_body_words": 52522,
+  "bibliographic_entries": 85,
+  "next_action": "Глава 5: углубить ранее сжатую последовательность Александрийской, Понтийской и Африканской кампаний после Фарсала. Читать Bellum Alexandrinum и Bellum Africum как отдельные анонимные тексты, сверить современный анализ Raaflaub304–307 и Gaertner265–267 в официальном LandmarkPDF. Вставки5 пока не внесены; главы1–4 не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }
