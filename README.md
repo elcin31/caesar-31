@@ -2,7 +2,13 @@
 
 «Юлий Цезарь и Октавиан Август: две политические биографии и рождение Римской империи». Подзаголовок: «От кризиса Республики к установлению принципата».
 
-Канонический репозиторий: https://github.com/elcin31/caesar-31, ветка `main`. Завершённая исследовательская версия **1.0**: **16 глав**, введение, заключение и приложения; **48 837 русских слов** основного текста с заголовками, без примечаний, приложений и библиографии. Внутренняя научная и литературная проверка завершена; внешняя профессиональная рецензия не проводилась.
+Канонический репозиторий: https://github.com/elcin31/caesar-31, ветка `main`. Текущая иллюстрированная научно-редакторская версия **1.1**: **34 новые оригинальные живописные иллюстрации**, по две на каждую из 16 глав, по одной во введении и приложениях. Все работы созданы инструментом генерации изображений, визуально и исторически проверены и встроены как современные художественные реконструкции с индивидуальными подписями. Основной текст — **48 864 русских слова**, без сносок, подписей к новым иллюстрациям, приложений и библиографии. Внешняя профессиональная рецензия не проводилась.
+
+[DOCX 1.1](dist/v1.1/Caesar_Augustus_v1.1.docx) · [EPUB 1.1](dist/v1.1/Caesar_Augustus_v1.1.epub) · [PDF 1.1](dist/v1.1/Caesar_Augustus_v1.1.pdf) · [ZIP 1.1](dist/v1.1/Caesar_Augustus_v1.1.zip)
+
+PDF 1.1 — **368 страниц**. EPUBCheck 5.4.0 — **0 ошибок и предупреждений**. Наличие каждой из 34 новых работ во всех трёх форматах доказано сравнением размеров и декодированных RGB-пикселей: [отчёт](dist/v1.1/illustration_validation.json). [Художественный реестр](assets/illustrations/v1.1/register.json) · [Протоколы просмотра](research/illustration_reviews_v11.json) · [Редакторские изменения](research/editorial_v11.md). ZIP содержит три читательских формата и редакторские/проверочные документы; полные редактируемые исходники и отдельные изображения хранятся в репозитории.
+
+Сохранённый выпуск **1.0** (48 837 слов, PDF 336 страниц) остаётся побайтово неизменным:
 
 [Полный архив Caesar_Augustus_FINAL.zip](dist/final/Caesar_Augustus_FINAL.zip) · [DOCX](dist/final/Caesar_Augustus.docx) · [EPUB 3](dist/final/Caesar_Augustus.epub) · [PDF](dist/final/Caesar_Augustus.pdf)
 
@@ -25,9 +31,10 @@ PDF — **336 страниц**. EPUBCheck 5.4.0 — **0 ошибок и 0 пре
 ```sh
 python -m pip install -r requirements.txt
 python scripts/audit_project.py
-python scripts/build.py --version 1.0 --final
-python scripts/verify_exports.py --version 1.0 --final --epubcheck-jar /path/to/epubcheck.jar
-python scripts/package_release.py --version 1.0 --final
+python scripts/build.py --version 1.1
+python scripts/verify_exports.py --version 1.1 --epubcheck-jar /path/to/epubcheck.jar
+python scripts/verify_illustrations_v11.py
+python scripts/package_release.py --version 1.1 --reader-bundle
 ```
 
 EPUBCheck5.4.0: https://github.com/w3c/epubcheck/releases/tag/v5.4.0. Его JAR и системные шрифты не распространяются в проекте. Без фактического EPUBCheck результат не объявляется полной валидацией. DOCX содержит автоматическое поле оглавления, которое может потребовать обновления в Word. Прямое тестирование Apple Books в Linux не заявляется.

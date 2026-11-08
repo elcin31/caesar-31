@@ -1,0 +1,182 @@
+fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+fmtutil:   /usr/share/texmf/web2c/fmtutil.cnf
+fmtutil:   /usr/share/texlive/texmf-dist/web2c/fmtutil.cnf
+fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+fmtutil:   /workspace/caesar-augustus/.cache/texmf-config/web2c/fmtutil.cnf
+fmtutil [INFO]: writing formats under /workspace/caesar-augustus/.cache/texmf-var/web2c
+fmtutil [INFO]: --- remaking xelatex with xetex
+fmtutil: running `xetex -ini   -jobname=xelatex -progname=xelatex -etex xelatex.ini' ...
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+(/usr/share/texlive/texmf-dist/tex/latex/tex-ini-files/xelatex.ini
+(/usr/share/texlive/texmf-dist/tex/latex/base/latex.ltx
+(/usr/share/texlive/texmf-dist/tex/latex/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, parameters,
+LaTeX2e <2024-11-01> patch level 2
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)) hacks,
+document commands, templates, control, par, spacing, files, font encodings,
+lengths, NFSS base, NFSS axes, NFSS tracing, NFSS declarative interface,
+NFSS initialization,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/usr/share/texlive/texmf-dist/tex/latex/base/fonttext.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/tulmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/tulmss.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/tulmtt.fd)
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1cmss.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1cmtt.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontmath.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omxcmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/usr/share/texlive/texmf-dist/tex/latex/base/preload.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+environments, center, verbatim, math definitions, boxes, title, sectioning,
+contents, floats, footnotes, index, bibliography, output,
+ Unicode character data,
+(/usr/share/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex
+
+load-unicode-data.tex v1.18 (2025-01-07)
+Reading Unicode data
+# UnicodeData-16.0.0.txt
+# Modified 2024-08-25 18:05 GMT [JAW]
+)
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/usr/share/texlive/texmf-dist/tex/generic/babel/hyphen.cfg
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def)
+(/usr/share/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(/workspace/caesar-augustus/scripts/tex-support/tex/generic/hyphenation/loadhyp
+h-ru.tex UTF-8 Russian hyphenation patterns
+(/workspace/caesar-augustus/scripts/tex-support/tex/generic/hyphenation/hyph-ru
+.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/firstaid/latex2e-first-aid-for-externa
+l-files.ltx)
+ ) )
+Beginning to dump on file xelatex.fmt
+ (preloaded format=xelatex 2026.11.8)
+89871 strings of total length 476341
+380537 memory locations dumped; current usage is 302&373292
+23036 multiletter control sequences
+\font\nullfont=nullfont
+\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+\font\c_initex_cctab=cmr10 at 0.00005pt
+\font\c_other_cctab=cmr10 at 0.00006pt
+\font\c_str_cctab=cmr10 at 0.00008pt
+\font\g_tmpa_cctab=cmr10 at 0.00009pt
+\font\g_tmpb_cctab=cmr10 at 0.0001pt
+\font\g__regex_state_active_intarray=cmr10 at 0.00012pt
+\font\g__regex_thread_info_intarray=cmr10 at 0.00014pt
+\font\g__regex_submatch_prev_intarray=cmr10 at 0.00015pt
+\font\g__regex_submatch_begin_intarray=cmr10 at 0.00017pt
+\font\g__regex_submatch_end_intarray=cmr10 at 0.00018pt
+\font\g__regex_submatch_case_intarray=cmr10 at 0.0002pt
+\font\g__regex_balance_intarray=cmr10 at 0.00021pt
+\font\g__codepoint_category_index_intarray=cmr10 at 0.00023pt
+\font\g__codepoint_uppercase_index_intarray=cmr10 at 0.00024pt
+\font\g__codepoint_lowercase_index_intarray=cmr10 at 0.00026pt
+\font\g__codepoint_category_blocks_intarray=cmr10 at 0.00027pt
+\font\g__codepoint_uppercase_blocks_intarray=cmr10 at 0.00029pt
+\font\g__codepoint_lowercase_blocks_intarray=cmr10 at 0.0003pt
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+\font\c_code_cctab=cmr10 at 0.00032pt
+\font\c_document_cctab=cmr10 at 0.00034pt
+558830 words of font info for 36 preloaded fonts
+198 hyphenation exceptions
+Hyphenation trie of length 13170 has 300 ops out of 35111
+  119 for language 1
+  181 for language 0
+No pages of output.
+Transcript written on xelatex.log.
+fmtutil [INFO]: log file copied to: /workspace/caesar-augustus/.cache/texmf-var/web2c/xetex/xelatex.log
+fmtutil [INFO]: /workspace/caesar-augustus/.cache/texmf-var/web2c/xetex/xelatex.fmt installed.
+fmtutil [INFO]: successfully rebuilt formats: 1
+fmtutil [INFO]: not selected formats: 19
+fmtutil [INFO]: total formats: 20
+fmtutil [INFO]:
+*************************************************************
+*                                                           *
+* WARNING: you are switching to fmtutil's per-user formats. *
+*         Please read the following warnings!               *
+*                                                           *
+*************************************************************
+
+You have run fmtutil-user (as opposed to fmtutil-sys) for the first time;
+this has created format files which are local to your personal account.
+
+From now on, any changes in system formats will *not* be automatically
+reflected in your files; furthermore, running fmtutil-sys will no longer
+have any effect for you.
+
+As a consequence, you yourself have to rerun fmtutil-user after any
+change in the system directories. For example, when one of the LaTeX or
+other format source files changes, which happens frequently.
+See https://tug.org/texlive/scripts-sys-user.html for details.
+
+If you want to undo this, remove the files mentioned above.
+
+Run fmtutil --help for full documentation of fmtutil.
+fmtutil [INFO]: exiting with status 0

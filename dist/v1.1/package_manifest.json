@@ -1,0 +1,105 @@
+{
+  "release": "1.1",
+  "final": false,
+  "build_manifest_sha256": "86b86bbb9e444a783d28d5c62a32290578b5a821aba94519fd5ce5635d414d3c",
+  "validation_sha256": "c4bb5dc78fc04c710ce030102fc893738128ec750ed2ff1d4650a11a5cf5088b",
+  "files": [
+    {
+      "path": "Bibliography.md",
+      "bytes": 15559,
+      "sha256": "3c75a59ba8f3d8357a8f62f9fcb64c3e2b882d8f5ba08153438aed869e0102fe"
+    },
+    {
+      "path": "Editorial_Report.md",
+      "bytes": 15081,
+      "sha256": "8211832a91cbecdb2d3a148d077ce1605b50c8061de2401039dcd6db980e8d72"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11467,
+      "sha256": "48e6489e5a3870f061ad6f59fce880b19c50ea74faf5bb5c115f0a3e9d565b1a"
+    },
+    {
+      "path": "Research_Methodology.md",
+      "bytes": 15596,
+      "sha256": "b443fd2297307b7ce03e7db9a8dec3171225c11d9cc671d3233a5ce6fcc4ebf4"
+    },
+    {
+      "path": "assets/illustrations/v1.1/register.json",
+      "bytes": 108889,
+      "sha256": "db7663abe639ad5aa1d7c95c2875dc2f4ece0c10c3a9257517a0343621b7fe97"
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.docx",
+      "bytes": 30511240,
+      "sha256": "781b5c65bdccbcafb2d8bd21de53df5af5819766ddbc57ad570d97131accfa53"
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.epub",
+      "bytes": 30593178,
+      "sha256": "29887873691765b37ffd19680e191cd15950680bd68ce92b48719f921bf53f6f"
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.pdf",
+      "bytes": 31039979,
+      "sha256": "c4a5eb8dc60013e16fac876d11b40ef2114dc217a5aea5a3745702feb53e4aa4"
+    },
+    {
+      "path": "dist/v1.1/build_manifest.json",
+      "bytes": 12431,
+      "sha256": "86b86bbb9e444a783d28d5c62a32290578b5a821aba94519fd5ce5635d414d3c"
+    },
+    {
+      "path": "dist/v1.1/epubcheck.log",
+      "bytes": 147,
+      "sha256": "a0ccb9442db4808c4a4f1d51310a27603a09f8c0b0a35c49073cc63fb18fcb86"
+    },
+    {
+      "path": "dist/v1.1/illustration_pages.json",
+      "bytes": 1922,
+      "sha256": "1539487dc2d1b0b01e7b837979f8f8ffa350fd36ba7d8d9856811b132e8e0c0c"
+    },
+    {
+      "path": "dist/v1.1/illustration_validation.json",
+      "bytes": 10238,
+      "sha256": "ded22feb346f2a0834a1b661d93091f13a39ca8f4eac84ab50358a715d42310b"
+    },
+    {
+      "path": "dist/v1.1/validation.json",
+      "bytes": 3557,
+      "sha256": "c4bb5dc78fc04c710ce030102fc893738128ec750ed2ff1d4650a11a5cf5088b"
+    },
+    {
+      "path": "dist/v1.1/visual_proof.json",
+      "bytes": 3609,
+      "sha256": "308a87dc57cbbe0ec0e59b3ef511311432793d3965e8a260187a36863a385c9c"
+    },
+    {
+      "path": "research/editorial_v11.md",
+      "bytes": 4711,
+      "sha256": "c4f40ed536ec4c5defa541289fbe26575c577c40412d32481a231b14be7f9cf0"
+    },
+    {
+      "path": "research/illustration_plan_v11.json",
+      "bytes": 105210,
+      "sha256": "ce74ec5c28edd2f68f9f691534c87437be0a7808b47023397536a1df5d215fc0"
+    },
+    {
+      "path": "research/illustration_reviews_v11.json",
+      "bytes": 19864,
+      "sha256": "347341ce7cb0ea49f3d89c4faac5724418d41d94224aa13e80314db5807e7c2b"
+    }
+  ],
+  "exclusions": [
+    ".git; full external evidence snapshots; temporary caches; external validators and fonts; other release directories",
+    ".agents/skills/paper-deep-research and paper-reviewer-check: no general redistribution license; see installation reports"
+  ],
+  "bundle_kind": "Reading editions and editorial records; complete editable sources and image files are in elcin31/caesar-31, not duplicated in this ZIP.",
+  "archive": {
+    "path": "dist/v1.1/Caesar_Augustus_v1.1.zip",
+    "bytes": 92120678,
+    "sha256": "d88b695d5b569a279b0f31b89c34f0e7df21a1d358ff31741755ab14810ca813",
+    "crc": "pass",
+    "file_hashes": "pass"
+  }
+}

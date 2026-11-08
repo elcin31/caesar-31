@@ -74,8 +74,9 @@ def main():
         require(art_validation.get('status') == 'pass' and art_validation.get('new_illustrations') == 34,
                 'Verify all 34 illustrations before packaging')
         candidates = [dist / f'{release.stem}.{suffix}' for suffix in ('docx', 'epub', 'pdf')]
-        candidates += [dist / name for name in ('validation.json', 'illustration_validation.json', 'build_manifest.json')]
-        candidates += [ROOT / name for name in ('Bibliography.md', 'Research_Methodology.md', 'Editorial_Report.md',
+        candidates += [dist / name for name in ('validation.json', 'illustration_validation.json', 'build_manifest.json',
+                                               'visual_proof.json', 'illustration_pages.json', 'epubcheck.log')]
+        candidates += [ROOT / name for name in ('README.md', 'Bibliography.md', 'Research_Methodology.md', 'Editorial_Report.md',
                                                 'research/editorial_v11.md', 'research/illustration_plan_v11.json',
                                                 'research/illustration_reviews_v11.json', 'assets/illustrations/v1.1/register.json')]
         files = sorted(candidates, key=lambda p: p.relative_to(ROOT).as_posix())

@@ -123,6 +123,8 @@ def main():
 \titlespacing*{\chapter}{0pt}{12pt}{24pt}
 \usepackage{float}
 \floatplacement{figure}{H}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
 \babelhyphenation[russian]{Cor-re-spon-dence}
 \makeatletter
 \AtBeginDocument{\let\caesar@author\@author\def\@author{\normalsize\caesar@author}}
