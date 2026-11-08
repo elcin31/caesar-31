@@ -27,7 +27,7 @@ def people(value,inverted=True):
     return ' and '.join(out)
 
 def format_record(r):
-    f=r['fields'];author=people(f['author']);title=f['title'];year=f.get('year','б. г.').replace('--','–');p=f.get('pages','').replace('--','–')
+    f=r['fields'];author=people(f['author']).rstrip('.');title=f['title'].replace('--','–').rstrip('.');year=f.get('year','б. г.').replace('--','–').rstrip('.');p=f.get('pages','').replace('--','–')
     if r['type']=='article':
         s=f'{author}. “{title}.” *{f["journal"]}* {f.get("volume", "")}'
         if f.get('number'):s+=', no. '+f['number']

@@ -6,7 +6,7 @@
 
 Appian. *Roman History: The Civil Wars*. Перевод Horace White. Т. 3. Loeb Classical Library, 1913. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html.
 
-Appian. *Roman History: The Civil Wars, Books III.27--V*. Перевод Horace White. Т. 4. Loeb Classical Library, 1913. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/4*.html.
+Appian. *Roman History: The Civil Wars, Books III.27–V*. Перевод Horace White. Т. 4. Loeb Classical Library, 1913. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/4*.html.
 
 Augustus. *Res Gestae Divi Augusti*. Перевод Frederick W. Shipley. Loeb Classical Library, 1924. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/home.html.
 
@@ -40,7 +40,7 @@ Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 5. Loeb Classica
 
 Gellius, Aulus. *The Attic Nights*. Перевод J. C. Rolfe. Т. 2. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/10*.html.
 
-Horace. *Carmen Saeculare*. Редактор Yongyi Li. б. г.. https://dco.dickinson.edu/horatius-carmina/carmen-saeculare.
+Horace. *Carmen Saeculare*. Редактор Yongyi Li. б. г. https://dco.dickinson.edu/horatius-carmina/carmen-saeculare.
 
 Nicolaus of Damascus. *Life of Augustus*. Перевод C. M. Hall. 1923. https://www.attalus.org/translate/nicolaus1.html.
 
@@ -62,11 +62,11 @@ Suetonius Tranquillus, Gaius. *The Lives of the Caesars*. Перевод J. C. R
 
 Suetonius Tranquillus, Gaius. *De grammaticis*. Перевод J. C. Rolfe. Т. 2. Loeb Classical Library, 1914. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/de_Grammaticis*.html.
 
-Tacitus. *The Annals, Books I--III*. Перевод John Jackson. Т. 3. Loeb Classical Library, 1931. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1A*.html.
+Tacitus. *The Annals, Books I–III*. Перевод John Jackson. Т. 3. Loeb Classical Library, 1931. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1A*.html.
 
 Velleius Paterculus. *Compendium of Roman History*. Перевод Frederick W. Shipley. Loeb Classical Library, 1924. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Velleius_Paterculus/2B*.html.
 
-Vergil. *Aeneid VI 788--800*. б. г.. https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-vi-788-800.
+Vergil. *Aeneid VI 788–800*. б. г. https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-vi-788-800.
 
 ## Современные исследования: непосредственно использованные тексты и фрагменты
 
@@ -76,19 +76,19 @@ Badian, Ernst. “From the Iulii to Caesar.” In *A Companion to Julius Caesar*
 
 Campbell, Brian. “Review of Rome at War: Farms, Families, and Death in the Middle Republic, by Nathan Rosenstein.” *Electronic Antiquity* 8, no. 2 (2005): 61–66. https://scholar.lib.vt.edu/ejournals/ElAnt/V8N2/.
 
-Cooley, Alison E.. “From the Augustan Principate to the Invention of the Age of Augustus.” *The Journal of Roman Studies* 109 (2019): 71–87. https://doi.org/10.1017/S0075435819000674.
+Cooley, Alison E. “From the Augustan Principate to the Invention of the Age of Augustus.” *The Journal of Roman Studies* 109 (2019): 71–87. https://doi.org/10.1017/S0075435819000674.
 
 De Blois, Lukas. “Caesar the General and Leader.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 102–108. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
 
-Flower, Harriet I.. *Roman Republics*. Princeton: Princeton University Press, 2010. https://search.worldcat.org/title/301798480.
+Flower, Harriet I. *Roman Republics*. Princeton: Princeton University Press, 2010. https://search.worldcat.org/title/301798480.
 
 Galinsky, Karl. *Augustus: Introduction to the Life of an Emperor*. Cambridge: Cambridge University Press, 2012. https://www.cambridge.org/core/books/augustus/ABB215770E511969424894DDC464AFB1.
 
 Gildenhard, Ingo. *Cicero, Philippic 2, 44–50, 78–92, 100–119: Latin Text, Study Aids with Vocabulary, and Commentary*. Cambridge: Open Book Publishers, 2018. https://doi.org/10.11647/OBP.0156.
 
-Gruen, Erich S.. “Caesar as a Politician.” In *A Companion to Julius Caesar*, edited by Miriam Griffin, 23–36. Chichester: Wiley-Blackwell, 2009. https://doi.org/10.1002/9781444308440.ch3.
+Gruen, Erich S. “Caesar as a Politician.” In *A Companion to Julius Caesar*, edited by Miriam Griffin, 23–36. Chichester: Wiley-Blackwell, 2009. https://doi.org/10.1002/9781444308440.ch3.
 
-Gruen, Erich S.. “The Legitimacy of Caesar's Wars.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 33–39. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
+Gruen, Erich S. “The Legitimacy of Caesar's Wars.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 33–39. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
 
 Hinard, François. *Les proscriptions de la Rome républicaine*. Rome: École française de Rome, 1985. https://www.persee.fr/doc/efr_0000-0000_1985_ths_83_1.
 
@@ -118,7 +118,7 @@ Osgood, Josiah. *Caesar’s Legacy: Civil War and the Emergence of the Roman Emp
 
 Pina Polo, Francisco. “Idea y práctica de la democracia en la Roma republicana.” *Gerión. Revista de Historia Antigua* 37, no. 2 (2019): 379–397. https://doi.org/10.5209/geri.65979.
 
-Raaflaub, Kurt A.. “The Conquest of Uxellodunum.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 288–293. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
+Raaflaub, Kurt A. “The Conquest of Uxellodunum.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 288–293. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
 
 Rich, John. “Making the Emergency permanent: auctoritas, potestas and the evolution of the principate of Augustus.” In *Des réformes augustéennes*, 37–121. Rome: École française de Rome, 2012. https://www.persee.fr/doc/efr_0223-5099_2012_act_458_1_10423.
 
@@ -144,9 +144,9 @@ Goldsworthy, Adrian. *Caesar: Life of a Colossus*. New Haven: Yale University Pr
 
 Goldsworthy, Adrian. *Augustus: First Emperor of Rome*. New Haven and London: Yale University Press, 2014. https://catalog.libraries.vsc.edu/cgi-bin/koha/opac-detail.pl?biblionumber=386554.
 
-Gruen, Erich S.. *The Last Generation of the Roman Republic*. Berkeley: University of California Press, 1974. https://openlibrary.org/books/OL5306262M/The_last_generation_of_the_Roman_Republic.
+Gruen, Erich S. *The Last Generation of the Roman Republic*. Berkeley: University of California Press, 1974. https://openlibrary.org/books/OL5306262M/The_last_generation_of_the_Roman_Republic.
 
-Millar, Fergus. “The Political Character of the Classical Roman Republic, 200–151 B.C..” *The Journal of Roman Studies* 74 (1984): 1–19. https://doi.org/10.2307/299003.
+Millar, Fergus. “The Political Character of the Classical Roman Republic, 200–151 B.C.” *The Journal of Roman Studies* 74 (1984): 1–19. https://doi.org/10.2307/299003.
 
 Syme, Ronald. *The Roman Revolution*. Oxford: Clarendon Press, 1939. https://librarycatalog.sps.edu/bib/18647.
 

@@ -163,10 +163,11 @@
     "medium": "cool oil painting with warm lantern accent",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: cool oil painting with warm lantern accent. Winter dusk in northern Italy January 49 BCE, a small ordinary shallow river with reedy banks; a mounted Roman commander in wool cloak pauses while a handful of mail-armored legionaries lead pack mules toward a ford. Wet cold naturalism, horses without stirrups, no imperial armor, no monument or giant bridge, no written quotation.",
     "caption": "Переход пограничной реки в январе 49 г. до н. э. Место брода, освещение и фигуры условны; знаменитые слова Цезаря не визуализируются как стенограмма. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-252af6ac-bb27-447d-96cf-c6178f4feea4.png"
   },
   {
     "id": "ART-11",
@@ -179,10 +180,11 @@
     "medium": "watercolor with opaque gray gouache",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: watercolor with opaque gray gouache. Italian harbor at Brundisium in 49 BCE, transport vessels under preparation to depart, soldiers and civilian porters carrying modest baggage on timber quay, late winter haze, low coastal buildings and sail rigs. Sense of hurried evacuation, not triumph; no modern harbor crane, no medieval ships or lateen triangular mainsails.",
     "caption": "Брундизий в начале гражданской войны: погрузка и уход морем. Изображение передаёт ситуацию эвакуации, а не точную реконструкцию гавани. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-042a04f0-8975-463b-a654-ce6700490b9c.png"
   },
   {
     "id": "ART-12",
@@ -195,10 +197,11 @@
     "medium": "gouache with fine ink details",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: gouache with fine ink details. A late Republican scholarly workroom around 46 BCE: two adult scholars and a Roman clerk consult papyrus rolls and a wax tablet at a wooden table, simple sundial visible in courtyard; diffuse Mediterranean light, humble writing tools and small calculation counters. No modern printed calendar, clock, telescope, spectacles or Arabic numerals; no legible text.",
     "caption": "Календарная реформа как труд счёта и согласования. Условная рабочая сцена; участие и внешний облик отдельных собеседников Цезаря не реконструируются. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-1067b92d-4c45-404c-b9d6-58d2f1869bca.png"
   },
   {
     "id": "ART-13",
@@ -211,10 +214,11 @@
     "medium": "matte oil painting",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: matte oil painting. Julius Caesar in his mid-fifties seated soberly on an unadorned folding curule-style chair receiving two Roman petitioners at unequal distance, a secretary to the side with rolls, restrained pale wool toga with modest purple border, daytime civic interior. No throne, no crown, no laurel, no kneeling worship, tension expressed in space.",
     "caption": "Приём просителей при диктаторе. Художественная постановка показывает неравенство доступа к решению; конкретное помилование здесь не изображено. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-d54159a6-381b-46f5-ba68-3997155246b9.png"
   },
   {
     "id": "ART-14",
