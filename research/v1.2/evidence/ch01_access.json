@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "url": "https://api.pageplace.de/preview/DT0400.9781400834907_A25083807/preview-9781400834907_A25083807.pdf",
+      "checked_utc": "2026-11-08T12:58:50.464923+00:00",
+      "bytes": 959868,
+      "sha256": "e24dd6f7b72d0877875022ba3db74032aced3d227b09587e0861399240f47a8e",
+      "reading": "PARTIAL: title/copyright, contents, pp1–4",
+      "repository_copy": false
+    },
+    {
+      "url": "https://revistas.ucm.es/index.php/GERI/article/download/65979/4564456552594",
+      "checked_utc": "2026-11-08T12:58:50.464923+00:00",
+      "bytes": 826387,
+      "sha256": "dc1bfdfd06abd312227104a2d8e6638fec5976764d66f86e0d0077c98dfdc860",
+      "reading": "PARTIAL: pp382–393",
+      "repository_copy": false
+    },
+    {
+      "url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/14%2A.html",
+      "checked_utc": "2026-11-08T12:58:50.464923+00:00",
+      "bytes": 50452,
+      "sha256": "9bbef4bb20c6db6a53ca38f30e4e5575a2e6426ade926f713b3d98042d1f7041",
+      "reading": "PARTIAL:14.7.1–13",
+      "repository_copy": false
+    },
+    {
+      "url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/15%2A.html",
+      "checked_utc": "2026-11-08T12:58:50.464923+00:00",
+      "bytes": 66768,
+      "sha256": "fd2147dc93e4e90ba6bd5f8770d2d7a07c2db575e5e2ea9bc4c03cbe7d8571ea",
+      "reading": "PARTIAL:15.27.1–5",
+      "repository_copy": false
+    },
+    {
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Auteurs_anciens/delegibus3_lat.htm",
+      "checked_utc": "2026-11-08T12:58:50.464923+00:00",
+      "bytes": 76248,
+      "sha256": "965c9483688437f683eaf0751d30126bf6fe689ae7148a4c7ee9e8d6d51f4fe8",
+      "reading": "PARTIAL:3.6–12,27–29,34–39",
+      "repository_copy": false
+    }
+  ],
+  "other_readings": "AppianBC1.22–24/65–75 and Plut.CG5–7 read directly with web tool at URLs in notes; tool retrieval not saved as raw HTML.",
+  "failed_access": [
+    "Zaguan97304 PDF:timeout/503; publisher PDF succeeded",
+    "English Gellius14/15:404; Latin succeeded"
+  ],
+  "no_full_book_reading_claim": true
+}

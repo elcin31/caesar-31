@@ -28,6 +28,8 @@ Cicero, Marcus Tullius. *Philippics*. Перевод Walter C. A. Ker. 1926. htt
 
 Cicero, Marcus Tullius. *Pro Marcello*. Перевод N. H. Watts. Loeb Classical Library, 1931. https://www.attalus.org/cicero/marcellus.html.
 
+Cicero, Marcus Tullius. *De legibus, liber III*. Редактор C. F. W. Mueller. n.d. https://droitromain.univ-grenoble-alpes.fr/Auteurs_anciens/delegibus3_lat.htm.
+
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 4. Loeb Classical Library, 1916. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/44*.html.
 
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 6. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html.
@@ -39,6 +41,8 @@ Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 3. Loeb Classica
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 5. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/49*.html.
 
 Gellius, Aulus. *The Attic Nights*. Перевод J. C. Rolfe. Т. 2. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/10*.html.
+
+Gellius, Aulus. *Noctes Atticae*. Т. 3. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/14%2A.html.
 
 Horace. *Carmen Saeculare*. Редактор Yongyi Li. б. г. https://dco.dickinson.edu/horatius-carmina/carmen-saeculare.
 
@@ -53,6 +57,8 @@ Plutarch. *Lives: Demetrius and Antony; Pyrrhus and Gaius Marius*. Перево�
 Plutarch. *Lives: Pompey*. Перевод Bernadotte Perrin. Т. 5. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Pompey*.html.
 
 Plutarch. *Lives: Crassus*. Перевод Bernadotte Perrin. Т. 3. Loeb Classical Library, 1916. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Crassus*.html.
+
+Plutarch. *Lives: Life of Caius Gracchus*. Перевод Bernadotte Perrin. Т. 10. Loeb Classical Library, 1921. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caius_Gracchus%2A.html.
 
 Polybius. *The Histories*. Перевод W. R. Paton. Т. 3. Loeb Classical Library, 1923. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/6*.html.
 
@@ -93,6 +99,8 @@ Gruen, Erich S. “The Legitimacy of Caesar's Wars.” In *The Landmark Julius C
 Hinard, François. *Les proscriptions de la Rome républicaine*. Rome: École française de Rome, 1985. https://www.persee.fr/doc/efr_0000-0000_1985_ths_83_1.
 
 Hurlet, Frédéric. “Devenir un dieu. La mort d’Auguste et la naissance de la monarchie impériale.” *Studia Historica. Historia Antigua* 32 (2014): 61–75. https://revistas.usal.es/uno/index.php/0213-2052/article/download/12613/12925.
+
+Hölkeskamp, Karl-J. *Reconstructing the Roman Republic: An Ancient Political Culture and Modern Research*. Перевод Henry Heitmann-Gordon. Princeton, NJ: Princeton University Press, 2010. https://api.pageplace.de/preview/DT0400.9781400834907_A25083807/preview-9781400834907_A25083807.pdf.
 
 Jehne, Martin. “Caesar the Politician.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 6–12. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
 

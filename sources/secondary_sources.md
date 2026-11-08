@@ -59,3 +59,10 @@ Gruen2009politician — PARTIAL, непосредственно 23–32, не в
 ## Сводное расширение7ноября2026
 
 Включены проверенные фрагменты глав4–16: Gruen2017, Rosenstein2017(экономика и снабжение),DeBlois2017,Raaflaub2017; Morstein-Marx2007,Morrell2025,Urso2020,Gildenhard2018; Osgood2006,Hinard1985,vanDerBlom2020,Lange2013; Cooley2019,Wolters2021,Adamik2015,Scheid2015,Hurlet2014. Страницы, DOI/издания и конкретные ограничения — в additions_ch04.md, additions_part2.md, additions_part3.md, additions_part4.md и источниковых досье. Полные библиографические диапазоны не объявляются полным чтением. Для Cooley используется авторская пагинацияAM, для Rich объединены37–50,53–65,85–89, для Morstein-Marx/Rosenstein625–636. Доступные введения Galinsky1–10,Flower3–17,Lintott2–5,Mouritsen1–10 отделены от целых монографий. Восемь записейMETA оставлены программой дальнейшего чтения, а не фактической опорой подробных тезисов.
+
+## Редакция1.2, глава1
+
+Hölkeskamp2010 добавлен с PARTIAL: титул, оглавление и с1–4 законного preview.
+Pina Polo2019: непосредственно расширено чтение до382–393 основного текста,
+новый использованный аргумент387–388. Обновление не означает FULL.
+URL/хеши/границы: research/v1.2/ch01_research.md и evidence/ch01_access.json.

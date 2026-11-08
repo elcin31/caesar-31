@@ -1,0 +1,819 @@
+{
+  "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
+  "method": "Russian letter tokens, headings included, notes and ART captions excluded; same as audit_project.py",
+  "files": [
+    {
+      "path": "manuscript/introduction.md",
+      "baseline_words": 2326,
+      "current_words": 2326,
+      "added_words": 0,
+      "footnotes": 18,
+      "sha256": "e8d080cea32dc95d3bee4fc9f61dcda47ce11b17f4c418c943cb24a2ff95ea10",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "baseline_words": 4015,
+      "current_words": 5384,
+      "added_words": 1369,
+      "footnotes": 58,
+      "sha256": "ef7d16cbb49d3a480da3850cf664974b103362ab56d2e36462d7d6a93dcf57c8",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "baseline_words": 2913,
+      "current_words": 2913,
+      "added_words": 0,
+      "footnotes": 29,
+      "sha256": "8087fb8c37e1633e052cc83dca48bf5b41d779a92a44762ca85b133ebc8ff0c1",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "baseline_words": 2920,
+      "current_words": 2920,
+      "added_words": 0,
+      "footnotes": 33,
+      "sha256": "ddd7bdaf26e14d12c4c6e67170b3cea6742acda10009526d8a20f105ceb43367",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/04-gaul.md",
+      "baseline_words": 2832,
+      "current_words": 2832,
+      "added_words": 0,
+      "footnotes": 30,
+      "sha256": "ad07427b15896c6c71592fd841bba2c5f9b1b243a57f3e8a31825c8f342aaf52",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/05-civil-war.md",
+      "baseline_words": 2803,
+      "current_words": 2803,
+      "added_words": 0,
+      "footnotes": 30,
+      "sha256": "2be2208152eecfdfdcae098ea8fdf94b38cb851064820c577b4ddb7b20f753f2",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/06-dictatorship.md",
+      "baseline_words": 2860,
+      "current_words": 2860,
+      "added_words": 0,
+      "footnotes": 32,
+      "sha256": "48ddb8adfbb7862635b60fb9750e09a9955b97a676266453aa7f3cfee65d29c7",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/07-ides.md",
+      "baseline_words": 2866,
+      "current_words": 2866,
+      "added_words": 0,
+      "footnotes": 34,
+      "sha256": "c268c2aa1dc5babea92f099c914ec4e2cf9dd8b3d843e911e4ee82701f35a3ee",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/08-octavius.md",
+      "baseline_words": 2804,
+      "current_words": 2804,
+      "added_words": 0,
+      "footnotes": 24,
+      "sha256": "a85bc9c326ca950b22409ac3b69215017ac81ebd2c10c3b229f5fee6e8414ce2",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/09-triumvirate.md",
+      "baseline_words": 2812,
+      "current_words": 2812,
+      "added_words": 0,
+      "footnotes": 29,
+      "sha256": "3c18f631bef5c4a6713775b0f336cf4cda923ebeb45c279f87a6d72d3c74e2b3",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/10-actium.md",
+      "baseline_words": 2843,
+      "current_words": 2843,
+      "added_words": 0,
+      "footnotes": 29,
+      "sha256": "6b9b7a9c9cb585c8d1b64c0827cfe536a015516ee301593705d95223e38b6062",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/11-settlement.md",
+      "baseline_words": 2822,
+      "current_words": 2822,
+      "added_words": 0,
+      "footnotes": 23,
+      "sha256": "dc8cb089b8901c764dcb446a1c47e1bf973f155fda3b6705915c6a48290f0891",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/12-government.md",
+      "baseline_words": 2801,
+      "current_words": 2801,
+      "added_words": 0,
+      "footnotes": 24,
+      "sha256": "cf22d946e5cdade56e30f119dfff4aa149b0759b7edf1a01938d960b0bb83352",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/13-religion-culture.md",
+      "baseline_words": 2833,
+      "current_words": 2833,
+      "added_words": 0,
+      "footnotes": 27,
+      "sha256": "64c48afc2d1cdcd3b17e73324b69abeb19c4220345fb600030e7c93a5c2299ab",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/14-dynasty-succession.md",
+      "baseline_words": 2514,
+      "current_words": 2514,
+      "added_words": 0,
+      "footnotes": 26,
+      "sha256": "68848100fa632ae6838cbde4f48eb919336f0570b33e062eeb3e1d158de0a489",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/15-comparison.md",
+      "baseline_words": 2631,
+      "current_words": 2631,
+      "added_words": 0,
+      "footnotes": 16,
+      "sha256": "6b4b86fd32797e020370f063f1dc8171493755af952b37a6d8bcab4970510174",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/chapters/16-republic-empire.md",
+      "baseline_words": 2245,
+      "current_words": 2245,
+      "added_words": 0,
+      "footnotes": 16,
+      "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927",
+      "illustration_blocks_unchanged": true
+    },
+    {
+      "path": "manuscript/conclusion.md",
+      "baseline_words": 1024,
+      "current_words": 1024,
+      "added_words": 0,
+      "footnotes": 3,
+      "sha256": "72ba6d7c1d788f946891ce7d83c8a5c262fa69cff45d63ad965aa7f0b8ff07db",
+      "illustration_blocks_unchanged": true
+    }
+  ],
+  "baseline_words": 48864,
+  "current_words": 50233,
+  "illustrations": {
+    "referenced": 34,
+    "unique": 34
+  },
+  "protected_files": [
+    {
+      "path": "assets/augustan_adoptions.png",
+      "sha256": "d8e0b24a325c742aa4baf0be31e2cb27eda29664f576e26605b2829174671ba9",
+      "unchanged": true
+    },
+    {
+      "path": "assets/augustan_adoptions.svg",
+      "sha256": "749e2e55d8ab1a74878ad63cbea1bc6ca5688bd5b0e977ab149867ce9d250bbd",
+      "unchanged": true
+    },
+    {
+      "path": "assets/cover.png",
+      "sha256": "64c73d03c2e0cf10cba66f35fd0bc814109c605470dd9fdd6143e0009611d55d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/cover.svg",
+      "sha256": "9e4f3d9ef2739cd59843411ec5bcb1de46b2b19c4033f15d688f42f4bef4fde8",
+      "unchanged": true
+    },
+    {
+      "path": "assets/cover_v01.png",
+      "sha256": "0fa2cc74f94dfb4d576a80a5f80b826d7cf71588714a2f8100d466967e186168",
+      "unchanged": true
+    },
+    {
+      "path": "assets/cover_v01.svg",
+      "sha256": "5a73a506d6b079507c99554a55537fa79301d5d87a1f847e06bfeb178e00bbc8",
+      "unchanged": true
+    },
+    {
+      "path": "assets/epub.css",
+      "sha256": "8940237f057ccc41e4da27abe0b20853989c656e9cfb8f7516a9b7840322ce1a",
+      "unchanged": true
+    },
+    {
+      "path": "assets/genealogy.png",
+      "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4",
+      "unchanged": true
+    },
+    {
+      "path": "assets/genealogy.svg",
+      "sha256": "23f8b3885eb55db45f3c7892432c941643265f321853d13b72552252528a01e6",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/01-forum.jpg",
+      "sha256": "f6d338a833286fa0a1b4a6c58567c75196f70bfd2a15d1cff9dfbda531d44f81",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/02-citizens.jpg",
+      "sha256": "0550b022c5b41a237009beda8ebdfd30d882aee3df38a568f93529b51d235e42",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/03-farm.jpg",
+      "sha256": "83acd10f62bdf626bd53d8022e518c6816b721cc2852becf87b6600a0a563a9e",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/04-atrium.jpg",
+      "sha256": "b9b2448e4670f20ce3021c54939d68f553a793affa3fa3fd90b4f582ca68b5a7",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/05-escape.jpg",
+      "sha256": "e705185158ee517793731c725cba8188ed4fb159dea7711abc9eca86952e17b5",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/06-negotiation.jpg",
+      "sha256": "d2d5d51fd91aa5c87cbe759ad056d500b5bbb97bbff9893d81629a831142f261",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/07-forum-debate.jpg",
+      "sha256": "359e1886af13f7f8cc79e805f2eaacccc4ba1731f087d3814407477bb96ef2f9",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/08-camp.jpg",
+      "sha256": "73679528e9930e2fb1791c08ab448185308b024cbf412d677b2bef449b16acc4",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/09-alesia.jpg",
+      "sha256": "31cc0aee67cf90a94a304702623d3a3a2e2929f8a34da97cf962441f552dbfc8",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/10-rubicon.jpg",
+      "sha256": "6d0b22e01f434fa40882c538ce84e8330fd4f0395d325f6ed7e4d8ff306c725f",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/11-brundisium.jpg",
+      "sha256": "39ecd2f831bc723fb4361df8c702756006f05b223e100287836aeb9336fdbe07",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/12-calendar.jpg",
+      "sha256": "cceb03bcc75a009f7abbc7c433fd485dd0c4d32fca8dc6e0d004045d9e66cd00",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/13-petitioners.jpg",
+      "sha256": "e5f6b4b8a44ef38edfdb09329b59cf307991979fef79a1ce901dbd9167298e97",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/14-ides.jpg",
+      "sha256": "6cc38b6a71cef355e6e3072d967325fc5e0e06dbb9308e5f3fe5d69c6fc59fd5",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/15-funeral.jpg",
+      "sha256": "6e56d892fcdb3bac2f2a5bfb4416a5c9f6794e0f8d23afc937a4487a4bbad1a1",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/16-apollonia.jpg",
+      "sha256": "beb200467ac32b40a995d75cbfcfe91998fbf53a23fecf97b2ea233a1d89d244",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/17-will.jpg",
+      "sha256": "67f730749b70f979cd9cda72982d257e646210610c50c2c92aa15025a893464d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/18-proscriptions.jpg",
+      "sha256": "1872ad6c765285c928dbd1f018e15068e3ebb11a968d2cd29d848557315643a6",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/19-philippi.jpg",
+      "sha256": "a147aa958ab3d94ffd30954210ce535fe89d14f503a049eda259450d539e0ad6",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/20-shipyard.jpg",
+      "sha256": "0d6011de0c33b96a764993c8e39bfb153f618a9a89b47b31708ea7fb1fcd1384",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/21-actium.jpg",
+      "sha256": "cda2c69474181c3197f9709b90f0159bbb7d48463be46ecb54eb5c63e284be64",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/22-settlement.jpg",
+      "sha256": "ba5396ec1bc9ebd27e54ea3099c01f382867adc9df70f79f98c470c04ef42438",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/23-veteran-land.jpg",
+      "sha256": "fd0b297de4bdc5e69ffc04ccbf6fb384fc80738eaef0bbc53c817f87e5affc40",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/24-pay.jpg",
+      "sha256": "97341690c0a884b4f8020f94032afbd16039e3ad850fc9f07ddf8f8a88fa1b0f",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/25-provincial-hearing.jpg",
+      "sha256": "e5fab8f23547b75b5748f6af5fc106b24d8a17c57e42a5538b4211fab52b6d4d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/26-sculptors.jpg",
+      "sha256": "ffd13618b7e0e6f22a6792164c03086581420e70b9dd6c6f2e3c834f785f2841",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/27-household-cult.jpg",
+      "sha256": "1ae65703426f4d2c963f8b45e8e15a0fda086f4af2f88ba1632df759be924bbb",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/28-dynasty.jpg",
+      "sha256": "4dc4c95bbe739cb57220593b09c83783373ab67c07b62e98167e1262b39bf05c",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/29-nola.jpg",
+      "sha256": "55d1b8a51d9d4f923f2792fc608810ffb655b9f40523cbf02c91eaa528a8039e",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/30-caesar-desk.jpg",
+      "sha256": "795b0a53eec1e795472c3fa16a8867ed2869a5fe0d664699a21d437b454016eb",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/31-augustus-audience.jpg",
+      "sha256": "ae5305d7f3be78ec0471f9096bca6512552ae2160455f6cc784755559f97ff18",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/32-magistrates.jpg",
+      "sha256": "b153f19c3fe37d840b9337fc727a205d3cec438ded14bb5fa641b6c5416bc2ea",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/33-harbor-life.jpg",
+      "sha256": "d88bf271ae3165a3b49e69a0aeea14306d9daa381af74a4bbfc0904b27858f2d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/34-sources.jpg",
+      "sha256": "302df0fed8cf363ee14afd017d76fbd4304ab0a95d9525f1ec4a2acf5fac3125",
+      "unchanged": true
+    },
+    {
+      "path": "assets/illustrations/v1.1/register.json",
+      "sha256": "db7663abe639ad5aa1d7c95c2875dc2f4ece0c10c3a9257517a0343621b7fe97",
+      "unchanged": true
+    },
+    {
+      "path": "assets/image_register.md",
+      "sha256": "ffb546055a76a322145a9bb98510d19e68211fc3fd8b368c24492d54e2f372c3",
+      "unchanged": true
+    },
+    {
+      "path": "assets/images/met_248037.jpg",
+      "sha256": "87b78cfde5e0e35b17f400bd7271abbfaccfd4bd0a5143b7a7d7707807965ce7",
+      "unchanged": true
+    },
+    {
+      "path": "assets/images/met_248037_web-large.jpg",
+      "sha256": "8916ee4a84b0347c45b71911e20b584ef4090200d016e648c61446cff3730e51",
+      "unchanged": true
+    },
+    {
+      "path": "assets/images/met_248119.jpg",
+      "sha256": "baa7f252a229f97157e0da8b95a806dd9d3cfe38722c1562c8e98d30caa91f45",
+      "unchanged": true
+    },
+    {
+      "path": "assets/images/met_248119_web-large.jpg",
+      "sha256": "09fb4d0fcfa91d6c50ab42fb4aebea7b3fc2010a69473ac577f80c008527a9d7",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/natural_earth_50m_land.zip",
+      "sha256": "0b8e670cf80dce9cbebe2a193bc44ba5602758c22e1fa603980553646d7ff162",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/natural_earth_terms.html",
+      "sha256": "a5b89bf4c3b574701025257f4caea59d8e17a453667899345cd489e8bf8543ab",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_109321.json",
+      "sha256": "178b4825dc6dc82d26c0d380433fca5e5c70520ab44a929b53137f39839b27b7",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_138207.json",
+      "sha256": "5df83914cea23d760b6094994b0d7677d3680fc543ce0db077553375426673b5",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_138373.json",
+      "sha256": "6f3c3e07832250af4fd190178e22311e5e775818af4a325d8a2c998c96a415c1",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_177434.json",
+      "sha256": "1a3ceedf4f57f2e06b710e5942787da95c9a7f19b22a8b7604118d395c371f57",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_177473.json",
+      "sha256": "2b0a9d40522bcc978e8b3d7d5241b33a037d0d87040227a5ad9eb0ea6140cbf4",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_177528.json",
+      "sha256": "a7262f82e815052d61e61273c6c77410fb2c48fed1adc34cb189406cd77853c1",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_177657.json",
+      "sha256": "3e778a08e8aac9c2994abb9d6d2585085f7f062446f12870b245eefacd76b82e",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_246347.json",
+      "sha256": "f4072b75ba1b8ced212d4fc9789c85e5503916a02f8307fb130e2f8a25c54e10",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_246349.json",
+      "sha256": "17dab375a8077e62035e848e2b426044f2ee5bd9c16c7cbacbcc621961c9c055",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_246431.json",
+      "sha256": "cd141f5b627981f45298c2ac6b55d5a38e1178aab3d542917aa2513aca3d3292",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_256314.json",
+      "sha256": "b58246c3aaca9e7064946415982c9d6955111b1401d0cd755fa182182500c657",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_314921.json",
+      "sha256": "e074161975b62cc1c8a1be10c6610b995a67638bbb03301ff405b0acbcd30394",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_324827.json",
+      "sha256": "23b567bcdc0a9eabcd7720f19fa9ad71eb0d7070a2fe645cfed0ca746cb94ef0",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_383715.json",
+      "sha256": "78b1a6a4e1079f1948436b539796ac19125fa262d3b47a16a72d7ef25ee296d1",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_423025.json",
+      "sha256": "d602f3bc04b9241fe4516a9c1a46ee473946b3fd195f742e067a5cf613ea3fe4",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_462384.json",
+      "sha256": "a5bd74fae80476b8e55eed514bf66ffae20889c0fe8c35ce4d2c10ebfa0743cb",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_481818.json",
+      "sha256": "1140518ca7492887151b3321da117b1a57b41ee033888fe8592c92576c471ee8",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_491741.json",
+      "sha256": "01ab7eed16056f59fcdbf661d48f4c6bedfe97dce40dd77c02cb9145471d8b18",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_501482.json",
+      "sha256": "16e59f09cb0e98fe5727ba189af7bada5199f6b0fd56748e33e018a4c7e3e66d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_530772.json",
+      "sha256": "66494b5e9e9779e79a97b24dca165cdc7ec9701db108a4dd16fa662cb2cbef08",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_541042.json",
+      "sha256": "bac699b1eeeabef29ad692d393e084cc71a8875d4c8470cfc421505c29445604",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_589796.json",
+      "sha256": "b67d15b309e078618606cae0a982dbc1927e3490239dd8f61a0c2bbfcb199669",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_599612.json",
+      "sha256": "8470af6ada252498ddfd37c4fcb6c4cbb40673a6b5bb312310f303adeee95eb4",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_619103.json",
+      "sha256": "9c6b532579466da29531f0d9a0132b9965ba0db832e1c4a7c63d5f1a95a8debf",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_629035.json",
+      "sha256": "b9d72792dabb042b91d77539881361cc25f9c6d98a4355395f5c976564c981e0",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_658381.json",
+      "sha256": "d55577e8e6c12960afa0b9baa4b622efb423bef40199491a54a6496b218be41e",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/data/pleiades_727070.json",
+      "sha256": "ef28d6a0e40e5ec660456638b74ee9cd033d827716eb7e78bd169be099575c22",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/map_01_gaul_58_52.png",
+      "sha256": "135e69c0053c5b78d17a0e8bd1c211db15f5838c3650b905fb0b22a275e3e94a",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/map_01_gaul_58_52.svg",
+      "sha256": "73ce7c1c937c0ea2a4e91bcc994e36a40b154f5e9c5349e332236d6d540256ce",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/map_02_civil_wars_49_30.png",
+      "sha256": "94ab1303654647315518a528e1139e124bf30163464181c24ef76a3fa8700413",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/map_02_civil_wars_49_30.svg",
+      "sha256": "51ce870581ace45d922e5ef777dbf69a645a9965e26fe8da2b09b7c2fca04d2d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/map_03_administration_27.png",
+      "sha256": "6466060b006adc48b8145342416382b786449875f33ffb2dcf6ef836747aff28",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/map_03_administration_27.svg",
+      "sha256": "5a8c7263495f0a5516e55c952366957155123433c38a4b60de035bd06f1afcc6",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/maps_provenance.json",
+      "sha256": "18b2e80107798eace284aa2b1ba41656288df5ede0bccd4ed0cde0783b80b726",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/source_access.json",
+      "sha256": "548fab230916a2ed39284b204946f18e6a6e6737a02c06874708a14a9a37bcde",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps/validation.json",
+      "sha256": "2ad5a88e9b1413bb27b9ba84e26024340c65bf0652de6d16795b467753527e90",
+      "unchanged": true
+    },
+    {
+      "path": "assets/maps_register.md",
+      "sha256": "87a980b8071907e6840cfef898a2fd7b2123ed3607732bd90381d9eb5faa6e25",
+      "unchanged": true
+    },
+    {
+      "path": "assets/provenance/adoption_scheme.json",
+      "sha256": "981adc17e7a918435d85cf08cb6a29111a0698a78f314dd0a3834b4f54c52d16",
+      "unchanged": true
+    },
+    {
+      "path": "assets/provenance/files_manifest.json",
+      "sha256": "b633355b1bc4d3594b498f6b34af3b910f57ca1fbd242006c1405ef4561ced11",
+      "unchanged": true
+    },
+    {
+      "path": "assets/provenance/files_manifest_v01.json",
+      "sha256": "794b21dbb54f9e5699bb1417676209da6c26567338be834cce49a427bc90a1d1",
+      "unchanged": true
+    },
+    {
+      "path": "assets/provenance/met_248037.json",
+      "sha256": "2bed938c3089aea68055f3d2f5835309bc0947451b0cee0da08ccfc72a767001",
+      "unchanged": true
+    },
+    {
+      "path": "assets/provenance/met_248119.json",
+      "sha256": "5b15ac2b216505c48a148fbcddb473734cdf6f5991f01148aa33b68dc223a794",
+      "unchanged": true
+    },
+    {
+      "path": "assets/provenance/resolution_review_v02.json",
+      "sha256": "afbf11ec973951b045e52986204ccc20a26891dbb504989381167fa3a4bc553d",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/Caesar_Augustus.docx",
+      "sha256": "bd5b14c2494b84b918abe3de208fe5774a4f4ca6e63b36533279f01e50855b35",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/Caesar_Augustus.epub",
+      "sha256": "72691711898bf7579365d588c76af6f46be114addfb9bfbdd7da8a42419e1b9b",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/Caesar_Augustus.pdf",
+      "sha256": "e17749aeeca7998c0cef8d4c12c944fb2a4b2bbe991d620a6a74d0fa556a663e",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/Caesar_Augustus_FINAL.zip",
+      "sha256": "0720e987fb04fca9dae6051cc19a099a5a764b639ee9e181ea901303ab487bc8",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/archive.sha256",
+      "sha256": "ab94eb823d4512a64d1fe56be35d4179ca93b031715d1c73df38faee989b5618",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/build.log",
+      "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/build_manifest.json",
+      "sha256": "85491a4ac6fb209de07abb0268e0efd0f7e7c037255c55e6b02fb1eaf4a92a3c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/epubcheck.log",
+      "sha256": "478f911690cb2ab318cc90ab4c25f42e06999e7c81659aaa4444442c804f095f",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/package_manifest.json",
+      "sha256": "b9e4048a493b8867735387d3f9ef33f41ae589fe12f957945051c23d2e5043a7",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/pdf-header.tex",
+      "sha256": "0edaaed96ccebd8a8d0179415de809d6320ccd05194a88099ae6b315b9fafd53",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/pdf_fonts.txt",
+      "sha256": "6b3967c98fe8c45a8ac82313425793111d776195a84d5ca34019d9601ddc9b54",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/pdf_page_bounds.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/reference.docx",
+      "sha256": "4271ea32142c2ffba62471fee03823c0f46e35ab4284ca65aa757845c4c29699",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/validation.json",
+      "sha256": "84b12e8b986deb532d338c8359591454aaf0f7dc7566a77d756f713232cff006",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/verification.stdout.json",
+      "sha256": "84b12e8b986deb532d338c8359591454aaf0f7dc7566a77d756f713232cff006",
+      "unchanged": true
+    },
+    {
+      "path": "dist/final/visual_proof.json",
+      "sha256": "4486864bcf606b201557fce9802edd1d64501ec8e13a9d514e505924f21f23db",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.docx",
+      "sha256": "781b5c65bdccbcafb2d8bd21de53df5af5819766ddbc57ad570d97131accfa53",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.epub",
+      "sha256": "29887873691765b37ffd19680e191cd15950680bd68ce92b48719f921bf53f6f",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.pdf",
+      "sha256": "c4a5eb8dc60013e16fac876d11b40ef2114dc217a5aea5a3745702feb53e4aa4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/Caesar_Augustus_v1.1.zip",
+      "sha256": "d88b695d5b569a279b0f31b89c34f0e7df21a1d358ff31741755ab14810ca813",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/archive.sha256",
+      "sha256": "b7d083e81cc41bd80837a0db8868ad88c0c8c4a9c70f956ed2fb944f084199b2",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/build_manifest.json",
+      "sha256": "86b86bbb9e444a783d28d5c62a32290578b5a821aba94519fd5ce5635d414d3c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/epubcheck.log",
+      "sha256": "a0ccb9442db4808c4a4f1d51310a27603a09f8c0b0a35c49073cc63fb18fcb86",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/illustration_pages.json",
+      "sha256": "1539487dc2d1b0b01e7b837979f8f8ffa350fd36ba7d8d9856811b132e8e0c0c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/illustration_validation.json",
+      "sha256": "ded22feb346f2a0834a1b661d93091f13a39ca8f4eac84ab50358a715d42310b",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/package_manifest.json",
+      "sha256": "d7b2c4aaeaba52f27e51231a66bcbaebda6805c80fc7163806a54dc0f262a5f4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/pdf-header.tex",
+      "sha256": "c3f62c330bec968fda1c4dacc4712f5c2baaf4500b7e7e6338c7bc80d49bcf9c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/pdf_fonts.txt",
+      "sha256": "eaabb0ca2b18e11b48166cc2df8d9ef2d12c1b81cc86b3bc86ae1a147cc0c4fa",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/pdf_page_bounds.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/reference.docx",
+      "sha256": "a66706671021fd5a0da9339639e8dc15e32ffae71a429e618066e8d8f4e06bf0",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/tex_format_setup.log",
+      "sha256": "a2d9e28594587d82f34b850e142b517f21379903ca6c5fdc076af2b12f016b5b",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/validation.json",
+      "sha256": "c4bb5dc78fc04c710ce030102fc893738128ec750ed2ff1d4650a11a5cf5088b",
+      "unchanged": true
+    },
+    {
+      "path": "dist/v1.1/visual_proof.json",
+      "sha256": "308a87dc57cbbe0ec0e59b3ef511311432793d3965e8a260187a36863a385c9c",
+      "unchanged": true
+    }
+  ],
+  "errors": [],
+  "structural_status": "pass",
+  "scope": "Structural verification only; no historical truth, export check or external review certified."
+}

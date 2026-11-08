@@ -1,0 +1,64 @@
+{
+  "edition": "1.2",
+  "status": "in_progress",
+  "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
+  "updated_utc": "2026-11-08T12:58:50.464923+00:00",
+  "chapters": {
+    "01": {
+      "status": "reviewed_v12",
+      "words": 5384,
+      "baseline_words": 4015,
+      "review": "research/v1.2/reviews/ch01_independent.md",
+      "sha256": "ef7d16cbb49d3a480da3850cf664974b103362ab56d2e36462d7d6a93dcf57c8"
+    },
+    "02": {
+      "status": "pending_v12"
+    },
+    "03": {
+      "status": "pending_v12"
+    },
+    "04": {
+      "status": "pending_v12"
+    },
+    "05": {
+      "status": "pending_v12"
+    },
+    "06": {
+      "status": "pending_v12"
+    },
+    "07": {
+      "status": "pending_v12"
+    },
+    "08": {
+      "status": "pending_v12"
+    },
+    "09": {
+      "status": "pending_v12"
+    },
+    "10": {
+      "status": "pending_v12"
+    },
+    "11": {
+      "status": "pending_v12"
+    },
+    "12": {
+      "status": "pending_v12"
+    },
+    "13": {
+      "status": "pending_v12"
+    },
+    "14": {
+      "status": "pending_v12"
+    },
+    "15": {
+      "status": "pending_v12"
+    },
+    "16": {
+      "status": "pending_v12"
+    }
+  },
+  "current_body_words": 50233,
+  "bibliographic_entries": 77,
+  "next_action": "Глава2: изучить Brutus248–262 и современный открытый разбор van den Berg, расширить образование/речь и проверить новые тезисы отдельно. Не повторять завершённую главу1.",
+  "exports": "not_built_scientific_work_incomplete"
+}

@@ -875,6 +875,54 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL: selected account of the Parthian campaign and death in27--31 cited by chronology; volume and year independently confirmed from LacusCurtius edition header; no whole-volume reading claimed",
       "addendum": ""
+    },
+    {
+      "key": "holkeskamp2010",
+      "title": "Reconstructing the Roman Republic: An Ancient Political Culture and Modern Research",
+      "author": "Hölkeskamp, Karl-J.",
+      "year": "2010",
+      "doi": null,
+      "url": "https://api.pageplace.de/preview/DT0400.9781400834907_A25083807/preview-9781400834907_A25083807.pdf",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: title and copyright pages, contents, and printed pages 1--4 directly read for v1.2; revised, updated, and augmented by the author. No claim to reading the remaining chapters.",
+      "addendum": ""
+    },
+    {
+      "key": "gellius1927latin3",
+      "title": "Noctes Atticae",
+      "author": "Gellius, Aulus",
+      "year": "1927",
+      "doi": null,
+      "url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/14%2A.html",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Latin electronic transcription LacusCurtius, 14.7.1--13 and 15.27.1--5 directly read; no English translation used. Book15: https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/15%2A.html.",
+      "addendum": ""
+    },
+    {
+      "key": "cicerolegibusRomanLaw",
+      "title": "De legibus, liber III",
+      "author": "Cicero, Marcus Tullius",
+      "year": "n.d.",
+      "doi": null,
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Auteurs_anciens/delegibus3_lat.htm",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Latin text at Roman Law Library, Université Grenoble Alpes; 3.6--12,27--29,34--39 directly read. Hosting page identifies printed basis as Leipzig1933; printed edition not independently inspected. The ancient text is a normative dialogue, not an enacted legal code.",
+      "addendum": ""
+    },
+    {
+      "key": "plutarch1921gracchus",
+      "title": "Lives: Life of Caius Gracchus",
+      "author": "Plutarch",
+      "year": "1921",
+      "doi": null,
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caius_Gracchus%2A.html",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Life of Caius Gracchus5.1--6.4,7.1--2 directly read in the public-domain LacusCurtius transcription; entry describes the consulted biography within volume10, not the full contents of that volume.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."

@@ -1,0 +1,13 @@
+{
+  "edition": "1.1",
+  "commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
+  "russian_body_words": 48864,
+  "bibliographic_entries": 73,
+  "illustrations": 34,
+  "immutable_release_directories": [
+    "dist/final",
+    "dist/v1.1"
+  ],
+  "current_session_skills": "Previous-session research skills are not installed in this environment; prior manifests retained as historical records. No claim of applying missing skills.",
+  "scope": "1.2 directly authorised by user; 1.3 not authorised."
+}
