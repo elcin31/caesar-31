@@ -1,13 +1,13 @@
 {
   "version": "1.1",
-  "updated_utc": "2026-11-08T11:47:57.581628+00:00",
+  "updated_utc": "2026-11-08T11:52:53.054000+00:00",
   "required": 34,
-  "generated": 19,
-  "visual_review": 19,
-  "integrated": 19,
+  "generated": 25,
+  "visual_review": 25,
+  "integrated": 25,
   "type": "Современные художественные реконструкции, созданные с применением ИИ.",
   "rights": "Оригинальные генерации по заданиям проекта; не музейные изображения и не копии работ названного художника. Использование по условиям сервиса генерации; исключительные авторские права и статус CC0 не заявляются.",
-  "originals": "Исходные PNG сохранены генератором в /workspace/generated_images; книжные JPEG имеют исходное разрешение, качество 94 и цветовую субдискретизацию 4:4:4.",
+  "originals": "Исходные PNG сохранены генератором в /workspace/generated_images; книжные JPEG имеют исходное разрешение, качество 92–94 и цветовую субдискретизацию 4:4:4.",
   "records": [
     {
       "id": "ART-01",
@@ -31,6 +31,7 @@
       ],
       "sha256": "f6d338a833286fa0a1b4a6c58567c75196f70bfd2a15d1cff9dfbda531d44f81",
       "bytes": 909703,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "in03",
         "in04"
@@ -64,6 +65,7 @@
       ],
       "sha256": "0550b022c5b41a237009beda8ebdfd30d882aee3df38a568f93529b51d235e42",
       "bytes": 854118,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch01-01",
         "ch01-02",
@@ -110,6 +112,7 @@
       ],
       "sha256": "83acd10f62bdf626bd53d8022e518c6816b721cc2852becf87b6600a0a563a9e",
       "bytes": 953838,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch01-07",
         "ch01-08",
@@ -148,6 +151,7 @@
       ],
       "sha256": "b9b2448e4670f20ce3021c54939d68f553a793affa3fa3fd90b4f582ca68b5a7",
       "bytes": 863926,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch02-01",
         "ch02-01a",
@@ -186,6 +190,7 @@
       ],
       "sha256": "e705185158ee517793731c725cba8188ed4fb159dea7711abc9eca86952e17b5",
       "bytes": 865254,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch02-12",
         "ch02-13",
@@ -223,6 +228,7 @@
       ],
       "sha256": "d2d5d51fd91aa5c87cbe759ad056d500b5bbb97bbff9893d81629a831142f261",
       "bytes": 848628,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch03-18",
         "ch03-19",
@@ -259,6 +265,7 @@
       ],
       "sha256": "359e1886af13f7f8cc79e805f2eaacccc4ba1731f087d3814407477bb96ef2f9",
       "bytes": 980757,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch03-01",
         "ch03-02",
@@ -323,6 +330,7 @@
       ],
       "sha256": "73679528e9930e2fb1791c08ab448185308b024cbf412d677b2bef449b16acc4",
       "bytes": 870094,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch04-07",
         "ch04-08",
@@ -360,6 +368,7 @@
       ],
       "sha256": "31cc0aee67cf90a94a304702623d3a3a2e2929f8a34da97cf962441f552dbfc8",
       "bytes": 908038,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch04-19",
         "ch04-20",
@@ -397,6 +406,7 @@
       ],
       "sha256": "6d0b22e01f434fa40882c538ce84e8330fd4f0395d325f6ed7e4d8ff306c725f",
       "bytes": 773981,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch05-05",
         "ch05-06",
@@ -433,6 +443,7 @@
       ],
       "sha256": "39ecd2f831bc723fb4361df8c702756006f05b223e100287836aeb9336fdbe07",
       "bytes": 802217,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch05-10",
         "ch05-11",
@@ -472,6 +483,7 @@
       ],
       "sha256": "cceb03bcc75a009f7abbc7c433fd485dd0c4d32fca8dc6e0d004045d9e66cd00",
       "bytes": 885285,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch06-17",
         "ch06-18",
@@ -509,6 +521,7 @@
       ],
       "sha256": "e5f6b4b8a44ef38edfdb09329b59cf307991979fef79a1ce901dbd9167298e97",
       "bytes": 710037,
+      "jpeg_quality": 94,
       "supporting_note_ids": [
         "ch06-01",
         "ch06-02",
@@ -572,6 +585,7 @@
       ],
       "sha256": "6cc38b6a71cef355e6e3072d967325fc5e0e06dbb9308e5f3fe5d69c6fc59fd5",
       "bytes": 712486,
+      "jpeg_quality": 92,
       "supporting_note_ids": [
         "ch07-01",
         "ch07-02",
@@ -609,6 +623,7 @@
       ],
       "sha256": "6e56d892fcdb3bac2f2a5bfb4416a5c9f6794e0f8d23afc937a4487a4bbad1a1",
       "bytes": 642657,
+      "jpeg_quality": 92,
       "supporting_note_ids": [
         "ch07-19",
         "ch07-20",
@@ -648,6 +663,7 @@
       ],
       "sha256": "beb200467ac32b40a995d75cbfcfe91998fbf53a23fecf97b2ea233a1d89d244",
       "bytes": 738183,
+      "jpeg_quality": 92,
       "supporting_note_ids": [
         "ch08-06",
         "ch08-07",
@@ -684,6 +700,7 @@
       ],
       "sha256": "67f730749b70f979cd9cda72982d257e646210610c50c2c92aa15025a893464d",
       "bytes": 641435,
+      "jpeg_quality": 92,
       "supporting_note_ids": [
         "ch08-11",
         "ch08-12",
@@ -721,6 +738,7 @@
       ],
       "sha256": "1872ad6c765285c928dbd1f018e15068e3ebb11a968d2cd29d848557315643a6",
       "bytes": 700413,
+      "jpeg_quality": 92,
       "supporting_note_ids": [
         "ch09-06",
         "ch09-07",
@@ -758,6 +776,7 @@
       ],
       "sha256": "a147aa958ab3d94ffd30954210ce535fe89d14f503a049eda259450d539e0ad6",
       "bytes": 754492,
+      "jpeg_quality": 92,
       "supporting_note_ids": [
         "ch09-12",
         "ch09-13",
@@ -784,10 +803,31 @@
       "medium": "ochre gouache and ink",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: ochre gouache and ink. Mediterranean naval preparation before 31 BCE, shipwrights repair oared warships along a modest shore slipway, close foreground of timber ribs and ropes, one military official quietly discussing with a craftsman; credible ancient hulls, square-sail rig furled, no medieval sterncastles, no cannons, no huge fantasy ships.",
       "caption": "Подготовка флота: корабельный лес, труд и организация. Собирательная сцена напоминает о ресурсах морской войны; конкретная верфь не определена. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-d4ed5669-c288-437d-9e58-a85c0d48ef20.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "0d6011de0c33b96a764993c8e39bfb153f618a9a89b47b31708ea7fb1fcd1384",
+      "bytes": 941953,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch10-01",
+        "ch10-02",
+        "ch10-03",
+        "ch10-04",
+        "ch10-05"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены лица, кисти рук, инструмент, корпус, вёсла и канаты. Крупных дефектов не выявлено.",
+        "historical": "Нет пушек, надстроек средневекового корабля или механизации. Верфь условна, технологии и масштаб не измеряются по картине."
+      }
     },
     {
       "id": "ART-21",
@@ -800,10 +840,32 @@
       "medium": "marine oil painting with translucent glazing",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: marine oil painting with translucent glazing. Wide low-horizon view of the sea off Actium September 31 BCE, several believable Hellenistic oared warships maneuver in the middle distance against a hazy mountainous coast, canvas mostly furled, ripples and smoke restrained; foreground calm water and a small support boat. No aerial diagram, no invented fleet formations, no cannons or medieval galleons.",
       "caption": "Морское пространство Акция, 31 г. до н. э. Положение судов и момент боя условны; живопись не заменяет реконструкцию спорной тактики. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-101097c1-e454-4f22-a5bf-e8c707874576.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "cda2c69474181c3197f9709b90f0159bbb7d48463be46ecb54eb5c63e284be64",
+      "bytes": 585332,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch10-17",
+        "ch10-18",
+        "ch10-19",
+        "ch10-20",
+        "ch10-21",
+        "ch10-29"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены передние фигуры, руки, малая лодка и дальние суда. Крупных дефектов не выявлено.",
+        "historical": "Суда обобщают античную гребную традицию; их строй, число ярусов и момент сражения не реконструируются как установленный факт."
+      }
     },
     {
       "id": "ART-22",
@@ -816,10 +878,30 @@
       "medium": "pale tempera with warm shadows",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: pale tempera with warm shadows. Roman Senate discussion in early 27 BCE, young adult Octavian aged thirty-five stands in a plain white toga, senators seated on wooden benches at varying angles, modest restored hall and side light. No purple throne, crown or emperor handing a constitution; architecture approximate, civil deliberation mixed with deference.",
       "caption": "Сенаторское обсуждение урегулирования 27 г. до н. э. Интерьер, жесты и состав сцены условны; новое устройство не представлено одномоментной передачей власти. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-016a90d0-e5a3-4f10-b995-b6ee4c0c8794.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "ba5396ec1bc9ebd27e54ea3099c01f382867adc9df70f79f98c470c04ef42438",
+      "bytes": 651116,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch11n02",
+        "ch11n03",
+        "ch11n04",
+        "ch11n05"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены стоящая фигура и жест, лица сидящих и интерьер. Крупных дефектов не выявлено.",
+        "historical": "Нет коронации, престола или готовой конституционной грамоты; это условное обсуждение 27 г. до н. э., а не портретный протокол заседания."
+      }
     },
     {
       "id": "ART-23",
@@ -832,10 +914,49 @@
       "medium": "earth-palette watercolor",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: earth-palette watercolor. Italian countryside after the civil wars, veteran in civilian tunic with family standing at edge of small allotted field while two surveyors use a simple wooden groma and rods, distant village, tired rather than triumphal mood. No modern maps, survey tripods, compass or military regalia; people naturally spaced.",
       "caption": "Ветеранское поселение и измерение земли. Собирательная сцена показывает материальную сторону послевоенного порядка; участок и его владельцы вымышлены. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-5fad9d21-c645-475c-ae39-0ff41ce0c0c8.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "fd0b297de4bdc5e69ffc04ccbf6fb384fc80738eaef0bbc53c817f87e5affc40",
+      "bytes": 829137,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch11n01",
+        "ch11n02",
+        "ch11n03",
+        "ch11n04",
+        "ch11n05",
+        "ch11n06",
+        "ch11n07",
+        "ch11n08",
+        "ch11n09",
+        "ch11n10",
+        "ch11n11",
+        "ch11n12",
+        "ch11n13",
+        "ch11n14",
+        "ch11n15",
+        "ch11n16",
+        "ch11n17",
+        "ch11n18",
+        "ch11n19",
+        "ch11n20",
+        "ch11n21",
+        "ch11n22",
+        "ch11n23"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрен лист партии и дополнительно полное изображение: семья, руки, землемеры, отвесы и дальний посёлок. Крупных дефектов не выявлено.",
+        "historical": "Нет современной оптики и компаса. Грома обобщена; башнеобразный сельский корпус не отождествлён с конкретным зданием. Участок и владельцы условны."
+      }
     },
     {
       "id": "ART-24",
@@ -848,10 +969,32 @@
       "medium": "detailed matte gouache",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: detailed matte gouache. Early Augustan military camp, clerks count silver coins beside a wooden pay chest while a mail-armored legionary waits, leather purse, wax tablets and simple balances, neutral canvas tent light. Coins small and unidentifiable, no giant gold treasure, no lorica segmentata, no modern accounting ledger.",
       "caption": "Военное жалованье и учёт. Условная сцена выплаты; номиналы монет, суммы и порядок действий не реконструируются как точные данные. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-9dd6090e-5b50-46a7-8c9e-3aa39505225d.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "97341690c0a884b4f8020f94032afbd16039e3ad850fc9f07ddf8f8a88fa1b0f",
+      "bytes": 726132,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch12n10",
+        "ch12n11",
+        "ch12n12",
+        "ch12n13",
+        "ch12n14",
+        "ch12n15"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены руки писцов и солдата, монеты, весы, сундук и кольчуга. Крупных дефектов не выявлено.",
+        "historical": "Номиналы и суммы не определяются по условным кружкам; нет сегментного доспеха. Не смешивается обычное жалованье с функцией aerarium militare."
+      }
     },
     {
       "id": "ART-25",
@@ -864,10 +1007,31 @@
       "medium": "watercolor and ink",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: watercolor and ink. Augustan provincial civic setting in an eastern Mediterranean city, local adult men and women with pottery and rolled petitions waiting in shade while a Roman official and local interpreter listen; restrained mix of local clothing, columns and painted plaster, no caricatures, no exotic fantasy costumes or monumental imperial throne.",
       "caption": "Провинциальное управление: обращение к представителю римской власти. Типовая художественная сцена; город, статус посетителей и содержание дела не установлены. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "planned",
-      "generated": false,
-      "visual_review": false,
-      "integrated": false
+      "status": "accepted_and_integrated",
+      "generated": true,
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-4dbf19e5-e6b7-4d9c-ab1b-a5d438897cfc.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "e5fab8f23547b75b5748f6af5fc106b24d8a17c57e42a5538b4211fab52b6d4d",
+      "bytes": 815966,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch12n16",
+        "ch12n17",
+        "ch12n18",
+        "ch12n19",
+        "ch12n24"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены лица и кисти рук, документы и размещение фигур. Крупных дефектов не выявлено.",
+        "historical": "Обобщённый восточный городской контекст без атрибуции конкретной провинции, судебной компетенции или статуса посетителей."
+      }
     },
     {
       "id": "ART-26",

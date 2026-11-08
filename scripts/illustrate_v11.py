@@ -30,6 +30,7 @@ def main():
                     raise ValueError('Insufficient resolution: ' + item['id'])
             item['sha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
             item['bytes'] = path.stat().st_size
+            item['jpeg_quality'] = 94 if int(item['id'].split('-')[1]) <= 13 else 92
         if item['generated'] and item['visual_review']:
             source = ROOT / item['manuscript']
             text = source.read_text()
@@ -62,7 +63,7 @@ def main():
                   'копии работ названного художника. Использование по условиям сервиса генерации; '
                   'исключительные авторские права и статус CC0 не заявляются.',
         'originals': 'Исходные PNG сохранены генератором в /workspace/generated_images; '
-                     'книжные JPEG имеют исходное разрешение, качество 94 и цветовую субдискретизацию 4:4:4.',
+                     'книжные JPEG имеют исходное разрешение, качество 92–94 и цветовую субдискретизацию 4:4:4.',
         'records': records,
     }
     (ROOT / 'assets/illustrations/v1.1/register.json').write_text(json.dumps(register, ensure_ascii=False, indent=2) + '\n')

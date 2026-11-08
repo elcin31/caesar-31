@@ -333,10 +333,11 @@
     "medium": "ochre gouache and ink",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: ochre gouache and ink. Mediterranean naval preparation before 31 BCE, shipwrights repair oared warships along a modest shore slipway, close foreground of timber ribs and ropes, one military official quietly discussing with a craftsman; credible ancient hulls, square-sail rig furled, no medieval sterncastles, no cannons, no huge fantasy ships.",
     "caption": "Подготовка флота: корабельный лес, труд и организация. Собирательная сцена напоминает о ресурсах морской войны; конкретная верфь не определена. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-d4ed5669-c288-437d-9e58-a85c0d48ef20.png"
   },
   {
     "id": "ART-21",
@@ -349,10 +350,11 @@
     "medium": "marine oil painting with translucent glazing",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: marine oil painting with translucent glazing. Wide low-horizon view of the sea off Actium September 31 BCE, several believable Hellenistic oared warships maneuver in the middle distance against a hazy mountainous coast, canvas mostly furled, ripples and smoke restrained; foreground calm water and a small support boat. No aerial diagram, no invented fleet formations, no cannons or medieval galleons.",
     "caption": "Морское пространство Акция, 31 г. до н. э. Положение судов и момент боя условны; живопись не заменяет реконструкцию спорной тактики. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-101097c1-e454-4f22-a5bf-e8c707874576.png"
   },
   {
     "id": "ART-22",
@@ -365,10 +367,11 @@
     "medium": "pale tempera with warm shadows",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: pale tempera with warm shadows. Roman Senate discussion in early 27 BCE, young adult Octavian aged thirty-five stands in a plain white toga, senators seated on wooden benches at varying angles, modest restored hall and side light. No purple throne, crown or emperor handing a constitution; architecture approximate, civil deliberation mixed with deference.",
     "caption": "Сенаторское обсуждение урегулирования 27 г. до н. э. Интерьер, жесты и состав сцены условны; новое устройство не представлено одномоментной передачей власти. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-016a90d0-e5a3-4f10-b995-b6ee4c0c8794.png"
   },
   {
     "id": "ART-23",
@@ -381,10 +384,11 @@
     "medium": "earth-palette watercolor",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: earth-palette watercolor. Italian countryside after the civil wars, veteran in civilian tunic with family standing at edge of small allotted field while two surveyors use a simple wooden groma and rods, distant village, tired rather than triumphal mood. No modern maps, survey tripods, compass or military regalia; people naturally spaced.",
     "caption": "Ветеранское поселение и измерение земли. Собирательная сцена показывает материальную сторону послевоенного порядка; участок и его владельцы вымышлены. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-5fad9d21-c645-475c-ae39-0ff41ce0c0c8.png"
   },
   {
     "id": "ART-24",
@@ -397,10 +401,11 @@
     "medium": "detailed matte gouache",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: detailed matte gouache. Early Augustan military camp, clerks count silver coins beside a wooden pay chest while a mail-armored legionary waits, leather purse, wax tablets and simple balances, neutral canvas tent light. Coins small and unidentifiable, no giant gold treasure, no lorica segmentata, no modern accounting ledger.",
     "caption": "Военное жалованье и учёт. Условная сцена выплаты; номиналы монет, суммы и порядок действий не реконструируются как точные данные. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-9dd6090e-5b50-46a7-8c9e-3aa39505225d.png"
   },
   {
     "id": "ART-25",
@@ -413,10 +418,11 @@
     "medium": "watercolor and ink",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: watercolor and ink. Augustan provincial civic setting in an eastern Mediterranean city, local adult men and women with pottery and rolled petitions waiting in shade while a Roman official and local interpreter listen; restrained mix of local clothing, columns and painted plaster, no caricatures, no exotic fantasy costumes or monumental imperial throne.",
     "caption": "Провинциальное управление: обращение к представителю римской власти. Типовая художественная сцена; город, статус посетителей и содержание дела не установлены. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-4dbf19e5-e6b7-4d9c-ab1b-a5d438897cfc.png"
   },
   {
     "id": "ART-26",

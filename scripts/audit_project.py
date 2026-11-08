@@ -19,7 +19,8 @@ def main():
     for path in files:
         src = path.read_text()
         defs = re.findall(r'^\[\^([^]]+)\]:', src, re.M)
-        body = '\n'.join(line for line in src.splitlines() if not re.match(r'^\[\^[^]]+\]:', line))
+        prose = re.sub(r'<!-- v1\.1:ART-\d+:start -->.*?<!-- v1\.1:ART-\d+:end -->', '', src, flags=re.S)
+        body = '\n'.join(line for line in prose.splitlines() if not re.match(r'^\[\^[^]]+\]:', line))
         refs = re.findall(r'\[\^([^]]+)\]', body)
         missing = sorted(set(refs) - set(defs))
         unused = sorted(set(defs) - set(refs))

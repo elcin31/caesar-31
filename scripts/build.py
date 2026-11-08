@@ -100,7 +100,7 @@ def main():
     if not inputs: raise SystemExit('No non-empty manuscript files found.')
     reference=DIST/'reference.docx'; reference_docx(reference,release)
     identifier='urn:uuid:'+str(uuid.uuid5(uuid.NAMESPACE_URL,'caesar-augustus/research/'+('final' if a.final else release.version)))
-    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','--lua-filter',ROOT/'scripts/book_structure.lua','-M','toc-title=Содержание','-M','lang=ru-RU','-M','date='+datetime.now(timezone.utc).strftime('%Y'),'-M','description='+release.label+'. Академическая монография'+('.' if a.final else ' в процессе подготовки.'),'-M','identifier='+identifier,'--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
+    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','--lua-filter',ROOT/'scripts/book_structure.lua','-M','toc-title=Содержание','-M','lang=ru-RU','-M','date='+datetime.now(timezone.utc).strftime('%Y'),'-M','description='+release.label+'. Академическая монография'+('.' if a.final or release.version == '1.1' else ' в процессе подготовки.'),'-M','identifier='+identifier,'--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
     outputs=[]; logs=[]
     def build(extra,out,env=None):
         try:
