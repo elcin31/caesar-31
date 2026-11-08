@@ -959,6 +959,42 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL:5.6.11--16 directly read in LacusCurtius; host identifies1927 edition revised1946. General civic-crown conditions, not independent evidence of Caesar's precise actions at Mytilene.",
       "addendum": ""
+    },
+    {
+      "key": "pietrini2023",
+      "title": "La lex Iulia de pecuniis repetundis nell'interpretazione dei giuristi del principato",
+      "author": "Pietrini, Stefania",
+      "year": "2023",
+      "doi": "10.7359/1247-2023-pietrini",
+      "url": "https://www.ledonline.it/public/files/journals/16/NS-127-Pietrini/Lex-Iulia-de-repetundis.pdf",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: title, copyright, contents, and printed pages9--16 directly read. Free publisher PDF, not a claim to an open redistribution licence. Later chapters and cited monographs not read.",
+      "addendum": ""
+    },
+    {
+      "key": "cicerorepetundaeRomanLaw",
+      "title": "In Vatinium29; Pro Sestio135; Pro Rabirio Postumo8,12: testimonia on the lex Iulia de pecuniis repetundis",
+      "author": "Cicero, Marcus Tullius",
+      "year": null,
+      "doi": null,
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Leges/iulia_repetundarum.htm",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Latin excerpts directly read at Roman Law Library, Université Grenoble Alpes. Electronic compilation identifies Cabaret-Dupaty1919 and Nisard1840 as printed bases; these editions not independently inspected. Entry describes consulted excerpts, not a surviving text of the law.",
+      "addendum": ""
+    },
+    {
+      "key": "justiniandigestaRomanLaw",
+      "title": "Digesta48.11: De lege Iulia repetundarum",
+      "author": "Justinian",
+      "year": null,
+      "doi": null,
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Leges/iulia_repetundarum.htm",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:48.11.1pr--1,3,6,7pr--3,9 directly read in Latin at Roman Law Library, Université Grenoble Alpes; host identifies Mommsen and Krueger, Berlin1954. Compilation of533CE preserving imperial-era jurists, not the unaltered law of59BCE. Printed edition not independently inspected.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."

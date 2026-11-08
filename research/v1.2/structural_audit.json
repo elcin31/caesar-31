@@ -32,10 +32,10 @@
     {
       "path": "manuscript/chapters/03-career.md",
       "baseline_words": 2920,
-      "current_words": 2920,
-      "added_words": 0,
-      "footnotes": 33,
-      "sha256": "ddd7bdaf26e14d12c4c6e67170b3cea6742acda10009526d8a20f105ceb43367",
+      "current_words": 3627,
+      "added_words": 707,
+      "footnotes": 41,
+      "sha256": "b4ee633ac3a280a25feaa54705fa262f29148ad1bedb22cadea07929aefa58d6",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 50956,
+  "current_words": 51663,
   "illustrations": {
     "referenced": 34,
     "unique": 34

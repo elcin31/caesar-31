@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-08T13:04:40.398499+00:00",
+  "updated_utc": "2026-11-08T13:10:06.707779+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -19,10 +19,11 @@
       "sha256": "59381042a2bafc067fa2f1d4aac5ce682ed68ea8aa9ac7a97224b2e8c6eeff61"
     },
     "03": {
-      "status": "pending_v12",
-      "words": 2920,
+      "status": "reviewed_v12",
+      "words": 3627,
       "baseline_words": 2920,
-      "sha256": "ddd7bdaf26e14d12c4c6e67170b3cea6742acda10009526d8a20f105ceb43367"
+      "sha256": "b4ee633ac3a280a25feaa54705fa262f29148ad1bedb22cadea07929aefa58d6",
+      "review": "research/v1.2/reviews/ch03_independent.md"
     },
     "04": {
       "status": "pending_v12",
@@ -103,8 +104,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 50956,
-  "bibliographic_entries": 80,
-  "next_action": "Глава 3: прочитать начальный раздел открытой книги Pietrini 2023 о lex Iulia de repetundis, сопоставить Cic. Vat.29/Sest.135/Rab.Post.8/12 с поздним Dig.48.11; затем исследовать дело Веттия по Att.2.24. Не выдавать поздние нормы за буквальный закон 59 г.; глава ещё не переработана.",
+  "current_body_words": 51663,
+  "bibliographic_entries": 83,
+  "next_action": "Глава 4, первая незавершённая: сохранить её действующую аргументацию о ресурсах и насилии; составить проверенную последовательность кампаний 58–51 гг. (особенно венеты 56, Рейн/Британия 55, Британия и зимний кризис 54, операции 53, продолжение войны 51). Читать соответствующие книги BG и отдельную восьмую книгу Гирция, затем доступные специальные исследования и археологические публикации по Алезии. Внести содержательные дополнения с локаторами, отдельно проверить, обновить реестры и commit/push. Главы 1–3 не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

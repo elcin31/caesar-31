@@ -1,0 +1,20 @@
+{
+  "url": "https://www.ledonline.it/public/files/journals/16/NS-127-Pietrini/Lex-Iulia-de-repetundis.pdf",
+  "checked_utc": "2026-11-08T13:09:18.894443+00:00",
+  "bytes": 1247249,
+  "sha256": "11dc85999b8e568071fce5b8d21499c5dfd155d4abacfcefcb6cacc6359ccbed",
+  "access": "PARTIAL",
+  "read_pages": "9–16 printed and PDF; title/copyright/contents",
+  "not_in_repository": true,
+  "metadata": "Pietrini,LED,Milano,2023,series30,ISBN9788855131278; DOI10.7359/1247-2023-pietrini",
+  "primary_readings": [
+    "Cic.Vat.29,Sest.135,Rab.Post.8/12 via RomanLawLibrary",
+    "Dig.48.11.1pr–1/3/6/7/9 via same",
+    "Cic.Att.2.24.1–5 via Attalus",
+    "Suet.Iul.20.5 English and Latin via LacusCurtius"
+  ],
+  "failures": [
+    "LEPOR463 inaccessible:403/503/service page; not read",
+    "Gruen2009 preview ends32:33–36 not claimed read"
+  ]
+}

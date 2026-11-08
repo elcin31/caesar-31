@@ -64,7 +64,7 @@ def main():
             if r['key'] not in keys:raw+='\n\n'+r['raw']+'\n';keys.add(r['key'])
     ref.write_text(raw.rstrip()+'\n');records=parse(raw)
     if len(records)!=len(keys):raise ValueError('Duplicate bibliography keys')
-    ancient={'Caesar','Suetonius','Suetonius Tranquillus','Plutarch','Appian','Dio','Cicero','Augustus','Velleius Paterculus','Nicolaus of Damascus','Polybius','Sallust','Gellius','Tacitus','Horace','Vergil'}
+    ancient={'Caesar','Suetonius','Suetonius Tranquillus','Plutarch','Appian','Dio','Cicero','Justinian','Augustus','Velleius Paterculus','Nicolaus of Damascus','Polybius','Sallust','Gellius','Tacitus','Horace','Vergil'}
     def primary(r):return r['fields']['author'].split(',')[0] in ancient
     groups=[('Античные источники: использованные электронные издания',[r for r in records if primary(r)]),('Современные исследования: непосредственно использованные тексты и фрагменты',[r for r in records if not primary(r) and access(r)!='META']),('Проверенная программа дальнейшего чтения',[r for r in records if not primary(r) and access(r)=='META'])]
     text='# Библиография\n\nАнтичные произведения цитируются по устойчивым книгам и разделам. Ниже описаны конкретные использованные электронные воспроизведения и их печатная основа; даты прямых проверок, изученные места и ограничения приведены в реестрах sources/ и исследовательских заметках. Для современных работ полный библиографический диапазон не означает чтения всех страниц. Недоступные книги и публикации отделены как программа дальнейшего чтения. Авторская пагинация Cooley2019 отличается от журнальной.\n'

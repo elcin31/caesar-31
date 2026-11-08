@@ -32,6 +32,8 @@ Cicero, Marcus Tullius. *De legibus, liber III*. Редактор C. F. W. Muell
 
 Cicero, Marcus Tullius. *Brutus, a History of Famous Orators*. Перевод E. Jones. 1776. https://www.attalus.org/cicero/brutus3.html.
 
+Cicero, Marcus Tullius. *In Vatinium29; Pro Sestio135; Pro Rabirio Postumo8,12: testimonia on the lex Iulia de pecuniis repetundis*. б. г. https://droitromain.univ-grenoble-alpes.fr/Leges/iulia_repetundarum.htm.
+
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 4. Loeb Classical Library, 1916. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/44*.html.
 
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 6. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html.
@@ -49,6 +51,8 @@ Gellius, Aulus. *Noctes Atticae*. Т. 3. Loeb Classical Library, 1927. https://p
 Gellius, Aulus. *The Attic Nights*. Перевод J. C. Rolfe. Т. 1. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/5%2A.html.
 
 Horace. *Carmen Saeculare*. Редактор Yongyi Li. б. г. https://dco.dickinson.edu/horatius-carmina/carmen-saeculare.
+
+Justinian. *Digesta48.11: De lege Iulia repetundarum*. б. г. https://droitromain.univ-grenoble-alpes.fr/Leges/iulia_repetundarum.htm.
 
 Nicolaus of Damascus. *Life of Augustus*. Перевод C. M. Hall. 1923. https://www.attalus.org/translate/nicolaus1.html.
 
@@ -127,6 +131,8 @@ Morstein-Marx, Robert and Nathan Rosenstein. “The Transformation of the Republ
 Mouritsen, Henrik. *Plebs and Politics in the Late Roman Republic*. Cambridge: Cambridge University Press, 2001. https://doi.org/10.1017/CBO9780511482885.
 
 Osgood, Josiah. *Caesar’s Legacy: Civil War and the Emergence of the Roman Empire*. Cambridge: Cambridge University Press, 2006. https://assets.cambridge.org/97805216/71774/excerpt/9780521671774_excerpt.pdf.
+
+Pietrini, Stefania. *La lex Iulia de pecuniis repetundis nell'interpretazione dei giuristi del principato*. Milano: LED, 2023. https://doi.org/10.7359/1247-2023-pietrini.
 
 Pina Polo, Francisco. “Idea y práctica de la democracia en la Roma republicana.” *Gerión. Revista de Historia Antigua* 37, no. 2 (2019): 379–397. https://doi.org/10.5209/geri.65979.
 
