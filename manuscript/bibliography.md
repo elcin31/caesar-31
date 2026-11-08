@@ -8,6 +8,8 @@ Anonymous. *Bellum Alexandrinum*. б. г. https://www.thelatinlibrary.com/caesar
 
 Anonymous. *Bellum Africum*. б. г. https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Caesar/African_War/E%2A.html.
 
+Anonymous. *Lex coloniae Genetivae Iuliae seu Ursonensis*. б. г. https://droitromain.univ-grenoble-alpes.fr/Leges/urso_crawford.htm.
+
 Appian. *Roman History: The Civil Wars*. Перевод Horace White. Т. 3. Loeb Classical Library, 1913. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html.
 
 Appian. *Roman History: The Civil Wars, Books III.27–V*. Перевод Horace White. Т. 4. Loeb Classical Library, 1913. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/4*.html.
@@ -117,6 +119,8 @@ Hurlet, Frédéric. “Devenir un dieu. La mort d’Auguste et la naissance de l
 Hölkeskamp, Karl-J. *Reconstructing the Roman Republic: An Ancient Political Culture and Modern Research*. Перевод Henry Heitmann-Gordon. Princeton, NJ: Princeton University Press, 2010. https://api.pageplace.de/preview/DT0400.9781400834907_A25083807/preview-9781400834907_A25083807.pdf.
 
 Jehne, Martin. “Caesar the Politician.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 6–12. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
+
+Jewell, Evan. “(Re)moving the Masses: Colonisation as Domestic Displacement in the Roman Republic.” *Humanities* 8, no. 2 (2019). https://doi.org/10.3390/h8020066.
 
 Lange, Carsten Hjort. “Triumph and civil war in the late Republic.” *Papers of the British School at Rome* 81 (2013): 67–90. https://doi.org/10.1017/S0068246213000056.
 

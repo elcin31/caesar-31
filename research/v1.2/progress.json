@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-08T15:56:33.243471+00:00",
+  "updated_utc": "2026-11-08T16:05:55.324484+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -40,10 +40,11 @@
       "review": "research/v1.2/reviews/ch05_independent.md"
     },
     "06": {
-      "status": "pending_v12",
-      "words": 2860,
+      "status": "reviewed_v12",
+      "words": 3699,
       "baseline_words": 2860,
-      "sha256": "48ddb8adfbb7862635b60fb9750e09a9955b97a676266453aa7f3cfee65d29c7"
+      "sha256": "c489cc54492020ab3702e51766f4dc5fb08fd98d7c09685bdbc71ce16e4169ee",
+      "review": "research/v1.2/reviews/ch06_independent.md"
     },
     "07": {
       "status": "pending_v12",
@@ -106,8 +107,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 53527,
-  "bibliographic_entries": 89,
-  "next_action": "Глава 6: изучить текущий текст и досье, углубить конкретные механизмы реформ и отличить реализованные меры от проектов. Отдельно проверить колонии/гражданство, должности/выборы, снабжение и календарь по первичным текстам и доступной современной работе; главы1–5 не повторять.",
+  "current_body_words": 54366,
+  "bibliographic_entries": 91,
+  "next_action": "Глава 7: завершить текущие вставки о карьерах заговорщиков, вариантах места, письмах Fam11.1/2 и споре о похоронах; рабочий текст сохранён для интеграции, отдельный проверяющий работает над ним. После проверки внести источники и реестры, commit/push. Главы1–6не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

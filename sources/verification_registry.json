@@ -1067,6 +1067,30 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL: Latin79--86 directly read in LacusCurtius transcription of Loeb1955. Author unknown; not attributed to Caesar or confidently to Hirtius. Exact legion roster and casualty totals not used.",
       "addendum": ""
+    },
+    {
+      "key": "jewell2019colonisation",
+      "title": "(Re)moving the Masses: Colonisation as Domestic Displacement in the Roman Republic",
+      "author": "Jewell, Evan",
+      "year": "2019",
+      "doi": "10.3390/h8020066",
+      "url": "https://www.mdpi.com/2076-0787/8/2/66",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: PDF14--15,27--28 directly read;41-page article not claimed fully read. Causal relation between grain-list reduction and recruitment is a hypothesis; author acknowledges no explicit Caesarian forcible-enrolment reports. Suet.Iul43.1 in note147 corrected to41.3 by primary comparison.",
+      "addendum": ""
+    },
+    {
+      "key": "anonymouslexurso",
+      "title": "Lex coloniae Genetivae Iuliae seu Ursonensis",
+      "author": "Anonymous",
+      "year": null,
+      "doi": null,
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Leges/urso_crawford.htm",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Latin62--65,70--71,77--82,97--105 directly read in Roman Law Library transcription, based on M.H.Crawford et al., Roman Statutes,I,London1996,no.25,393--454. Printed commentary not claimed read. Bronze-date disputes and whole legislative stratification not resolved. Norms not evidence of universal compliance.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."

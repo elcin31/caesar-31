@@ -79,3 +79,8 @@ research/v1.2/ch02_research.md. Цицерон и цитирующий его С
 ## Версия 1.2: глава 5, 8 ноября 2026
 
 Bellum Alexandrinum1–9,26–33,65–77 и Bellum Africum79–86: PARTIAL, анонимные продолжения; BC3.106–110 и Plut52.1/53.1–7 сверены. Досье research/v1.2/ch05_research.md.
+
+
+## Версия 1.2: глава 6, 8 ноября 2026
+
+Urso62–65,70–71,77–82,97–105: PARTIAL Latin/RomanLawLibrary поCrawford1996. Дополнительно BC3.1/Suet41–42/Dio41.37–38/42.51 о неодновременных долговых мерах.

@@ -59,10 +59,10 @@
     {
       "path": "manuscript/chapters/06-dictatorship.md",
       "baseline_words": 2860,
-      "current_words": 2860,
-      "added_words": 0,
-      "footnotes": 32,
-      "sha256": "48ddb8adfbb7862635b60fb9750e09a9955b97a676266453aa7f3cfee65d29c7",
+      "current_words": 3699,
+      "added_words": 839,
+      "footnotes": 42,
+      "sha256": "c489cc54492020ab3702e51766f4dc5fb08fd98d7c09685bdbc71ce16e4169ee",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 53527,
+  "current_words": 54366,
   "illustrations": {
     "referenced": 34,
     "unique": 34
