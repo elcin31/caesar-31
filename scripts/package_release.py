@@ -46,6 +46,7 @@ def require(condition, message):
 def main():
     parser = argparse.ArgumentParser()
     add_release_arguments(parser)
+    parser.add_argument('--reader-bundle', action='store_true', help='Package reading editions and their editorial/validation records; source assets remain in the repository')
     args = parser.parse_args()
     release = release_from_args(args)
     dist = release.output_dir
@@ -67,13 +68,27 @@ def main():
     for suffix in ('docx', 'epub', 'pdf'):
         require((dist / f'{release.stem}.{suffix}').is_file(), 'Missing checked ' + suffix.upper() + ' edition')
         require(suffix in validation, 'No validation record for ' + suffix.upper())
-    files = sorted((p for p in ROOT.rglob('*') if p.is_file() and selected(p, dist)), key=lambda p: p.relative_to(ROOT).as_posix())
+    if args.reader_bundle:
+        require(release.version == '1.1' and not release.final, 'Reader bundle is configured for edition 1.1')
+        art_validation = json.loads((dist / 'illustration_validation.json').read_text())
+        require(art_validation.get('status') == 'pass' and art_validation.get('new_illustrations') == 34,
+                'Verify all 34 illustrations before packaging')
+        candidates = [dist / f'{release.stem}.{suffix}' for suffix in ('docx', 'epub', 'pdf')]
+        candidates += [dist / name for name in ('validation.json', 'illustration_validation.json', 'build_manifest.json')]
+        candidates += [ROOT / name for name in ('Bibliography.md', 'Research_Methodology.md', 'Editorial_Report.md',
+                                                'research/editorial_v11.md', 'research/illustration_plan_v11.json',
+                                                'research/illustration_reviews_v11.json', 'assets/illustrations/v1.1/register.json')]
+        files = sorted(candidates, key=lambda p: p.relative_to(ROOT).as_posix())
+    else:
+        files = sorted((p for p in ROOT.rglob('*') if p.is_file() and selected(p, dist)), key=lambda p: p.relative_to(ROOT).as_posix())
     listing = [{'path': relative(p), 'bytes': p.stat().st_size, 'sha256': digest(p.read_bytes())} for p in files]
     inventory = {'release': release.version, 'final': release.final, 'build_manifest_sha256': digest(manifest_path.read_bytes()),
                  'validation_sha256': digest((dist / 'validation.json').read_bytes()), 'files': listing, 'exclusions': [
         '.git; full external evidence snapshots; temporary caches; external validators and fonts; other release directories',
         '.agents/skills/paper-deep-research and paper-reviewer-check: no general redistribution license; see installation reports'
     ]}
+    if args.reader_bundle:
+        inventory['bundle_kind'] = 'Reading editions and editorial records; complete editable sources and image files are in elcin31/caesar-31, not duplicated in this ZIP.'
     out = dist / release.archive_name
     aliases = {}
     if release.final:
@@ -94,7 +109,7 @@ def main():
         require(archive.testzip() is None, 'Archive integrity failed')
         for item in listing:
             require(digest(archive.read('caesar-augustus/' + item['path'])) == item['sha256'], 'Archive hash mismatch: ' + item['path'])
-        require('caesar-augustus/PROJECT_STATUS.md' in archive.namelist(), 'Missing project status')
+        require(args.reader_bundle or 'caesar-augustus/PROJECT_STATUS.md' in archive.namelist(), 'Missing project status')
         require(not any('/.git/' in name or any('/skills/' + skill + '/' in name for skill in NO_REDISTRIBUTION) for name in archive.namelist()), 'Archive contains excluded files')
         for name, path in aliases.items():
             require(digest(archive.read(name)) == digest(path.read_bytes()), 'Final alias mismatch: ' + name)

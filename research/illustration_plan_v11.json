@@ -231,10 +231,11 @@
     "medium": "tempera with cool morning light",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: tempera with cool morning light. Morning 15 March 44 BCE, men in white wool senatorial togas gathering in a portico leading to the meeting hall within Pompey's complex, architecture kept generic and plausible, small groups at different distances, one man hesitates. No stabbing, no revealed daggers, no Curia Julia, no Imperial Senate building or theatrical villain faces.",
     "caption": "Перед заседанием в комплексе Помпея, март 44 г. до н. э. Сцена условна: расположение людей, выражения лиц и архитектурные подробности не засвидетельствованы. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-34827137-7949-45bb-83eb-3067f60fc378.png"
   },
   {
     "id": "ART-15",
@@ -247,10 +248,11 @@
     "medium": "smoky watercolor with charcoal",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: smoky watercolor with charcoal. Roman Forum after Caesar's assassination in March 44 BCE: citizens cluster around a low funeral platform seen from the edge of the crowd, draped form without visible wounds, mourners in ordinary clothes, uncertainty and grief, no depiction of a specific speech, no giant inferno, low Republican architecture.",
     "caption": "Похороны и борьба за память Цезаря. Условный вид с края толпы; детали церемонии и эмоциональные реакции не выдаются за непосредственное свидетельство. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-e47a3d24-b9ef-46c8-ae60-cdccc881593f.png"
   },
   {
     "id": "ART-16",
@@ -263,10 +265,11 @@
     "medium": "luminous watercolor",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: luminous watercolor. Apollonia in Illyria about 45-44 BCE, a slender eighteen-year-old Roman youth with short dark hair studying with a Greek tutor in a modest portico overlooking green hills, wax tablet and rolled papyrus, ordinary light tunic and cloak. No imperial regalia, no laurel, no claim to precise portrait, quiet morning asymmetry.",
     "caption": "Обучение юного Октавия в Аполлонии. Современная сцена по биографическому контексту; урок, собеседник и внешность условны. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-c7f7bdc1-f6a0-4901-9e90-97ba529b6269.png"
   },
   {
     "id": "ART-17",
@@ -279,10 +282,11 @@
     "medium": "intimate oil sketch",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: intimate oil sketch. Private Roman room in spring 44 BCE, young adult Octavius listening to an older reader holding a papyrus roll, a family woman sitting at a distance, two seals and small document box on table. Quiet legal and family tension; no crown being handed over, no public adoption ceremony, no legible invented writing.",
     "caption": "Известие о завещании Цезаря. Художественная композиция отделяет наследство и имя от передачи государственных полномочий; процедура чтения условна. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-234462ee-178d-456b-b465-9fb2ca1d21d7.png"
   },
   {
     "id": "ART-18",
@@ -295,10 +299,11 @@
     "medium": "sepia ink and muted gouache",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: sepia ink and muted gouache. Rome late 43 BCE, a public wooden notice board with intentionally unreadable indistinct lines, citizens approach hesitantly while an older man and adult woman turn away into a side street; two guards at a distance. No severed heads, no invented legible names, no sensational violence, visual focus on fear and administrative exclusion.",
     "caption": "Проскрипционный список и страх преследования. Текст объявлений намеренно не читается; изображение не воспроизводит конкретный сохранившийся документ. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-03925108-f218-46f4-980e-1990dd4364d7.png"
   },
   {
     "id": "ART-19",
@@ -311,10 +316,11 @@
     "medium": "restrained landscape oil painting",
     "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: restrained landscape oil painting. Macedonian plain near Philippi autumn 42 BCE after battle, exhausted mail-armored Roman soldiers of both sides resting apart near a marshy track, abandoned oval shields, scattered supplies, pale mountains and dusty wind; no identifiable corpses, no trophies, no victorious hero in foreground.",
     "caption": "После сражений при Филиппах. Условная сцена усталости войска; она не устанавливает потери, расположение частей или судьбы отдельных солдат. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-    "status": "planned",
-    "generated": false,
+    "status": "generated_pending_review",
+    "generated": true,
     "visual_review": false,
-    "integrated": false
+    "integrated": false,
+    "original": "/workspace/generated_images/exec-aa7d6090-4a3e-4e17-9ae6-060455e979a4.png"
   },
   {
     "id": "ART-20",
