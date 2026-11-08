@@ -3,7 +3,7 @@
   "files": [
     {
       "path": "manuscript/introduction.md",
-      "sha256": "140052ef99379868e0f2d4b02d363c6a43b97dc81ec9e9763a030824e68e9153",
+      "sha256": "e8d080cea32dc95d3bee4fc9f61dcda47ce11b17f4c418c943cb24a2ff95ea10",
       "russian_body_words": 2326,
       "whitespace_body_words": 2384,
       "footnote_definitions": 18,
@@ -16,7 +16,7 @@
     },
     {
       "path": "manuscript/chapters/01-republic.md",
-      "sha256": "5440a975b52fa28f59e3c3c2ec31e21852d37bb79b8a97e524cca07727e99245",
+      "sha256": "2dbd814a06e04665a07ac719fd23bfb098cc366ef1969b61cd29db3c0e326d8b",
       "russian_body_words": 4015,
       "whitespace_body_words": 4038,
       "footnote_definitions": 43,
@@ -29,7 +29,7 @@
     },
     {
       "path": "manuscript/chapters/02-origins.md",
-      "sha256": "26d6f941d6404c708c1ef2dde14f6ba12b651bbcaa5197e14908860fd8a30302",
+      "sha256": "8087fb8c37e1633e052cc83dca48bf5b41d779a92a44762ca85b133ebc8ff0c1",
       "russian_body_words": 2913,
       "whitespace_body_words": 2936,
       "footnote_definitions": 29,
@@ -42,7 +42,7 @@
     },
     {
       "path": "manuscript/chapters/03-career.md",
-      "sha256": "b32911773850bd13d438f517242d7c5bc6ea6da73a406d3cc4e8d993ceb33160",
+      "sha256": "ddd7bdaf26e14d12c4c6e67170b3cea6742acda10009526d8a20f105ceb43367",
       "russian_body_words": 2920,
       "whitespace_body_words": 2947,
       "footnote_definitions": 33,
@@ -55,7 +55,7 @@
     },
     {
       "path": "manuscript/chapters/04-gaul.md",
-      "sha256": "e2474d03e1e4f034142341f49116396132ef141f59129936f6b4930ed417eb7e",
+      "sha256": "ad07427b15896c6c71592fd841bba2c5f9b1b243a57f3e8a31825c8f342aaf52",
       "russian_body_words": 2832,
       "whitespace_body_words": 2856,
       "footnote_definitions": 30,
@@ -68,7 +68,7 @@
     },
     {
       "path": "manuscript/chapters/05-civil-war.md",
-      "sha256": "1e1f98fcf11c4c5eec11d7de1d61bd20f7477918c4e0d1c535e08d980cd1028c",
+      "sha256": "2be2208152eecfdfdcae098ea8fdf94b38cb851064820c577b4ddb7b20f753f2",
       "russian_body_words": 2803,
       "whitespace_body_words": 2824,
       "footnote_definitions": 30,
@@ -81,7 +81,7 @@
     },
     {
       "path": "manuscript/chapters/06-dictatorship.md",
-      "sha256": "78200402eed81a3be8a2b4064b43547bd7bc5621d400d7aa57ef4561251de47d",
+      "sha256": "48ddb8adfbb7862635b60fb9750e09a9955b97a676266453aa7f3cfee65d29c7",
       "russian_body_words": 2860,
       "whitespace_body_words": 2888,
       "footnote_definitions": 32,
@@ -94,7 +94,7 @@
     },
     {
       "path": "manuscript/chapters/07-ides.md",
-      "sha256": "346b80091eeaf97f747b307f48e30443da6bf5583ef63236ed980918df979fae",
+      "sha256": "c268c2aa1dc5babea92f099c914ec4e2cf9dd8b3d843e911e4ee82701f35a3ee",
       "russian_body_words": 2866,
       "whitespace_body_words": 2888,
       "footnote_definitions": 34,
@@ -107,7 +107,7 @@
     },
     {
       "path": "manuscript/chapters/08-octavius.md",
-      "sha256": "fe248b6104af965d1a4310bbbe47371da171d4a114b1d979884391275c43ea40",
+      "sha256": "a85bc9c326ca950b22409ac3b69215017ac81ebd2c10c3b229f5fee6e8414ce2",
       "russian_body_words": 2804,
       "whitespace_body_words": 2829,
       "footnote_definitions": 24,
@@ -120,7 +120,7 @@
     },
     {
       "path": "manuscript/chapters/09-triumvirate.md",
-      "sha256": "164e1927411f6dbd1879d72e75e247a1e460fe28fdd22e5e65ede77dc0bbcbce",
+      "sha256": "3c18f631bef5c4a6713775b0f336cf4cda923ebeb45c279f87a6d72d3c74e2b3",
       "russian_body_words": 2812,
       "whitespace_body_words": 2843,
       "footnote_definitions": 29,
@@ -133,7 +133,7 @@
     },
     {
       "path": "manuscript/chapters/10-actium.md",
-      "sha256": "387ecb320d35f2f534aba3e6a40bf056b42c0134731af6c11f6570a01e11d4fb",
+      "sha256": "6b9b7a9c9cb585c8d1b64c0827cfe536a015516ee301593705d95223e38b6062",
       "russian_body_words": 2843,
       "whitespace_body_words": 2873,
       "footnote_definitions": 29,
@@ -146,7 +146,7 @@
     },
     {
       "path": "manuscript/chapters/11-settlement.md",
-      "sha256": "acd054a08885edfca418cf8ff63d5decc85e1a8fd1f92590d6b010c1e3002df1",
+      "sha256": "dc8cb089b8901c764dcb446a1c47e1bf973f155fda3b6705915c6a48290f0891",
       "russian_body_words": 2822,
       "whitespace_body_words": 2879,
       "footnote_definitions": 23,
@@ -159,7 +159,7 @@
     },
     {
       "path": "manuscript/chapters/12-government.md",
-      "sha256": "5591137bb1e025c3e855330b2ef59d7f301f1fff7d141d4001591cf5a6a391ea",
+      "sha256": "cf22d946e5cdade56e30f119dfff4aa149b0759b7edf1a01938d960b0bb83352",
       "russian_body_words": 2801,
       "whitespace_body_words": 2817,
       "footnote_definitions": 24,
@@ -172,7 +172,7 @@
     },
     {
       "path": "manuscript/chapters/13-religion-culture.md",
-      "sha256": "85900d8265c08a9bd8e400f0ee9ee230e595262712a64faa64873dfa0e278aec",
+      "sha256": "64c48afc2d1cdcd3b17e73324b69abeb19c4220345fb600030e7c93a5c2299ab",
       "russian_body_words": 2833,
       "whitespace_body_words": 2853,
       "footnote_definitions": 27,
@@ -185,9 +185,9 @@
     },
     {
       "path": "manuscript/chapters/14-dynasty-succession.md",
-      "sha256": "1423d2c5ef8d5142c7de935e3a555fb2fc2c64a8298ce423c6aa693325b6dd7c",
-      "russian_body_words": 2504,
-      "whitespace_body_words": 2529,
+      "sha256": "68848100fa632ae6838cbde4f48eb919336f0570b33e062eeb3e1d158de0a489",
+      "russian_body_words": 2514,
+      "whitespace_body_words": 2539,
       "footnote_definitions": 26,
       "footnote_occurrences": 26,
       "undefined": [],
@@ -198,9 +198,9 @@
     },
     {
       "path": "manuscript/chapters/15-comparison.md",
-      "sha256": "843c27c69ecac528a78ee00e09c2099cb5441ccaa3f23ff571bb98bb42c3de7b",
-      "russian_body_words": 2614,
-      "whitespace_body_words": 2639,
+      "sha256": "6b4b86fd32797e020370f063f1dc8171493755af952b37a6d8bcab4970510174",
+      "russian_body_words": 2631,
+      "whitespace_body_words": 2656,
       "footnote_definitions": 16,
       "footnote_occurrences": 16,
       "undefined": [],
@@ -211,7 +211,7 @@
     },
     {
       "path": "manuscript/chapters/16-republic-empire.md",
-      "sha256": "ae31c490b345b7b18714c34ecd1692ff185dfc3d83651fe0cf4d69f1c2390651",
+      "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927",
       "russian_body_words": 2245,
       "whitespace_body_words": 2273,
       "footnote_definitions": 16,
@@ -263,7 +263,7 @@
   "installed_skill_files_hash_checked": 180,
   "installed_skill_file_mismatches": [],
   "documented_distribution_exclusions_absent": [],
-  "total_russian_body_words": 48837,
+  "total_russian_body_words": 48864,
   "total_footnote_occurrences": 493,
   "status": "pass"
 }

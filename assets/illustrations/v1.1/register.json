@@ -1,10 +1,10 @@
 {
   "version": "1.1",
-  "updated_utc": "2026-11-08T11:57:10.874186+00:00",
+  "updated_utc": "2026-11-08T11:59:40.742044+00:00",
   "required": 34,
   "generated": 34,
-  "visual_review": 31,
-  "integrated": 31,
+  "visual_review": 34,
+  "integrated": 34,
   "type": "Современные художественные реконструкции, созданные с применением ИИ.",
   "rights": "Оригинальные генерации по заданиям проекта; не музейные изображения и не копии работ названного художника. Использование по условиям сервиса генерации; исключительные авторские права и статус CC0 не заявляются.",
   "originals": "Исходные PNG сохранены генератором в /workspace/generated_images; книжные JPEG имеют исходное разрешение, качество 92–94 и цветовую субдискретизацию 4:4:4.",
@@ -1265,10 +1265,10 @@
       "medium": "pen ink with light watercolor",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: pen ink with light watercolor. Early first-century CE Italian municipal civic courtyard, local magistrate in toga listening to a petitioner with a clerk at a side desk, small group of townspeople and practical notice board with unreadable marks; architecture modest and provincial, no palace or imperial guard spectacle.",
       "caption": "Муниципальная процедура при новом политическом порядке. Собирательная сцена иллюстрирует продолжение местных учреждений; конкретное дело неизвестно. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "generated_pending_review",
+      "status": "accepted_and_integrated",
       "generated": true,
-      "visual_review": false,
-      "integrated": false,
+      "visual_review": true,
+      "integrated": true,
       "original": "/workspace/generated_images/exec-a933550f-3843-425e-967c-45456686d3b5.png",
       "dimensions": [
         1536,
@@ -1276,7 +1276,18 @@
       ],
       "sha256": "b153f19c3fe37d840b9337fc727a205d3cec438ded14bb5fa641b6c5416bc2ea",
       "bytes": 878905,
-      "jpeg_quality": 92
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch16-04",
+        "ch16-05",
+        "ch16-06"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены передние фигуры, руки, писец, предметы и фон. Крупных дефектов не выявлено.",
+        "historical": "Муниципий, дело и лица условны; неразборчивые объявления не выданы за реальные надписи, нет императорского дворца или поздней униформы."
+      }
     },
     {
       "id": "ART-33",
@@ -1289,10 +1300,10 @@
       "medium": "rich but muted oil painting",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: rich but muted oil painting. Augustan Mediterranean merchant harbor in late afternoon, workers of varied believable Mediterranean appearances carrying amphorae and folded textiles, female trader checking goods with a clerk, merchant sailing ship beyond a low quay, timber and rope, unequal work visibly acknowledged. No modern cranes, coins enlarged, stereotypes or imperial skyline.",
       "caption": "Гавань и обмен в державе Августа. Художественное соединение типичных занятий; торговый маршрут, происхождение и правовой статус фигур не определены. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "generated_pending_review",
+      "status": "accepted_and_integrated",
       "generated": true,
-      "visual_review": false,
-      "integrated": false,
+      "visual_review": true,
+      "integrated": true,
       "original": "/workspace/generated_images/exec-d6694326-71da-418a-b836-84977a17109a.png",
       "dimensions": [
         1536,
@@ -1300,7 +1311,17 @@
       ],
       "sha256": "d88bf271ae3165a3b49e69a0aeea14306d9daa381af74a4bbfc0904b27858f2d",
       "bytes": 747815,
-      "jpeg_quality": 92
+      "jpeg_quality": 92,
+      "supporting_note_ids": [
+        "ch16-08",
+        "ch16-09"
+      ],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Просмотрены лица, кисти рук, амфоры, переносимые ткани, парус и корпус судна. Крупных дефектов не выявлено.",
+        "historical": "Нет современных кранов, средневековых парусов и экзотизирующих костюмов. Происхождение и юридическое положение работников не выводятся из внешности."
+      }
     },
     {
       "id": "ART-34",
@@ -1313,18 +1334,26 @@
       "medium": "fine watercolor and opaque gouache",
       "prompt": "One finished original historical book illustration, landscape 3:2, high resolution. Professional traditional figurative book painting, visible human brushwork and fine-grain warm paper/panel texture, restrained earth/stone/olive/umber palette, credible anatomy and natural human faces, light with a single coherent direction, off-center composition. No text, labels, signatures, decorative border, glossy rendering, plastic skin, fantasy, medieval armor, plate armor or stirrups. Roman late Republican / early Augustan material culture appropriate to the specified date. People individually posed, few foreground figures, carefully natural hands. Explicitly modern artistic reconstruction, not a photograph or archaeological artifact. Distinct technique for this plate: fine watercolor and opaque gouache. Painterly still life in an ancient Roman writing room: rolled papyrus, an open pair of wooden wax tablets, reed pens, bronze stylus, small inkpot and a few indistinct coins on a worn wooden table beside an oil lamp. No legible text, no invented named artifact, no modern book binding, spectacles or paper map. Raking side light and tactile materials.",
       "caption": "Носители письменных свидетельств: папирус, восковые таблички, перо и стилус. Современный художественный натюрморт; изображения не являются каталогом подлинных предметов. Современная художественная реконструкция, созданная с применением ИИ (2026).",
-      "status": "generated_pending_review",
+      "status": "accepted_and_integrated",
       "generated": true,
-      "visual_review": false,
-      "integrated": false,
-      "original": "/workspace/generated_images/exec-7fa49531-8edd-4ffb-ba32-f6f78b1d7975.png",
+      "visual_review": true,
+      "integrated": true,
+      "original": "/workspace/generated_images/exec-9494f779-fbd8-42d0-8dfb-466cade7be87.png",
+      "revision": "Object-only still life; removed unintended human figure and portrait bust after visual review.",
       "dimensions": [
         1536,
         1024
       ],
-      "sha256": "9d2fe1da25c371cc683314da4376d35851bf897db3d1576fc75c7b3fe0123348",
-      "bytes": 732038,
-      "jpeg_quality": 92
+      "sha256": "302df0fed8cf363ee14afd017d76fbd4304ab0a95d9525f1ec4a2acf5fac3125",
+      "bytes": 649466,
+      "jpeg_quality": 92,
+      "supporting_note_ids": [],
+      "review": {
+        "decision": "accept",
+        "reviewer": "внутренняя проверка с ИИ",
+        "visual": "Первый вариант просмотрен полностью и отклонён по композиции: генератор добавил человека и бюст вместо натюрморта. После редактирования инструментом генерации повторно просмотрено полное изображение: только предметы, ясные контуры и согласованный свет.",
+        "historical": "Ни монеты, ни письменные принадлежности не атрибутируются реальным музейным предметам. Текст отсутствует; свитки, диптих и простые инструменты показаны как обобщённые типы."
+      }
     }
   ]
 }
