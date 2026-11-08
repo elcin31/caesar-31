@@ -51,3 +51,11 @@ Roman Law Library,3.6–12/27–29/34–39; Plutarch Caius Gracchus5–7,
 Perrin vol10(1921). СтатусыPARTIAL. Повторное/новое чтениеAppianBC1.22–24/65–75.
 Печатная основаCicero1933 подтверждена только указанием электронной площадки.
 Полные сведения и критика передачи: research/v1.2/ch01_research.md.
+
+## Редакция 1.2, глава 2
+
+CiceroBrutus248–262, E.Jones1776/Attalus, PARTIAL; Gellius5.6.11–16,
+Rolfevol1,1927 revised1946/LacusCurtius, PARTIAL. Расширено чтениеSuet.Iul55/56.
+Точные электронные издания и оговорки: sources/additions_v12_ch02.bib,
+research/v1.2/ch02_research.md. Цицерон и цитирующий его Светоний не считаются
+независимыми при совпадении оценки.

@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+"""Render v1.2 continuation state from separately maintained research decisions."""
+from pathlib import Path
+import datetime,json
+ROOT=Path(__file__).resolve().parents[1]
+v=ROOT/'research/v1.2';p=json.loads((v/'progress.json').read_text());a=json.loads((v/'structural_audit.json').read_text())
+p['updated_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();p['current_body_words']=a['current_words'];p['bibliographic_entries']=len(json.loads((ROOT/'sources/verification_registry.json').read_text())['records'])
+for row in a['files']:
+ if '/chapters/' in row['path']:
+  n=Path(row['path']).name[:2];p['chapters'][n].update({'words':row['current_words'],'baseline_words':row['baseline_words'],'sha256':row['sha256']})
+(v/'progress.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n')
+done=[n for n,r in p['chapters'].items() if r['status']=='reviewed_v12'];rows=[]
+for n,r in p['chapters'].items():rows.append(f"| {int(n)} | {'переработана, отдельно проверена' if n in done else 'ожидает прохода 1.2'} | {r['baseline_words']} | {r['words']} |")
+text=f'''# Состояние CAESAR & AUGUSTUS — версия 1.2 в работе
+
+Обновлено: {p['updated_utc']}. Научное углубление прямо разрешено пользователем.
+Репозиторий: https://github.com/elcin31/caesar-31, ветка `main`.
+Контрольная версия 1.1: `{p['baseline_commit']}`.
+
+Основной текст: **{a['current_words']} русских слов** против **48864** в 1.1.
+Для 1.2 переработаны и отдельно проверены **{len(done)}/16 глав**. Введение и заключение
+ожидают итогового межглавного прохода. Библиография: **{p['bibliographic_entries']} записей**
+против 73; запись не означает полного прочтения.
+
+| Глава | Состояние 1.2 | Слов в 1.1 | Сейчас |
+|---|---|---:|---:|
+'''+ '\n'.join(rows)+f'''
+
+Глава 1: процедуры магистратур, Сената и собраний, публичная речь и тайное
+голосование, деятельность Гая Гракха, Цинна и Марий между 88 и 82 гг.
+Глава 2 (если отмечена завершённой в таблице): литературные занятия и отбор
+наследия, значение гражданского венка, ранние судебные выступления, оценка
+Цезаря в «Бруте» и зависимость позднейшего рассказа от Цицерона.
+Точные использованные источники, страницы и ограничения — в `research/v1.2/`.
+Отдельный агент проверяет новые утверждения по доступным текстам; это внутренняя
+проверка ИИ, не внешняя профессиональная рецензия.
+
+`dist/final/`, `dist/v1.1/` и все существующие assets сохранены побайтово;
+проверка — `research/v1.2/structural_audit.json`. Все **34 картины** остаются встроенными.
+Новые изображения не создавались. Структурные проверки сносок и сохранности проходят.
+Экспорты DOCX/EPUB/PDF/ZIP 1.2 **не собраны**: научная работа не завершена.
+EPUBCheck и визуальная проверка экспортов 1.2 ещё не выполнялись.
+
+Старые `research/progress.json`, acceptance и отчёты 1.1 сохранены как история;
+текущее состояние — `research/v1.2/progress.json`. Для статуса 1.2 использовать
+`scripts/status_v12.py` после `scripts/audit_v12.py`, не старый update_status.py.
+
+Следующее действие: {p['next_action']}
+
+После каждой главы: источники, отдельная критика, аудит, commit/push и сверка
+удалённого SHA. Отчёты удалённой сверки: `research/v1.2/evidence/remote_chNN.json`.
+Работа после завершения сессии не обещается. Этап 1.3 не начат и отдельно не разрешён.
+'''
+(ROOT/'PROJECT_STATUS.md').write_text(text)
+(ROOT/'NEXT_ACTION.md').write_text('# Следующее действие — версия 1.2\n\n'+p['next_action']+'\n\nПрочитать AGENTS.md и PROJECT_STATUS.md. Не повторять главы, отмеченные reviewed_v12; не перезаписывать выпуски 1.0/1.1 и изображения. После каждой главы обновить аппарат, отдельно проверить текст, выполнить audit_v12.py и status_v12.py, commit/push и сверить удалённый SHA. Не начинать 1.3.\n')
+print(f"Reviewed {len(done)}/16; {a['current_words']} Russian words; next: {p['next_action']}")

@@ -23,10 +23,10 @@
     {
       "path": "manuscript/chapters/02-origins.md",
       "baseline_words": 2913,
-      "current_words": 2913,
-      "added_words": 0,
-      "footnotes": 29,
-      "sha256": "8087fb8c37e1633e052cc83dca48bf5b41d779a92a44762ca85b133ebc8ff0c1",
+      "current_words": 3636,
+      "added_words": 723,
+      "footnotes": 37,
+      "sha256": "59381042a2bafc067fa2f1d4aac5ce682ed68ea8aa9ac7a97224b2e8c6eeff61",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 50233,
+  "current_words": 50956,
   "illustrations": {
     "referenced": 34,
     "unique": 34

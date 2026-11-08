@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-08T12:58:50.464923+00:00",
+  "updated_utc": "2026-11-08T13:04:40.398499+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -12,53 +12,99 @@
       "sha256": "ef7d16cbb49d3a480da3850cf664974b103362ab56d2e36462d7d6a93dcf57c8"
     },
     "02": {
-      "status": "pending_v12"
+      "status": "reviewed_v12",
+      "review": "research/v1.2/reviews/ch02_independent.md",
+      "words": 3636,
+      "baseline_words": 2913,
+      "sha256": "59381042a2bafc067fa2f1d4aac5ce682ed68ea8aa9ac7a97224b2e8c6eeff61"
     },
     "03": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2920,
+      "baseline_words": 2920,
+      "sha256": "ddd7bdaf26e14d12c4c6e67170b3cea6742acda10009526d8a20f105ceb43367"
     },
     "04": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2832,
+      "baseline_words": 2832,
+      "sha256": "ad07427b15896c6c71592fd841bba2c5f9b1b243a57f3e8a31825c8f342aaf52"
     },
     "05": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2803,
+      "baseline_words": 2803,
+      "sha256": "2be2208152eecfdfdcae098ea8fdf94b38cb851064820c577b4ddb7b20f753f2"
     },
     "06": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2860,
+      "baseline_words": 2860,
+      "sha256": "48ddb8adfbb7862635b60fb9750e09a9955b97a676266453aa7f3cfee65d29c7"
     },
     "07": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2866,
+      "baseline_words": 2866,
+      "sha256": "c268c2aa1dc5babea92f099c914ec4e2cf9dd8b3d843e911e4ee82701f35a3ee"
     },
     "08": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2804,
+      "baseline_words": 2804,
+      "sha256": "a85bc9c326ca950b22409ac3b69215017ac81ebd2c10c3b229f5fee6e8414ce2"
     },
     "09": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2812,
+      "baseline_words": 2812,
+      "sha256": "3c18f631bef5c4a6713775b0f336cf4cda923ebeb45c279f87a6d72d3c74e2b3"
     },
     "10": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2843,
+      "baseline_words": 2843,
+      "sha256": "6b9b7a9c9cb585c8d1b64c0827cfe536a015516ee301593705d95223e38b6062"
     },
     "11": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2822,
+      "baseline_words": 2822,
+      "sha256": "dc8cb089b8901c764dcb446a1c47e1bf973f155fda3b6705915c6a48290f0891"
     },
     "12": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2801,
+      "baseline_words": 2801,
+      "sha256": "cf22d946e5cdade56e30f119dfff4aa149b0759b7edf1a01938d960b0bb83352"
     },
     "13": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2833,
+      "baseline_words": 2833,
+      "sha256": "64c48afc2d1cdcd3b17e73324b69abeb19c4220345fb600030e7c93a5c2299ab"
     },
     "14": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2514,
+      "baseline_words": 2514,
+      "sha256": "68848100fa632ae6838cbde4f48eb919336f0570b33e062eeb3e1d158de0a489"
     },
     "15": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2631,
+      "baseline_words": 2631,
+      "sha256": "6b4b86fd32797e020370f063f1dc8171493755af952b37a6d8bcab4970510174"
     },
     "16": {
-      "status": "pending_v12"
+      "status": "pending_v12",
+      "words": 2245,
+      "baseline_words": 2245,
+      "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 50233,
-  "bibliographic_entries": 77,
-  "next_action": "Глава2: изучить Brutus248–262 и современный открытый разбор van den Berg, расширить образование/речь и проверить новые тезисы отдельно. Не повторять завершённую главу1.",
+  "current_body_words": 50956,
+  "bibliographic_entries": 80,
+  "next_action": "Глава 3: прочитать начальный раздел открытой книги Pietrini 2023 о lex Iulia de repetundis, сопоставить Cic. Vat.29/Sest.135/Rab.Post.8/12 с поздним Dig.48.11; затем исследовать дело Веттия по Att.2.24. Не выдавать поздние нормы за буквальный закон 59 г.; глава ещё не переработана.",
   "exports": "not_built_scientific_work_incomplete"
 }

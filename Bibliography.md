@@ -30,6 +30,8 @@ Cicero, Marcus Tullius. *Pro Marcello*. Перевод N. H. Watts. Loeb Classic
 
 Cicero, Marcus Tullius. *De legibus, liber III*. Редактор C. F. W. Mueller. n.d. https://droitromain.univ-grenoble-alpes.fr/Auteurs_anciens/delegibus3_lat.htm.
 
+Cicero, Marcus Tullius. *Brutus, a History of Famous Orators*. Перевод E. Jones. 1776. https://www.attalus.org/cicero/brutus3.html.
+
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 4. Loeb Classical Library, 1916. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/44*.html.
 
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 6. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html.
@@ -43,6 +45,8 @@ Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 5. Loeb Classica
 Gellius, Aulus. *The Attic Nights*. Перевод J. C. Rolfe. Т. 2. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/10*.html.
 
 Gellius, Aulus. *Noctes Atticae*. Т. 3. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/14%2A.html.
+
+Gellius, Aulus. *The Attic Nights*. Перевод J. C. Rolfe. Т. 1. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/5%2A.html.
 
 Horace. *Carmen Saeculare*. Редактор Yongyi Li. б. г. https://dco.dickinson.edu/horatius-carmina/carmen-saeculare.
 
@@ -137,6 +141,8 @@ Rosenstein, Nathan. “Military Logistics.” In *The Landmark Julius Caesar: We
 Scheid, John. “Res gestae divi Augusti, 9,1: les jeux pour le salut d’Auguste.” *Bulletin de la Société nationale des Antiquaires de France* 2008 (2015): 92–95. https://doi.org/10.3406/bsnaf.2015.11984.
 
 Urso, Gianpaolo. “‘Ritorno alla monarchia’, tra Cesare e Augusto: le origini del principato in Cassio Dione.” In *Cassius Dio and the Principate*, edited by Christopher Burden-Strevens and Jesper Majbom Madsen and Antonio Pistellato, 19–38. Venice: Edizioni Ca' Foscari, 2020. https://doi.org/10.30687/978-88-6969-472-1/001.
+
+van den Berg, Christopher S. “Minerva, Venus, and Cicero's Judgments on Caesar's Style.” In *The Politics and Poetics of Cicero's Brutus: The Invention of Literary History*, 217–243. Cambridge: Cambridge University Press, 2023. https://doi.org/10.1017/9781009281386.010.
 
 van der Blom, Henriette. “The Reception of Octavian’s Oratory and Public Communication in the Imperial Period.” In *The Triumviral Period: Civil War, Political Crisis and Socioeconomic Transformations*, edited by Francisco Pina Polo, 249–279. Zaragoza and Sevilla: Prensas de la Universidad de Zaragoza and Editorial Universidad de Sevilla, 2020. https://pure-oai.bham.ac.uk/ws/portalfiles/portal/99010522/Van_der_Blom_Octavian_s_oratory.pdf.
 

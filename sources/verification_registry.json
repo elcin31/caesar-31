@@ -923,6 +923,42 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL: Life of Caius Gracchus5.1--6.4,7.1--2 directly read in the public-domain LacusCurtius transcription; entry describes the consulted biography within volume10, not the full contents of that volume.",
       "addendum": ""
+    },
+    {
+      "key": "vandenberg2023style",
+      "title": "Minerva, Venus, and Cicero's Judgments on Caesar's Style",
+      "author": "van den Berg, Christopher S.",
+      "year": "2023",
+      "doi": "10.1017/9781009281386.010",
+      "url": "https://www.cambridge.org/core/books/politics-and-poetics-of-ciceros-brutus/minerva-venus-and-ciceros-judgments-on-caesars-style/48AD3654196DDA145DC8CD89BB6A1660",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: printed pages228--230, subsection The Conversational Exchange (251--62), directly read in publisher open-access PDF. The parenthetic numbers are Cicero section numbers. No full-book reading claimed.",
+      "addendum": ""
+    },
+    {
+      "key": "cicero1776brutus",
+      "title": "Brutus, a History of Famous Orators",
+      "author": "Cicero, Marcus Tullius",
+      "year": "1776",
+      "doi": null,
+      "url": "https://www.attalus.org/cicero/brutus3.html",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: sections248--262 directly read via Attalus; sections259--262 at https://www.attalus.org/cicero/brutus4.html. Host identifies translation as E.Jones1776, with minor word and spelling changes.",
+      "addendum": ""
+    },
+    {
+      "key": "gellius1927crowns",
+      "title": "The Attic Nights",
+      "author": "Gellius, Aulus",
+      "year": "1927",
+      "doi": null,
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/5%2A.html",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:5.6.11--16 directly read in LacusCurtius; host identifies1927 edition revised1946. General civic-crown conditions, not independent evidence of Caesar's precise actions at Mytilene.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."
