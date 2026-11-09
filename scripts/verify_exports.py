@@ -75,7 +75,11 @@ def main():
         language=opf.find('.//dc:language',NS).text
         require(language.lower().startswith('ru'),'EPUB not Russian')
         description=opf.find('.//dc:description',NS)
-        require(description is not None and release.label in (description.text or ''),'EPUB description has a stale release version')
+        description_text = (description.text or '') if description is not None else ''
+        if release.version == '1.2.1':
+            require('Историческое исследование' in description_text and 'версия' not in description_text.lower(), 'EPUB clean edition must have reader-friendly description')
+        else:
+            require(release.label in description_text, 'EPUB description has a stale release version')
         require(any('nav' in e.get('properties','').split() for e in opf.findall('.//opf:item',NS)),'EPUB navigation missing')
         for item in opf.findall('.//opf:item',NS):
             target=posixpath.normpath(posixpath.join(posixpath.dirname(opf_name),urllib.parse.unquote(item.get('href'))))
