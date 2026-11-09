@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T04:25:41.360457+00:00",
+  "updated_utc": "2026-11-09T04:33:00.770826+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -71,14 +71,15 @@
       "status": "reviewed_v12",
       "words": 3530,
       "baseline_words": 2843,
-      "sha256": "5a46da486b26d529efaeeae308383852643c997828e18d7811eed4744e9681fb",
+      "sha256": "a69a8ffbe42a4b35b2e7d5f061a5189c27eb148e24187be2e1de70c0774abaf8",
       "review": "research/v1.2/reviews/ch10_independent.md"
     },
     "11": {
-      "status": "pending_v12",
-      "words": 2822,
+      "status": "reviewed_v12",
+      "words": 3324,
       "baseline_words": 2822,
-      "sha256": "dc8cb089b8901c764dcb446a1c47e1bf973f155fda3b6705915c6a48290f0891"
+      "sha256": "57bcfb482c9445cdd3b98bb3ebcd59871d9000d6f9136b25b42400f7892d8608",
+      "review": "research/v1.2/reviews/ch11_independent.md"
     },
     "12": {
       "status": "pending_v12",
@@ -111,8 +112,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 57225,
+  "current_body_words": 57727,
   "bibliographic_entries": 98,
-  "next_action": "Глава 11: углубить демобилизацию и земельные/денежные обязательства поRG15–16 иWolters2021,186–187(новоепрямоечтение);не смешивать покупки30/14и поздние выплаты в один бюджет. Дополнить делоПрима поDio54.3 с неустранённой датировкой/мотивами. Материал прочитан,вставки11ещёневнесены. Главы1–10неповторять.",
+  "next_action": "Глава 12: прочитать киренские эдикты I–V и приложенное постановление Сената целиком по Greek/de Visscher и Johnson1961,124–127; отличать греческий оригинал от современной латинской передачи. Добавить конкретный разбор суда, гражданства, местных повинностей и передачи решений. Czajkowski2019: прямо прочитаны AM1–2 и12, PARTIAL; дальнейшие страницы пока не заявлять прочитанными. Главы1–11 не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

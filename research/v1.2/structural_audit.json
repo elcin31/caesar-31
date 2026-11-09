@@ -98,16 +98,16 @@
       "current_words": 3530,
       "added_words": 687,
       "footnotes": 37,
-      "sha256": "5a46da486b26d529efaeeae308383852643c997828e18d7811eed4744e9681fb",
+      "sha256": "a69a8ffbe42a4b35b2e7d5f061a5189c27eb148e24187be2e1de70c0774abaf8",
       "illustration_blocks_unchanged": true
     },
     {
       "path": "manuscript/chapters/11-settlement.md",
       "baseline_words": 2822,
-      "current_words": 2822,
-      "added_words": 0,
-      "footnotes": 23,
-      "sha256": "dc8cb089b8901c764dcb446a1c47e1bf973f155fda3b6705915c6a48290f0891",
+      "current_words": 3324,
+      "added_words": 502,
+      "footnotes": 29,
+      "sha256": "57bcfb482c9445cdd3b98bb3ebcd59871d9000d6f9136b25b42400f7892d8608",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 57225,
+  "current_words": 57727,
   "illustrations": {
     "referenced": 34,
     "unique": 34
