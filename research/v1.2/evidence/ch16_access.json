@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-11-09T10:43:56.709467+00:00",
+  "scope": "Synthesis using actual documented readings; no new inaccessible work claimed",
+  "evidence_records": [
+    "ch04_access.json",
+    "ch10_access.json",
+    "ch11_access.json",
+    "ch12_access.json",
+    "ch13_access.json"
+  ],
+  "direct_independent_recheck": "see reviews/ch16_independent.md for exact read locations"
+}

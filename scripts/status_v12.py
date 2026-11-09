@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render v1.2 continuation state from separately maintained research decisions."""
 from pathlib import Path
-import datetime,json
+import datetime,json,re
 ROOT=Path(__file__).resolve().parents[1]
 v=ROOT/'research/v1.2';p=json.loads((v/'progress.json').read_text());a=json.loads((v/'structural_audit.json').read_text())
 p['updated_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();p['current_body_words']=a['current_words'];p['bibliographic_entries']=len(json.loads((ROOT/'sources/verification_registry.json').read_text())['records'])
@@ -57,6 +57,8 @@ text=f'''# Состояние CAESAR & AUGUSTUS — версия 1.2 в рабо
 о Постуме и письма к Ливии о пределах публичной карьеры Клавдия.
 Глава 15: сравнение конкретных механизмов милости, карьеры, ценза,
 армейских обязательств, местного исполнения и передачи публичных средств.
+Глава 16: синтез местного многообразия, статуса и участия, нормы и исполнения;
+независимость археологического свидетельства и восстановленного текста.
 Точные использованные источники, страницы и ограничения — в `research/v1.2/`.
 Отдельный агент проверяет новые утверждения по доступным текстам; это внутренняя
 проверка ИИ, не внешняя профессиональная рецензия.
@@ -80,3 +82,9 @@ EPUBCheck и визуальная проверка экспортов 1.2 ещё
 (ROOT/'PROJECT_STATUS.md').write_text(text)
 (ROOT/'NEXT_ACTION.md').write_text('# Следующее действие — версия 1.2\n\n'+p['next_action']+'\n\nПрочитать AGENTS.md и PROJECT_STATUS.md. Не повторять главы, отмеченные reviewed_v12; не перезаписывать выпуски 1.0/1.1 и изображения. После каждой главы обновить аппарат, отдельно проверить текст, выполнить audit_v12.py и status_v12.py, commit/push и сверить удалённый SHA. Не начинать 1.3.\n')
 print(f"Reviewed {len(done)}/16; {a['current_words']} Russian words; next: {p['next_action']}")
+
+readme=ROOT/'README.md';rt=readme.read_text()
+rt=re.sub(r'главы 1–\d+ содержательно расширены',f'главы 1–{len(done)} содержательно расширены',rt,count=1)
+n=a['current_words'];ending='слов' if 11<=n%100<=14 else ('слово' if n%10==1 else 'слова' if n%10 in (2,3,4) else 'слов')
+rt=re.sub(r'основной текст — [\d ]+ русских (?:слова|слов|слово)\.',f"основной текст — {n:,} русских {ending}.".replace(',',' '),rt,count=1)
+readme.write_text(rt)

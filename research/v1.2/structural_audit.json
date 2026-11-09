@@ -149,10 +149,10 @@
     {
       "path": "manuscript/chapters/16-republic-empire.md",
       "baseline_words": 2245,
-      "current_words": 2245,
-      "added_words": 0,
-      "footnotes": 16,
-      "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927",
+      "current_words": 2676,
+      "added_words": 431,
+      "footnotes": 20,
+      "sha256": "80ef0c083cd82d0f2536638cadc0e4822d75080239e7d0897de91c98c657a832",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 60763,
+  "current_words": 61194,
   "illustrations": {
     "referenced": 34,
     "unique": 34
