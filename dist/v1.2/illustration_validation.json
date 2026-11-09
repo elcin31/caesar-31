@@ -1,0 +1,375 @@
+{
+  "verified_utc": "2026-11-09T11:00:16.356527+00:00",
+  "status": "pass",
+  "new_illustrations": 34,
+  "release": "1.2",
+  "artwork_source_edition": "1.1",
+  "chapter_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "method": "Compare dimensions and decoded RGB pixels of every source JPEG against all embedded DOCX/EPUB resources and every PDF image extracted by Poppler pdfimages -j.",
+  "register_sha256": "db7663abe639ad5aa1d7c95c2875dc2f4ece0c10c3a9257517a0343621b7fe97",
+  "formats_checked": [
+    "docx",
+    "epub",
+    "pdf"
+  ],
+  "preserved_v10_files_checked": 16,
+  "plates": [
+    {
+      "id": "ART-01",
+      "file": "assets/illustrations/v1.1/01-forum.jpg",
+      "decoded_rgb_sha256": "876f9f38e30891174f9d2f4bc885c4d5a1c2abe918b9d9a07de794171950c4f9",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-02",
+      "file": "assets/illustrations/v1.1/02-citizens.jpg",
+      "decoded_rgb_sha256": "1c3e912ae880a5b5b9174c7f31b19b25bb910a91e71854a34f1c803f01bb3bad",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-03",
+      "file": "assets/illustrations/v1.1/03-farm.jpg",
+      "decoded_rgb_sha256": "0e5e6920b2ae1df56545a92148c7713b2b0dd1dc922eca221c1c827e8811c2ae",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-04",
+      "file": "assets/illustrations/v1.1/04-atrium.jpg",
+      "decoded_rgb_sha256": "718f30e7a4417c4415cca3040ab3329aab24be133846d268fc2b7636bef03895",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-05",
+      "file": "assets/illustrations/v1.1/05-escape.jpg",
+      "decoded_rgb_sha256": "56fe87eeaec770b74b26d3e9b15eb5262deefdfd4060ed121beaa15127d7950a",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-06",
+      "file": "assets/illustrations/v1.1/06-negotiation.jpg",
+      "decoded_rgb_sha256": "b5257fb26c609fb895789867528f2bd154310e52d909c99efec08f4e16368550",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-07",
+      "file": "assets/illustrations/v1.1/07-forum-debate.jpg",
+      "decoded_rgb_sha256": "681f400cfad962aafdaf3d2900cc53100cf2cdcbad73f2192c5617af227705b7",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-08",
+      "file": "assets/illustrations/v1.1/08-camp.jpg",
+      "decoded_rgb_sha256": "05065bff97aa5541cb1f7c1da4c32815f57a2dd5432ef4cf9f7b2589699a334b",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-09",
+      "file": "assets/illustrations/v1.1/09-alesia.jpg",
+      "decoded_rgb_sha256": "ce7c3ccc4652a784e54ccd734b09a11c4e631947549a5af5b5cbe8b954050637",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-10",
+      "file": "assets/illustrations/v1.1/10-rubicon.jpg",
+      "decoded_rgb_sha256": "cc274a0d20a4c962bfe67fd813341f8757bf1ac1d4b447041e479e7927d5f590",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-11",
+      "file": "assets/illustrations/v1.1/11-brundisium.jpg",
+      "decoded_rgb_sha256": "7d768cd434b2c0a05dcdf77b8660ddaa28997640dce3f6f4de0ce1e5a8ce3d16",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-12",
+      "file": "assets/illustrations/v1.1/12-calendar.jpg",
+      "decoded_rgb_sha256": "6b6b3259127b32ba0ba3baeaa455f40c912ee4a7fbb7088f2444c52f3aea93d6",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-13",
+      "file": "assets/illustrations/v1.1/13-petitioners.jpg",
+      "decoded_rgb_sha256": "412d96d3126e018e2b2767dbef6464167937a1f2e523234396076a2dad5dd1c3",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-14",
+      "file": "assets/illustrations/v1.1/14-ides.jpg",
+      "decoded_rgb_sha256": "5fb35e4c94a69d39fef49b133b7baa6b53b8a87e3ab0435dc80ef232f20640d4",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-15",
+      "file": "assets/illustrations/v1.1/15-funeral.jpg",
+      "decoded_rgb_sha256": "3bb69d3753612840e5888afcd7cb60cefd94075b20c5f8f16042c003637ea2a5",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-16",
+      "file": "assets/illustrations/v1.1/16-apollonia.jpg",
+      "decoded_rgb_sha256": "1e765c270fd8e26cddba0c6f41d16dc0eb4adcacd6c18907ced98f3d4ea1ae6f",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-17",
+      "file": "assets/illustrations/v1.1/17-will.jpg",
+      "decoded_rgb_sha256": "7acf262a16e55b431112f1b35c1e611c902c95bd1bd9e5c92302188ea0fbc55e",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-18",
+      "file": "assets/illustrations/v1.1/18-proscriptions.jpg",
+      "decoded_rgb_sha256": "12341323d0b016677ad559711460a8919b36e3d3e461428c152a10c90242841f",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-19",
+      "file": "assets/illustrations/v1.1/19-philippi.jpg",
+      "decoded_rgb_sha256": "a01c6d5faf4547a0ab88da667b3c96f0a54040794ee1ea34d06513eb73a4a6c5",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-20",
+      "file": "assets/illustrations/v1.1/20-shipyard.jpg",
+      "decoded_rgb_sha256": "050fa493c0b2d43a09d895d7786ff27e3eba0ea096e9e651c7ed228ea1098eba",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-21",
+      "file": "assets/illustrations/v1.1/21-actium.jpg",
+      "decoded_rgb_sha256": "73f1505e1fd9000975c1ac411547d71d494340d4403f1c1e45fa1b7ec73e9083",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-22",
+      "file": "assets/illustrations/v1.1/22-settlement.jpg",
+      "decoded_rgb_sha256": "de4eb8eea33311ce77340167e156b58363d296e30eeeb9ab7c1a4568b40788e0",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-23",
+      "file": "assets/illustrations/v1.1/23-veteran-land.jpg",
+      "decoded_rgb_sha256": "df29a97ee032a3ba02cfe239bff4714820f4d9dcebb55c5b35508d48acf95a2e",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-24",
+      "file": "assets/illustrations/v1.1/24-pay.jpg",
+      "decoded_rgb_sha256": "672b096ae14c58177ef0e6188c7da936f8423888d5c0d1f48a1bfc5c76b6e01d",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-25",
+      "file": "assets/illustrations/v1.1/25-provincial-hearing.jpg",
+      "decoded_rgb_sha256": "d9ccaeea23720847956d5be8d128dea3ff64083887e54b4f30de105f47c49ae5",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-26",
+      "file": "assets/illustrations/v1.1/26-sculptors.jpg",
+      "decoded_rgb_sha256": "b57c659198a65ecbf1b0c27e599700b2f5ebf8d5079bc4eb9311e692ac5fb34c",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-27",
+      "file": "assets/illustrations/v1.1/27-household-cult.jpg",
+      "decoded_rgb_sha256": "ce510dbc7c6d2e73cc4f9f41f8d5cc894395cbb20e95e6ae72227f8fbf87dae6",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-28",
+      "file": "assets/illustrations/v1.1/28-dynasty.jpg",
+      "decoded_rgb_sha256": "745e2e7d08d24f367326a204e730204dc7cae7c93961e8a92c2aea225b90d940",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-29",
+      "file": "assets/illustrations/v1.1/29-nola.jpg",
+      "decoded_rgb_sha256": "4c3e66a4bf6e73ae644d05bcce7c3e3eae4b068a4d4d562ba7c34f9b9a318111",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-30",
+      "file": "assets/illustrations/v1.1/30-caesar-desk.jpg",
+      "decoded_rgb_sha256": "d088720d80a4f159aa841179a2349db6516009f282b41818476c9b0fe8cc38f1",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-31",
+      "file": "assets/illustrations/v1.1/31-augustus-audience.jpg",
+      "decoded_rgb_sha256": "ddedd48ee3299b7bc4b50c2a6eff9b9c7422ea6e22e05e78e93b7cf2d1e1bd66",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-32",
+      "file": "assets/illustrations/v1.1/32-magistrates.jpg",
+      "decoded_rgb_sha256": "aa9b57a52feb185259ba7a0cce7f1add6ea793727a1b5473f6259d432e45e386",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-33",
+      "file": "assets/illustrations/v1.1/33-harbor-life.jpg",
+      "decoded_rgb_sha256": "62b88f01441485909d2a001e24e80d1872e61cad1aae37c7a1ddeb73b049d9f0",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    },
+    {
+      "id": "ART-34",
+      "file": "assets/illustrations/v1.1/34-sources.jpg",
+      "decoded_rgb_sha256": "b6f7f3d8587475317bca093ae446860c65719b5c3addf7b209d47177893b012c",
+      "embedded": {
+        "docx": true,
+        "epub": true,
+        "pdf": true
+      }
+    }
+  ]
+}

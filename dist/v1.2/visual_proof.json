@@ -1,0 +1,44 @@
+{
+  "status": "sampled_review_complete",
+  "pdf_sha256": "a65acd54e89a45591c306fdb93228a98ab3b82feaa3d2b6f1ed80530a15a3c98",
+  "reviewed_utc": "2026-11-09T11:03:30.491217+00:00",
+  "contact_sheets": [
+    "dist/v1.2/visual_samples/sheet-01.jpg",
+    "dist/v1.2/visual_samples/sheet-02.jpg",
+    "dist/v1.2/visual_samples/sheet-03.jpg",
+    "dist/v1.2/visual_samples/sheet-04.jpg",
+    "dist/v1.2/visual_samples/sheet-05.jpg",
+    "dist/v1.2/visual_samples/sheet-06.jpg",
+    "dist/v1.2/visual_samples/sheet-07.jpg"
+  ],
+  "contact_page_samples": 38,
+  "full_page_checks": [
+    73,
+    289,
+    291
+  ],
+  "unique_pages": 40,
+  "root_viewed": [
+    "sheet-01.jpg",
+    "sheet-02.jpg",
+    "sheet-07.jpg",
+    "page-073.png",
+    "page-291.png"
+  ],
+  "independent_viewed": [
+    "sheet-03.jpg",
+    "sheet-04.jpg",
+    "sheet-05.jpg",
+    "sheet-06.jpg",
+    "PDF289 rendered at150dpi"
+  ],
+  "independent_report": "research/v1.2/reviews/visual_independent.md",
+  "actual_content_overrides": {
+    "97": "part II divider",
+    "188": "part III divider",
+    "254": "part IV divider",
+    "340": "part V divider"
+  },
+  "findings": "No sampled clipping, overlap or broken Cyrillic seen; images and captions fit. Long notes289/291 fit; footnote114 retained whole after PDF line-break adjustment.",
+  "limits": "Selection covers every chapter and all book parts, not visual inspection of all443pages or word-by-word reading of small text in thumbnails. Some ending pages have deliberate whitespace; long headings wrap in A5. DOCX not visually opened in Microsoft Word; EPUB not tested in Apple Books."
+}

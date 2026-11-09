@@ -1,0 +1,223 @@
+{
+  "pdf_sha256": "a65acd54e89a45591c306fdb93228a98ab3b82feaa3d2b6f1ed80530a15a3c98",
+  "pages": 443,
+  "chapter_starts": {
+    "1": 20,
+    "2": 52,
+    "3": 74,
+    "4": 98,
+    "5": 121,
+    "6": 143,
+    "7": 166,
+    "8": 189,
+    "9": 210,
+    "10": 233,
+    "11": 255,
+    "12": 275,
+    "13": 298,
+    "14": 321,
+    "15": 341,
+    "16": 362
+  },
+  "illustration_pages": {
+    "1": 6,
+    "2": 21,
+    "3": 35,
+    "4": 53,
+    "5": 61,
+    "6": 85,
+    "7": 88,
+    "8": 102,
+    "9": 113,
+    "10": 125,
+    "11": 128,
+    "12": 157,
+    "13": 161,
+    "14": 167,
+    "15": 180,
+    "16": 193,
+    "17": 197,
+    "18": 214,
+    "19": 221,
+    "20": 234,
+    "21": 245,
+    "22": 259,
+    "23": 271,
+    "24": 282,
+    "25": 285,
+    "26": 303,
+    "27": 310,
+    "28": 323,
+    "29": 334,
+    "30": 347,
+    "31": 352,
+    "32": 366,
+    "33": 371,
+    "34": 429
+  },
+  "caption_distribution": "all34captions once; both chapter plates within chapter span",
+  "samples": [
+    {
+      "page": 1,
+      "purpose": "title"
+    },
+    {
+      "page": 2,
+      "purpose": "contents"
+    },
+    {
+      "page": 21,
+      "purpose": "ch01 image"
+    },
+    {
+      "page": 51,
+      "purpose": "ch01 ending/notes"
+    },
+    {
+      "page": 53,
+      "purpose": "ch02 image"
+    },
+    {
+      "page": 73,
+      "purpose": "ch02 ending/notes"
+    },
+    {
+      "page": 85,
+      "purpose": "ch03 image"
+    },
+    {
+      "page": 97,
+      "purpose": "ch03 ending/notes"
+    },
+    {
+      "page": 102,
+      "purpose": "ch04 image"
+    },
+    {
+      "page": 120,
+      "purpose": "ch04 ending/notes"
+    },
+    {
+      "page": 125,
+      "purpose": "ch05 image"
+    },
+    {
+      "page": 142,
+      "purpose": "ch05 ending/notes"
+    },
+    {
+      "page": 157,
+      "purpose": "ch06 image"
+    },
+    {
+      "page": 165,
+      "purpose": "ch06 ending/notes"
+    },
+    {
+      "page": 167,
+      "purpose": "ch07 image"
+    },
+    {
+      "page": 188,
+      "purpose": "ch07 ending/notes"
+    },
+    {
+      "page": 193,
+      "purpose": "ch08 image"
+    },
+    {
+      "page": 209,
+      "purpose": "ch08 ending/notes"
+    },
+    {
+      "page": 214,
+      "purpose": "ch09 image"
+    },
+    {
+      "page": 232,
+      "purpose": "ch09 ending/notes"
+    },
+    {
+      "page": 234,
+      "purpose": "ch10 image"
+    },
+    {
+      "page": 254,
+      "purpose": "ch10 ending/notes"
+    },
+    {
+      "page": 259,
+      "purpose": "ch11 image"
+    },
+    {
+      "page": 274,
+      "purpose": "ch11 ending/notes"
+    },
+    {
+      "page": 282,
+      "purpose": "ch12 image"
+    },
+    {
+      "page": 297,
+      "purpose": "ch12 ending/notes"
+    },
+    {
+      "page": 303,
+      "purpose": "ch13 image"
+    },
+    {
+      "page": 320,
+      "purpose": "ch13 ending/notes"
+    },
+    {
+      "page": 323,
+      "purpose": "ch14 image"
+    },
+    {
+      "page": 340,
+      "purpose": "ch14 ending/notes"
+    },
+    {
+      "page": 347,
+      "purpose": "ch15 image"
+    },
+    {
+      "page": 361,
+      "purpose": "ch15 ending/notes"
+    },
+    {
+      "page": 366,
+      "purpose": "ch16 image"
+    },
+    {
+      "page": 378,
+      "purpose": "ch16 ending/notes"
+    },
+    {
+      "page": 6,
+      "purpose": "introduction image"
+    },
+    {
+      "page": 429,
+      "purpose": "appendix image"
+    },
+    {
+      "page": 379,
+      "purpose": "conclusion"
+    },
+    {
+      "page": 431,
+      "purpose": "bibliography"
+    }
+  ],
+  "contact_sheets": [
+    "dist/v1.2/visual_samples/sheet-01.jpg",
+    "dist/v1.2/visual_samples/sheet-02.jpg",
+    "dist/v1.2/visual_samples/sheet-03.jpg",
+    "dist/v1.2/visual_samples/sheet-04.jpg",
+    "dist/v1.2/visual_samples/sheet-05.jpg",
+    "dist/v1.2/visual_samples/sheet-06.jpg",
+    "dist/v1.2/visual_samples/sheet-07.jpg"
+  ],
+  "status": "prepared_for_actual_viewing_not_yet_reviewed"
+}

@@ -1,8 +1,8 @@
 {
   "edition": "1.2",
-  "status": "science_complete_exports_pending",
+  "status": "complete_v12",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T10:55:34.995034+00:00",
+  "updated_utc": "2026-11-09T11:08:01.360501+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -126,8 +126,8 @@
   },
   "current_body_words": 61395,
   "bibliographic_entries": 106,
-  "next_action": "Научная интеграция16глав, введения и заключения завершена; отдельная внутренняя критика и целевой межглавный проход сохранены. Следующее: python scripts/build.py --version1.2; verify_exports с реальнымEPUBCheck5.4.0 из/tmp/caesar-v12/tools; verify_illustrations_v11.py --version1.2; выборочный визуальный просмотрPDFвсехчастей; итоговыйотчётresearch/editorial_v12.md; sourceZIPполного редактируемогопроекта(книжныеформатыотдельно),commit/push/удалённыеSHA. Этап1.3не начинать.",
-  "exports": "not_built_scientific_work_incomplete",
+  "next_action": "Версия1.2 завершена: все16глав, введение и заключение, отдельная внутренняя критика, целевой межглавный проход, DOCX/EPUB/PDF и ZIPпроекта. Проверки:dist/v1.2;отчётresearch/editorial_v12.md. Не повторять1.2 и не начинать1.3 без отдельного поручения пользователя. Для1.3 сохранить контрольную1.2 и приступить только к разрешённой глубокой литературной редактуре.",
+  "exports": "validated_v12",
   "front_matter": {
     "status": "reviewed_v12",
     "review": "research/v1.2/reviews/cross_chapter_independent.md",
@@ -138,5 +138,18 @@
     "status": "reviewed_v12",
     "review": "research/v1.2/reviews/cross_chapter_independent.md",
     "scope": "targeted transitions, chronology, terms, normative/actual distinction, source access and exact nine local replacements; not a new whole-corpus collation"
+  },
+  "completion_report": "research/editorial_v12.md",
+  "technical_validation": {
+    "report": "dist/v1.2/validation.json",
+    "epubcheck_version": "5.4.0",
+    "fatals": 0,
+    "errors": 0,
+    "warnings": 0,
+    "pdf_pages": 443,
+    "illustrations_preserved": 34,
+    "visual_sample_unique_pages": 40,
+    "archive_kind": "complete editable project and all assets; reading formats separate",
+    "archive_checks": "CRC and all included SHA256 checked by package_release.py"
   }
 }
