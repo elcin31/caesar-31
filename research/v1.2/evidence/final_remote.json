@@ -1,0 +1,137 @@
+{
+  "verified_utc": "2026-11-09T11:10:46.050247+00:00",
+  "scope": "Published payload commit; subsequent verification-only commit does not alter these artifacts",
+  "payload_commit": "8dc099ccab15a8199727887f769ce7a75b7db304",
+  "remote_main_commit": "8dc099ccab15a8199727887f769ce7a75b7db304",
+  "head_matches": true,
+  "tree_sha": "3c6bc198508dd94a088c9b60bfa4c8456cce79f0",
+  "tracked_blobs_compared": 735,
+  "all_remote_blobs_match": true,
+  "raw_source_downloads": [
+    {
+      "path": "manuscript/introduction.md",
+      "sha256": "6b1ccc3b86871c4b46adc8bcfcbf0a0b9683a474a8d9ae55cbfcf22c929c0ad9",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "sha256": "ef7d16cbb49d3a480da3850cf664974b103362ab56d2e36462d7d6a93dcf57c8",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "sha256": "5d4a86209c16a06fbe3255227edca963ff725460ff958072522dc6da7a81ca74",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "sha256": "b4ee633ac3a280a25feaa54705fa262f29148ad1bedb22cadea07929aefa58d6",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/04-gaul.md",
+      "sha256": "bc7de5e6f3c0c7bdbe099b2a75fae8a10e50bb3b0b6603274e65c98ab8d82a84",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/05-civil-war.md",
+      "sha256": "2f57d4938d7a5c09fc154c95f87eb467a3efa26a51a1a504a26ffc54ec44c47d",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/06-dictatorship.md",
+      "sha256": "4725c4b0b9c814bf2b9b8c7001d0c8a7b975bf9986c2c08815212ccd30109c10",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/07-ides.md",
+      "sha256": "230b586b9cc62edb040d024c8d223ab7e905ca4552facbafbecef7b9c1c2dbfa",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/08-octavius.md",
+      "sha256": "5f10946e55fd02b79421f2e8e44cc5d4be5ff74ca1e5dcaacb7b9cb2193cf756",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/09-triumvirate.md",
+      "sha256": "75a69b1b9bf254c54ad3041018ea91e4d642bf374ccf1412458c206121f81f20",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/10-actium.md",
+      "sha256": "e5d188f5eef5bc9c6dde83673b181b5c0db7f733545196415eb43df843cbbb48",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/11-settlement.md",
+      "sha256": "57bcfb482c9445cdd3b98bb3ebcd59871d9000d6f9136b25b42400f7892d8608",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/12-government.md",
+      "sha256": "6b3cca9513f8dded61e4f0210934926405d87c0feb3d56715e90d5e7402a0526",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/13-religion-culture.md",
+      "sha256": "9c42b38ea84b9a7910921efc388b306ea3b71590787d3e39d978ebdc5da0f07f",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/14-dynasty-succession.md",
+      "sha256": "fb310e3717d83ba8a07dd6cc3ca6d7c7e91a7e68dc8762c75dc4559b2274860d",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/15-comparison.md",
+      "sha256": "eda134077bbc1d9301307fc811d2139703ed85a945fda575326dbd5a1aba7bd5",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/chapters/16-republic-empire.md",
+      "sha256": "80ef0c083cd82d0f2536638cadc0e4822d75080239e7d0897de91c98c657a832",
+      "download_matches": true
+    },
+    {
+      "path": "manuscript/conclusion.md",
+      "sha256": "920e07a17c1ebcfc230a88001a90ee0c9944de6a9665a0bdc594a5105356581b",
+      "download_matches": true
+    },
+    {
+      "path": "research/editorial_v12.md",
+      "sha256": "e739c44c94fa1e3de897bad35328c42601d0c98df59fdd0d743bd60387dbe0bd",
+      "download_matches": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "dist/v1.2/Caesar_Augustus_v1.2.docx",
+      "bytes": 30593464,
+      "sha256": "3b587db90a2072fbaadfef4bd27df208bbca01edc78b792c5ad284b8e5543542",
+      "remote_git_blob_matches": true,
+      "raw_head_status": 200
+    },
+    {
+      "path": "dist/v1.2/Caesar_Augustus_v1.2.epub",
+      "bytes": 30667579,
+      "sha256": "634cfbb1c5dbc97138ab146516a77fc65d90bfc20d324e635d50d08f99385157",
+      "remote_git_blob_matches": true,
+      "raw_head_status": 200
+    },
+    {
+      "path": "dist/v1.2/Caesar_Augustus_v1.2.pdf",
+      "bytes": 31252998,
+      "sha256": "a65acd54e89a45591c306fdb93228a98ab3b82feaa3d2b6f1ed80530a15a3c98",
+      "remote_git_blob_matches": true,
+      "raw_head_status": 200
+    },
+    {
+      "path": "dist/v1.2/Caesar_Augustus_v1.2.zip",
+      "bytes": 35429965,
+      "sha256": "5ecbd073e249b830c649853d03722d04714d70aab19ade787b8930c54a4a9825",
+      "remote_git_blob_matches": true,
+      "raw_head_status": 200
+    }
+  ]
+}
