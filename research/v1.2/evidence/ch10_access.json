@@ -1,0 +1,14 @@
+{
+  "objects": [
+    {
+      "url": "https://mc.dlib.nyu.edu/files/books/isaw_aphs000029/isaw_aphs000029_lo.pdf",
+      "checked_utc": "2026-11-09T04:21:53.576572+00:00",
+      "bytes": 27769648,
+      "sha256": "416f6187169cb6306843bbf8986309d668560d31abe3d53c55391883e011a30b",
+      "reading": "PARTIAL:5–6,34,71,131–134,143–146;71 visually inspected atPDF91",
+      "repository_copy": false
+    }
+  ],
+  "rights": "NYU metadata explicitly records APS permission for electronic educational/research publication; no source images reproduced",
+  "primary_access": "PlutAnt37–39/44–46/49–50;Dio49.25–27/49.1.2;App5.106;SuetAug18.2"
+}

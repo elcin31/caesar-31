@@ -148,6 +148,8 @@ Morstein-Marx, Robert and Nathan Rosenstein. “The Transformation of the Republ
 
 Mouritsen, Henrik. *Plebs and Politics in the Late Roman Republic*. Cambridge: Cambridge University Press, 2001. https://doi.org/10.1017/CBO9780511482885.
 
+Murray, William M. and Photios M. Petsas. *Octavian’s Campsite Memorial for the Actian War*. Т. 79. Philadelphia: American Philosophical Society, 1989. https://hdl.handle.net/2333.1/4xgxd7dk.
+
 Novillo López, Miguel Ángel. “Cayo Julio César en Britania: ¿Campañas de exploración o incursiones fracasadas?.” *Studia Historica. Historia Antigua* 40 (2022): 139–157. https://doi.org/10.14201/shha202240139157.
 
 Osgood, Josiah. *Caesar’s Legacy: Civil War and the Emergence of the Roman Empire*. Cambridge: Cambridge University Press, 2006. https://assets.cambridge.org/97805216/71774/excerpt/9780521671774_excerpt.pdf.

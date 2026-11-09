@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T04:17:58.000409+00:00",
+  "updated_utc": "2026-11-09T04:25:41.360457+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -68,10 +68,11 @@
       "review": "research/v1.2/reviews/ch09_independent.md"
     },
     "10": {
-      "status": "pending_v12",
-      "words": 2843,
+      "status": "reviewed_v12",
+      "words": 3530,
       "baseline_words": 2843,
-      "sha256": "6b9b7a9c9cb585c8d1b64c0827cfe536a015516ee301593705d95223e38b6062"
+      "sha256": "5a46da486b26d529efaeeae308383852643c997828e18d7811eed4744e9681fb",
+      "review": "research/v1.2/reviews/ch10_independent.md"
     },
     "11": {
       "status": "pending_v12",
@@ -110,8 +111,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 56538,
-  "bibliographic_entries": 97,
-  "next_action": "Глава 10: расширить материальную и историографическую проверку Акция по Murray/Petsas1989,34/71/131–134/143–146 (легальнаяNYUкопия прочитана). Сверить пределы данных о пазах/восстановлении надписи и спор тяжёлого/лёгкого флота. Диагностировать сжатый Парфянский поход, дополнить только проверенным. Вставки10ещёне интегрированы;главы1–9неповторять.",
+  "current_body_words": 57225,
+  "bibliographic_entries": 98,
+  "next_action": "Глава 11: углубить демобилизацию и земельные/денежные обязательства поRG15–16 иWolters2021,186–187(новоепрямоечтение);не смешивать покупки30/14и поздние выплаты в один бюджет. Дополнить делоПрима поDio54.3 с неустранённой датировкой/мотивами. Материал прочитан,вставки11ещёневнесены. Главы1–10неповторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

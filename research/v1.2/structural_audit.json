@@ -95,10 +95,10 @@
     {
       "path": "manuscript/chapters/10-actium.md",
       "baseline_words": 2843,
-      "current_words": 2843,
-      "added_words": 0,
-      "footnotes": 29,
-      "sha256": "6b9b7a9c9cb585c8d1b64c0827cfe536a015516ee301593705d95223e38b6062",
+      "current_words": 3530,
+      "added_words": 687,
+      "footnotes": 37,
+      "sha256": "5a46da486b26d529efaeeae308383852643c997828e18d7811eed4744e9681fb",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 56538,
+  "current_words": 57225,
   "illustrations": {
     "referenced": 34,
     "unique": 34
