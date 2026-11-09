@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T04:39:56.547179+00:00",
+  "updated_utc": "2026-11-09T04:48:08.806436+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -89,10 +89,11 @@
       "review": "research/v1.2/reviews/ch12_independent.md"
     },
     "13": {
-      "status": "pending_v12",
-      "words": 2833,
+      "status": "reviewed_v12",
+      "words": 3695,
       "baseline_words": 2833,
-      "sha256": "64c48afc2d1cdcd3b17e73324b69abeb19c4220345fb600030e7c93a5c2299ab"
+      "sha256": "9c42b38ea84b9a7910921efc388b306ea3b71590787d3e39d978ebdc5da0f07f",
+      "review": "research/v1.2/reviews/ch13_independent.md"
     },
     "14": {
       "status": "pending_v12",
@@ -113,8 +114,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 58682,
-  "bibliographic_entries": 100,
-  "next_action": "Глава 13: углубить освобождение рабов и границы гражданства по Suet.Aug40.3–4 и Gai.Inst1.13–20,37–47; положение женщин по1.144–145,189–195. Данные прочитаны на латинском/сверены с Poste1904; различать юристаIIвека, августовские законы и последующие решения. Mouritsen2011 официальный excerpt1–4 прочитан через web; PDFcurl503, остальная книга не прочитана. Вставки13 пока не внесены. Главы1–12 не повторять.",
+  "current_body_words": 59544,
+  "bibliographic_entries": 103,
+  "next_action": "Глава 14: расширить асимметрию усыновления4н.э. по Vell2.103–104 и Pettinger2012,47–52 (прямое чтение); разбор оценочных слов о Постуме не превращать в диагноз или вымышленную психологию. Suet.Claud4.1–7 прямо прочитан: письма к Ливии, участие Тиберия, различие родства и подготовки карьеры. Pettinger26июня/Shipley27июня не согласованы автоматически; использовать месяц. Вставки14 ещё не внесены. Главы1–13 не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

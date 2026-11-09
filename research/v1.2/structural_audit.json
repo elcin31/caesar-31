@@ -122,10 +122,10 @@
     {
       "path": "manuscript/chapters/13-religion-culture.md",
       "baseline_words": 2833,
-      "current_words": 2833,
-      "added_words": 0,
-      "footnotes": 27,
-      "sha256": "64c48afc2d1cdcd3b17e73324b69abeb19c4220345fb600030e7c93a5c2299ab",
+      "current_words": 3695,
+      "added_words": 862,
+      "footnotes": 36,
+      "sha256": "9c42b38ea84b9a7910921efc388b306ea3b71590787d3e39d978ebdc5da0f07f",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 58682,
+  "current_words": 59544,
   "illustrations": {
     "referenced": 34,
     "unique": 34

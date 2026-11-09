@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-11-09T04:45:20.576771+00:00",
+  "objects": [
+    {
+      "url": "https://www.thelatinlibrary.com/gaius1.html",
+      "bytes": 70458,
+      "sha256": "acc98e6a7fd6cc1d88290eb11d9489650fc6288950d058ee30a810598a678069",
+      "reading": "PARTIAL:selected1.13–20/37–47/144–145/189–195",
+      "repository_copy": false
+    },
+    {
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm",
+      "bytes": 156406,
+      "sha256": "8b335a180e5b1e37e52656ef319a9a6e5d09ce826255118bbe888c878c2e6126",
+      "reading": "PARTIAL:same selections except45 omitted online",
+      "repository_copy": false
+    },
+    {
+      "url": "https://ancienthistorybulletin.org/wp-content/uploads/2014/08/AHBReviews201128.HarrillOnMouritsen.pdf",
+      "bytes": 113337,
+      "sha256": "93ccf1b9f85ac3d7d88cb9e97cf42fd68f82c4f6c4a0490956ea1c42663d1c08",
+      "reading": "FULL:this4-page review",
+      "repository_copy": false
+    }
+  ],
+  "mouritsen": "web initial success pp1–4 read; later503; no PDF hash claimed",
+  "suetonius": "Aug40.3–4 read at LacusCurtius"
+}

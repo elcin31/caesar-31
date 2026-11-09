@@ -1199,6 +1199,42 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL: accepted-manuscript pp.1--2 and12 directly read, not equivalent to journal pagination; no whole-article reading claimed. Later family-law material not projected onto Augustus. Other excerpts encountered but not relied upon",
       "addendum": ""
+    },
+    {
+      "key": "gaius1904",
+      "title": "Gai Institutiones; or, Institutes of Roman Law",
+      "author": "Gaius",
+      "year": "1904",
+      "doi": null,
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:1.13--20,37--47,144--145,189--195 selected English paragraphs directly read; Latin compared at https://www.thelatinlibrary.com/gaius1.html, exact critical basis of Latin Library not specified. English transcription omits45;45 read only in Latin. Subsequent Hadrianic provisions not transferred to Augustus. Metadata checked in UPenn Online Books Page. Whole book/commentary not read",
+      "addendum": ""
+    },
+    {
+      "key": "mouritsen2011",
+      "title": "The Freedman in the Roman World",
+      "author": "Mouritsen, Henrik",
+      "year": "2011",
+      "doi": null,
+      "url": "https://assets.cambridge.org/97805218/56133/excerpt/9780521856133_excerpt.pdf",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:publisher excerpt pp1--4 directly read once via web tool; subsequent curl/web attempts503, no PDF hash or repeat access claimed. Not the rest of10-page excerpt or book. Other sections known here only through Harrill2011",
+      "addendum": ""
+    },
+    {
+      "key": "harrill2011",
+      "title": "Review of The Freedman in the Roman World, by Henrik Mouritsen",
+      "author": "Harrill, J. Albert",
+      "year": "2011",
+      "doi": null,
+      "url": "https://ancienthistorybulletin.org/wp-content/uploads/2014/08/AHBReviews201128.HarrillOnMouritsen.pdf",
+      "kind": "secondary",
+      "access": "FULL (ограничено указанным объектом чтения)",
+      "reading_note": "FULL:all four pages of this review directly read, not Mouritsen whole book. Criticism of Greek-name demographic inference and limited treatment of gender attributed to reviewer. No DOI invented; no earlier works cited inside review claimed directly read",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."

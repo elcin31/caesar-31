@@ -56,6 +56,8 @@ Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 3. Loeb Classica
 
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 5. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/49*.html.
 
+Gaius. *Gai Institutiones; or, Institutes of Roman Law*. Перевод Edward Poste. Редактор E. A. Whittuck. Oxford: Clarendon Press, 1904. https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm.
+
 Gellius, Aulus. *The Attic Nights*. Перевод J. C. Rolfe. Т. 2. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/10*.html.
 
 Gellius, Aulus. *Noctes Atticae*. Т. 3. Loeb Classical Library, 1927. https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/14%2A.html.
@@ -122,6 +124,8 @@ Gruen, Erich S. “Caesar as a Politician.” In *A Companion to Julius Caesar*,
 
 Gruen, Erich S. “The Legitimacy of Caesar's Wars.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 33–39. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
 
+Harrill, J. Albert. “Review of The Freedman in the Roman World, by Henrik Mouritsen.” *AHB Online Reviews* 1 (2011): 91–94. https://ancienthistorybulletin.org/wp-content/uploads/2014/08/AHBReviews201128.HarrillOnMouritsen.pdf.
+
 Hinard, François. *Les proscriptions de la Rome républicaine*. Rome: École française de Rome, 1985. https://www.persee.fr/doc/efr_0000-0000_1985_ths_83_1.
 
 Hurlet, Frédéric. “Devenir un dieu. La mort d’Auguste et la naissance de la monarchie impériale.” *Studia Historica. Historia Antigua* 32 (2014): 61–75. https://revistas.usal.es/uno/index.php/0213-2052/article/download/12613/12925.
@@ -151,6 +155,8 @@ Morstein-Marx, Robert. “Caesar's Alleged Fear of Prosecution and His Ratio Abs
 Morstein-Marx, Robert and Nathan Rosenstein. “The Transformation of the Republic.” In *A Companion to the Roman Republic*, edited by Nathan Rosenstein and Robert Morstein-Marx, 625–637. Malden, MA and Oxford: Blackwell, 2006. https://doi.org/10.1002/9780470996980.ch29.
 
 Mouritsen, Henrik. *Plebs and Politics in the Late Roman Republic*. Cambridge: Cambridge University Press, 2001. https://doi.org/10.1017/CBO9780511482885.
+
+Mouritsen, Henrik. *The Freedman in the Roman World*. Cambridge: Cambridge University Press, 2011. https://assets.cambridge.org/97805218/56133/excerpt/9780521856133_excerpt.pdf.
 
 Murray, William M. and Photios M. Petsas. *Octavian’s Campsite Memorial for the Actian War*. Т. 79. Philadelphia: American Philosophical Society, 1989. https://hdl.handle.net/2333.1/4xgxd7dk.
 
