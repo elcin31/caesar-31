@@ -11,7 +11,7 @@ from publication_config import ROOT, source_inputs
 
 RELEASE = ROOT / "dist/v1.2.1"
 STEM = "Caesar_Augustus_v1.2.1"
-BAD = re.compile(r"(?:[Вв]ерси[яиюеы]+\\s*1\\.(?:1|2)(?!\\d)|[Рр]едакци[яиюеи]+\\s*1\\.(?:1|2)(?!\\d)|[Рр]абочая\\s+редакция|[Нн]аучная\\s+редакция\\s*1\\.2|\\b(?:ChatGPT|Codex|GPT-?[456])\\b)", re.I)
+BAD = re.compile(r"(?:[Вв]ерси[яиюеы]+\s*1\.(?:1|2)(?!\d)|[Рр]едакци[яиюеи]+\s*1\.(?:1|2)(?!\d)|[Рр]абочая\s+редакция|[Нн]аучная\s+редакция\s*1\.2|\b(?:ChatGPT|Codex|GPT-?[456])\b)", re.I)
 
 def ensure(condition, what):
     if not condition:
@@ -19,7 +19,7 @@ def ensure(condition, what):
 
 def visible_markdown(s):
     s = re.sub(r"<!--.*?-->", "", s, flags=re.S)
-    s = re.sub(r"!\\[([^]]*)\\]\\([^)]+\\)(?:\\{[^}]*\\})?", r"\\1", s)
+    s = re.sub(r"!\[([^]]*)\]\([^)]+\)(?:\{[^}]*\})?", r"\1", s)
     return s
 
 def check(label, text):
@@ -73,7 +73,7 @@ def main():
     check("PDF extracted text", pdftext)
     ensure("Цезарь и Август" in pdftext, "PDF text unavailable")
     result.update({"docx":"pass","epub":"pass","pdf":"pass"})
-    (RELEASE / "reader_audit.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    (RELEASE / "reader_audit.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(result,ensure_ascii=False,indent=2))
 
 if __name__ == "__main__":
