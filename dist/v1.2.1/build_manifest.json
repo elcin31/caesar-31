@@ -1,0 +1,349 @@
+{
+  "source_git_commit": "421309c566954db9b0a9947590cb71c3396df494",
+  "release": "1.2.1",
+  "final": false,
+  "stem": "Caesar_Augustus_v1.2.1",
+  "output_dir": "dist/v1.2.1",
+  "localized_epub_labels": [
+    {
+      "file": "EPUB/content.opf",
+      "label": "Содержание"
+    },
+    {
+      "file": "EPUB/content.opf",
+      "label": "Обложка"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Титульный лист"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Обложка"
+    },
+    {
+      "file": "EPUB/nav.xhtml",
+      "label": "Содержание"
+    }
+  ],
+  "cover_preserved_sha256": "64c73d03c2e0cf10cba66f35fd0bc814109c605470dd9fdd6143e0009611d55d",
+  "built_utc": "2026-11-09T12:23:38.259853+00:00",
+  "inputs": [
+    {
+      "path": "manuscript/introduction.md",
+      "sha256": "43d3ae8fe40c67d9b5ced54c589d4d2986d4deab8631ddf7cb968187ba506c83"
+    },
+    {
+      "path": "manuscript/chapters/01-republic.md",
+      "sha256": "ebe0b303bfb788f3ddae29f254291e38ac287f933d305152f9b6943f87f83b92"
+    },
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "sha256": "405dff36e9a660a51d33b3ea2b5e695d81da8fac1026391d1223d71bd0de34ac"
+    },
+    {
+      "path": "manuscript/chapters/03-career.md",
+      "sha256": "5f0a56225aab3d0ff097ed3aba04db43f15c69b43b630fe04d95dc060e76499d"
+    },
+    {
+      "path": "manuscript/chapters/04-gaul.md",
+      "sha256": "397ddc7975a571ae97da784046889c883aec38ab52b148419a56a3d8bee34b95"
+    },
+    {
+      "path": "manuscript/chapters/05-civil-war.md",
+      "sha256": "3b9a9382142b75d1bcc382e94c2238117f02feb8787187863e6b70b6bbfad4d5"
+    },
+    {
+      "path": "manuscript/chapters/06-dictatorship.md",
+      "sha256": "bb4f89259bc415b4cf76ec7a2d75caf2978014f28182ac517182de2dd2f59a50"
+    },
+    {
+      "path": "manuscript/chapters/07-ides.md",
+      "sha256": "c1b4b775d399f081a0b4c38b40204547703a6e1e8c99567632f283318477bc4f"
+    },
+    {
+      "path": "manuscript/chapters/08-octavius.md",
+      "sha256": "97ef2fa8746b891fcc5c37cd26df3f3177f024f3054596429ff78225f40d2652"
+    },
+    {
+      "path": "manuscript/chapters/09-triumvirate.md",
+      "sha256": "5d0bd110dccd0a75801ff25ff732d9d39e0547f8e6346b8b133cee7adc303d61"
+    },
+    {
+      "path": "manuscript/chapters/10-actium.md",
+      "sha256": "956cd2c7f060a020ea4cfbac2539b903b6e1c507b5423c8389989b2a75b532da"
+    },
+    {
+      "path": "manuscript/chapters/11-settlement.md",
+      "sha256": "f24daeb1607f75cf8ae86464f79d9538f60fe3ce87fdc4b7225fb62867c5bffc"
+    },
+    {
+      "path": "manuscript/chapters/12-government.md",
+      "sha256": "0dd15927fb18a23fb944677500152a6fc384854afc2fb5a23ba5f0eac0074c33"
+    },
+    {
+      "path": "manuscript/chapters/13-religion-culture.md",
+      "sha256": "4006b59bbc00680c69fc66e901fffcbe6d0e5be2b58b11b53de5abbdecdf0786"
+    },
+    {
+      "path": "manuscript/chapters/14-dynasty-succession.md",
+      "sha256": "d0246efe645c71f43daec02052adeff2ad32fbae31b30c0e6c35e9c52b151c30"
+    },
+    {
+      "path": "manuscript/chapters/15-comparison.md",
+      "sha256": "7210018cce88a7d05226413cb7815aa115461fbdaf999e5382f0cadd9f15aaf1"
+    },
+    {
+      "path": "manuscript/chapters/16-republic-empire.md",
+      "sha256": "a7704d6748882f3fb08e0a8110b83116f9ebd95e13ac739ba3085628150e38b1"
+    },
+    {
+      "path": "manuscript/conclusion.md",
+      "sha256": "920e07a17c1ebcfc230a88001a90ee0c9944de6a9665a0bdc594a5105356581b"
+    },
+    {
+      "path": "manuscript/appendices.md",
+      "sha256": "827b8533cc688597c58e47c05cbb9adbfb5d4b5d374b060185ebfcf8ba151f53"
+    },
+    {
+      "path": "manuscript/bibliography.md",
+      "sha256": "632f26be3186be51e6674ce7b934f093cc95fc521cb7f89e2b832a6b830f7a0c"
+    }
+  ],
+  "resources": [
+    {
+      "path": "assets/augustan_adoptions.png",
+      "sha256": "d8e0b24a325c742aa4baf0be31e2cb27eda29664f576e26605b2829174671ba9"
+    },
+    {
+      "path": "assets/cover.png",
+      "sha256": "64c73d03c2e0cf10cba66f35fd0bc814109c605470dd9fdd6143e0009611d55d"
+    },
+    {
+      "path": "assets/epub.css",
+      "sha256": "8940237f057ccc41e4da27abe0b20853989c656e9cfb8f7516a9b7840322ce1a"
+    },
+    {
+      "path": "assets/genealogy.png",
+      "sha256": "b189a7b495aedf2755ae009dc4d6c9667f1d4c7d67257d42c8e0bd727ec9dcc4"
+    },
+    {
+      "path": "assets/illustrations/v1.1/01-forum.jpg",
+      "sha256": "f6d338a833286fa0a1b4a6c58567c75196f70bfd2a15d1cff9dfbda531d44f81"
+    },
+    {
+      "path": "assets/illustrations/v1.1/02-citizens.jpg",
+      "sha256": "0550b022c5b41a237009beda8ebdfd30d882aee3df38a568f93529b51d235e42"
+    },
+    {
+      "path": "assets/illustrations/v1.1/03-farm.jpg",
+      "sha256": "83acd10f62bdf626bd53d8022e518c6816b721cc2852becf87b6600a0a563a9e"
+    },
+    {
+      "path": "assets/illustrations/v1.1/04-atrium.jpg",
+      "sha256": "b9b2448e4670f20ce3021c54939d68f553a793affa3fa3fd90b4f582ca68b5a7"
+    },
+    {
+      "path": "assets/illustrations/v1.1/05-escape.jpg",
+      "sha256": "e705185158ee517793731c725cba8188ed4fb159dea7711abc9eca86952e17b5"
+    },
+    {
+      "path": "assets/illustrations/v1.1/06-negotiation.jpg",
+      "sha256": "d2d5d51fd91aa5c87cbe759ad056d500b5bbb97bbff9893d81629a831142f261"
+    },
+    {
+      "path": "assets/illustrations/v1.1/07-forum-debate.jpg",
+      "sha256": "359e1886af13f7f8cc79e805f2eaacccc4ba1731f087d3814407477bb96ef2f9"
+    },
+    {
+      "path": "assets/illustrations/v1.1/08-camp.jpg",
+      "sha256": "73679528e9930e2fb1791c08ab448185308b024cbf412d677b2bef449b16acc4"
+    },
+    {
+      "path": "assets/illustrations/v1.1/09-alesia.jpg",
+      "sha256": "31cc0aee67cf90a94a304702623d3a3a2e2929f8a34da97cf962441f552dbfc8"
+    },
+    {
+      "path": "assets/illustrations/v1.1/10-rubicon.jpg",
+      "sha256": "6d0b22e01f434fa40882c538ce84e8330fd4f0395d325f6ed7e4d8ff306c725f"
+    },
+    {
+      "path": "assets/illustrations/v1.1/11-brundisium.jpg",
+      "sha256": "39ecd2f831bc723fb4361df8c702756006f05b223e100287836aeb9336fdbe07"
+    },
+    {
+      "path": "assets/illustrations/v1.1/12-calendar.jpg",
+      "sha256": "cceb03bcc75a009f7abbc7c433fd485dd0c4d32fca8dc6e0d004045d9e66cd00"
+    },
+    {
+      "path": "assets/illustrations/v1.1/13-petitioners.jpg",
+      "sha256": "e5f6b4b8a44ef38edfdb09329b59cf307991979fef79a1ce901dbd9167298e97"
+    },
+    {
+      "path": "assets/illustrations/v1.1/14-ides.jpg",
+      "sha256": "6cc38b6a71cef355e6e3072d967325fc5e0e06dbb9308e5f3fe5d69c6fc59fd5"
+    },
+    {
+      "path": "assets/illustrations/v1.1/15-funeral.jpg",
+      "sha256": "6e56d892fcdb3bac2f2a5bfb4416a5c9f6794e0f8d23afc937a4487a4bbad1a1"
+    },
+    {
+      "path": "assets/illustrations/v1.1/16-apollonia.jpg",
+      "sha256": "beb200467ac32b40a995d75cbfcfe91998fbf53a23fecf97b2ea233a1d89d244"
+    },
+    {
+      "path": "assets/illustrations/v1.1/17-will.jpg",
+      "sha256": "67f730749b70f979cd9cda72982d257e646210610c50c2c92aa15025a893464d"
+    },
+    {
+      "path": "assets/illustrations/v1.1/18-proscriptions.jpg",
+      "sha256": "1872ad6c765285c928dbd1f018e15068e3ebb11a968d2cd29d848557315643a6"
+    },
+    {
+      "path": "assets/illustrations/v1.1/19-philippi.jpg",
+      "sha256": "a147aa958ab3d94ffd30954210ce535fe89d14f503a049eda259450d539e0ad6"
+    },
+    {
+      "path": "assets/illustrations/v1.1/20-shipyard.jpg",
+      "sha256": "0d6011de0c33b96a764993c8e39bfb153f618a9a89b47b31708ea7fb1fcd1384"
+    },
+    {
+      "path": "assets/illustrations/v1.1/21-actium.jpg",
+      "sha256": "cda2c69474181c3197f9709b90f0159bbb7d48463be46ecb54eb5c63e284be64"
+    },
+    {
+      "path": "assets/illustrations/v1.1/22-settlement.jpg",
+      "sha256": "ba5396ec1bc9ebd27e54ea3099c01f382867adc9df70f79f98c470c04ef42438"
+    },
+    {
+      "path": "assets/illustrations/v1.1/23-veteran-land.jpg",
+      "sha256": "fd0b297de4bdc5e69ffc04ccbf6fb384fc80738eaef0bbc53c817f87e5affc40"
+    },
+    {
+      "path": "assets/illustrations/v1.1/24-pay.jpg",
+      "sha256": "97341690c0a884b4f8020f94032afbd16039e3ad850fc9f07ddf8f8a88fa1b0f"
+    },
+    {
+      "path": "assets/illustrations/v1.1/25-provincial-hearing.jpg",
+      "sha256": "e5fab8f23547b75b5748f6af5fc106b24d8a17c57e42a5538b4211fab52b6d4d"
+    },
+    {
+      "path": "assets/illustrations/v1.1/26-sculptors.jpg",
+      "sha256": "ffd13618b7e0e6f22a6792164c03086581420e70b9dd6c6f2e3c834f785f2841"
+    },
+    {
+      "path": "assets/illustrations/v1.1/27-household-cult.jpg",
+      "sha256": "1ae65703426f4d2c963f8b45e8e15a0fda086f4af2f88ba1632df759be924bbb"
+    },
+    {
+      "path": "assets/illustrations/v1.1/28-dynasty.jpg",
+      "sha256": "4dc4c95bbe739cb57220593b09c83783373ab67c07b62e98167e1262b39bf05c"
+    },
+    {
+      "path": "assets/illustrations/v1.1/29-nola.jpg",
+      "sha256": "55d1b8a51d9d4f923f2792fc608810ffb655b9f40523cbf02c91eaa528a8039e"
+    },
+    {
+      "path": "assets/illustrations/v1.1/30-caesar-desk.jpg",
+      "sha256": "795b0a53eec1e795472c3fa16a8867ed2869a5fe0d664699a21d437b454016eb"
+    },
+    {
+      "path": "assets/illustrations/v1.1/31-augustus-audience.jpg",
+      "sha256": "ae5305d7f3be78ec0471f9096bca6512552ae2160455f6cc784755559f97ff18"
+    },
+    {
+      "path": "assets/illustrations/v1.1/32-magistrates.jpg",
+      "sha256": "b153f19c3fe37d840b9337fc727a205d3cec438ded14bb5fa641b6c5416bc2ea"
+    },
+    {
+      "path": "assets/illustrations/v1.1/33-harbor-life.jpg",
+      "sha256": "d88bf271ae3165a3b49e69a0aeea14306d9daa381af74a4bbfc0904b27858f2d"
+    },
+    {
+      "path": "assets/illustrations/v1.1/34-sources.jpg",
+      "sha256": "302df0fed8cf363ee14afd017d76fbd4304ab0a95d9525f1ec4a2acf5fac3125"
+    },
+    {
+      "path": "assets/images/met_248037.jpg",
+      "sha256": "87b78cfde5e0e35b17f400bd7271abbfaccfd4bd0a5143b7a7d7707807965ce7"
+    },
+    {
+      "path": "assets/images/met_248119.jpg",
+      "sha256": "baa7f252a229f97157e0da8b95a806dd9d3cfe38722c1562c8e98d30caa91f45"
+    },
+    {
+      "path": "assets/maps/map_01_gaul_58_52.png",
+      "sha256": "135e69c0053c5b78d17a0e8bd1c211db15f5838c3650b905fb0b22a275e3e94a"
+    },
+    {
+      "path": "assets/maps/map_02_civil_wars_49_30.png",
+      "sha256": "94ab1303654647315518a528e1139e124bf30163464181c24ef76a3fa8700413"
+    },
+    {
+      "path": "assets/maps/map_03_administration_27.png",
+      "sha256": "6466060b006adc48b8145342416382b786449875f33ffb2dcf6ef836747aff28"
+    },
+    {
+      "path": "manuscript/metadata.yaml",
+      "sha256": "4200b1f967d92e14c3e41ecd49a86cc051fa14e9bb5b881b1471d710990c36fa"
+    },
+    {
+      "path": "scripts/book_structure.lua",
+      "sha256": "0f4db4803bd2cc9451770dd6a8e6c0c4163bed367c01eb7c6b339b60d1618cc1"
+    },
+    {
+      "path": "scripts/build.py",
+      "sha256": "800cc9fee21478e51b134ab3c8af15862121bbe8766605304c94bee6acb12e2b"
+    },
+    {
+      "path": "scripts/epub_localization.py",
+      "sha256": "0115c0363c5dc1b9a9a244cd2c7334ec0814abb5ce76528834e6392b35a92ee3"
+    },
+    {
+      "path": "scripts/publication_config.py",
+      "sha256": "e86a10aba50ae42e91598d288943ea7551a0f72de53d07c28a359527e1e5f6a2"
+    },
+    {
+      "path": "scripts/tex-support/LPPL-1.3c.txt",
+      "sha256": "c1ae6e179a6d28bbd5c483fbacc744acc75e922d598281dc3390aab26126e163"
+    },
+    {
+      "path": "scripts/tex-support/README.md",
+      "sha256": "b40dc34d6b724a6d279ca7a87c29278522ea384161c77e50fd03c4c64eed31a0"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/config/language.dat",
+      "sha256": "7ce8d6f23efd153219bafa8d742d2987ea3c8c50cd9dadfedf124ccf76a2c969"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/hyph-ru.tex",
+      "sha256": "ce988fcc66e5e29d7474df5ab5b489d3f52a50ebccf570997f992d84221b922a"
+    },
+    {
+      "path": "scripts/tex-support/tex/generic/hyphenation/loadhyph-ru.tex",
+      "sha256": "8d59a50b003ef646b4a38645802a7e4db55bb8f84e2f85a5a118c7049d186fe9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "dist/v1.2.1/Caesar_Augustus_v1.2.1.docx",
+      "bytes": 30592194,
+      "sha256": "7d1c0a978b0518cbce57af23b0de3df57a0d2c800f2654e40e35bd4e1236889a"
+    },
+    {
+      "path": "dist/v1.2.1/Caesar_Augustus_v1.2.1.epub",
+      "bytes": 30666545,
+      "sha256": "7a5eb32930c7dd726cc7e7388273325aacd483ced0a9203ec050ad6774f551ac"
+    },
+    {
+      "path": "dist/v1.2.1/Caesar_Augustus_v1.2.1.pdf",
+      "bytes": 31256629,
+      "sha256": "f1b91891860d39bd48ba387848c352da1bf6b912d1149cc9923a0bf8c0eea50a"
+    }
+  ],
+  "versions": {
+    "pandoc": "pandoc 3.1.3",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999995 (TeX Live 2023/Debian)"
+  },
+  "warnings": "\n\n"
+}
