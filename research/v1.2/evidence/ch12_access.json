@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-11-09T04:36:56.402134+00:00",
+  "objects": [
+    {
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Constitutiones/cyrene1_Visscher.htm",
+      "bytes": 47699,
+      "sha256": "1add6379819fabd1aeaa152850006775a1895d612839a739ec96f14ca1125745",
+      "reading": "PARTIAL corpus: selected I–V+SC fully read in transcription",
+      "repository_copy": false
+    },
+    {
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/cyrene_Johnson.htm",
+      "bytes": 34642,
+      "sha256": "f142448db91c588a3a3093ff81c1f33018c4bc07c63a3e14c56128128c7d0e0c",
+      "reading": "PARTIAL collection:no148 I–V+SC read",
+      "repository_copy": false
+    },
+    {
+      "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/82476975/The_Limits_of_Legal_Pluralism_Journal_of_Legal_History_with_Revisions_2.pdf",
+      "bytes": 532989,
+      "sha256": "47dc5cc10487a3f0114df36a73a7b55700038c32e2be347681fe9babab695c1a",
+      "reading": "PARTIAL:AM1–2,12",
+      "repository_copy": false
+    }
+  ]
+}

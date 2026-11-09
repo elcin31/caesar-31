@@ -16,6 +16,8 @@ Appian. *Roman History: The Civil Wars, Books III.27–V*. Перевод Horace
 
 Augustus. *Res Gestae Divi Augusti*. Перевод Frederick W. Shipley. Loeb Classical Library, 1924. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/home.html.
 
+Augustus. *Edicts of Augustus and Decree of the Senate on the Judicial Process in Cyrene*. Перевод Allan Chester Johnson and Paul Robinson Coleman-Norton and Frank Card Bourne. Austin: University of Texas Press, 1961. https://droitromain.univ-grenoble-alpes.fr/Anglica/cyrene_Johnson.htm.
+
 Caesar, Gaius Julius. *The Gallic War*. Перевод H. J. Edwards. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/1A*.html.
 
 Caesar, Gaius Julius. *Civil Wars*. Перевод A. G. Peskett. Loeb Classical Library, 1914. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1A*.html.
@@ -103,6 +105,8 @@ Badian, Ernst. “From the Iulii to Caesar.” In *A Companion to Julius Caesar*
 Campbell, Brian. “Review of Rome at War: Farms, Families, and Death in the Middle Republic, by Nathan Rosenstein.” *Electronic Antiquity* 8, no. 2 (2005): 61–66. https://scholar.lib.vt.edu/ejournals/ElAnt/V8N2/.
 
 Cooley, Alison E. “From the Augustan Principate to the Invention of the Age of Augustus.” *The Journal of Roman Studies* 109 (2019): 71–87. https://doi.org/10.1017/S0075435819000674.
+
+Czajkowski, Kimberley. “The Limits of Legal Pluralism in the Roman Empire.” *The Journal of Legal History* 40, no. 2 (2019): 110–129. https://doi.org/10.1080/01440365.2019.1625202.
 
 De Blois, Lukas. “Caesar the General and Leader.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 102–108. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.
 

@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T04:33:00.770826+00:00",
+  "updated_utc": "2026-11-09T04:39:56.547179+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -82,10 +82,11 @@
       "review": "research/v1.2/reviews/ch11_independent.md"
     },
     "12": {
-      "status": "pending_v12",
-      "words": 2801,
+      "status": "reviewed_v12",
+      "words": 3756,
       "baseline_words": 2801,
-      "sha256": "cf22d946e5cdade56e30f119dfff4aa149b0759b7edf1a01938d960b0bb83352"
+      "sha256": "5270ce52da7c6e7c9bd5da3f53a3bb2cc175ddc4ed9855d9264f347797c4287c",
+      "review": "research/v1.2/reviews/ch12_independent.md"
     },
     "13": {
       "status": "pending_v12",
@@ -112,8 +113,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 57727,
-  "bibliographic_entries": 98,
-  "next_action": "Глава 12: прочитать киренские эдикты I–V и приложенное постановление Сената целиком по Greek/de Visscher и Johnson1961,124–127; отличать греческий оригинал от современной латинской передачи. Добавить конкретный разбор суда, гражданства, местных повинностей и передачи решений. Czajkowski2019: прямо прочитаны AM1–2 и12, PARTIAL; дальнейшие страницы пока не заявлять прочитанными. Главы1–11 не повторять.",
+  "current_body_words": 58682,
+  "bibliographic_entries": 100,
+  "next_action": "Глава 13: углубить освобождение рабов и границы гражданства по Suet.Aug40.3–4 и Gai.Inst1.13–20,37–47; положение женщин по1.144–145,189–195. Данные прочитаны на латинском/сверены с Poste1904; различать юристаIIвека, августовские законы и последующие решения. Mouritsen2011 официальный excerpt1–4 прочитан через web; PDFcurl503, остальная книга не прочитана. Вставки13 пока не внесены. Главы1–12 не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

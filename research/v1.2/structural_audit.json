@@ -113,10 +113,10 @@
     {
       "path": "manuscript/chapters/12-government.md",
       "baseline_words": 2801,
-      "current_words": 2801,
-      "added_words": 0,
-      "footnotes": 24,
-      "sha256": "cf22d946e5cdade56e30f119dfff4aa149b0759b7edf1a01938d960b0bb83352",
+      "current_words": 3756,
+      "added_words": 955,
+      "footnotes": 33,
+      "sha256": "5270ce52da7c6e7c9bd5da3f53a3bb2cc175ddc4ed9855d9264f347797c4287c",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 57727,
+  "current_words": 58682,
   "illustrations": {
     "referenced": 34,
     "unique": 34
