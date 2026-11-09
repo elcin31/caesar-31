@@ -1127,6 +1127,18 @@
       "access": "META",
       "reading_note": "META: publisher/Fulcrum metadata checked; full book restricted, not read. Position on Caesar funeral at100--112,120 known here only through Vekselius2018,76--77,82--83. Not presented as direct reading.",
       "addendum": ""
+    },
+    {
+      "key": "cicero1918atticus16",
+      "title": "Letters to Atticus, Book16: selected letters",
+      "author": "Cicero, Marcus Tullius",
+      "year": "1918",
+      "doi": null,
+      "url": "https://www.attalus.org/cicero/atticus16.html",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:16.8.1--2,16.9,16.15.3 directly read. Translator/year confirmed from electronic heading; no independent claim to full printed volume. Dates differ from Shackleton Bailey edition cited by van derBlom2020 and are attributed accordingly.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."

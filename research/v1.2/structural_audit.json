@@ -77,10 +77,10 @@
     {
       "path": "manuscript/chapters/08-octavius.md",
       "baseline_words": 2804,
-      "current_words": 2804,
-      "added_words": 0,
-      "footnotes": 24,
-      "sha256": "a85bc9c326ca950b22409ac3b69215017ac81ebd2c10c3b229f5fee6e8414ce2",
+      "current_words": 3417,
+      "added_words": 613,
+      "footnotes": 31,
+      "sha256": "5f10946e55fd02b79421f2e8e44cc5d4be5ff74ca1e5dcaacb7b9cb2193cf756",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 55033,
+  "current_words": 55646,
   "illustrations": {
     "referenced": 34,
     "unique": 34

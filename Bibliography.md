@@ -42,6 +42,8 @@ Cicero, Marcus Tullius. *Brutus, a History of Famous Orators*. Перевод E.
 
 Cicero, Marcus Tullius. *In Vatinium29; Pro Sestio135; Pro Rabirio Postumo8,12: testimonia on the lex Iulia de pecuniis repetundis*. б. г. https://droitromain.univ-grenoble-alpes.fr/Leges/iulia_repetundarum.htm.
 
+Cicero, Marcus Tullius. *Letters to Atticus, Book16: selected letters*. Перевод E. O. Winstedt. 1918. https://www.attalus.org/cicero/atticus16.html.
+
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 4. Loeb Classical Library, 1916. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/44*.html.
 
 Dio, Cassius. *Roman History*. Перевод Earnest Cary. Т. 6. Loeb Classical Library, 1917. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html.
