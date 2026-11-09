@@ -27,7 +27,7 @@ jobs:
           sudo apt-get update -qq
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
             pandoc texlive-xetex texlive-lang-cyrillic texlive-latex-extra texlive-latex-recommended \
-            texlive-fonts-recommended fonts-dejavu-core poppler-utils \
+            texlive-fonts-recommended fonts-dejavu-core lmodern poppler-utils \
             default-jre-headless unzip curl
       - uses: actions/setup-python@v5
         with:
