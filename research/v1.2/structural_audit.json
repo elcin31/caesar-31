@@ -5,10 +5,10 @@
     {
       "path": "manuscript/introduction.md",
       "baseline_words": 2326,
-      "current_words": 2326,
-      "added_words": 0,
-      "footnotes": 18,
-      "sha256": "e8d080cea32dc95d3bee4fc9f61dcda47ce11b17f4c418c943cb24a2ff95ea10",
+      "current_words": 2391,
+      "added_words": 65,
+      "footnotes": 19,
+      "sha256": "6b1ccc3b86871c4b46adc8bcfcbf0a0b9683a474a8d9ae55cbfcf22c929c0ad9",
       "illustration_blocks_unchanged": true
     },
     {
@@ -23,10 +23,10 @@
     {
       "path": "manuscript/chapters/02-origins.md",
       "baseline_words": 2913,
-      "current_words": 3636,
-      "added_words": 723,
+      "current_words": 3635,
+      "added_words": 722,
       "footnotes": 37,
-      "sha256": "59381042a2bafc067fa2f1d4aac5ce682ed68ea8aa9ac7a97224b2e8c6eeff61",
+      "sha256": "5d4a86209c16a06fbe3255227edca963ff725460ff958072522dc6da7a81ca74",
       "illustration_blocks_unchanged": true
     },
     {
@@ -59,10 +59,10 @@
     {
       "path": "manuscript/chapters/06-dictatorship.md",
       "baseline_words": 2860,
-      "current_words": 3699,
-      "added_words": 839,
+      "current_words": 3693,
+      "added_words": 833,
       "footnotes": 42,
-      "sha256": "c489cc54492020ab3702e51766f4dc5fb08fd98d7c09685bdbc71ce16e4169ee",
+      "sha256": "4725c4b0b9c814bf2b9b8c7001d0c8a7b975bf9986c2c08815212ccd30109c10",
       "illustration_blocks_unchanged": true
     },
     {
@@ -86,19 +86,19 @@
     {
       "path": "manuscript/chapters/09-triumvirate.md",
       "baseline_words": 2812,
-      "current_words": 3704,
-      "added_words": 892,
+      "current_words": 3701,
+      "added_words": 889,
       "footnotes": 40,
-      "sha256": "99fc24e37cee49c72b0771abf03e35a7058e2eade1e6c8e6755bf9299c0d6777",
+      "sha256": "75a69b1b9bf254c54ad3041018ea91e4d642bf374ccf1412458c206121f81f20",
       "illustration_blocks_unchanged": true
     },
     {
       "path": "manuscript/chapters/10-actium.md",
       "baseline_words": 2843,
-      "current_words": 3530,
-      "added_words": 687,
+      "current_words": 3526,
+      "added_words": 683,
       "footnotes": 37,
-      "sha256": "a69a8ffbe42a4b35b2e7d5f061a5189c27eb148e24187be2e1de70c0774abaf8",
+      "sha256": "e5d188f5eef5bc9c6dde83673b181b5c0db7f733545196415eb43df843cbbb48",
       "illustration_blocks_unchanged": true
     },
     {
@@ -113,10 +113,10 @@
     {
       "path": "manuscript/chapters/12-government.md",
       "baseline_words": 2801,
-      "current_words": 3756,
-      "added_words": 955,
+      "current_words": 3752,
+      "added_words": 951,
       "footnotes": 33,
-      "sha256": "5270ce52da7c6e7c9bd5da3f53a3bb2cc175ddc4ed9855d9264f347797c4287c",
+      "sha256": "6b3cca9513f8dded61e4f0210934926405d87c0feb3d56715e90d5e7402a0526",
       "illustration_blocks_unchanged": true
     },
     {
@@ -131,19 +131,19 @@
     {
       "path": "manuscript/chapters/14-dynasty-succession.md",
       "baseline_words": 2514,
-      "current_words": 3014,
-      "added_words": 500,
+      "current_words": 3011,
+      "added_words": 497,
       "footnotes": 32,
-      "sha256": "68d5b1b99e4a7e98e30fabb45a6c4d8b54717a53e0b3e058a3ab45b02c80f056",
+      "sha256": "fb310e3717d83ba8a07dd6cc3ca6d7c7e91a7e68dc8762c75dc4559b2274860d",
       "illustration_blocks_unchanged": true
     },
     {
       "path": "manuscript/chapters/15-comparison.md",
       "baseline_words": 2631,
-      "current_words": 3350,
-      "added_words": 719,
+      "current_words": 3345,
+      "added_words": 714,
       "footnotes": 22,
-      "sha256": "2e08f50502eaeb9732ef87fde2ca05a6448d46ff651617f52fef83d10788319f",
+      "sha256": "eda134077bbc1d9301307fc811d2139703ed85a945fda575326dbd5a1aba7bd5",
       "illustration_blocks_unchanged": true
     },
     {
@@ -158,15 +158,15 @@
     {
       "path": "manuscript/conclusion.md",
       "baseline_words": 1024,
-      "current_words": 1024,
-      "added_words": 0,
-      "footnotes": 3,
-      "sha256": "72ba6d7c1d788f946891ce7d83c8a5c262fa69cff45d63ad965aa7f0b8ff07db",
+      "current_words": 1186,
+      "added_words": 162,
+      "footnotes": 5,
+      "sha256": "920e07a17c1ebcfc230a88001a90ee0c9944de6a9665a0bdc594a5105356581b",
       "illustration_blocks_unchanged": true
     }
   ],
   "baseline_words": 48864,
-  "current_words": 61194,
+  "current_words": 61395,
   "illustrations": {
     "referenced": 34,
     "unique": 34

@@ -47,7 +47,9 @@ def main():
     parser = argparse.ArgumentParser()
     add_release_arguments(parser)
     parser.add_argument('--reader-bundle', action='store_true', help='Package reading editions and their editorial/validation records; source assets remain in the repository')
+    parser.add_argument('--source-bundle', action='store_true', help='Package complete editable project and assets; reading editions are distributed separately')
     args = parser.parse_args()
+    require(not (args.reader_bundle and args.source_bundle), 'Choose one bundle kind')
     release = release_from_args(args)
     dist = release.output_dir
     require(dist.is_relative_to(ROOT), 'A packaged release must be built within this project directory.')
@@ -82,6 +84,12 @@ def main():
         files = sorted(candidates, key=lambda p: p.relative_to(ROOT).as_posix())
     else:
         files = sorted((p for p in ROOT.rglob('*') if p.is_file() and selected(p, dist)), key=lambda p: p.relative_to(ROOT).as_posix())
+        if args.source_bundle:
+            require(release.version == '1.2' and not release.final, 'Source bundle is configured for edition 1.2')
+            art_validation = json.loads((dist / 'illustration_validation.json').read_text())
+            require(art_validation.get('status') == 'pass' and art_validation.get('new_illustrations') == 34,
+                    'Verify all 34 preserved illustrations before packaging')
+            files = [p for p in files if not (p.is_relative_to(dist) and p.suffix.lower() in {'.docx', '.epub', '.pdf'})]
     listing = [{'path': relative(p), 'bytes': p.stat().st_size, 'sha256': digest(p.read_bytes())} for p in files]
     inventory = {'release': release.version, 'final': release.final, 'build_manifest_sha256': digest(manifest_path.read_bytes()),
                  'validation_sha256': digest((dist / 'validation.json').read_bytes()), 'files': listing, 'exclusions': [
@@ -90,6 +98,8 @@ def main():
     ]}
     if args.reader_bundle:
         inventory['bundle_kind'] = 'Reading editions and editorial records; complete editable sources and image files are in elcin31/caesar-31, not duplicated in this ZIP.'
+    if args.source_bundle:
+        inventory['bundle_kind'] = 'Complete editable manuscript, all source assets, provenance and verification records. DOCX/EPUB/PDF are separate adjacent downloads; excluding their repeated embedded images keeps the source ZIP below the GitHub per-file limit.'
     out = dist / release.archive_name
     aliases = {}
     if release.final:

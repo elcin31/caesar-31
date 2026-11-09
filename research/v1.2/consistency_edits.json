@@ -1,0 +1,90 @@
+{
+  "scope": "Nine local equivalent replacements required by existing phrase audit; no new factual assertions or literary1.3 pass",
+  "changes": [
+    {
+      "path": "manuscript/chapters/02-origins.md",
+      "before_sha256": "59381042a2bafc067fa2f1d4aac5ce682ed68ea8aa9ac7a97224b2e8c6eeff61",
+      "after_sha256": "5d4a86209c16a06fbe3255227edca963ff725460ff958072522dc6da7a81ca74",
+      "replacements": [
+        {
+          "before": "распространялась также через тексты, а не только через присутствие",
+          "after": "распространялась как через тексты, так и через присутствие"
+        }
+      ]
+    },
+    {
+      "path": "manuscript/chapters/06-dictatorship.md",
+      "before_sha256": "c489cc54492020ab3702e51766f4dc5fb08fd98d7c09685bdbc71ce16e4169ee",
+      "after_sha256": "4725c4b0b9c814bf2b9b8c7001d0c8a7b975bf9986c2c08815212ccd30109c10",
+      "replacements": [
+        {
+          "before": "Управление зависело, следовательно, не только от знатного покровителя, но и от людей",
+          "after": "Управление зависело, следовательно, от знатного покровителя и от людей"
+        },
+        {
+          "before": "учитывать не только предоставленную выгоду, но и оставшиеся человеку альтернативы",
+          "after": "учитывать предоставленную выгоду и оставшиеся человеку альтернативы"
+        }
+      ]
+    },
+    {
+      "path": "manuscript/chapters/09-triumvirate.md",
+      "before_sha256": "99fc24e37cee49c72b0771abf03e35a7058e2eade1e6c8e6755bf9299c0d6777",
+      "after_sha256": "75a69b1b9bf254c54ad3041018ea91e4d642bf374ccf1412458c206121f81f20",
+      "replacements": [
+        {
+          "before": "В эпизоде Гортензии важна поэтому не только выразительность речи, но и способ определения обязанности.",
+          "after": "В эпизоде Гортензии поэтому существенны выразительность речи и способ определения обязанности."
+        }
+      ]
+    },
+    {
+      "path": "manuscript/chapters/10-actium.md",
+      "before_sha256": "a69a8ffbe42a4b35b2e7d5f061a5189c27eb148e24187be2e1de70c0774abaf8",
+      "after_sha256": "e5d188f5eef5bc9c6dde83673b181b5c0db7f733545196415eb43df843cbbb48",
+      "replacements": [
+        {
+          "before": "При отступлении важны были не только сражения и количество зерна, но и возможность",
+          "after": "При отступлении важны были сражения, количество зерна и возможность"
+        }
+      ]
+    },
+    {
+      "path": "manuscript/chapters/12-government.md",
+      "before_sha256": "5270ce52da7c6e7c9bd5da3f53a3bb2cc175ddc4ed9855d9264f347797c4287c",
+      "after_sha256": "6b3cca9513f8dded61e4f0210934926405d87c0feb3d56715e90d5e7402a0526",
+      "replacements": [
+        {
+          "before": "содержание процедуры, а не только имя её покровителя",
+          "after": "содержание процедуры вместе с именем её покровителя"
+        },
+        {
+          "before": "Это конкретный механизм сенаторской работы, а не только декларация о достоинстве сословия.",
+          "after": "Заявленное достоинство сословия здесь подкреплялось конкретным механизмом сенаторской работы."
+        }
+      ]
+    },
+    {
+      "path": "manuscript/chapters/14-dynasty-succession.md",
+      "before_sha256": "68d5b1b99e4a7e98e30fabb45a6c4d8b54717a53e0b3e058a3ab45b02c80f056",
+      "after_sha256": "fb310e3717d83ba8a07dd6cc3ca6d7c7e91a7e68dc8762c75dc4559b2274860d",
+      "replacements": [
+        {
+          "before": "Предметом решения была не только должность, но и риск насмешки над человеком и всем домом.",
+          "after": "Обсуждались допуск к должности и риск насмешки над человеком и всем домом."
+        }
+      ]
+    },
+    {
+      "path": "manuscript/chapters/15-comparison.md",
+      "before_sha256": "2e08f50502eaeb9732ef87fde2ca05a6448d46ff651617f52fef83d10788319f",
+      "after_sha256": "eda134077bbc1d9301307fc811d2139703ed85a945fda575326dbd5a1aba7bd5",
+      "replacements": [
+        {
+          "before": "Его долговременное преимущество стало результатом последующей работы, а не только исходным условием.",
+          "after": "Его долговременное преимущество требовало этой последующей работы."
+        }
+      ]
+    }
+  ]
+}

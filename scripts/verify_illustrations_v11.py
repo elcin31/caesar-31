@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Prove that each accepted new plate is embedded in DOCX, EPUB and PDF."""
 from datetime import datetime, timezone
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -11,7 +12,6 @@ from io import BytesIO
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-DIST = ROOT / 'dist/v1.1'
 
 
 def pixels(data):
@@ -26,6 +26,11 @@ def require(condition, message):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--version', choices=['1.1', '1.2'], default='1.1')
+    args = parser.parse_args()
+    DIST = ROOT / 'dist' / ('v' + args.version)
+    stem = 'Caesar_Augustus_v' + args.version
     register_path = ROOT / 'assets/illustrations/v1.1/register.json'
     register = json.loads(register_path.read_text())
     records = register['records']
@@ -42,7 +47,7 @@ def main():
     require(len(set(expected.values())) == 34, 'Duplicate artwork in the 34-plate set')
     embedded = {}
     for suffix, prefix in [('docx', 'word/media/'), ('epub', 'EPUB/media/')]:
-        with zipfile.ZipFile(DIST / f'Caesar_Augustus_v1.1.{suffix}') as archive:
+        with zipfile.ZipFile(DIST / f'{stem}.{suffix}') as archive:
             require(archive.testzip() is None, 'Broken ' + suffix + ' container')
             hashes = set()
             for name in archive.namelist():
@@ -50,7 +55,7 @@ def main():
                     hashes.add(pixels(archive.read(name)))
             embedded[suffix] = hashes
     with tempfile.TemporaryDirectory(prefix='caesar-pdf-plates-') as temporary:
-        subprocess.run(['pdfimages', '-j', str(DIST / 'Caesar_Augustus_v1.1.pdf'), str(Path(temporary) / 'plate')], check=True)
+        subprocess.run(['pdfimages', '-j', str(DIST / f'{stem}.pdf'), str(Path(temporary) / 'plate')], check=True)
         embedded['pdf'] = {pixels(p.read_bytes()) for p in Path(temporary).iterdir() if p.is_file()}
     evidence = []
     for item in records:
@@ -63,6 +68,7 @@ def main():
         require(hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == baseline['preserved_file_sha256'][path],
                 'Version 1.0 release file changed: ' + path)
     result = {'verified_utc': datetime.now(timezone.utc).isoformat(), 'status': 'pass', 'new_illustrations': 34,
+              'release': args.version, 'artwork_source_edition': '1.1',
               'chapter_coverage': list(range(1, 17)), 'method': 'Compare dimensions and decoded RGB pixels of every source JPEG against all embedded DOCX/EPUB resources and every PDF image extracted by Poppler pdfimages -j.',
               'register_sha256': hashlib.sha256(register_path.read_bytes()).hexdigest(),
               'formats_checked': ['docx', 'epub', 'pdf'], 'preserved_v10_files_checked': len(preserved), 'plates': evidence}

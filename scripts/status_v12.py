@@ -10,16 +10,18 @@ for row in a['files']:
   n=Path(row['path']).name[:2];p['chapters'][n].update({'words':row['current_words'],'baseline_words':row['baseline_words'],'sha256':row['sha256']})
 (v/'progress.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n')
 done=[n for n,r in p['chapters'].items() if r['status']=='reviewed_v12'];rows=[]
+front_note=('Введение и заключение переработаны и отдельно проверены; целевой межглавный проход завершён.' if p.get('front_matter',{}).get('status')=='reviewed_v12' else 'Введение и заключение ожидают итогового межглавного прохода.')
+export_note=('Экспорты DOCX/EPUB/PDF и ZIP1.2 собраны; выполненные проверки и ограничения — в dist/v1.2/validation.json, illustration_validation.json, visual_proof.json и research/editorial_v12.md.' if p.get('exports')=='validated_v12' else 'Экспорты DOCX/EPUB/PDF/ZIP1.2 ещё не завершены; EPUBCheck и визуальная проверка пока не сертифицированы.')
 for n,r in p['chapters'].items():rows.append(f"| {int(n)} | {'переработана, отдельно проверена' if n in done else 'ожидает прохода 1.2'} | {r['baseline_words']} | {r['words']} |")
-text=f'''# Состояние CAESAR & AUGUSTUS — версия 1.2 в работе
+text=f'''# Состояние CAESAR & AUGUSTUS — версия 1.2 {'завершена' if p['status']=='complete_v12' else 'в работе'}
 
 Обновлено: {p['updated_utc']}. Научное углубление прямо разрешено пользователем.
 Репозиторий: https://github.com/elcin31/caesar-31, ветка `main`.
 Контрольная версия 1.1: `{p['baseline_commit']}`.
 
 Основной текст: **{a['current_words']} русских слов** против **48864** в 1.1.
-Для 1.2 переработаны и отдельно проверены **{len(done)}/16 глав**. Введение и заключение
-ожидают итогового межглавного прохода. Библиография: **{p['bibliographic_entries']} записей**
+Для 1.2 переработаны и отдельно проверены **{len(done)}/16 глав**. {front_note}
+Библиография: **{p['bibliographic_entries']} записей**
 против 73; запись не означает полного прочтения.
 
 | Глава | Состояние 1.2 | Слов в 1.1 | Сейчас |
@@ -66,8 +68,7 @@ text=f'''# Состояние CAESAR & AUGUSTUS — версия 1.2 в рабо
 `dist/final/`, `dist/v1.1/` и все существующие assets сохранены побайтово;
 проверка — `research/v1.2/structural_audit.json`. Все **34 картины** остаются встроенными.
 Новые изображения не создавались. Структурные проверки сносок и сохранности проходят.
-Экспорты DOCX/EPUB/PDF/ZIP 1.2 **не собраны**: научная работа не завершена.
-EPUBCheck и визуальная проверка экспортов 1.2 ещё не выполнялись.
+{export_note}
 
 Старые `research/progress.json`, acceptance и отчёты 1.1 сохранены как история;
 текущее состояние — `research/v1.2/progress.json`. Для статуса 1.2 использовать
