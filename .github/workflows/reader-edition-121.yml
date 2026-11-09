@@ -53,6 +53,7 @@ jobs:
       - name: Run structural checks
         run: |
           python scripts/verify_exports.py --version 1.2.1 --epubcheck-jar /tmp/epubcheck-5.4.0/epubcheck.jar
+          python scripts/verify_illustrations_v11.py --version 1.2.1
           python scripts/audit_clean_reader_121.py
           python scripts/audit_project.py
       - name: Package preserved editable source

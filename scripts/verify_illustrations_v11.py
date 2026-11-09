@@ -27,7 +27,7 @@ def require(condition, message):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--version', choices=['1.1', '1.2'], default='1.1')
+    parser.add_argument('--version', choices=['1.1', '1.2', '1.2.1'], default='1.1')
     args = parser.parse_args()
     DIST = ROOT / 'dist' / ('v' + args.version)
     stem = 'Caesar_Augustus_v' + args.version
