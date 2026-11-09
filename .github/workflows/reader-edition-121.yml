@@ -26,7 +26,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-lang-cyrillic texlive-latex-extra \
+            pandoc texlive-xetex texlive-lang-cyrillic texlive-latex-extra texlive-latex-recommended \
             texlive-fonts-recommended fonts-dejavu-core poppler-utils \
             default-jre-headless unzip curl
       - uses: actions/setup-python@v5
@@ -37,7 +37,12 @@ jobs:
       - name: Check reader-facing manuscript
         run: python scripts/audit_clean_reader_121.py --sources-only
       - name: Assemble EPUB DOCX PDF
-        run: python scripts/build.py --version 1.2.1
+        run: |
+          if ! python scripts/build.py --version 1.2.1; then
+            echo 'PDF/Pandoc build error log:'
+            tail -c 20000 dist/v1.2.1/build_error.log || true
+            exit 1
+          fi
       - name: Download EPUBCheck 5.4.0
         run: |
           curl --fail --location --retry 3 \
