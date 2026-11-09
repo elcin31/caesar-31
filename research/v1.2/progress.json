@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T04:11:13.901210+00:00",
+  "updated_utc": "2026-11-09T04:17:58.000409+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -61,10 +61,11 @@
       "review": "research/v1.2/reviews/ch08_independent.md"
     },
     "09": {
-      "status": "pending_v12",
-      "words": 2812,
+      "status": "reviewed_v12",
+      "words": 3704,
       "baseline_words": 2812,
-      "sha256": "3c18f631bef5c4a6713775b0f336cf4cda923ebeb45c279f87a6d72d3c74e2b3"
+      "sha256": "99fc24e37cee49c72b0771abf03e35a7058e2eade1e6c8e6755bf9299c0d6777",
+      "review": "research/v1.2/reviews/ch09_independent.md"
     },
     "10": {
       "status": "pending_v12",
@@ -109,8 +110,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 55646,
-  "bibliographic_entries": 95,
-  "next_action": "Глава 9: расширить фискальные механизмы и Гортензию по AppBC4.31–34/Dio47.16–17 и Monson2023,19–20; затем кампанию36 по App5.95–99/105–107/118–123, координацию трёх направлений, рольАгриппы/Лепида. Материал прочитан, вставки9 пока не внесены. Главы1–8не повторять; после проверки commit/push/удалённыйSHA.",
+  "current_body_words": 56538,
+  "bibliographic_entries": 97,
+  "next_action": "Глава 10: расширить материальную и историографическую проверку Акция по Murray/Petsas1989,34/71/131–134/143–146 (легальнаяNYUкопия прочитана). Сверить пределы данных о пазах/восстановлении надписи и спор тяжёлого/лёгкого флота. Диагностировать сжатый Парфянский поход, дополнить только проверенным. Вставки10ещёне интегрированы;главы1–9неповторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

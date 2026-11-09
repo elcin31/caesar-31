@@ -88,6 +88,8 @@ Suetonius Tranquillus, Gaius. *De grammaticis*. Перевод J. C. Rolfe. Т. 
 
 Tacitus. *The Annals, Books I–III*. Перевод John Jackson. Т. 3. Loeb Classical Library, 1931. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1A*.html.
 
+Valerius Maximus. *Facta et dicta memorabilia, Book8: selected passages*. б. г. https://www.thelatinlibrary.com/valmax8.html.
+
 Velleius Paterculus. *Compendium of Roman History*. Перевод Frederick W. Shipley. Loeb Classical Library, 1924. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Velleius_Paterculus/2B*.html.
 
 Vergil. *Aeneid VI 788–800*. б. г. https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-vi-788-800.
@@ -131,6 +133,8 @@ Lange, Carsten Hjort. “Triumph and civil war in the late Republic.” *Papers 
 Lintott, Andrew. *The Constitution of the Roman Republic*. Oxford: Clarendon Press, 1999. https://academic.oup.com/book/47207.
 
 Liou-Gille, Bernadette. “César, flamen Dialis destinatus.” *Revue des Études Anciennes* 101, no. 3--4 (1999): 433–459. https://doi.org/10.3406/rea.1999.4776.
+
+Monson, Andrew. “Taxing Wealth in the Just City: Cicero and the Roman Census.” *The Journal of Roman Studies* 113 (2023): 1–27. https://doi.org/10.1017/S0075435823000436.
 
 Morrell, Kit. “Enabling Laws, Rule of Law, and the Transformation of the Roman Republic.” In *How Republics Die: Creeping Authoritarianism in Ancient Rome and Beyond*, edited by Frederik Juliaan Vervaet and David Rafferty and Christopher J. Dart, 195–226. Berlin: De Gruyter, 2025. https://doi.org/10.1515/9783111705446-007.
 

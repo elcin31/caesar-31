@@ -86,10 +86,10 @@
     {
       "path": "manuscript/chapters/09-triumvirate.md",
       "baseline_words": 2812,
-      "current_words": 2812,
-      "added_words": 0,
-      "footnotes": 29,
-      "sha256": "3c18f631bef5c4a6713775b0f336cf4cda923ebeb45c279f87a6d72d3c74e2b3",
+      "current_words": 3704,
+      "added_words": 892,
+      "footnotes": 40,
+      "sha256": "99fc24e37cee49c72b0771abf03e35a7058e2eade1e6c8e6755bf9299c0d6777",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 55646,
+  "current_words": 56538,
   "illustrations": {
     "referenced": 34,
     "unique": 34

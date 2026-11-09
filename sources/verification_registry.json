@@ -1139,6 +1139,30 @@
       "access": "PARTIAL",
       "reading_note": "PARTIAL:16.8.1--2,16.9,16.15.3 directly read. Translator/year confirmed from electronic heading; no independent claim to full printed volume. Dates differ from Shackleton Bailey edition cited by van derBlom2020 and are attributed accordingly.",
       "addendum": ""
+    },
+    {
+      "key": "monson2023taxing",
+      "title": "Taxing Wealth in the Just City: Cicero and the Roman Census",
+      "author": "Monson, Andrew",
+      "year": "2023",
+      "doi": "10.1017/S0075435823000436",
+      "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/taxing-wealth-in-the-just-city-cicero-and-the-roman-census/DE6F13DB46C1D9D012472D28F67DD0B5",
+      "kind": "secondary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL:19--20 directly read in official OA PDF; not the entire article. Fiscal cooperation/coercion and Hortensia; differing Appian/Dio levies not harmonised into single rate. CC BY4.0.",
+      "addendum": ""
+    },
+    {
+      "key": "valeriusmaximus8",
+      "title": "Facta et dicta memorabilia, Book8: selected passages",
+      "author": "Valerius Maximus",
+      "year": null,
+      "doi": null,
+      "url": "https://www.thelatinlibrary.com/valmax8.html",
+      "kind": "primary",
+      "access": "PARTIAL",
+      "reading_note": "PARTIAL: Latin8.3.init. and8.3.3 directly read. Printed basis not identified on this electronic page. Hortensia episode compared with Appian4.32--34; independence of transmission not demonstrated.",
+      "addendum": ""
     }
   ],
   "note": "Metadata verification and actual reading are separate; page and claim checks are documented in chapter dossiers."
