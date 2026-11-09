@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-11-09T04:51:27.829472+00:00",
+  "objects": [
+    {
+      "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/88/99/2020718899/2020718899.pdf",
+      "bytes": 1972194,
+      "sha256": "8ab11b3e4fad207b34239b6f87e248a957f9c693b67390a9b11a86aaedce4e67",
+      "reading": "PARTIAL47–52+metadata/preface",
+      "repository_copy": false
+    },
+    {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Velleius_Paterculus/2D*.html",
+      "bytes": 125471,
+      "sha256": "66eef55265cb003d2a8c22e673a277d479dbe4f5f24285b215a8c6375c4672dd",
+      "reading": "PARTIAL2.101–104",
+      "repository_copy": false
+    },
+    {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Claudius*.html",
+      "bytes": 180675,
+      "sha256": "4c056eafc53f3898aadfdadc120f6eeb18283f66ac4eeda9ca9d1fd043c16953",
+      "reading": "PARTIAL4.1–7",
+      "repository_copy": false
+    }
+  ]
+}

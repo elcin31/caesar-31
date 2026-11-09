@@ -90,6 +90,8 @@ Suetonius Tranquillus, Gaius. *The Lives of the Caesars*. Перевод J. C. R
 
 Suetonius Tranquillus, Gaius. *De grammaticis*. Перевод J. C. Rolfe. Т. 2. Loeb Classical Library, 1914. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/de_Grammaticis*.html.
 
+Suetonius Tranquillus, Gaius. *The Lives of the Caesars: Claudius*. Перевод J. C. Rolfe. Т. 2. Loeb Classical Library, 1914. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Claudius*.html.
+
 Tacitus. *The Annals, Books I–III*. Перевод John Jackson. Т. 3. Loeb Classical Library, 1931. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1A*.html.
 
 Valerius Maximus. *Facta et dicta memorabilia, Book8: selected passages*. б. г. https://www.thelatinlibrary.com/valmax8.html.
@@ -163,6 +165,8 @@ Murray, William M. and Photios M. Petsas. *Octavian’s Campsite Memorial for th
 Novillo López, Miguel Ángel. “Cayo Julio César en Britania: ¿Campañas de exploración o incursiones fracasadas?.” *Studia Historica. Historia Antigua* 40 (2022): 139–157. https://doi.org/10.14201/shha202240139157.
 
 Osgood, Josiah. *Caesar’s Legacy: Civil War and the Emergence of the Roman Empire*. Cambridge: Cambridge University Press, 2006. https://assets.cambridge.org/97805216/71774/excerpt/9780521671774_excerpt.pdf.
+
+Pettinger, Andrew. *The Republic in Danger: Drusus Libo and the Succession of Tiberius*. Oxford: Oxford University Press, 2012. https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/88/99/2020718899/2020718899.pdf.
 
 Pietrini, Stefania. *La lex Iulia de pecuniis repetundis nell'interpretazione dei giuristi del principato*. Milano: LED, 2023. https://doi.org/10.7359/1247-2023-pietrini.
 

@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T04:48:08.806436+00:00",
+  "updated_utc": "2026-11-09T10:36:11.901377+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -96,10 +96,11 @@
       "review": "research/v1.2/reviews/ch13_independent.md"
     },
     "14": {
-      "status": "pending_v12",
-      "words": 2514,
+      "status": "reviewed_v12",
+      "words": 3014,
       "baseline_words": 2514,
-      "sha256": "68848100fa632ae6838cbde4f48eb919336f0570b33e062eeb3e1d158de0a489"
+      "sha256": "68d5b1b99e4a7e98e30fabb45a6c4d8b54717a53e0b3e058a3ab45b02c80f056",
+      "review": "research/v1.2/reviews/ch14_independent.md"
     },
     "15": {
       "status": "pending_v12",
@@ -114,8 +115,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 59544,
-  "bibliographic_entries": 103,
-  "next_action": "Глава 14: расширить асимметрию усыновления4н.э. по Vell2.103–104 и Pettinger2012,47–52 (прямое чтение); разбор оценочных слов о Постуме не превращать в диагноз или вымышленную психологию. Suet.Claud4.1–7 прямо прочитан: письма к Ливии, участие Тиберия, различие родства и подготовки карьеры. Pettinger26июня/Shipley27июня не согласованы автоматически; использовать месяц. Вставки14 ещё не внесены. Главы1–13 не повторять.",
+  "current_body_words": 60044,
+  "bibliographic_entries": 105,
+  "next_action": "Глава 15: применить подготовленное расширение сравнительных механизмов из /tmp/caesar-v12/edit_ch15.py (ещё не запускалось): помилование/карьера/ценз/армейские обязательства/местное управление/наследование. Новое исследование Hurlet,Palamedes14(2021/2022),25–42: прямо прочитаны25–36, PDF/tmp/caesar-v12/hurlet_palamedes.pdf; карточка онлайн8сентября2026, не2025. Исправить его неточныйSuet41.3→41.1; CIL/фасты через него,не независимаяколляция. Затемкритика/коммит/push. Главы1–14 не повторять.",
   "exports": "not_built_scientific_work_incomplete"
 }

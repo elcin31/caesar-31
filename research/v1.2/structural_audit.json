@@ -131,10 +131,10 @@
     {
       "path": "manuscript/chapters/14-dynasty-succession.md",
       "baseline_words": 2514,
-      "current_words": 2514,
-      "added_words": 0,
-      "footnotes": 26,
-      "sha256": "68848100fa632ae6838cbde4f48eb919336f0570b33e062eeb3e1d158de0a489",
+      "current_words": 3014,
+      "added_words": 500,
+      "footnotes": 32,
+      "sha256": "68d5b1b99e4a7e98e30fabb45a6c4d8b54717a53e0b3e058a3ab45b02c80f056",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 59544,
+  "current_words": 60044,
   "illustrations": {
     "referenced": 34,
     "unique": 34
