@@ -140,10 +140,10 @@
     {
       "path": "manuscript/chapters/15-comparison.md",
       "baseline_words": 2631,
-      "current_words": 2631,
-      "added_words": 0,
-      "footnotes": 16,
-      "sha256": "6b4b86fd32797e020370f063f1dc8171493755af952b37a6d8bcab4970510174",
+      "current_words": 3350,
+      "added_words": 719,
+      "footnotes": 22,
+      "sha256": "2e08f50502eaeb9732ef87fde2ca05a6448d46ff651617f52fef83d10788319f",
       "illustration_blocks_unchanged": true
     },
     {
@@ -166,7 +166,7 @@
     }
   ],
   "baseline_words": 48864,
-  "current_words": 60044,
+  "current_words": 60763,
   "illustrations": {
     "referenced": 34,
     "unique": 34

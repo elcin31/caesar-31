@@ -132,6 +132,8 @@ Hinard, François. *Les proscriptions de la Rome républicaine*. Rome: École fr
 
 Hurlet, Frédéric. “Devenir un dieu. La mort d’Auguste et la naissance de la monarchie impériale.” *Studia Historica. Historia Antigua* 32 (2014): 61–75. https://revistas.usal.es/uno/index.php/0213-2052/article/download/12613/12925.
 
+Hurlet, Frédéric. “L’aristocratie romaine au sortir de la guerre civile. Modalités et enjeux de la recomposition politique Augustéenne.” *Palamedes* 14 (2021/2022): 25–42. https://palamedes.uw.edu.pl/issues/tom-14/l-aristocratie-romaine-au-sortir-de-la-guerre-civile-modalites-et-enjeux-de-la-recomposition-politique-augusteenne.
+
 Hölkeskamp, Karl-J. *Reconstructing the Roman Republic: An Ancient Political Culture and Modern Research*. Перевод Henry Heitmann-Gordon. Princeton, NJ: Princeton University Press, 2010. https://api.pageplace.de/preview/DT0400.9781400834907_A25083807/preview-9781400834907_A25083807.pdf.
 
 Jehne, Martin. “Caesar the Politician.” In *The Landmark Julius Caesar: Web Essays*, edited by Kurt A. Raaflaub, 6–12. New York: Pantheon Books, 2017. https://thelandmarkcaesar.com/LandmarkCaesarWebEssays_5Jan2018.pdf.

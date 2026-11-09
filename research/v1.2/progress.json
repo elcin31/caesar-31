@@ -2,7 +2,7 @@
   "edition": "1.2",
   "status": "in_progress",
   "baseline_commit": "217f3e516a28b1e0462ac63fa5ffad9539a086c6",
-  "updated_utc": "2026-11-09T10:36:11.901377+00:00",
+  "updated_utc": "2026-11-09T10:41:19.336263+00:00",
   "chapters": {
     "01": {
       "status": "reviewed_v12",
@@ -103,10 +103,11 @@
       "review": "research/v1.2/reviews/ch14_independent.md"
     },
     "15": {
-      "status": "pending_v12",
-      "words": 2631,
+      "status": "reviewed_v12",
+      "words": 3350,
       "baseline_words": 2631,
-      "sha256": "6b4b86fd32797e020370f063f1dc8171493755af952b37a6d8bcab4970510174"
+      "sha256": "2e08f50502eaeb9732ef87fde2ca05a6448d46ff651617f52fef83d10788319f",
+      "review": "research/v1.2/reviews/ch15_independent.md"
     },
     "16": {
       "status": "pending_v12",
@@ -115,8 +116,8 @@
       "sha256": "f5592d92b1bb6be846c85035fbdd761fbc0fb9fd66ac41ca28d9255673371927"
     }
   },
-  "current_body_words": 60044,
-  "bibliographic_entries": 105,
-  "next_action": "Глава 15: применить подготовленное расширение сравнительных механизмов из /tmp/caesar-v12/edit_ch15.py (ещё не запускалось): помилование/карьера/ценз/армейские обязательства/местное управление/наследование. Новое исследование Hurlet,Palamedes14(2021/2022),25–42: прямо прочитаны25–36, PDF/tmp/caesar-v12/hurlet_palamedes.pdf; карточка онлайн8сентября2026, не2025. Исправить его неточныйSuet41.3→41.1; CIL/фасты через него,не независимаяколляция. Затемкритика/коммит/push. Главы1–14 не повторять.",
+  "current_body_words": 60763,
+  "bibliographic_entries": 106,
+  "next_action": "Глава 16: применить подготовленный /tmp/caesar-v12/edit_ch16.py (ещё не запускался), углубить синтез местного многообразия/гражданства, нормы и исполнения, независимости материальных и литературных свидетельств. Опоры уже прямо изучены в1.2:Кирена/Гай,Урсона/Wolters,ReddéPDF403–409,MurrayPetsas34/71. Новых непроверенных источников не вводить. Затем отдельная критика/коммит/push, межглавный проход, введение/заключение, сборка1.2. Главы1–15неповторять.",
   "exports": "not_built_scientific_work_incomplete"
 }
