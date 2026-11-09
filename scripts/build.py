@@ -117,7 +117,8 @@ def main():
     localized_labels=localize_epub(epub)
     if not a.no_pdf:
         tex_header=DIST/'pdf-header.tex'
-        tex_header.write_text(r'''\usepackage{fancyhdr}
+        tex_header.write_text(r'''\interfootnotelinepenalty=10000
+\usepackage{fancyhdr}
 \usepackage{titlesec}
 \titleformat{\chapter}{\normalfont\fontsize{18}{22}\selectfont\bfseries\raggedright}{}{0pt}{}
 \titlespacing*{\chapter}{0pt}{12pt}{24pt}
