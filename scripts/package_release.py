@@ -85,7 +85,7 @@ def main():
     else:
         files = sorted((p for p in ROOT.rglob('*') if p.is_file() and selected(p, dist)), key=lambda p: p.relative_to(ROOT).as_posix())
         if args.source_bundle:
-            require(release.version == '1.2' and not release.final, 'Source bundle is configured for edition 1.2')
+            require(release.version in {'1.2', '1.2.1'} and not release.final, 'Source bundle is configured for editions 1.2 and 1.2.1')
             art_validation = json.loads((dist / 'illustration_validation.json').read_text())
             require(art_validation.get('status') == 'pass' and art_validation.get('new_illustrations') == 34,
                     'Verify all 34 preserved illustrations before packaging')

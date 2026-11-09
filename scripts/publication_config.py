@@ -104,7 +104,7 @@ class Release:
 
     @property
     def archive_name(self):
-        if self.version in {'1.1', '1.2'} and not self.final:
+        if self.version in {'1.1', '1.2', '1.2.1'} and not self.final:
             return f'Caesar_Augustus_v{self.version}.zip'
         return 'Caesar_Augustus_FINAL.zip' if self.final else f'Caesar_Augustus_Research_v{self.version}.zip'
 
@@ -114,6 +114,8 @@ class Release:
             return 'Иллюстрированная научно-редакторская версия 1.1'
         if self.version == '1.2' and not self.final:
             return 'Научно углублённая версия 1.2'
+        if self.version == '1.2.1' and not self.final:
+            return 'Книжная редакция'
         return 'Завершённая исследовательская версия' if self.final else f'Исследовательская версия {self.version}'
 
 

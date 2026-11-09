@@ -61,7 +61,7 @@ def reference_docx(path,release):
     sec.different_first_page_header_footer=True
     header=sec.header.paragraphs[0]
     header.alignment=WD_ALIGN_PARAGRAPH.CENTER
-    r=header.add_run('Цезарь и Август · '+release.label); r.font.name='DejaVu Serif'; r.font.size=Pt(8)
+    r=header.add_run('Цезарь и Август'); r.font.name='DejaVu Serif'; r.font.size=Pt(8)
     footer=sec.footer.paragraphs[0]; footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
     fld=OxmlElement('w:fldSimple'); fld.set(qn('w:instr'),'PAGE')
     footer._p.append(fld)
@@ -100,7 +100,7 @@ def main():
     if not inputs: raise SystemExit('No non-empty manuscript files found.')
     reference=DIST/'reference.docx'; reference_docx(reference,release)
     identifier='urn:uuid:'+str(uuid.uuid5(uuid.NAMESPACE_URL,'caesar-augustus/research/'+('final' if a.final else release.version)))
-    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','--lua-filter',ROOT/'scripts/book_structure.lua','-M','toc-title=Содержание','-M','lang=ru-RU','-M','date='+datetime.now(timezone.utc).strftime('%Y'),'-M','description='+release.label+'. Академическая монография'+('.' if a.final or release.version in {'1.1','1.2'} else ' в процессе подготовки.'),'-M','identifier='+identifier,'--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
+    common=['pandoc',*inputs,'--from=markdown+footnotes+smart+autolink_bare_uris','--standalone','--metadata-file',ROOT/'manuscript/metadata.yaml','--toc','--toc-depth=2','--lua-filter',ROOT/'scripts/book_structure.lua','-M','toc-title=Содержание','-M','lang=ru-RU','-M','date='+datetime.now(timezone.utc).strftime('%Y'),'-M','description=Историческое исследование о Юлии Цезаре, Октавиане Августе и переходе от Республики к принципату.','-M','identifier='+identifier,'--resource-path',f'{ROOT}:{ROOT/"manuscript"}:{ROOT/"assets"}']
     outputs=[]; logs=[]
     def build(extra,out,env=None):
         try:
